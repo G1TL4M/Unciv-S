@@ -503,7 +503,7 @@
 		"tradeRequest": "Does this trade work for you, my friend?",
 
         "outerColor": [88,60,183],
-        "innerColor": [0,0,0],
+        "innerColor": [255,255,255],
 
         "favoredReligion": "Christianity",
 		"uniqueName": "The Great Warpath",
