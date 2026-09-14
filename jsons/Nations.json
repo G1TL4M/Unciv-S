@@ -1086,6 +1086,147 @@
         "spyNames": ["Camazotz", "Coyopa", "Gukumatz", "Hunahpu", "Huracan", "Ixchel", "Ixtab", "Kukulkán", "Xbalanque", "Zipacna"]
     },
 	{
+		"name": "Canada",
+		"leaderName": "Wilfrid Laurier",
+		"startBias": ["Tundra","Snow"],
+		"adjective": ["Canadian"],
+		
+		"declaringWar": "As an unstinting malignancy defines your relationship to Canada, we have no recourse than war.",
+		"attacked": "As we can reach no peaceful resolution with you, Canada must turn, with reluctance, to war.",
+		"defeated": "So ends our dream of a Canada that might have been. Our people are good-hearted. Rule with mercy,",
+		"introduction": "On behalf of the people of Canada, welcome. I am Prime Minister Laurier.",
+		
+		"neutralHello": "Canada commends you.",
+		"hateHello": "Negotiating with you tests the limits of human patience.",
+		"tradeRequest": "The people of Canada present gifts!",
+		
+		"outerColor": [249,249,249],
+		"innerColor": [205,0,1],
+		"uniqueName": "The Last Best West",
+		"uniques": ["[+2 Food] from every [Camp] <in [Tundra] tiles>",
+			"[+2 Production] from [Mine] tiles [in all cities] <in [Tundra] tiles>",
+			"[+2 Production] from every [Lumber mill] <in [Tundra] tiles>",
+			"[+2 Food] from [Great Improvement] tiles [in all cities] <in [Tundra] tiles>",],
+		"cities": ["Ottawa","Toronto","Montréal","Quebec City","Hamilton",
+			"Winnipeg","Halifax","Saint John","Vancouver","Victoria",
+			"Kingston","Brantford","Windsor","Charlottetown","Calgary",
+			"Sherbrooke","Guelph","Peterborough","Valleyfield","Edmonton",
+			"Trois-Rivières","Stratford","Saint Catharines","Waterloo","Saint Hyacinthe",
+			"Saint John","Dawson City","Belleville","Chatham","Saskatoon",
+			"Moncton","Mississauga","Brockville","Regina","Red Deer",
+			"Brandon","Sault Sainte Marie","Lethbridge","Saint-Lin","Whitehorse","Thunder Bay"],
+
+		"civilopediaText": [
+			{"text": "From Civ 6 Mod"}
+		]
+	},
+	{
+		"name": "The Cree",
+		"leaderName": "Poundmaker",
+		"adjective": ["Cree"],
+		
+		"declaringWar": "I do not care to inflict the terrors of war upon youâ€”but justice requires it.",
+		"attacked": "You could have found another way. Now, your regrets will be measured in blood.",
+		"defeated": "Had I wanted war, I would not be here now. You did not catch me. I gave myself up.",
+		"introduction": "I am Poundmaker, and I represent the Cree. May there always be peace between us.",
+		
+		"neutralHello": "Good, good.",
+		"hateHello": "Your word is worthless.",
+		"tradeRequest": "My people send you gifts. With these you will last through winter.",
+		
+		"outerColor": [1,42,108],
+		"innerColor": [70,175,10],
+		"uniqueName": "Nihithaw",
+		"uniques": ["Free [Worker] appears <upon discovering [Pottery] technology>",
+			"[+2 Gold] from each Trade Route",
+			"[-50]% Gold cost of acquiring tiles [in all cities]"],
+		"cities": ["Mikisiw-Wacîhk",
+			"Pihtokahanapiwiyin","Mistahi-Sipihk","Paskwaw-Askhik","Piyesiw-Awasis","Mistawasis",
+			"Makwa-Sakahikan","Ka-Peyakwaskonam","Ahtahkakoop","Wihkasko-Kiseyin","Chemawawin",
+			"Ka-kiwistahaw","Ka-ohpawakastahk","Kawacatoose","Kawawachikamach","Kinosew-Sakahikan",
+			"Maskotew","Missanabie","Moosomin","Natashquan","Nekaneet",
+			"Ochapowace","Okanese","Papewe","Peepeekisis","Posakanacihk",
+			"Tataskweyak","Wapi-maskwa","Waskahikanihk","Whapmagoostui"],
+
+		"civilopediaText": [
+			{"text": "From Civ 6 Mod"}
+		]
+	},
+	{
+		"name": "Mexico",
+		"leaderName": "Zyxxyz",
+		"adjective": ["mexican"],
+		"startBias": ["Snow"],
+		"preferredVictoryType": "Cultural",
+		
+		"startIntroPart1": "We come in peace!",
+		"startIntroPart2": "This is an overpowered joke nation just as an example for the mods feature. Set Phasers to Obliterate!!",
+		
+		"declaringWar": "Resistance is futile! Prepare to be assimilated!",
+		"attacked": "You want to play? Very funny!",
+		"defeated": "How is it possible that those Apes hurt us? The galactic senate will take care of them.",
+		"introduction": "As superior galactic entities, you are not worthy of our attention.",
+		
+		"neutralHello": "How are you doing?",
+		//"neutralLetsHearIt": ["Go on.","What do you say?","You may begin."],
+		//"neutralNo": ["We absolutely refuse.","No!","I refuse."],
+		//"neutralYes": ["Very good.","Of course, yes.","That is very good."],
+
+		"hateHello": "What do you want now?",
+		//"hateLetsHearIt": ["Speak!","What do you say?","Go on."],
+		//"hateNo": ["That is not possible!","We are not agreeing to that!","I beg your pardon?"],
+		//"hateYes": ["That is fine.","That is good enough.","Very well..."],
+		
+		//"afterPeace": "Very well, all that fighting was getting boring anyway.",
+		"tradeRequest": "We bestow you the honor of this trade offer.",
+		"denounced": "The accusations of primitive lifeforms are beneath us.",
+		"declaringfriendship": "Let us become like friends!",
+
+		"outerColor": [0,104,69],
+		"innerColor": [101,58,30],
+		"unique": "MANIFEST_DESTINY",
+		"cities": ["Mexico City","Guadalajara","Tijuana"]
+	},
+	{
+		"name": "Navajo",
+		"leaderName": "Zyxxyz",
+		"adjective": ["navajo"],
+		"startBias": ["Snow"],
+		"preferredVictoryType": "Scientific",
+		
+		"startIntroPart1": "We come in peace!",
+		"startIntroPart2": "This is an overpowered joke nation just as an example for the mods feature. Set Phasers to Obliterate!!",
+		
+		"declaringWar": "Resistance is futile! Prepare to be assimilated!",
+		"attacked": "You want to play? Very funny!",
+		"defeated": "How is it possible that those Apes hurt us? The galactic senate will take care of them.",
+		"introduction": "As superior galactic entities, you are not worthy of our attention.",
+		
+		"neutralHello": "How are you doing?",
+		//"neutralLetsHearIt": ["Go on.","What do you say?","You may begin."],
+		//"neutralNo": ["We absolutely refuse.","No!","I refuse."],
+		//"neutralYes": ["Very good.","Of course, yes.","That is very good."],
+
+		"hateHello": "What do you want now?",
+		//"hateLetsHearIt": ["Speak!","What do you say?","Go on."],
+		//"hateNo": ["That is not possible!","We are not agreeing to that!","I beg your pardon?"],
+		//"hateYes": ["That is fine.","That is good enough.","Very well..."],
+		
+		//"afterPeace": "Very well, all that fighting was getting boring anyway.",
+		"tradeRequest": "We bestow you the honor of this trade offer.",
+		"denounced": "The accusations of primitive lifeforms are beneath us.",
+		"declaringfriendship": "Let us become like friends!",
+
+		"outerColor": [16,16,16],
+		"innerColor": [255,200,200],
+		"uniqueName": "Code Talkers",
+		"uniques": ["[-75]% enemy spy effectiveness [in all cities]"],
+		"cities": ["The Hive","Q'Throczan","Q'Chovex","Q'Imphet","Q'Omphead","Q'Grecoks","Q'Vrelzieks","Q'Vronens","Q'Aerlae",
+			"Q'Phulnoith","Q'Creved","Q'Xirqen","Q'Gax","Q'Threqals","Q'Bhilmuk","Q'Mazea","Q'Zomirs","Q'Drorkrex","Q'Honkrath",
+			"Q'Zulgra","Q'Vahars","Q'Crindith","Q'Raavraes","Q'Bhoknais","Qho'Qru","Q'Dateatz","Q'Elnad","Q'Izien","Qol'Ell",
+			"Q'Dhihien","Q'Naquiel","Q'Ugneon","Q'Straquks","Q'Nulptr","Q'Ohfahl"]
+	},
+	{
 		"name": "South Africa",
 		"leaderName": "Nelson Mandela",
 		"adjective": ["South African"],
