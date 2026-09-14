@@ -1,11 +1,25 @@
 uncivScivIcons.png
-size: 300, 200
+size: 400, 200
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
+NationIcons/Canada
+  rotate: false
+  xy: 200, 100
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 NationIcons/Iroquois
   rotate: false
   xy: 200, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Mexico
+  rotate: false
+  xy: 300, 0
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
