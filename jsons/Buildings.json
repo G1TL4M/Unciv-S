@@ -369,7 +369,7 @@
 	{
 		"name": "Bazaar",
 		"replaces": "Market",
-		"uniqueTo": "Arabia",
+		"uniqueTo": "Abbasid",
 		"gold": 2,
 		"specialistSlots": {"Merchant": 1},
 		"hurryCostModifier": 25,
@@ -669,7 +669,7 @@
 	{
 		"name": "Ceilidh Hall",
 		"replaces": "Opera House",
-		"uniqueTo": "Celts",
+		"uniqueTo": "The Celts",
 		"culture": 4,
 		"happiness": 3,
 		"specialistSlots": {"Artist": 1},
