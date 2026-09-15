@@ -2,7 +2,7 @@
 
 	// Info according to Civilization Wiki and https://www.civfanatics.com/civ5/info/units/gods-and-kings/
 
-	/* Ancient Era */
+	// Ancient Era
 	{
 		"name": "Worker",
 		"unitType": "Civilian",
@@ -341,7 +341,7 @@
 		"name": "Pictish Warrior",
 		"unitType": "Sword",
 		"replaces": "Spearman",
-		"uniqueTo": "Celts",
+		"uniqueTo": "The Celts",
 		"movement": 2,
 		"strength": 11,
 		"cost": 56,
@@ -579,7 +579,7 @@
 		"name": "Camel Archer",
 		"unitType": "Archery",
 		"replaces": "Knight",
-		"uniqueTo": "Arabia",
+		"uniqueTo": "Abbasid",
 		"movement": 4,
 		"strength": 17,
 		"rangedStrength": 21,
