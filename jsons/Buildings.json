@@ -1230,6 +1230,29 @@
      // The game lets you pick a leader and they give the nation an additional boost
 
     {
+		"name": "Victoria",
+		"isWonder": true,
+		"uniqueTo": "England",
+		"cost": 0,
+		"uniques": ["Empire enters golden age <upon entering the [Industrial era]>","[+1 Production] from every [Factory]","[+1 Production] from every [Manufactory]",
+			"Only available <in cities without a [Winston Churchill]>"]
+	},
+    {
+        "name": "Winston Churchill",
+		"isWonder": true,
+		"uniqueTo": "England",
+		"cost": 0,
+		"uniques": ["",
+			"Only available <in cities without a [Victoria]>"]
+	},
+    {
+	    "name": "Napoleon Bonaparte",
+		"isWonder": true,
+		"uniqueTo": "France",
+		"cost": 0,
+		"uniques": ["[+1] Movement <for [All] units>"]
+    },
+    {
 		"name": "Alexander",
 		"isWonder": true,
 		"uniqueTo": "Greece",
