@@ -1078,8 +1078,8 @@
 		"innerColor": [0, 0, 0],
 		"favoredReligion": "Islam",
 		"uniqueName": "Trade Caravans",
-		"uniques": ["[+1 Gold] from each Trade Route", "[+100]% [Oil] resource production"],
-		"cities": ["Kufa","Baghdad","Samarra","Cairo","Rey","Kufah","Basra","Khurasan","Anjar","Fustat",
+		"uniques": ["[+1 Gold] from each Trade Route"],
+		"cities": ["Kufa","Mecca","Medina","Baghdad","Samarra","Cairo","Rey","Kufah","Basra","Khurasan","Anjar","Fustat",
 			"Aden","Yamama","Muscat","Mansura","Bukhara","Fez","Shiraz","Merw","Balkh","Mosul",
 			"Aydab","Bayt","Suhar","Taif","Hama","Tabuk","Sana'a","Shihr","Tripoli","Tunis","Kairouan","Algiers","Oran"],
         "spyNames": ["Solhofaat", "Khenzeer", "Zarafah", "Temsaah", "Abyadh", "Mostafa", "Yusuf", "Waddah", "Sameera", "Gamal"]
@@ -1342,10 +1342,9 @@
 		"innerColor": [146, 221, 10],
 		"favoredReligion": "Islam",
 		"uniqueName": "Trade Caravans",
-		"uniques": ["[+1 Gold] from each Trade Route", "[+100]% [Oil] resource production"],
-		"cities": ["Mecca","Medina","Damascus","Baghdad","Najran","Kufah","Basra","Khurasan","Anjar","Fustat",
-			"Aden","Yamama","Muscat","Mansura","Bukhara","Fez","Shiraz","Merw","Balkh","Mosul",
-			"Aydab","Bayt","Suhar","Taif","Hama","Tabuk","Sana'a","Shihr","Tripoli","Tunis","Kairouan","Algiers","Oran"],
+		"uniques": ["[+100]% [Oil] resource production"],
+		"cities": ["Riyadh",
+			"Mecca","Medina","Jeddah","Yanbu","Al-Baha"],
         "spyNames": ["Solhofaat", "Khenzeer", "Zarafah", "Temsaah", "Abyadh", "Mostafa", "Yusuf", "Waddah", "Sameera", "Gamal"]
 	},
 	{
