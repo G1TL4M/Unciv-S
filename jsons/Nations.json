@@ -1172,14 +1172,14 @@
 		"hateHello": "What do you want?",
 		"tradeRequest": "My friend, are you interested in this arrangement?",
 
-        "outerColor": [14, 113, 4],
-        "innerColor": [255, 163, 71],
+        "outerColor": [128, 82, 36],
+        "innerColor": [39, 138, 29],
 
 		"favoredReligion": "Hinduism",
 		"uniqueName": "Population Growth",
 		"uniques": ["[+100]% unhappiness from the number of cities", "[-50]% Unhappiness from [Population] [in all cities]"],
 		"cities": ["Pataliputra",
-			"Prayaga","Ayodhya","Mathura","Pragiyotisapura","Ujjain","Girinagara","Taxila","Pistapura","Kancipuram"],
+			"Ayodhya","Prayaga","Mathura","Pragiyotisapura","Ujjain","Girinagara","Taxila","Pistapura","Kancipuram"],
         "spyNames": ["Ashok", "Shanx", "Hormis", "Sanjeev", "Ananda", "Rani", "Parvati", "Mukta", "Karishma", "Jyotsna"]
 	},
 	{
