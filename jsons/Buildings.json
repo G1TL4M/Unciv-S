@@ -1223,5 +1223,38 @@
 		"faith": 2,
 		"happiness": 2,
 		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
+
+	},
+
+    // Leaders
+     // The game lets you pick a leader and they give the nation an additional boost
+
+    {
+		"name": "Alexander",
+		"isWonder": true,
+		"uniqueTo": "Greece",
+		"cost": 0,
+		"uniques": ["[+1] Movement <for [All] units>"]
+	},
+	{
+		"name": "Leonidas",
+		"isWonder": true,
+		"uniqueTo": "Greece",
+		"cost": 0,
+		"uniques": ["[+50]% Production when constructing [All] units [in all cities] <when at war>"]
+	},
+	{
+		"name": "Theodora",
+		"isWonder": true,
+		"uniqueTo": "Greece",
+		"cost": 0,
+		"uniques": ["May choose [1] additional belief(s) of any type when [founding] a religion"]
+	},
+    {
+	    "name": "George Washington",
+		"isWonder": true,
+		"uniqueTo": "United States",
+		"cost": 0,
+		"uniques": ["[+10]% Strength <when fighting units from a Civilization with more Cities than you>"]
 	}
 		]
