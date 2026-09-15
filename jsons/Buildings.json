@@ -1234,21 +1234,27 @@
 		"isWonder": true,
 		"uniqueTo": "Greece",
 		"cost": 0,
-		"uniques": ["[+1] Movement <for [All] units>"]
+		"uniques": ["[+1] Movement <for [All] units>",
+			"Only available <in cities without a [Leonidas]>",
+			"Only available <in cities without a [Theodora]>"]
 	},
 	{
 		"name": "Leonidas",
 		"isWonder": true,
 		"uniqueTo": "Greece",
 		"cost": 0,
-		"uniques": ["[+50]% Production when constructing [All] units [in all cities] <when at war>"]
+		"uniques": ["[+50]% Production when constructing [All] units [in all cities] <when at war>",
+			"Only available <in cities without a [Alexander]>",
+			"Only available <in cities without a [Theodora]>"]
 	},
 	{
 		"name": "Theodora",
 		"isWonder": true,
 		"uniqueTo": "Greece",
 		"cost": 0,
-		"uniques": ["May choose [1] additional belief(s) of any type when [founding] a religion"]
+		"uniques": ["May choose [1] additional belief(s) of any type when [founding] a religion",
+			"Only available <in cities without a [Alexander]>",
+			"Only available <in cities without a [Leonidas]>"]
 	},
     {
 	    "name": "George Washington",
