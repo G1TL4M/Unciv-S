@@ -1235,6 +1235,7 @@
 		"uniqueTo": "England",
 		"cost": 0,
 		"uniques": ["Empire enters golden age <upon entering the [Industrial era]>","[+1 Production] from every [Factory]","[+1 Production] from every [Manufactory]",
+			"Can only be built <in [in capital] cities>",
 			"Only available <in cities without a [Winston Churchill]>"]
 	},
     {
@@ -1243,6 +1244,7 @@
 		"uniqueTo": "England",
 		"cost": 0,
 		"uniques": ["",
+			"Can only be built <in [in capital] cities>",
 			"Only available <in cities without a [Victoria]>"]
 	},
     {
@@ -1250,7 +1252,8 @@
 		"isWonder": true,
 		"uniqueTo": "France",
 		"cost": 0,
-		"uniques": ["[+1] Movement <for [All] units>"]
+		"uniques": ["[+1] Movement <for [All] units>",
+			"Can only be built <in [in capital] cities>"]
     },
     {
 		"name": "Alexander",
@@ -1258,6 +1261,7 @@
 		"uniqueTo": "Greece",
 		"cost": 0,
 		"uniques": ["[+1] Movement <for [All] units>",
+			"Can only be built <in [in capital] cities>",
 			"Only available <in cities without a [Leonidas]>",
 			"Only available <in cities without a [Theodora]>"]
 	},
@@ -1267,6 +1271,7 @@
 		"uniqueTo": "Greece",
 		"cost": 0,
 		"uniques": ["[+50]% Production when constructing [All] units [in all cities] <when at war>",
+			"Can only be built <in [in capital] cities>",
 			"Only available <in cities without a [Alexander]>",
 			"Only available <in cities without a [Theodora]>"]
 	},
@@ -1276,14 +1281,34 @@
 		"uniqueTo": "Greece",
 		"cost": 0,
 		"uniques": ["May choose [1] additional belief(s) of any type when [founding] a religion",
+			"Can only be built <in [in capital] cities>",
 			"Only available <in cities without a [Alexander]>",
 			"Only available <in cities without a [Leonidas]>"]
 	},
     {
+		"name": "Abdul Aziz al Saud",
+		"isWonder": true,
+		"uniqueTo": "Saudi Arabia",
+		"cost": 0,
+		"uniques": ["[+100]% [Oil] resource production",
+			"Can only be built <in [in capital] cities>"]
+	},
+	{
 	    "name": "George Washington",
 		"isWonder": true,
 		"uniqueTo": "United States",
 		"cost": 0,
-		"uniques": ["[+10]% Strength <when fighting units from a Civilization with more Cities than you>"]
+		"uniques": ["[+10]% Strength <when fighting units from a Civilization with more Cities than you>",
+			"Can only be built <in [in capital] cities>",
+			"Only available <in cities without a [Theodore Roosevelt]>"]
+	},
+	{
+		"name": "Theodore Roosevelt",
+		"isWonder": true,
+		"uniqueTo": "United States",
+		"cost": 0,
+		"uniques": ["[+10]% Strength <when fighting units from a Civilization with more Cities than you>",
+			"Can only be built <in [in capital] cities>",
+			"Only available <in cities without a [George Washington]>"]
 	}
 		]
