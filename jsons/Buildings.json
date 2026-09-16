@@ -1282,7 +1282,7 @@
 		"isWonder": true,
 		"uniqueTo": "Greece",
 		"cost": 0,
-		"uniques": ["[+1] Movement <for [All] units>",
+		"uniques": ["[+1] Movement <for [Melee] units>","[+1] Sight <for [Ranged] units>",
 			"Can only be built <in [in capital] cities>",
 			"Only available <in cities without a [Leonidas]>",
 			"Only available <in cities without a [Theodora]>"]
@@ -1314,6 +1314,24 @@
 		"cost": 0,
 		"uniques": ["[+100]% [Oil] resource production",
 			"Can only be built <in [in capital] cities>"]
+	},
+    {
+        "name": "Ambiorix",
+		"isWonder": true,
+		"uniqueTo": "The Celts",
+		"cost": 0,
+		"uniques": ["[+1 Culture] from [Mine] tiles [in all cities]","[-25]% Culture cost of natural border growth [in all cities]","[-25]% Gold cost of acquiring tiles [in all cities]",
+			"Can only be built <in [in capital] cities>",
+			"Only available <in cities without a [Boudicca]>"]
+	},
+    {
+	    "name": "Boudicca",
+		"isWonder": true,
+		"uniqueTo": "The Celts",
+		"cost": 0,
+		"uniques": ["[+10]% Strength <when fighting units from a Civilization with more Cities than you>","Earn [67]% of killed [Military] unit's [Strength] as [Faith]",
+			"Can only be built <in [in capital] cities>",
+			"Only available <in cities without a [Ambiorix]>"]
 	},
 	{
 		"name": "Shaka",
