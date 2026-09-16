@@ -1412,6 +1412,38 @@
         "spyNames": ["Crìsdean", "Siobhán", "Seamus", "Ffion", "Pádraig", "Deirdre", "Mr. Quinn", "Éadaoin", "Alwyn", "Col Ceathar"]
 	},
 	{
+		"name": "The Zulu",
+		"leaderName": "Shaka",
+		"adjective": ["Zulu"],
+		"preferredVictoryType": "Domination",
+		
+		"declaringWar": "There is too much weakness in you. Fear notâ€”the children of Zulu shall remove it.",
+		"attacked": "Strong words, but they quaver on your lips. Already I see you weaken in fear.",
+		"defeated": "True, you ended my reign. But I will live on in your nightmares.",
+		"introduction": "You stand before Shaka of the Zulu. Dare you turn your back to my armies? I will make no such mistake.",
+		
+		"neutralHello": "The children of Zulu respect your people.",
+		"hateHello": "Do not mock me.",
+		"tradeRequest": "I sent a ceremonial iklwa.",
+		
+		"outerColor": [120,62,2],
+		"innerColor": [255,255,255],
+		"uniqueName": "Isibongo",
+		"uniques": ["[-33]% maintenance costs <for [All] units>","[+3 Happiness] [in all cities with a garrison]"],
+		"cities": ["Ulundi",
+			"Umgungundlovu","Bulawayo","KwaDukuza","Nongoma","oNdini",
+			"Nodwengu","Ndonakusuka","Babanango","Khangela","KwaHlomendlini",
+			"Hlobane","eThekwini","Mlambongwenya","Eziqwaqweni","Isiphezi",
+			"Masotsheni","Mtunzini","Nyakamubi","Dumazulu","Hlatikulu",
+			"Mthonjaneni","Empangeni","Pongola","Tugela","Kwamashu",
+			"Ingwavuma","Hlulhluwe","Matubatuba","Mhlahlandlela","Mthatha",
+			"Maseru","Lobamba","Qunu"], 
+
+		"civilopediaText": [
+			{"text": "From 'Civ 6 Mod'"}
+		]
+	},
+	{
 		"name": "Turkiye",
 		"leaderName": "Suleiman I",
 		"adjective": ["Ottoman"],
