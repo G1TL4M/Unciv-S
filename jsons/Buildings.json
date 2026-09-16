@@ -566,6 +566,18 @@
 		"uniques": ["[+2 Science] from [Jungle] tiles [in this city]"],
 		"requiredTech": "Education"
 	},
+    {
+        "name": "Research Station",
+		"replaces": "University",
+		"uniqueTo": "Antarctica",
+		"maintenance": 2,
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"science": 33},
+		"specialistSlots": {"Scientist": 2},
+		"requiredBuilding": "Library",
+		"uniques": ["[+2 Science] from [Snow] tiles [in this city]","[+2 Science] from [Jungle] tiles [in this city]"],
+		"requiredTech": "Education"
+    },
 	{
 		"name": "Oxford University",
 		"cost": 125,
@@ -1056,6 +1068,16 @@
 		"requiredTech": "Pharmaceuticals",
 		"uniques": ["[25]% Food is carried over after population increases [in this city]"]
 	},
+    {
+	    "name": "Oil Facility",
+		"replaces": "Medical Lab",
+		"uniqueTo": "Saudi Arabia",
+		"requiredNearbyImprovedResources": ["Oil"],
+		"maintenance": 0,
+		"requiredTech": "Flight",
+		"uniques": ["Available with Oil","[+5 Gold] from [Oil] tiles [in this city]",
+			"[25]% Food is carried over after population increases [in this city]"]
+    },
 	{
 		"name": "Manhattan Project",
 		"cost": 750,
