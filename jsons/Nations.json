@@ -1567,12 +1567,12 @@
 		"uniqueName": "Druidic Lore",
 		"uniques": ["[+1 Faith] [in all cities] <with [1] to [2] neighboring [{unimproved} {Forest}] tiles>",
 			"[+2 Faith] [in all cities] <with [3] to [6] neighboring [{unimproved} {Forest}] tiles>"],
-		"cities": ["Edinburgh","Dublin","Cardiff","Truro","Nantes","Douglas",
-			"Glasgow","Cork","Aberystwyth","Penzance","Rennes","Ramsey","Aduatuca",
-			"Inverness","Limerick","Swansea","St. Ives","Brest","Peel","Bibrax",
-			"Aberdeen","Belfast","Caernarfon","Newquay","Saint-Nazaire","Castletown","Noviodunum",
-			"Stirling","Galway","Conwy","St. Austell","Saint-Malo","Onchan","Samarobriva",
-			"Dundee","Londonderry","Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch","Falmouth","Lorient","Port St Mary","Durocorteron"],
+		"cities": ["Edinburgh","Dublin","Cardiff","Aduatuca","Truro","Nantes","Douglas",
+			"Glasgow","Cork","Aberystwyth","Bibrax","Penzance","Rennes","Ramsey",
+			"Inverness","Limerick","Swansea","Noviodunum","St. Ives","Brest","Peel",
+			"Aberdeen","Belfast","Caernarfon","Samarobriva","Newquay","Saint-Nazaire","Castletown",
+			"Stirling","Galway","Conwy","Durocorteron","St. Austell","Saint-Malo","Onchan",
+			"Dundee","Londonderry","Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch","Raturnacos","Falmouth","Lorient","Port St Mary"],
         "spyNames": ["Crìsdean", "Siobhán", "Seamus", "Ffion", "Pádraig", "Deirdre", "Mr. Quinn", "Éadaoin", "Alwyn", "Col Ceathar"]
 	},
 	{
