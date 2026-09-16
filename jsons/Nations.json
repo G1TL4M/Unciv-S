@@ -1111,6 +1111,75 @@
 		"civilopediaText": [
 			{"text": "From 'Modern Civilizations'"}
 		]
+	}
+	{
+		"name": "Australia",
+		"leaderName": "John Curtin",
+		"adjective": ["Australian"],
+		"startBias": ["Coast","Cattle","Horses","Sheep"],
+		"preferredVictoryType": "Scientific",
+		
+		"declaringWar": "After thorough deliberation, Australia finds itself at a crossroads. Prepare yourself, war is upon us.",
+		"attacked": "We will mobilize every means of resistance to stop this transgression against our nation!",
+		"defeated": "The principles for which we have fought will survive longer than any nation you could ever build.",
+		"introduction": "John Curtin, I speak for the people of Australia as their Prime Minister. We seek sympathetic allies in the fight against the hawks of war.",
+		
+		"neutralHello": "How are you today?",
+		"hateHello": "An unwelcome turn.",
+		"tradeRequest": "I've sent a trade delegation to your territories. I hope you will receive them with my sincerest thanks.",
+		
+		"outerColor": [21,108,49],
+		"innerColor": [248,217,2],
+		"uniqueName": "Land Down Under",
+		"uniques": ["[15]% Food is carried over after population increases [in all coastal cities]",
+			"[+1 Science] from every [Academy]",
+			"[+1 Gold] from every [Customs house]",
+			"[+1 Faith] from every [Holy site]",
+			"[+1 Culture] from every [Landmark]"],
+		"cities": ["Canberra",
+			"Sydney",
+			"Launceston",
+			"Ballaarat",
+			"Perth",
+			"Brisbane",
+			"Toowoomba",
+			"Melbourne",
+			"Townsville",
+			"Geelong",
+			"Adelaide",
+			"Hobart",
+			"Bendigo",
+			"Broken Hill",
+			"Cairns",
+			"Newcastle",
+			"Maitland",
+			"Rockhampton",
+			"Wagga Wagga",
+			"Wollongong",
+			"Albury",
+			"Alice Springs",
+			"Bathurst",
+			"Queanbeyan",
+			"Bundaberg",
+			"Coffs Harbor",
+			"Darwin",
+			"Dremantle",
+			"Gladstone",
+			"Goulburn",
+			"Hervery Bay",
+			"Kalgoorlie",
+			"Lismore",
+			"Lithgow",
+			"Maryborough",
+			"Orange",
+			"Port Macquarie",
+			"Port Pirie",
+			"Boomahnoomoonah",
+			"Tweed Heads"],
+
+		"civilopediaText": [
+			{"text": "From 'Civ 6 Mod'"}
+		]
 	},
 	{
 		"name": "Canada",
@@ -1348,6 +1417,41 @@
 			"Q'Dhihien","Q'Naquiel","Q'Ugneon","Q'Straquks","Q'Nulptr","Q'Ohfahl"]
 	},
 	{
+		"name": "Nubia",
+		"leaderName": "Amanitore",
+		"startBias": ["Desert"],
+		"adjective": ["Nubian"],
+		
+		"declaringWar": "We have arrows, finely honed. We shall deliver them freely to your throat.",
+		"attacked": "As predicted, you know only how to take. Come, thenâ€”choose the manner of your defeat.",
+		"defeated": "Though Nubia declines, our pyramids shall remain long after your plans fall to ruin.",
+		"introduction": "I am Amanitore of Nubia. All are welcome in our magnificent citiesâ€”provided they come as friends.",
+		
+		"neutralHello": "How gracious of you.",
+		"hateHello": "With you, I always expect the worst.",
+		"tradeRequest": "Our delegation brings goodwill!",
+		
+		"outerColor": [251,236,127],
+		"innerColor": [146,74,1],
+		"uniqueName": "Ta-Seti",
+		"uniqueText": "Ranged units gain +50% combat experience, +30% Production when constructing Ranged units in all cities, +1 Production from every Strategic-, and +2 Gold for every Bonus resource.",
+		"uniques": ["[Ranged] units gain the [Ta-Seti] promotion",
+			"[+30]% Production when constructing [Ranged] units [in all cities]",
+			"[+1 Production] from every [Strategic resource]",
+			"[+2 Gold] from every [Bonus resource]"],
+		"cities": ["Kerma",
+			"Napata","Nuri","El-Kurru","Kawa","Sedeinga",
+			"Heh","Qasr Ibrim","Faras","Iken",
+			"Abu Simbel","Buhen","Dengeil","Miam","Tombos",
+			"Kurgus","Toshka","Soleb","Wad ban Naqa","Debba",
+			"Bugdumbush","Baki","Amara","Musawwarat es-Sufra","El Fura",
+			"Ukma","Pedeme","Defeia"],
+
+		"civilopediaText": [
+			{"text": "From 'Civ 6 Mod'"}
+		]
+	},
+	{
 		"name": "Saudi Arabia",
 		"leaderName": "Abdul Aziz al Saud",
 		"adjective": ["Saudi Arabian"],
@@ -1403,7 +1507,40 @@
 		]
 	},
 	{
-		"name": "The Celts",
+		"name": "Sumeria",
+		"leaderName": "Gilgamesh",
+		"adjective": ["Sumerian"],
+		"startBias": ["River"],
+		"preferredVictoryType": "Scientific",
+		
+		"declaringWar": "Why do I fight? Because I can... because Inanna demands it. Now you will know the power of Sumer!",
+		"attacked": "I will enjoy hearing your last breath when you witness the destruction of your people.",
+		"defeated": "What treachery did this to me? No, what evil?",
+		"introduction": "I am Gilgamesh of Sumeria and King of Uruk. Do not be afraidâ€¦ I am good to my friends.",
+		
+		"neutralHello": "All the world knows of my generosity to my friends.",
+		"hateHello": "Are you mad?",
+		"tradeRequest": "The delegation of Gilgamesh brings you Sumerian gifts. Will you accept them into your city?",
+		
+		"outerColor": [1,42,107],
+		"innerColor": [254,129,19],
+		"uniqueName": "Epic Quest",
+		"uniques": ["Receive [+200]% Gold from Barbarian encampments and pillaging Cities",
+			"[-50]% City-State Influence degradation"],
+		"cities": ["Uruk",
+			"Eridu","Kish","Ur","Lagash","Nippur",
+			"Bad-Tibira","Sippar","Shuruppak","Adab","Isin",
+			"Hamazi","Larak","Abu Salabikh","Umma","Larsa",
+			"Girsu","Jemdet Nasr","Nina","Kuara","Dilbat",
+			"Kutha","Marad","Zabalam","Kisurra","Pazurish-Dagan",
+			"Harbidum","Kesh","Fallaka"],
+
+		"civilopediaText": [
+			{"text": "From 'Civ 6 Mod'"}
+		]
+	},
+	{
+		"name": "The Celts", // The only differences are the name and that Gaul got bunched in this too
 		"leaderName": "Boudicca",
 		"adjective": ["Celtic"],
 		"startBias": ["Forest"],
@@ -1431,11 +1568,11 @@
 		"uniques": ["[+1 Faith] [in all cities] <with [1] to [2] neighboring [{unimproved} {Forest}] tiles>",
 			"[+2 Faith] [in all cities] <with [3] to [6] neighboring [{unimproved} {Forest}] tiles>"],
 		"cities": ["Edinburgh","Dublin","Cardiff","Truro","Nantes","Douglas",
-			"Glasgow","Cork","Aberystwyth","Penzance","Rennes","Ramsey",
-			"Inverness","Limerick","Swansea","St. Ives","Brest","Peel",
-			"Aberdeen","Belfast","Caernarfon","Newquay","Saint-Nazaire","Castletown",
-			"Stirling","Galway","Conwy","St. Austell","Saint-Malo","Onchan",
-			"Dundee","Londonderry","Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch","Falmouth","Lorient","Port St Mary"],
+			"Glasgow","Cork","Aberystwyth","Penzance","Rennes","Ramsey","Aduatuca",
+			"Inverness","Limerick","Swansea","St. Ives","Brest","Peel","Bibrax",
+			"Aberdeen","Belfast","Caernarfon","Newquay","Saint-Nazaire","Castletown","Noviodunum",
+			"Stirling","Galway","Conwy","St. Austell","Saint-Malo","Onchan","Samarobriva",
+			"Dundee","Londonderry","Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch","Falmouth","Lorient","Port St Mary","Durocorteron"],
         "spyNames": ["Crìsdean", "Siobhán", "Seamus", "Ffion", "Pádraig", "Deirdre", "Mr. Quinn", "Éadaoin", "Alwyn", "Col Ceathar"]
 	},
 	{
