@@ -1294,6 +1294,14 @@
 			"Can only be built <in [in capital] cities>"]
 	},
 	{
+		"name": "Shaka",
+		"isWonder": true,
+		"uniqueTo": "The Zulu",
+		"cost": 0,
+		"uniques": ["[+15]% Strength <for [Melee] units> <when adjacent to a [Melee] unit>",
+			"Can only be built <in [in capital] cities>"]
+	},
+	{
 	    "name": "George Washington",
 		"isWonder": true,
 		"uniqueTo": "United States",
