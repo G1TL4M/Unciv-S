@@ -1085,6 +1085,33 @@
         "spyNames": ["Solhofaat", "Khenzeer", "Zarafah", "Temsaah", "Abyadh", "Mostafa", "Yusuf", "Waddah", "Sameera", "Gamal"]
 	},
 	{
+		"name": "Antarctica",
+		"leaderName": "Roald Amundsen",
+		"adjective": ["Antarctican"],
+		"startBias": ["Snow","Tundra"],
+		"preferredVictoryType": "Diplomatic",
+		"startIntroPart1": " ",
+		"startIntroPart2": " ",
+		"declaringWar": "Prepare for combat!",
+		"attacked": "A Russian winter means nothing. Try ours.",
+		"defeated": "The land is yours.",
+		"introduction": "Welcome to Antarctica. I hope you've brought warm clothes.",
+		"neutralHello": "Greetings.",
+		"hateHello": "What do you want?",
+		"tradeRequest": "Better hurry, it's freezing.",
+		"outerColor": [91, 146, 229],
+		"innerColor": [255, 255, 255],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Pristine Wilderness",
+		"uniques": ["[+2 Food] from every [City center] <in [Snow] tiles>","[+2 Food] from every [Great Improvement] <in [Snow] tiles>"],
+		"cities": ["McMurdo","Showa","Marambio","Rothera","Amundsen-Scott","Eduardo Frei","Villa Las Estrallas","Esperanza",
+				"SANAE IV","Casey","Davis","Dumont d'Urville","Carlini","Novolazarevskaya","Halley VI","Concordia","King Sejong",
+				"Jang Bogo","Zhongshan","Great Wall","Neumayer III","Escudero","Mawson"],
+
+		"civilopediaText": [
+			{"text": "From 'Modern Civilizations'"}
+	},
+	{
 		"name": "Canada",
 		"leaderName": "Wilfrid Laurier",
 		"startBias": ["Tundra","Snow"],
@@ -1352,28 +1379,26 @@
 		"name": "South Africa",
 		"leaderName": "Nelson Mandela",
 		"adjective": ["South African"],
-		"startBias": ["Grassland"],
-		"preferredVictoryType": "Cultural",
-		"personality": "William of Orange",
-
-        "startIntroPart1": "Greetings to the wise and brave Prince William of Orange, who freed the Netherlands and gave strength to the Dutch people. In 1568, you led a rebellion against Spanish dominion, to gain freedom for your people, and therefore starting the Eighty Years' War. Your actions were all aimed to create one of Europe's first modern republics, the Seven United Provinces. The rebellion was the meaning of your very life and death, as it was also the cause of your assassination in 1584. But your death has given even more pride and courage to your people, to fight for liberty against any oppressors. Carved in history as the 'Father of the Fatherland', your name is a symbol of Dutch independence for eternity.",
-        "startIntroPart2": "Brave Prince, your people ask for your wisdom to gain its freedom once more, and to illuminate the world with progressive and modern ideas. Will your new empire shine through the ages of history?",
-
-        "declaringWar": "As much as I despise war, I consider it a, hahaha, contribution to the common cause to erase your existence.",
-		"attacked": "You call yourself an exalted ruler, but I see nothing more than a smartly dressed barbarian!",
-		"defeated": "My God, be merciful to my soul. My God, feel pity for this... my poor people!",
-		"introduction": "I am William of Orange, stadtholder of The Netherlands. Did you need anything? I still have a lot to do.",
-		"neutralHello": "Once again, greetings.",
+		"startBias": ["Avoid [Jungle]","Avoid [Forest]", "Avoid [Tundra]"],
+		"preferredVictoryType": "Scientific",
+                "startIntroPart1": " ",
+		"startIntroPart2": " ",
+		"declaringWar": "Prepare for war!",
+		"attacked": "You shall regret this!",
+		"defeated": "The victory is yours.",
+		"introduction": "Welcome to South AFrica",
+		"neutralHello": "Greetings.",
 		"hateHello": "What do you want?",
-		"tradeRequest": "I believe I have something that may be of some importance to you.",
+		"tradeRequest": "Better hurry, I may change my mind.",
 		"outerColor": [225, 163, 50],
 		"innerColor": [0, 120, 71],
 		"favoredReligion": "Christianity",
-		"uniqueName": "Dutch East India Company",
-		"uniques": ["Retain [50]% of the happiness from a luxury after the last copy has been traded away"],
-		"cities": ["Cape Town",
-			"u", "Utrecht", "Groningen", "Breda", "Nijmegen", "The Hague", "Haarlem", "Arnhem", "Zutphen", "Maastricht", "Tilburg", "Eindhoven", "Dordrecht", "Leiden", "'s Hertogenbosch", "Almere", "Alkmaar", "Brielle", "Vlissingen", "Apeldoorn", "Enschede", "Amersfoort", "Zwolle", "Venlo", "Uden", "Grave", "Delft", "Gouda", "Nieuwstadt", "Weesp", "Coevorden", "Kerkrade"],
-        "spyNames": ["Joost", "Hendrika", "Marten", "Anke", "Guus", "Mr. X", "Dr. Grijs", "Willem", "Thijs", "Neef"]
+		"uniqueName": "Mineral Exports",
+		"uniques": ["[+100]% [Gold] from every [Gold Ore]","[+100]% [Gold] from every [Silver]","[+100]% [Gold] from every [Gems]"],
+		"cities": ["Cape Town","Pretoria","Bloemfontein","Johannesburg","Durban","Gqeberha","Vereeniging","Soshanguve","East London","Pietermaritzburg"],
+
+		"civilopediaText": [
+			{"text": "From 'Modern Civilizations'"}
 	},
 	{
 		"name": "The Celts",
