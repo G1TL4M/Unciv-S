@@ -733,6 +733,21 @@
 		// Keshik should have no penalty attacking cities
 	},
 	{
+		"name": "Mandekalu Cavalry",
+		"uniqueTo": "Mali",
+		"replaces": "Knight",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 16,
+		"cost": 120,
+		"requiredTech": "Chivalry",
+		"obsoleteTech": "Military Science",
+		"requiredResource": "Iron",
+		"upgradesTo": "Cavalry",
+		"uniques": ["Earn [100]% of killed [Military] unit's [Strength] as [Gold]"],
+		"attackSound": "horse"
+	},
+	{
 		"name": "Malon Raider",
 		"uniqueTo": "The Mapuche",
 		"replaces": "Knight",
@@ -1339,6 +1354,23 @@
 		// Does not actually upgrade to Missile Cruisers
 	},
 	{
+		"name": "Minas Geraes",
+		"uniqueTo": "Brazil",
+		"replaces": "Battleship",
+		"unitType": "Ranged Water",
+		"movement": 5,
+		"range": 3,
+		"interceptRange": 2,
+		"strength": 55,
+		"rangedStrength": 55,
+		"cost": 375,
+		"requiredResource": "Oil",
+		"requiredTech": "Electronics",
+		"uniques": ["[100]% chance to intercept air attacks","[+167]% Strength <vs [Air] units>"],
+		"promotions": ["Indirect Fire"],
+		"attackSound": "shipguns"
+	},
+	{
 		"name": "Machine Gun",
 		"unitType": "Ranged Gunpowder",
 		"range": 1,
@@ -1790,6 +1822,19 @@
             "[This Unit] gets a name from the [Khan] group",
             "Great Person - [War]", "Unbuildable", "Uncapturable"],
 		"movement": 5
+	},
+	{
+		"name": "Comandante General",
+		"unitType": "Civilian",
+		"uniqueTo": "Colombia",
+		"replaces": "Great General",
+		"uniques": [
+			"Empire enters a [8]-turn Golden Age <by consuming this unit>",
+			"[33]% Strength bonus for [{Military} {Land}] units within [2] tiles",
+			"Is part of Great Person group [General]",
+			"[This Unit] gets a name from the [Comandante General] group",
+			"Great Person - [War]","Unbuildable","Uncapturable"],
+		"movement": 4
 	},
 	{
 		"name": "Great Admiral",
