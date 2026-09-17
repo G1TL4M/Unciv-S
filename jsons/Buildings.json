@@ -1334,17 +1334,9 @@
 			"Only available <in cities without a [Ambiorix]>"]
 	},
 	{
-		"name": "Shaka",
-		"isWonder": true,
-		"uniqueTo": "The Zulu",
-		"cost": 0,
-		"uniques": ["[+15]% Strength <for [Melee] units> <when adjacent to a [Melee] unit>",
-			"Can only be built <in [in capital] cities>"]
-	},
-	{
 	    "name": "George Washington",
 		"isWonder": true,
-		"uniqueTo": "United States",
+		"uniqueTo": "The United States",
 		"cost": 0,
 		"uniques": ["[+10]% Strength <when fighting units from a Civilization with more Cities than you>",
 			"Can only be built <in [in capital] cities>",
@@ -1353,10 +1345,18 @@
 	{
 		"name": "Theodore Roosevelt",
 		"isWonder": true,
-		"uniqueTo": "United States",
+		"uniqueTo": "The United States",
 		"cost": 0,
 		"uniques": ["[+10]% Strength <when fighting units from a Civilization with more Cities than you>",
 			"Can only be built <in [in capital] cities>",
 			"Only available <in cities without a [George Washington]>"]
-	}
+	},
+    {
+        "name": "Shaka",
+		"isWonder": true,
+		"uniqueTo": "The Zulu",
+		"cost": 0,
+		"uniques": ["[+15]% Strength <for [Melee] units> <when adjacent to a [Melee] unit>",
+			"Can only be built <in [in capital] cities>"]
+    }
 		]
