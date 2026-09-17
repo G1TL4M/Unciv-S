@@ -282,6 +282,79 @@
         ]
     },
     {
+        "name": "Aesthetics",
+        "era": "Classical era",
+        "priorities": {
+            "Neutral": 0,
+            "Cultural": 20,
+            "Diplomatic": 0,
+            "Domination": 0,
+            "Scientific": 10
+        },
+        "uniques": ["[+15]% [Culture] <while the empire is happy>"],
+		"policies": [
+            {
+                "name": "Cultural Centers",
+                "uniques": [
+					"[+5 Production] from every [Ironworks]",
+					"[+5 Gold] from every [National Treasury]",
+					"[+5 Science] from every [National College]",
+					"[+5 Culture] from every [Hermitage]",
+					"[+5 Faith] from every [Grand Temple]",
+					"[+5 Happiness] from every [Circus Maximus]",
+                ],
+                "row": 1,
+                "column": 2
+            },
+            {
+                "name": "Monumentality",
+                "uniques": [
+                    "[+33]% [Culture] [in all cities with a world wonder]",
+					"Empire enters golden age",
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Architect Schools",
+                "uniques": [
+					"[+10]% Production when constructing [All] buildings [in all cities]",
+					"[+10]% Production when constructing [All] wonders [in all cities]"
+                ],
+                "requires": ["Cultural Centers"],
+                "row": 2,
+                "column": 2
+            },
+            {
+                "name": "Tourism Destination",
+                "uniques": [
+                    "[+1 Gold] from all [culture] buildings"
+                ],
+                "requires": ["Cultural Centers", "Monumentality"],
+                "row": 2,
+                "column": 4
+            },
+            {
+                "name": "Artistic Genius",
+                "uniques": [
+                    "Free [Great Artist] appears",
+                ],
+                "requires": ["Architect Schools"],
+                "row": 3,
+                "column": 2
+            },
+            {
+                "name": "Aesthetics Complete",
+                "uniques": [
+		    	    "[+1 Culture] from every [Trading post]",
+					"[+1 Culture] from every [Moai]",
+                    "[+1 Culture] from every [Nubian Pyramid]",
+                    "May buy [Great Artist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
+                ]
+            }
+        ]
+    },
+    {
         "name": "Patronage",
         "era": "Medieval era",
         "priorities": {
@@ -613,7 +686,6 @@
                 "uniques": [
                     "[+100]% Yield from every [Great Improvement]",
                     "[+50]% Golden Age length",
-                    "May buy [Great Artist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
                     "Get the leader title of [President [leaderName]]"
                 ]
             }
