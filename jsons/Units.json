@@ -51,7 +51,7 @@
 	{
 		"name": "Maori Warrior",
 		"unitType": "Sword",
-		"uniqueTo": "Polynesia",
+		"uniqueTo": "The Maori",
 		"replaces": "Warrior",
 		"movement": 2,
 		"strength": 8,
