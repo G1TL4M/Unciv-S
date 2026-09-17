@@ -1,5 +1,5 @@
 [
-
+	
 	// Info according to Civilization Wiki and https://www.civfanatics.com/civ5/info/units/gods-and-kings/
 
 	// Ancient Era
@@ -30,6 +30,19 @@
 		"requiredTech": "Agriculture",
 		"obsoleteTech": "Scientific Theory",
 		"uniques": ["May upgrade to [Archer] through ruins-like effects", "Never appears as a Barbarian unit"],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Okihtcitaw",
+		"uniqueTo": "The Cree",
+		"replaces": "Scout",
+		"unitType": "Scout",
+		"movement": 3,
+		"strength": 5,
+		"cost": 25,
+		"obsoleteTech": "Scientific Theory",
+		"uniques": "May upgrade to [Archer] through ruins-like effects",
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "nonmetalhit"
 	},
@@ -140,6 +153,20 @@
 		"obsoleteTech": "Construction",
 		"replaces": "Archer",
 		"uniqueTo": "The Maya",
+		"upgradesTo": "Composite Bowman",
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Pitati Archer",
+		"uniqueTo": "Nubia",
+		"replaces": "Archer",
+		"unitType": "Archery",
+		"movement": 3,
+		"strength": 5,
+		"rangedStrength": 7,
+		"cost": 40,
+		"requiredTech": "Archery",
+		"obsoleteTech": "Construction",
 		"upgradesTo": "Composite Bowman",
 		"attackSound": "arrow"
 	},
@@ -433,6 +460,19 @@
 		"attackSound": "horse"
 	},
 	{
+		"name": "War-Cart",
+		"uniqueTo": "Sumeria",
+		"unitType": "Mounted",
+		"movement": 2,
+		"strength": 14,
+		"cost": 75,
+		"uniques": ["[+67]% Strength <vs [y] units>","[+1] Movement <in [Open terrain] tiles>"],
+		"upgradesTo": "Knight",
+		"requiredTech": "Horseback Riding",
+		"obsoleteTech": "Chivalry",
+		"attackSound": "horse"
+	},
+	{
 		"name": "Catapult",
 		"unitType": "Siege",
 		"movement": 2,
@@ -520,6 +560,24 @@
 		"promotions": ["[Mohawk Warrior] ability"],
 		"attackSound": "metalhit"
 	},
+	{
+		"name": "Ngao Mbeba",
+		"uniqueTo": "Kongo",
+		"replaces": "Swordsman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 14,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"obsoleteTech": "Gunpowder",
+		"requiredResource": "Iron",
+		"upgradesTo": "Longswordsman",
+		"uniques": ["Can see over obstacles",
+			"Double movement in [Forest]",
+			"Double movement in [Jungle]",
+			"[+67]% Strength <vs [Ranged] units> <when defending>"],
+		"attackSound": "metalhit"
+	},
 
 	// Medieval Era
 	{
@@ -548,6 +606,22 @@
 		"obsoleteTech": "Metallurgy",
 		"attackSound": "metalhit"
 		//"Requires [Mercenary Army]" in BNW
+	},
+	{
+		"name": "Impi",
+		"uniqueTo": "The Zulu",
+		"replaces": "Pikeman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 16,
+		"cost": 45,
+		"requiredTech": "Civil Service",
+		"obsoleteTech": "Metallurgy",
+		"upgradesTo": "Lancer",
+		"uniques": ["[+25]% XP gained from combat",
+			"[+100]% to Flank Attack bonuses",
+			"[-67]% maintenance costs"],
+		"attackSound": "metalhit"
 	},
 	{
 		"name": "Galleass",
@@ -657,6 +731,23 @@
 		"promotions": ["Great Generals I", "Quick Study"],
 		"attackSound": "arrow"
 		// Keshik should have no penalty attacking cities
+	},
+	{
+		"name": "Malon Raider",
+		"uniqueTo": "The Mapuche",
+		"replaces": "Knight",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 20,
+		"cost": 120,
+		"requiredTech": "Chivalry",
+		"obsoleteTech": "Military Science",
+		"upgradesTo": "Cavalry",
+		"uniques": ["[+33]% Strength <when fighting in [Foreign Land] tiles>","No movement cost to pillage"],
+		"attackSound": "horse"
+	},
+	{
+		"
 	},
 	{
 		"name": "Crossbowman",
@@ -1101,6 +1192,21 @@
 			"[+1] Sight"],
 		"promotions": ["[Hussar] ability"],
 		"attackSound": "cavalry"
+	},
+	{
+		"name": "Llanero",
+		"uniqueTo": "Colombia",
+		"replaces": "Cavalry",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 34,
+		"cost": 225,
+		"requiredTech": "Military Science",
+		"obsoleteTech": "Combustion",
+		"requiredResource": "Horses",
+		"upgradesTo": "Landship",
+		"uniques": ["[+40]% Strength <when adjacent to a [Llanero] unit>","[-60]% maintenance costs"],
+		"attackSound": "horse"
 	},
 	{
 		"name": "Ironclad",
