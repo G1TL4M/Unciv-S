@@ -747,9 +747,6 @@
 		"attackSound": "horse"
 	},
 	{
-		"
-	},
-	{
 		"name": "Crossbowman",
 		"unitType": "Archery",
 		"movement": 2,
