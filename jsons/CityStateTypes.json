@@ -34,6 +34,21 @@
         "color": [255, 216, 0]
     },
     {
+        "name": "Silk Road",
+        "friendBonusUniques": [
+            "[+2 Happiness] <before the [Medieval era]>",
+            "[+3 Happiness] <starting from the [Medieval era]>",
+          "[+10]% [Gold] from Trade Routes"
+        ],
+        "allyBonusUniques": [
+            "[+2 Happiness] <before the [Medieval era]>",
+            "[+3 Happiness] <starting from the [Medieval era]>",
+          "[+25]% [Gold] from Trade Routes",
+            "Provides a unique luxury"
+        ],
+        "color": [255, 255, 200]
+    },
+    {
         "name": "Militaristic",
         "friendBonusUniques": ["Provides military units every ≈[20] turns"],
         "allyBonusUniques": ["Provides military units every ≈[17] turns"],
@@ -52,5 +67,52 @@
             "[+26 Faith] <starting from the [Industrial era]>"
         ],
         "color": [255, 255, 255]
+    },
+    
+    {
+        "name": "Scientific",
+        "friendBonusUniques":  [
+            "[+3 Science] <before the [Medieval era]>",
+            "[+6 Science] <starting from the [Medieval era]> <before the [Industrial era]>",
+            "[+13 Science] <starting from the [Industrial era]>",
+        ],
+        "allyBonusUniques":  [
+            "[+6 Science] <before the [Medieval era]>",
+            "[+12 Science] <starting from the [Medieval era]> <before the [Industrial era]>",
+            "[+26 Science] <starting from the [Industrial era]>",
+        ],
+        "color": [141, 156, 255]
+    },
+    {
+        "name": "Productive",
+        "friendBonusUniques": [
+            "[+10]% [Production] [in capital]"
+        ],
+        "allyBonusUniques": [
+            "[+20]% [Production] [in all cities]"
+        ],
+        "color": [191, 78, 0]
+    },
+    {
+        "name": "Strategic",
+        "friendBonusUniques": [
+            "[+5]% [Production] [in capital] <before the [Medieval era]>",
+            "[+10]% [Production] [in capital] <starting from the [Medieval era]>"
+        ],
+        "allyBonusUniques": [
+            "[+10]% [Production] [in all cities] <before the [Medieval era]>",
+            "[+15]% [Production] [in all cities] <starting from the [Medieval era]>",
+            "Provides [2] [Iron]"
+            //this is a filler until i get it to provide random strategic resources
+        ],
+        "color": [133, 81, 53]
+    },
+    
+    {
+        // I dunno
+        "name": "Isolationist",
+        "friendBonusUniques": ["Provides nothing"],
+        "allyBonusUniques": ["Provides nothing"],
+        "color": [190, 190, 190]
     }
 ]
