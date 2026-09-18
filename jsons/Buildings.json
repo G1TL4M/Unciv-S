@@ -837,6 +837,18 @@
 		"uniques": ["[+25]% Great Person generation [in this city]"],
 		"requiredTech": "Economics"
 	},
+    {
+	    "name": "Maple Farm",
+        "replaces": "Windmill",
+        "uniqueTo": "Canada",
+		"production": 2,
+		"food": 2,
+		"specialistSlots": {"Engineer": 1},
+		"hurryCostModifier": 25,
+		"maintenance": 2,
+		"uniques": ["[+10]% Production when constructing [All] buildings [in this city]","[+1 Gold, +1 Food] from [Maple Forest] tiles [in this city]","[+1 Gold] from [Forest] tiles [in this city]","[+1 Gold] from every [Cherry Forest] tiles [in this city]"],
+		"requiredTech": "Economics"
+	},
 	{
 		"name": "Arsenal",
 		"cost": 300,
