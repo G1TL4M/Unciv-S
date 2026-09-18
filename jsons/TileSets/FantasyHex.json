@@ -19,7 +19,10 @@
         "Tundra+Hill+Forest": ["Tundra","Hill","TundraForest"],
 		"Grassland+Cherry Forest": ["Grassland","Cherry Forest"],
 		"Plains+Cherry Forest": ["Plains","Cherry Forest"],
-		"Tundra+Cherry Forest": ["Tundra","TundraCherry Forest"]
+		"Tundra+Cherry Forest": ["Tundra","TundraCherry Forest"],
+		"Grassland+Maple Forest": ["Grassland","Maple Forest"],
+		"Plains+Maple Forest": ["Plains","Maple Forest"],
+		"Tundra+Maple Forest": ["Tundra","TundraMaple Forest"]
 
         //Snow improvements for Tundra and Snow
             //TODO hill and forest variants + new images for Landmark, etc.
