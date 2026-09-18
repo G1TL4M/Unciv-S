@@ -1071,9 +1071,11 @@
 		"defeated": "You have won, congratulations. My palace is now in your possession, and I beg that you care well for the peacock.",
 		"denounced": "Well done, my friend. Now I look forward to our next battle even more!",
 		"introduction": "Welcome foreigner, I am Harun Al-Rashid, Caliph of the Arabs. Come and tell me about your empire.",
+		
 		"neutralHello": "Peace be upon you.",
 		"hateHello": "Oh, it's you.",
 		"tradeRequest": "Come forth, let's do business.",
+		
 		"outerColor": [255, 255, 255],
 		"innerColor": [0, 0, 0],
 		"favoredReligion": "Islam",
@@ -1130,6 +1132,7 @@
 		
 		"outerColor": [21,108,49],
 		"innerColor": [248,217,2],
+		"favoredReligion": "Christianity",
 		"uniqueName": "Land Down Under",
 		"uniques": ["[15]% Food is carried over after population increases [in all coastal cities]",
 			"[+1 Science] from every [Academy]",
@@ -1199,6 +1202,7 @@
 		
 		"outerColor": [75,188,0],
 		"innerColor": [248,217,2],
+		"favoredReligion": "Christianity",
 		"uniqueName": "Amazon",
 		"uniqueText": "Academy, Customs house, Holy site and Landmark receive +1 yield for each adjacent Jungle and Jungles receive yields from adjacent Preserves and provide gold to adjacent Seaside Resorts.",
 		"uniques": ["[+1 Science] from [Academy] tiles [in all cities] <for every adjacent [Jungle]>",
@@ -1261,6 +1265,7 @@
 		
 		"outerColor": [249,249,249],
 		"innerColor": [205,0,1],
+		"favoredReligion": "Christianity",
 		"uniqueName": "The Last Best West",
 		"uniques": ["[+2 Food] from every [Camp] <in [Tundra] tiles>",
 			"[+2 Production] from [Mine] tiles [in all cities] <in [Tundra] tiles>",
@@ -1301,7 +1306,6 @@
 
         "outerColor": [4, 14, 113],
         "innerColor": [255, 163, 71],
-
 		"favoredReligion": "Hinduism",
 		"uniqueName": "Population Growth",
 		"uniques": ["[+100]% unhappiness from the number of cities", "[-50]% Unhappiness from [Population] [in all cities]"],
@@ -1327,6 +1331,7 @@
 		
 		"outerColor": [1,42,108],
 		"innerColor": [245,217,0],
+		"favoredReligion": "Christianity",
 		"uniqueName": "Ejército Patriota",
 		"uniques": ["[+2] Movement <for [non-air] units>"],
 		"cities": ["Bogotá",
@@ -1398,7 +1403,6 @@
 
         "outerColor": [128, 82, 36],
         "innerColor": [39, 138, 29],
-
 		"favoredReligion": "Hinduism",
 		"uniqueName": "Population Growth",
 		"uniques": ["[+100]% unhappiness from the number of cities", "[-50]% Unhappiness from [Population] [in all cities]"],
@@ -1515,6 +1519,7 @@
 		
 		"outerColor": [121,0,2],
 		"innerColor": [234,225,158],
+		"favoredReligion": "Islam",
 		"uniqueName": "Songs of the Jeli",
 		"uniqueText": "Cities get +1 Food, +1 Faith for every adjacent desert, -1 Production and +4 Gold from every Mine, -30% Production when constructing Buildings and Military Units in all cities, -20% Gold and Faith cost of purchasing items after discovering currency",
 		"uniques": [
@@ -1597,6 +1602,7 @@
 
 		"outerColor": [0,104,69],
 		"innerColor": [101,58,30],
+		"favoredReligion": "Christianity",
 		"unique": "MANIFEST_DESTINY",
 		"cities": ["Mexico City","Guadalajara","Tijuana"]
 	},
@@ -1656,6 +1662,7 @@
 		
 		"outerColor": [251,236,127],
 		"innerColor": [146,74,1],
+		"favoredReligion": "Islam",
 		"uniqueName": "Ta-Seti",
 		"uniqueText": "Ranged units gain +50% combat experience, +30% Production when constructing Ranged units in all cities, +1 Production from every Strategic-, and +2 Gold for every Bonus resource.",
 		"uniques": ["[Ranged] units gain the [Ta-Seti] promotion",
@@ -1680,15 +1687,19 @@
 		"adjective": ["Saudi Arabian"],
 		"startBias": ["Desert"],
 		"preferredVictoryType": "Cultural",
+		
 		"startIntroPart1": " ",
 		"startIntroPart2": " ",
+		
 		"declaringWar": "The world will be more beautiful without you. Prepare for war.",
 		"attacked": "Fool! You infidel! You will soon regret dearly!",
 		"defeated": "You have won. My palace is now in your possession, I beg that you care well for the people and pray to Allah.",
 		"introduction": "Welcome foreigner, I am Abdul Aziz al Saud, king of the Arabs. Come and tell me about your empire.",
+		
 		"neutralHello": "Peace be upon you.",
 		"hateHello": "Oh, it's you.",
 		"tradeRequest": "Come forth, let's do business.",
+		
 		"outerColor": [ 0,108,53],
 		"innerColor": [255,255,255],
 		"favoredReligion": "Islam",
@@ -1709,15 +1720,19 @@
 		"adjective": ["South African"],
 		"startBias": ["Avoid [Jungle]","Avoid [Forest]", "Avoid [Tundra]"],
 		"preferredVictoryType": "Scientific",
-                "startIntroPart1": " ",
+		
+        "startIntroPart1": " ",
 		"startIntroPart2": " ",
+		
 		"declaringWar": "Prepare for war!",
 		"attacked": "You shall regret this!",
 		"defeated": "The victory is yours.",
 		"introduction": "Welcome to South AFrica",
+		
 		"neutralHello": "Greetings.",
 		"hateHello": "What do you want?",
 		"tradeRequest": "Better hurry, I may change my mind.",
+		
 		"outerColor": [225, 163, 50],
 		"innerColor": [0, 120, 71],
 		"favoredReligion": "Christianity",
@@ -1747,6 +1762,7 @@
 		
 		"outerColor": [1,42,107],
 		"innerColor": [254,129,19],
+		"favoredReligion": "Islam",
 		"uniqueName": "Epic Quest",
 		"uniques": ["Receive [+200]% Gold from Barbarian encampments and pillaging Cities",
 			"[-50]% City-State Influence degradation"],
@@ -1993,6 +2009,7 @@
 		
 		"outerColor": [120,62,2],
 		"innerColor": [255,255,255],
+		"favoredReligion": "Christianity",
 		"uniqueName": "Isibongo",
 		"uniques": ["[-33]% maintenance costs <for [All] units>","[+3 Happiness] [in all cities with a garrison]"],
 		"cities": ["Ulundi",
