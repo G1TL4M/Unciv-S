@@ -1,5 +1,5 @@
 UncivSterrains.png
-size: 80, 40
+size: 80, 80
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
@@ -13,6 +13,20 @@ TileSets/FantasyHex/Tiles/Cherry Forest
 TileSets/FantasyHex/Tiles/TundraCherry Forest
   rotate: false
   xy: 44, 4
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Maple Forest
+  rotate: false
+  xy: 4, 44 
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/TundraMaple Forest
+  rotate: false
+  xy: 44, 44
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
