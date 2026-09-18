@@ -33,6 +33,20 @@
         "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
     },
     {
+        "name": "Economic",
+        "victoryScreenHeader": "Be the richest nation to win!",
+        "milestones": ["Have more [Gold] than each player's [Gold]"],
+        "victoryString": "Placeholder",
+        "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
+    },
+    {
+        "name": "Religious",
+        "victoryScreenHeader": "Capture all enemy Capitals to win!",
+        "milestones": ["Become the world religion"],
+        "victoryString": "Placeholder",
+        "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
+    },
+    {
         "name": "Time",
         "hiddenInVictoryScreen": true,
         "milestones": ["Have highest score after max turns"],
