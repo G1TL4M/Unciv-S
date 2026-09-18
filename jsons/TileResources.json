@@ -28,12 +28,15 @@
 		"improvement": "Camp",
 		"improvementStats": {"production": 1},
 		"uniques": ["Generated on every [8] tiles <in [{Tundra} {Forest}] tiles>",
-          "Generated on every [8] tiles <in [{Tundra} {Cherry Forest}] tiles>",
+                    "Generated on every [8] tiles <in [{Tundra} {Cherry Forest}] tiles>",
+			        "Generated on every [8] tiles <in [{Tundra} {Maple Forest}] tiles>",
 					"Generated on every [12] tiles <in [{Featureless} {Tundra}] tiles>",
 					"Generated on every [25] tiles <in [{Plains} {Forest}] tiles> <in tiles without [Hill]>",
-          "Generated on every [25] tiles <in [{Plains} {Cherry Forest}] tiles> <in tiles without [Hill]>",
+                    "Generated on every [25] tiles <in [{Plains} {Cherry Forest}] tiles> <in tiles without [Hill]>",
+			        "Generated on every [25] tiles <in [{Tundra} {Maple Forest}] tiles> <in tiles without [Hill]>",
 					"Generated on every [25] tiles <in [{Grassland} {Forest}] tiles> <in tiles without [Hill]>",
-          "Generated on every [25] tiles <in [{Grassland} {Cherry Forest}] tiles> <in tiles without [Hill]>",
+                    "Generated on every [25] tiles <in [{Grassland} {Cherry Forest}] tiles> <in tiles without [Hill]>",
+			        "Generated on every [25] tiles <in [{Tundra} {Maple Forest}] tiles> <in tiles without [Hill]>",
 					"Generated on every [16] tiles <in [{Featureless} {Tundra}] tiles> <in [Hill] Regions>",
 					"Generated on every [28] tiles <in [Forest] tiles> <in [Hill] Regions>"]
 	},
@@ -123,7 +126,8 @@
 					"Minor deposits generated with weight [10] <in [Marsh] tiles> <in tiles without [Hill]>",
 					"Minor deposits generated with weight [10] <in [{Jungle} {Hill}] tiles>",
 					"Minor deposits generated with weight [20] <in [Forest] tiles>",
-          "Minor deposits generated with weight [20] <in [Cherry Forest] tiles>",
+                    "Minor deposits generated with weight [20] <in [Cherry Forest] tiles>",
+			        "Minor deposits generated with weight [20] <in [Maple Forest] tiles>",
 					"Minor deposits generated with weight [20] <in [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>",
 					"Minor deposits generated with weight [30] <in [{Featureless} {Grassland}] tiles> <in tiles without [Fresh Water]>",
 					"Minor deposits generated with weight [20] <in [{Featureless} {Plains}] tiles>",
@@ -144,11 +148,13 @@
 		"uniques": ["Generated with weight [35] <in [Hill] tiles>",
 					"Generated with weight [30] <in [Jungle] tiles> <in tiles without [Hill]>",
 					"Generated with weight [30] <in [Forest] tiles> <in tiles without [Hill]>",
-          "Generated with weight [5] <in [Cherry Forest] Regions> <in tiles without [Hill]>",
+                    "Generated with weight [30] <in [Cherry Forest] Regions> <in tiles without [Hill]>",
+			        "Generated with weight [30] <in [Maple Forest] Regions> <in tiles without [Hill]>",
 					"Minor deposits generated with weight [10] <in [Marsh] tiles> <in tiles without [Hill]>",
 					"Minor deposits generated with weight [10] <in [Jungle] tiles>",
 					"Minor deposits generated with weight [10] <in [Forest] tiles>",
-          "Minor deposits generated with weight [10] <in [Cherry Forest] tiles>",
+                    "Minor deposits generated with weight [10] <in [Cherry Forest] tiles>",
+			        "Minor deposits generated with weight [10] <in [Maple Forest] tiles>",
 					"Minor deposits generated with weight [20] <in [{Grassland} {Hill}] tiles>",
 					"Minor deposits generated with weight [20] <in [{Plains} {Hill}] tiles>",
 					"Minor deposits generated with weight [30] <in [{Desert} {Hill}] tiles>",
@@ -207,9 +213,11 @@
 		"uniques": ["Generated with weight [35] <in [Marsh] tiles> <in tiles without [Hill]>",
 					"Generated with weight [70] <in [Jungle] tiles> <in tiles without [Hill]>",
 					"Generated with weight [70] <in [Forest] tiles> <in tiles without [Hill]>",
-          "Generated with weight [70] <in [Cherry Forest] Regions>",
+                    "Generated with weight [70] <in [Cherry Forest] Regions> <in tiles without [Hill]>",
+			        "Generated with weight [70] <in [Maple Forest] Regions> <in tiles without [Hill]>",
 					"Minor deposits generated with weight [10] <in [Forest] tiles>",
-          "Minor deposits generated with weight [10] <in [Cherry Forest] tiles>",
+                    "Minor deposits generated with weight [10] <in [Cherry Forest] tiles>",
+			        "Minor deposits generated with weight [10] <in [Maple Forest] tiles>",
 					"Minor deposits generated with weight [10] <in [{Featureless} {Tundra}] tiles>",
 					"Minor deposits generated with weight [10] <in [{Featureless} {Snow}] tiles>"],
 		"majorDepositAmount": {"sparse": 2, "default": 4, "abundant": 4},
@@ -226,7 +234,8 @@
 		"improvementStats": {"gold": 1},
 		"uniques": ["Generated with weight [40] <in [Tundra] Regions>",
 					"Generated with weight [10] <in [Forest] Regions>",
-          "Generated with weight [10] <in [Cherry Forest] Regions>",
+                    "Generated with weight [10] <in [Cherry Forest] Regions>",
+			        "Generated with weight [10] <in [Maple Forest] Regions>",
 					"Generated near City States with weight [15]"]
 	},
 	{
@@ -250,7 +259,8 @@
 		"uniques": ["Generated with weight [5] <in [Tundra] Regions>",
 					"Generated with weight [5] <in [Jungle] Regions>",
 					"Generated with weight [30] <in [Forest] Regions>",
-          "Generated with weight [30] <in [Cherry Forest] Regions>",
+                    "Generated with weight [30] <in [Cherry Forest] Regions>",
+			        "Generated with weight [30] <in [Maple Forest] Regions>",
 					"Generated near City States with weight [10]",
 					"Doesn't generate naturally <in [Hill] tiles>"]
 	},
@@ -267,7 +277,8 @@
 					"Generated with weight [5] <in [Hybrid] Regions>",
 					"Generated near City States with weight [10]",
 					"Doesn't generate naturally <in [Forest] tiles> <in tiles without [Hill]>",
-          "Doesn't generate naturally <in [Cherry Forest] tiles> <in tiles without [Hill]>"]
+                    "Doesn't generate naturally <in [Cherry Forest] tiles> <in tiles without [Hill]>",
+			        "Doesn't generate naturally <in [Maple Forest] tiles> <in tiles without [Hill]>",]
 	},
 	{
 		"name": "Gold Ore", // Not called "Gold" in order to not conflict with siege type units for translations
@@ -281,7 +292,8 @@
 					"Generated with weight [5] <in [Hybrid] Regions>",
 					"Generated near City States with weight [10]",
 					"Doesn't generate naturally <in [Forest] tiles> <in tiles without [Hill]>",
-          "Doesn't generate naturally <in [Cherry Forest] tiles> <in tiles without [Hill]>",
+                    "Doesn't generate naturally <in [Cherry Forest] tiles> <in tiles without [Hill]>",
+			        "Doesn't generate naturally <in [Maple Forest] tiles> <in tiles without [Hill]>",
 					"Doesn't generate naturally <in [Jungle] tiles> <in tiles without [Hill]>"]
 	},
 	{
@@ -296,7 +308,8 @@
 					"Generated with weight [10] <in [Hybrid] Regions>",
 					"Generated near City States with weight [10]",
 					"Doesn't generate naturally <in [Forest] tiles> <in tiles without [Hill]>",
-          "Doesn't generate naturally <in [Cherry Forest] tiles> <in tiles without [Hill]>",
+                    "Doesn't generate naturally <in [Cherry Forest] tiles> <in tiles without [Hill]>",
+			        "Doesn't generate naturally <in [Maple Forest] tiles> <in tiles without [Hill]>",
 					"Doesn't generate naturally <in [Jungle] tiles> <in tiles without [Hill]>",
 					"Doesn't generate naturally <in [{Tundra} {Hill}] tiles>",
 					"Doesn't generate naturally <in [{Grassland} {Fresh Water}] tiles>",
@@ -333,7 +346,8 @@
 		"improvement": "Plantation",
 		"uniques": ["Generated with weight [5] <in [Jungle] Regions>",
 					"Generated with weight [30] <in [Forest] Regions>",
-          "Generated with weight [30] <in [Cherry Forest] Regions>",
+                    "Generated with weight [30] <in [Cherry Forest] Regions>",
+			        "Generated with weight [30] <in [Maple Forest] Regions>",
 					"Generated with weight [5] <in [Hybrid] Regions>",
 					"Generated near City States with weight [15]",
 					"Doesn't generate naturally <in [Hill] tiles>"]
@@ -346,14 +360,16 @@
 		"improvement": "Plantation",
 		"uniques": ["Generated with weight [30] <in [Jungle] Regions>",
 					"Generated with weight [10] <in [Forest] Regions>",
-          "Generated with weight [10] <in [Cherry Forest] Regions>",
+                    "Generated with weight [10] <in [Cherry Forest] Regions>",
+			        "Generated with weight [10] <in [Maple Forest] Regions>",
 					"Generated with weight [5] <in [Plains] Regions>",
 					"Generated with weight [5] <in [Grassland] Regions>",
 					"Generated with weight [5] <in [Hybrid] Regions>",
 					"Generated near City States with weight [15]",
 					"Doesn't generate naturally <in [Hill] tiles>",
 					"Doesn't generate naturally <in [{Tundra} {Forest}] tiles>",
-          "Doesn't generate naturally <in [{Tundra} {Cherry Forest}] tiles>"]
+                    "Doesn't generate naturally <in [{Tundra} {Cherry Forest}] tiles>",
+		            "Doesn't generate naturally <in [{Tundra} {Maple Forest}] tiles>"]
 	},
 	{
 		"name": "Wine",
@@ -455,7 +471,8 @@
 		"improvement": "Plantation",
 		"uniques": ["Generated with weight [35] <in [Jungle] Regions>",
 					"Generated with weight [5] <in [Forest] Regions>",
-          "Generated with weight [5] <in [Cherry Forest] Regions>",
+                    "Generated with weight [5] <in [Cherry Forest] Regions>",
+			        "Generated with weight [5] <in [Maple Forest] Regions>",
 					"Generated with weight [5] <in [Desert] Regions>",
 					"Generated with weight [5] <in [Hybrid] Regions>",
 					"Generated near City States with weight [15]",
@@ -470,7 +487,8 @@
 		"uniques": ["Generated with weight [15] <in [Tundra] Regions>",
 					"Generated with weight [5] <in [Jungle] Regions>",
 					"Generated with weight [5] <in [Forest] Regions>",
-          "Generated with weight [5] <in [Cherry Forest] Regions>",
+                    "Generated with weight [5] <in [Cherry Forest] Regions>",
+			        "Generated with weight [5] <in [Maple Forest] Regions>",
 					"Generated with weight [10] <in [Desert] Regions>",
 					"Generated with weight [30] <in [Hill] Regions>",
 					"Generated with weight [20] <in [Grassland] Regions>",
@@ -479,7 +497,8 @@
 					"Doesn't generate naturally <in [{Grassland} {Fresh Water}] tiles>",
 					"Doesn't generate naturally <in [Jungle] tiles> <in tiles without [Hill]>",
 					"Doesn't generate naturally <in [Forest] tiles> <in tiles without [Hill]> <in tiles without [Tundra]>",
-          "Doesn't generate naturally <in [Cherry Forest] tiles> <in tiles without [Hill]> <in tiles without [Tundra]>"]
+                    "Doesn't generate naturally <in [Cherry Forest] tiles> <in tiles without [Hill]> <in tiles without [Tundra]>",
+			        "Doesn't generate naturally <in [Maple Forest] tiles> <in tiles without [Hill]> <in tiles without [Tundra]>"]
 	},
 	/*
 	{
@@ -518,14 +537,16 @@
 		"improvementStats": {"food": 1},
 		"uniques": ["Generated with weight [15] <in [Tundra] Regions>",
 					"Generated with weight [5] <in [Forest] Regions>",
-          "Generated with weight [5] <in [Cherry Forest] Regions>",
+                    "Generated with weight [5] <in [Cherry Forest] Regions>",
+			        "Generated with weight [5] <in [Maple Forest] Regions>",
 					"Generated with weight [15] <in [Desert] Regions>",
 					"Generated with weight [10] <in [Hill] Regions>",
 					"Generated with weight [25] <in [Plains] Regions>",
 					"Generated with weight [15] <in [Hybrid] Regions>",
 					"Generated near City States with weight [10]",
 					"Doesn't generate naturally <in [{Forest} {Hill}] tiles>",
-          "Doesn't generate naturally <in [{Cherry Forest} {Hill}] tiles>"]
+                    "Doesn't generate naturally <in [{Cherry Forest} {Hill}] tiles>",
+		            "Doesn't generate naturally <in [{Maple Forest} {Hill}] tiles>",]
 	},
 	{
 		"name": "Truffles",
@@ -536,12 +557,17 @@
 		"improvementStats": {"gold": 1},
 		"uniques": ["Generated with weight [5] <in [Jungle] Regions>",
 					"Generated with weight [30] <in [Forest] Regions>",
+			        "Generated with weight [30] <in [Cherry Forest] Regions>",
+			        "Generated with weight [30] <in [Maple Forest] Regions>",
 					"Generated with weight [5] <in [Plains] Regions>",
 					"Generated with weight [5] <in [Grassland] Regions>",
 					"Generated with weight [10] <in [Hybrid] Regions>",
 					"Generated near City States with weight [15]",
 					"Doesn't generate naturally <in [{Forest} {Hill}] tiles>",
-          "Doesn't generate naturally <in [{Cherry Forest} {Hill}] tiles>",
-					"Doesn't generate naturally <in [{Tundra} {Forest}] tiles>"]
+                    "Doesn't generate naturally <in [{Cherry Forest} {Hill}] tiles>",
+			        "Doesn't generate naturally <in [{Maple Forest} {Hill}] tiles>",
+					"Doesn't generate naturally <in [{Tundra} {Forest}] tiles>",
+			        "Doesn't generate naturally <in [{Tundra} {Cherry Forest}] tiles>",
+			        "Doesn't generate naturally <in [{Tundra} {Maple Forest}] tiles>"]
 	}
 ]
