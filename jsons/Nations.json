@@ -539,7 +539,7 @@
 		"tradeRequest": "Come, let our people feast together!",
 		"outerColor": [217,89,0],
 		"innerColor": [255,255,75],
-		"favoredReligion": "Christianity",
+		"favoredReligion": "Tabu",
 		"uniqueName": "Wayfinding",
 		"uniques": ["Enables embarkation for land units <starting from the [Ancient era]> <Suppress warning [*contains a conditional on a unit movement unique*]>",
             "Enables [All] units to enter ocean tiles <starting from the [Ancient era]>",
@@ -669,40 +669,6 @@
 			"Baruun-Urt","Ereen","Batshireet","Choyr","Ulaangom","Tosontsengel","Altay","Uliastay","Bayanhongor",
 			"Har-Ayrag","Nalayh","Tes"],
         "spyNames": ["Asashōryū", "Tömöriin", "Zevegiin", "Jigjidiin", "Enkhbat", "Mönkhbayar", "Gündegmaa", "Ssima", "Batachikhan", "Chulunny"]
-    },
-	{
-		"name": "Aztecs",
-		"leaderName": "Montezuma I",
-		"adjective": ["Aztec"],
-		"startBias": ["Jungle"],
-		"preferredVictoryType": "Domination",
-		"personality": "Montezuma I",
-
-        "startIntroPart1": "O divine Montezuma, your people welcome you! May your magnificence inspire all living things! The mighty Aztecs were nomads until the 12th century, when they choose to settle in the mesa central, which would later be called Mexico. Wars were frequent with other tribes to control the rich land surrounding the sacred lakes of Texcoco, Xaltocan and Zampango. In some 200 years, double-sided alliances and martial prowess made of the Aztecs the dominant power in the Central American basin, forming a mighty empire stretching from sea to sea. Alas, the empire fell under the assault of foreign devils - the Spaniards and many curses they brought with them! Wars between tribes and weaponry of doom used by the invaders made the great Aztec civilization crumble in only a few decades.",
-        "startIntroPart2": "O mighty King Montezuma, do you hear the call of your people seeking for revenge? Will you lead them to victory under the light of the Five Suns? Will your new empire shine through the ages of history?",
-
-        "declaringWar": "Xi-miqa-can! Xi-miqa-can! Xi-miqa-can! (Die, die, die!)",
-		"attacked": "Excellent! Let the blood flow in raging torrents!",
-		"defeated": "Monster! Who are you to destroy my greatness?",
-		"introduction": "What do I see before me? Another beating heart for my sacrificial fire.",
-
-		"neutralHello": "Welcome, friend.",
-		"hateHello": "What do you want?",
-		"tradeRequest": "Accept this agreement or suffer the consequences.",
-
-        "outerColor": [139,32,23],
-        "innerColor": [134,238,214],
-
-		"favoredReligion": "Christianity",
-		"uniqueName": "Sacrificial Captives",
-		"uniques": ["Earn [100]% of killed [Military] unit's [Strength] as [Culture]"],
-		"cities": ["Tenochtitlan","Teotihuacan","Tlatelolco","Texcoco","Tlaxcala","Calixtlahuaca","Xochicalco","Tlacopan",
-			"Atzcapotzalco","Tzintzuntzan","Malinalco","Tula","Tamuin","Teayo","Cempoala","Chalco","Tlalmanalco",
-			"Ixtapaluca","Huexotla","Tepexpan","Tepetlaoxtoc","Chiconautla","Zitlaltepec","Coyotepec","Tequixquiac",
-			"Jilotzingo","Tlapanaloya","Tultitan","Ecatepec","Coatepec","Chalchiuites","Chiauhita","Chapultepec",
-			"Itzapalapa","Ayotzinco","Iztapam"],
-        "spyNames": ["Metztli", "Xitllali", "Chimalli", "Quauhtli", "Teyacapan", "Yaotl", "Coatl", "Huitzilin", "Itzli", "Tepin"]
-
     },
 	{
 		"name": "Inca",
@@ -1025,37 +991,6 @@
         "spyNames": ["Mulu Ken", "Wendimu", "Li'ol", "Demeke", "Mulu Alem", "Abebech", "Zema", "Mihret", "Kebedech", "Alemnesh"]
     },
 	{
-		"name": "The Maya",
-		"leaderName": "Pacal",
-		"adjective": ["mayan"],
-		"startBias": ["Jungle"],
-		"preferredVictoryType": "Scientific",
-		"personality": "Pacal",
-
-        "startIntroPart1": "Kneel before King Pacal the Great, son of the gods and protector of the Palenque domain! After your kingdom has been harassed for years by neighboring rivals, you struck back at the enemies of your people, defeating each of them and sacrificing their leaders as a retribution to the insults made to your ancestors. Your wisdom and hard will not only restored the glory of Palenque, but turned it into a magnificient city, as your people built the greatest monuments and architecture the world has ever known.",
-        "startIntroPart2": "Absolute King, your people need you to save the great Mayan culture and knowledge. Will you be able to read the movement of the stars, and find in the heavens the power to repel any foes? Will your new empire shine through the ages of history?",
-
-        "declaringWar": "A sacrifice unlike all others must be made!",
-		"attacked": "Muahahahahahaha!",
-		"defeated": "Today comes a great searing pain. With you comes the path to the black storm.",
-		"introduction": "Greetings, wayward one. I am known as Pacal.",
-		"tradeRequest": "Friend, I believe I may have found a way to save us all! Look, look and accept my offering!",
-
-		"neutralHello": "A fine day, it helps you.",
-		"outerColor": [198, 141, 99],
-		"innerColor": [24, 63, 66],
-		"favoredReligion": "Christianity",
-		"uniqueName": "The Long Count",
-		"uniques": ["Receive a free Great Person at the end of every [Maya Long Count calendar cycle] (every 394 years), after researching [Theology]. Each bonus person can only be chosen once.",
-			"Once The Long Count activates, the year on the world screen displays as the traditional Mayan Long Count."],
- 		// Parameters: tech, comment, amount, comment. Compare "Free [Great General] appears" as used by policies
-		"cities": ["Palenque","Tikal","Chichen Itza","Uxmal","Tulum","Copan","Coba","El Mirador","Calakmul",
-			"Edzna","Lamanai","Izapa","Uaxactun","Comalcalco","Piedras Negras","Cancuen","Yaxha","Quirigua",
-			"Q'umarkaj","Nakbe","Cerros","Xunantunich","Takalik Abaj","Cival","San Bartolo","Altar de Sacrificios","Seibal",
-			"Caracol","Naranjo","Dos Pilas","Mayapan","Ixinche","Zaculeu","Kabah"],
-        "spyNames": ["Camazotz", "Coyopa", "Gukumatz", "Hunahpu", "Huracan", "Ixchel", "Ixtab", "Kukulkán", "Xbalanque", "Zipacna"]
-    },
-	{
 		"name": "Abbasid",
 		"leaderName": "Harun al-Rashid",
 		"adjective": ["Abbasid"],
@@ -1183,6 +1118,39 @@
 		"civilopediaText": [
 			{"text": "From 'Civ 6 Mod'"}
 		]
+	},
+	{
+		"name": "Aztecs",
+		"leaderName": "Montezuma I",
+		"adjective": ["Aztec"],
+		"startBias": ["Jungle"],
+		"preferredVictoryType": "Domination",
+		"personality": "Montezuma I",
+
+        "startIntroPart1": "O divine Montezuma, your people welcome you! May your magnificence inspire all living things! The mighty Aztecs were nomads until the 12th century, when they choose to settle in the mesa central, which would later be called Mexico. Wars were frequent with other tribes to control the rich land surrounding the sacred lakes of Texcoco, Xaltocan and Zampango. In some 200 years, double-sided alliances and martial prowess made of the Aztecs the dominant power in the Central American basin, forming a mighty empire stretching from sea to sea. Alas, the empire fell under the assault of foreign devils - the Spaniards and many curses they brought with them! Wars between tribes and weaponry of doom used by the invaders made the great Aztec civilization crumble in only a few decades.",
+        "startIntroPart2": "O mighty King Montezuma, do you hear the call of your people seeking for revenge? Will you lead them to victory under the light of the Five Suns? Will your new empire shine through the ages of history?",
+
+        "declaringWar": "Xi-miqa-can! Xi-miqa-can! Xi-miqa-can! (Die, die, die!)",
+		"attacked": "Excellent! Let the blood flow in raging torrents!",
+		"defeated": "Monster! Who are you to destroy my greatness?",
+		"introduction": "What do I see before me? Another beating heart for my sacrificial fire.",
+
+		"neutralHello": "Welcome, friend.",
+		"hateHello": "What do you want?",
+		"tradeRequest": "Accept this agreement or suffer the consequences.",
+
+        "outerColor": [139,32,23],
+        "innerColor": [134,238,214],
+
+		"favoredReligion": "Teotl",
+		"uniqueName": "Sacrificial Captives",
+		"uniques": ["Earn [100]% of killed [Military] unit's [Strength] as [Culture]"],
+		"cities": ["Tenochtitlan","Teotihuacan","Tlatelolco","Texcoco","Tlaxcala","Calixtlahuaca","Xochicalco","Tlacopan",
+			"Atzcapotzalco","Tzintzuntzan","Malinalco","Tula","Tamuin","Teayo","Cempoala","Chalco","Tlalmanalco",
+			"Ixtapaluca","Huexotla","Tepexpan","Tepetlaoxtoc","Chiconautla","Zitlaltepec","Coyotepec","Tequixquiac",
+			"Jilotzingo","Tlapanaloya","Tultitan","Ecatepec","Coatepec","Chalchiuites","Chiauhita","Chapultepec",
+			"Itzapalapa","Ayotzinco","Iztapam"],
+        "spyNames": ["Metztli", "Xitllali", "Chimalli", "Quauhtli", "Teyacapan", "Yaotl", "Coatl", "Huitzilin", "Itzli", "Tepin"]
 	},
 	{
 		"name": "Brazil",
@@ -1863,6 +1831,7 @@
 		
 		"outerColor": [205,0,1],
 		"innerColor": [125,235,228],
+		"favoredReligion": "Tabu",
 		"uniqueName": "Mana",
 		"uniques": ["Starts with [Sailing]",
 			"Enables embarkation for land units <starting from the [Ancient era]>",
@@ -1959,6 +1928,37 @@
 		"civilopediaText": [
 			{"text": "From 'Civ 6 Mod'"}
 		]
+	},
+	{
+		"name": "The Maya",
+		"leaderName": "Pacal",
+		"adjective": ["mayan"],
+		"startBias": ["Jungle"],
+		"preferredVictoryType": "Scientific",
+		"personality": "Pacal",
+
+        "startIntroPart1": "Kneel before King Pacal the Great, son of the gods and protector of the Palenque domain! After your kingdom has been harassed for years by neighboring rivals, you struck back at the enemies of your people, defeating each of them and sacrificing their leaders as a retribution to the insults made to your ancestors. Your wisdom and hard will not only restored the glory of Palenque, but turned it into a magnificient city, as your people built the greatest monuments and architecture the world has ever known.",
+        "startIntroPart2": "Absolute King, your people need you to save the great Mayan culture and knowledge. Will you be able to read the movement of the stars, and find in the heavens the power to repel any foes? Will your new empire shine through the ages of history?",
+
+        "declaringWar": "A sacrifice unlike all others must be made!",
+		"attacked": "Muahahahahahaha!",
+		"defeated": "Today comes a great searing pain. With you comes the path to the black storm.",
+		"introduction": "Greetings, wayward one. I am known as Pacal.",
+		"tradeRequest": "Friend, I believe I may have found a way to save us all! Look, look and accept my offering!",
+
+		"neutralHello": "A fine day, it helps you.",
+		"outerColor": [198, 141, 99],
+		"innerColor": [24, 63, 66],
+		"favoredReligion": "Teotl",
+		"uniqueName": "The Long Count",
+		"uniques": ["Receive a free Great Person at the end of every [Maya Long Count calendar cycle] (every 394 years), after researching [Theology]. Each bonus person can only be chosen once.",
+			"Once The Long Count activates, the year on the world screen displays as the traditional Mayan Long Count."],
+ 		// Parameters: tech, comment, amount, comment. Compare "Free [Great General] appears" as used by policies
+		"cities": ["Palenque","Tikal","Chichen Itza","Uxmal","Tulum","Copan","Coba","El Mirador","Calakmul",
+			"Edzna","Lamanai","Izapa","Uaxactun","Comalcalco","Piedras Negras","Cancuen","Yaxha","Quirigua",
+			"Q'umarkaj","Nakbe","Cerros","Xunantunich","Takalik Abaj","Cival","San Bartolo","Altar de Sacrificios","Seibal",
+			"Caracol","Naranjo","Dos Pilas","Mayapan","Ixinche","Zaculeu","Kabah"],
+        "spyNames": ["Camazotz", "Coyopa", "Gukumatz", "Hunahpu", "Huracan", "Ixchel", "Ixtab", "Kukulkán", "Xbalanque", "Zipacna"]
 	},
 	{
 		"name": "The United States",
