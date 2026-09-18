@@ -1,0 +1,18 @@
+CityStateResourceIcons.png
+size: 400, 200
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+ResourceIcons/Exotic Animals
+  rotate: false
+  xy: 0, 0
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ResourceIcons/Exotic Plants
+  rotate: false
+  xy: 200, 0
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
