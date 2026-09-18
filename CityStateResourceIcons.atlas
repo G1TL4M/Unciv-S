@@ -1,7 +1,8 @@
 CityStateResourceIcons.png
 size: 400, 200
 format: RGBA8888
-filter: MipMapLinearLinear, MipMapLinearLinear
+filter: MipMapLinearLinear, Linear
+repeat: none
 ResourceIcons/Exotic Animals
   rotate: false
   xy: 0, 0
