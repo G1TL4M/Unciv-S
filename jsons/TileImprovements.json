@@ -13,7 +13,7 @@
 	},
 	{
 		"name": "Lumber mill",
-		"terrainsCanBeBuiltOn": ["Forest","Cherry Forest"],
+		"terrainsCanBeBuiltOn": ["Forest","Cherry Forest","Maple Forest"],
 		"production": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Construction",
@@ -31,7 +31,7 @@
 	},
 	{
 		"name": "Trading post",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Cherry Forest","Jungle","Flood plains"],
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Cherry Forest","Maple Forest","Jungle","Flood plains"],
 		"gold": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Guilds",
@@ -96,7 +96,7 @@
 	// Military improvement
 	{
 		"name": "Fort",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Forest","Cherry Forest","Jungle"],
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Forest","Cherry Forest","Maple Forest","Jungle"],
 		"turnsToBuild": 6,
 		"techRequired": "Engineering",
 		"uniques": ["Can be built outside your borders", "Gives a defensive bonus of [50]%"],
@@ -143,6 +143,13 @@
 	},
 	{
 		"name": "Remove Cherry Forest",
+		"turnsToBuild": 4,
+		"techRequired": "Mining",
+		"uniques": ["Can be built outside your borders", "Excluded from map editor"],
+		"shortcutKey": "X",
+	},
+	{
+		"name": "Remove Maple Forest",
 		"turnsToBuild": 4,
 		"techRequired": "Mining",
 		"uniques": ["Can be built outside your borders", "Excluded from map editor"],
