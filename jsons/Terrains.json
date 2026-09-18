@@ -221,11 +221,10 @@
 			"A Region can not contain more [Forest] tiles than [Jungle] tiles",
 			"Considered [Food] when determining start locations <in all except [Grassland] Regions>",
 			"Considered [Desirable] when determining start locations <in all except [Grassland] Regions>",
-			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."
-		]
+			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."]
 	},
 	{
-    "name": "Cherry Forest",
+        "name": "Cherry Forest",
 		"type": "TerrainFeature",
 		"production": 1,
 		"food": 1,
@@ -243,7 +242,7 @@
 					"Considered [Production] when determining start locations",
 					"Considered [Food] when determining start locations <in [Cherry Forest] Regions>",
 					"Considered [Food] when determining start locations <in [Tundra] Regions>",
-					"Every [39] tiles with this terrain will receive a major deposit of a strategic resource."],
+					"Every [39] tiles with this terrain will receive a major deposit of a strategic resource."]
   },
   {
 		"name": "Marsh",
