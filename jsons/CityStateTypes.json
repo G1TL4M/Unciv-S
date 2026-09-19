@@ -51,7 +51,7 @@
     {
         "name": "Militaristic",
         "friendBonusUniques": ["Provides military units every ≈[20] turns"],
-        "allyBonusUniques": ["Provides military units every ≈[17] turns"],
+        "allyBonusUniques": ["Provides military units every ≈[15] turns"],
         "color": [255, 0, 0]
     },
     {
@@ -68,7 +68,6 @@
         ],
         "color": [255, 255, 255]
     },
-    
     {
         "name": "Scientific",
         "friendBonusUniques":  [
@@ -107,7 +106,6 @@
         ],
         "color": [133, 81, 53]
     },
-    
     {
         // I dunno
         "name": "Isolationist",
