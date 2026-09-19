@@ -552,7 +552,8 @@
 		"name": "Truffles",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Forest","Cherry Forest","Maple Forest","Marsh","Jungle"],
-		"gold": 2,
+		"gold": 1,
+		"food": 1,
 		"improvement": "Camp",
 		"improvementStats": {"gold": 1},
 		"uniques": ["Generated with weight [5] <in [Jungle] Regions>",
@@ -569,5 +570,20 @@
 					"Doesn't generate naturally <in [{Tundra} {Forest}] tiles>",
 			        "Doesn't generate naturally <in [{Tundra} {Cherry Forest}] tiles>",
 			        "Doesn't generate naturally <in [{Tundra} {Maple Forest}] tiles>"]
-	}
+	},
+	{
+		"name": "Honey",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Grassland","Plains"],
+		"gold": 1,
+		"food": 1,
+		"improvement": "Plantation",
+		"improvementStats": {"food": 1},
+		"uniques": ["Generated with weight [5] <in [Plains] Regions>",
+					"Generated with weight [5] <in [Grassland] Regions>",
+			        "Generated near City States with weight [15]",
+			        "Doesn't generate naturally <in [Forest] tiles>",
+			        "Doesn't generate naturally <in [Cherry Forest] tiles>",
+			        "Doesn't generate naturally <in [Maple Forest] tiles>",
+			        "Doesn't generate naturally <in [Jungle] tiles>"]
 ]
