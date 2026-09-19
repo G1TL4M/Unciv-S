@@ -2148,6 +2148,18 @@
 		"cities": ["Kuala Lumpur"]
 	},
 	{
+		"name": "Kumasi",
+		"adjective": ["Kumasi"],
+		"cityStateType": "Cultured",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Today, the Ashanti people obey you, but do not think this is over...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [225, 220, 87],
+		"cities": ["Kumasi"],
+	},
+	{
 		"name": "Milan",
 		"adjective": ["Milanese"],
 		"cityStateType": "Cultured",
@@ -2185,6 +2197,31 @@
 		"cities": ["Prague"]
 	},
 	{
+		"name": "Rapa Nui",
+		"adjective": ["Rapa Nui"],
+		"cityStateType": "Cultured",
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Please take care of our Moai while you're here.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [80, 0, 190],
+		"cities": ["Rapa Nui"]
+	},
+	{
+		"name": "Sanxingdui",
+		"adjective": ["Sanxingdui"],
+		"cityStateType": "Cultured",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "You fiend! History shall remember this!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [151, 89, 202],
+		"cities": ["Sanxingdui"],
+
+		"civilopediaText": [{"text": "Yoinked from 'YACM'"}]
+	},
+	{
 		"name": "Yerevan",
 		"adjective": ["Yerevantsi"],
 		"cityStateType": "Cultured",
@@ -2211,6 +2248,31 @@
 		"uniques": ["Will not be displayed in Civilopedia", "Will not be chosen for new games", "Excluded from map editor"],
 	},
 	{
+		"name": "Caral",
+		"adjective": ["Caral"],
+		"cityStateType": "Maritime",
+		"startBias": ["Hill"],
+
+		"declaringWar": "You leave us no choice. War it must be!",
+		"attacked": "Very well, this shall not be forgotten",
+		"defeated": "I have failed. May you, at least, know compassion towards our people.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [60, 100, 115],
+		"cities": ["Caral"]
+	},
+	{
+		"name": "Daajing Giids",
+		"adjective": ["Haida"],
+		"cityStateType": "Maritime",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Perhaps, in another world, we could have been friends...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [237, 19, 19],
+		"cities": ["Daajing Giids"]
+	},
+	{
 		"name": "Helsinki", // In GK, Helsinki becomes a Swedish city.
 		"adjective": ["Helsinkian"],
 		"cityStateType": "Maritime",
@@ -2222,6 +2284,18 @@
 		"innerColor": [255,178,102],
 		"cities": ["Helsinki"],
         "uniques": ["Will not be displayed in Civilopedia", "Will not be chosen for new games", "Excluded from map editor"]
+	},
+	{
+		"name": "Humaliwo",
+		"adjective": ["Chumash"],
+		"cityStateType": "Maritime",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [90, 122, 226],
+		"cities": ["Humaliwo"]
 	},
 	{
 		"name": "Manila",
@@ -2311,7 +2385,19 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [51, 97, 242],
 		"cities": ["Sydney"],
-		"uniques": ["Will not be displayed in Civilopedia", "Will not be chosen for new games", "Excluded from map editor"],
+		"uniques": ["Will not be displayed in Civilopedia", "Will not be chosen for new games", "Excluded from map editor"]
+	},
+	{
+		"name": "Tae Rak",
+		"adjective": ["Gunditjmara"],
+		"cityStateType": "Maritime",
+		
+		"declaringWar": "You leave us no choice. War it must be.",
+		"defeated": "Very well, this shall not be forgotten.",
+		"defeated": "Perhaps, in another world, we could have been friends.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [22,160,50],
+		"cities": ["Tae Rak"],
 	},
 	{
 		"name": "Ur", // Introduced in BNW
@@ -2356,6 +2442,19 @@
 	},
 
 	{
+		"name": "Acoma",
+		"adjective": ["Pueblo"],
+		"cityStateType": "Mercantile",
+		"startBias": ["Desert", "Hill"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Perhaps, in another world, we could have been friends...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [237, 200, 65],
+		"cities": ["Acoma"]
+	},
+	{
 		"name": "Antwerp",
 		"adjective": ["Antwerpenaar", "Antwerpian"],
 		"cityStateType": "Mercantile",
@@ -2367,6 +2466,18 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [193, 84, 255],
 		"cities": ["Antwerp"]
+	},
+	{
+		"name": "Bukhara",
+		"adiective": ["Bukharian"],
+		"cityStateType": "Silk Road",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Unacceptable!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [97,208,236],
+		"cities": ["Bukhara"]
 	},
 	{
 		"name": "Cahokia",
