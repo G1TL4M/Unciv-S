@@ -2669,6 +2669,20 @@
 		"cities": ["Tyre"]
 	},
 	{
+		"name": "Unetice",
+		"adjective": ["Unetice"],
+		"cityStateType": "Mercantile",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Perhaps, in another world, we could have been friends...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [246, 253, 160],
+		"cities": ["Unetice"],
+
+		"civilopediaText": [{"text": "Nabbed from 'YACM'"}]
+	},
+	{
 		"name": "Zanzibar",
 		"adjective": ["Zanzibari"],
 		"cityStateType": "Mercantile",
@@ -2739,6 +2753,18 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [230,230,46],
 		"cities": ["Samarkand"]
+	},
+	{
+		"name": "Turpan",
+		"adiective": ["Turpan"],
+		"cityStateType": "Silk Road",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Unacceptable!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [168,77,236],
+		"cities": ["Turpan"]
 	},
 
 	{
@@ -2826,7 +2852,19 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [167, 162, 216],
 		"cities": ["Hanoi"],
-		"uniques": ["Will not be displayed in Civilopedia", "Will not be chosen for new games", "Excluded from map editor"],
+		"uniques": ["Will not be displayed in Civilopedia", "Will not be chosen for new games", "Excluded from map editor"]
+	},
+	{
+		"name": "Kigali",
+		"adjective": ["Rwandan"],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "Let's have a nice little War, shall we?",
+		"attacked": "We are no strangers to war. You have strayed from the right path, and now we will correct it.",
+		"defeated": "You are nothing but a glorified barbarian. Cruel, and ruthless.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [200, 80, 0],
+		"cities": ["Kigali"]
 	},
 	{
 		"name": "M'Banza-Kongo", // Introduced in BNW
@@ -2840,6 +2878,19 @@
 		"innerColor": [18, 188, 221],
 		"cities": ["M'Banza-Kongo"],
 		"uniques": ["Will not be displayed in Civilopedia", "Will not be chosen for new games", "Excluded from map editor"]
+	},
+	{
+		"name": "Sentinels",
+		"adjective": ["Sentinelese"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Coast"],
+
+		"declaringWar": "*Aggressive unintelligible*",
+		"attacked": "*Offended unintelligible*",
+		"defeated": "*Sad unintelligible*",
+		"outerColor": [0, 0, 0],
+		"innerColor": [120,10,10],
+		"cities": ["Sentinal"]
 	},
 	{
 		"name": "Sidon",
@@ -2868,6 +2919,18 @@
 	},
 
 	{
+		"name": "Alice Springs",
+		"adiective": ["Arrernte"],
+		"cityStateType": "Religious",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [197, 167, 90],
+		"cities": ["Alice Springs"]
+	},
+	{
 		"name": "Bratislava",
 		"adjective": ["Bratislavan"],
 		"cityStateType": "Religious",
@@ -2892,6 +2955,20 @@
 		"cities": ["Catalhoyuk"]
 	},
 	{
+		"name": "Ife",
+		"adjective": ["Ife"],
+		"cityStateType": "Religious",
+		
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Perhaps now we will find peace in death...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [143, 143, 143],
+		"cities": ["Ife"],
+
+		"civilopediaText": [{"text": "Snatched from 'BNW'"}]"
+	},
+	{
 		"name": "Jerusalem",
 		"adjective": ["Jerusalemite"],
 		"cityStateType": "Religious",
@@ -2902,7 +2979,19 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [255, 255, 255],
 		"cities": ["Jerusalem"],
-		"uniques": ["Will not be displayed in Civilopedia", "Will not be chosen for new games", "Excluded from map editor"],
+		"uniques": ["Will not be displayed in Civilopedia", "Will not be chosen for new games", "Excluded from map editor"]
+	},
+	{
+		"name": "Kituwa",
+		"adjective": ["Cherokee"],
+		"cityStateType": "Religious",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Perhaps now we will find peace in death...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [237, 141, 113],
+		"cities": ["Kituwa"]
 	},
 	{
 		"name": "La Venta",
@@ -2927,6 +3016,18 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [113, 227, 114],
 		"cities": ["Lhasa"]
+	},
+	{
+		"name": "Nazca",
+		"adjective": ["Nazca"],
+		"cityStateType": "Religious",
+
+		"declaringWar": "You leave us no choice, War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Unacceptable!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [230, 230, 230],
+		"cities": ["Nazca"]
 	},
 	{
 		"name": "Vatican City",
@@ -2964,7 +3065,57 @@
 		"innerColor": [51, 97, 242],
 		"cities": ["Geneva"]
 	},
+	{
+		"name": "Mitla",
+		"adjective": ["Mixtec"],
+		"cityStateType": "Scientific",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Unacceptable!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [128, 121, 226],
+		"cities": ["Mitla"]
+	},
+	{
+		"name": "Nalanda",
+		"adjective": ["Nalanda"],
+		"cityStateType": "Scientific",
+
+		"declaringWar": "You leave us no choice, War it must be."
+		"attacked": "Very well, this shall not be forgotten",
+		"defeated": "A wrong calculation, on my part.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [105, 158, 190],
+		"cities": ["Nalanda"]
+	},
+	{
+		"name": "Taruga",
+		"adjective": ["Tarugan"],
+		"cityStateType": "Scientific",
+		
+		"declaringWar": "You leave us no choice, War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Unacceptable!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [100, 138, 210],
+		"cities": ["Taruga"],
+
+		"civilopediaText": [{"text": "'Civ 6 Mod' again"}]
+	},
 	
+	{
+		"name": "Auckland",
+		"adjective": ["Aucklander"],
+		"cityStateType": "Productive",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"dedeated": "Please take care of our kiwis while you're here.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [230, 160, 60],
+		"cities": ["Auckland"]
+	},
 	{
 		"name": "Dubai",
 		"adjective": ["Dubaian"],
@@ -2977,6 +3128,30 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [34,175,46],
 		"cities": ["Dubai"]
+	},
+	{
+		"name": "Hattusa",
+		"adhective": ["Hittite"],
+		"cityStateType": "Productive",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "How barbaric. Those who live by the sword shall perish by the sword.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [234, 107, 57],
+		"cities": ["Hattusa"]
+	},
+	{
+		"name": "Tzintzuntzan",
+		"adjective": ["Purepecha"],
+		"cityStateType": "Productive",
+
+		"declaringWar": "You leave us no choice, War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Unacceptable!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [210, 138, 100],
+		"cities": ["Tzintzuntzan"]
 	},
 
 
