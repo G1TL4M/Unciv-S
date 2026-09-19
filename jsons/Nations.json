@@ -2361,6 +2361,18 @@
 		"cities": ["Ragusa"]
 	},
 	{
+		"name": "Reykjavik",
+		"adjective": ["Rekyjavik"],
+		"cityStateType": "Maritime",
+		
+		"declaringWar": "You leave us no choice, War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Perhaps, in another world, we could have been friends...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [20,120,225],
+		"cities": ["Reykjavik"]
+	},
+	{
 		"name": "Rio de Janeiro",
 		"adjective": ["Carioca"],
 		"cityStateType": "Maritime",
@@ -2468,18 +2480,6 @@
 		"cities": ["Antwerp"]
 	},
 	{
-		"name": "Bukhara",
-		"adiective": ["Bukharian"],
-		"cityStateType": "Silk Road",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "Unacceptable!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [97,208,236],
-		"cities": ["Bukhara"]
-	},
-	{
 		"name": "Cahokia",
 		"adjective": ["Cahokian"],
 		"cityStateType": "Mercantile",
@@ -2530,6 +2530,31 @@
 		"cities": ["Genoa"]
 	},
 	{
+		"name": "Great Zimbabwe",
+		"adjective": ["Zimbabwean"],
+		"cityStateType": "Mercantile",
+
+		"declaringWar": "You leave us no choice, War it must be."
+		"attacked": "Very well, this shall not be forgotten."
+		"defeated": "Perhaps, in another world, we could have been friends...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [161,157,42],
+		"cities": ["Great Zimbabwe"]
+	}
+	{
+		"name": "Hadibu",
+		"adjective": ["Hadibu"],
+		"cityStateType": "Mercantile",
+		"startBias": ["Plains","Coast"],
+		
+		"declaringWar": "You leave us no choice, War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Please take care of our island while you're here.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [200,230,125],
+		"cities": ["Hadibu"]
+	},
+	{
 		"name": "Hong Kong",
 		"adjective": ["Hongkonger", "Hongkongese"],
 		"cityStateType": "Mercantile",
@@ -2542,6 +2567,69 @@
 		"cities": ["Hong Kong"]
 	},
 	{
+		"name": "Khartoum",
+		"adjectiv": ["Khartoumese"],
+		"cityStateType": "Mercantile",
+
+		"declaringWar": "You leave us no choice, War it must be."
+		"attacked": "Very well, this shall not be forgotten."
+		"defeated": "Unacceptable!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [201,7,42],
+		"cities": ["Khartoum"]
+	},
+	{
+		"name": "Macau",
+		"adjective": ["Macau"],
+		"cityStateType": "Mercantile",
+
+		"declaringWar": "I didn't want to do this. We declare war.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We were too weak to protect ourselves...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [15, 117, 98],
+		"cities": ["Macau"]
+	},
+	{
+		"name": "Nan Madol",
+		"adjective": ["Nan Madolian"],
+		"cityStateType": "Mercantile",
+		"startBias": ["Coast"]
+
+		"declaringWar": "I didn't want to do this. We declare war.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We were too weak to protect ourselves...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [121, 87, 247],
+		"cities": ["Nan Madol"]
+	},
+	{
+		"name": "Panama",
+		"adjective": ["Panamanian"],
+		"cityStateType": "Mercantile",
+		"startBias": ["Coast"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Perhaps, in another world, we could have been friends...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [27,186,255],
+		"cities": ["Panama City"]
+	},
+	{
+		"name": "Port Moresby",
+		"adjective": ["Papua New Guinean"],
+		"cityStateType": "Mercantile",
+		"startBias": ["Coast"],
+		
+		"declaringWar": "You leave us no choice, War it must be."
+		"attacked": "Very well, this shall not be forgotten."
+		"defeated": "Perhaps, in another world, we could have been friends...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [201,7,42],
+		"cities": ["Port Moresby"]
+	},
+	{
 		"name": "Singapore",
 		"adjective": ["Singaporean"],
 		"cityStateType": "Mercantile",
@@ -2552,6 +2640,20 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [246, 253, 160],
 		"cities": ["Singapore"]
+	},
+	{
+		"name": "Solnitsata",
+		"adjective": ["Solnitsata"],
+		"cityStateType": "Mercantile",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [181, 226, 126],
+		"cities": ["Solnitsata"],
+
+		"civilopediaText": [{"text": "Reverse Given from 'Civ 6 Mod' changed from religious to mercantile because of the Wikipedia page"}]
 	},
 	{
 		"name": "Tyre",
@@ -2590,6 +2692,54 @@
 		"innerColor": [172, 172, 172],
 		"cities": ["Zurich"]
 	},
+	{
+		"name": "Bukhara",
+		"adiective": ["Bukharian"],
+		"cityStateType": "Silk Road",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Unacceptable!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [97,208,236],
+		"cities": ["Bukhara"]
+	},
+	{
+		"name": "Kucha",
+		"adiective": ["Kuch"],
+		"cityStateType": "Silk Road",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Perhaps, in another world, we could have been friends...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [215,196,108],
+		"cities": ["Kucha"]
+	},
+	{
+		"name": "Loulan",
+		"adiective": ["Loulan"],
+		"cityStateType": "Silk Road",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Perhaps, in another world, we could have been friends...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255,186,27],
+		"cities": ["Loulan"]
+	},
+	{
+		"name": "Samarkand",
+		"adjective": ["Samarqandlik"],
+		"cityStateType": "Silk Road",
+		
+		"declaringWar": "You leave us no choice, War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Perhaps, in another world, we could have been friends...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [230,230,46],
+		"cities": ["Samarkand"]
+	},
 
 	{
 		"name": "Almaty",
@@ -2626,6 +2776,18 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [217, 158, 78],
 		"cities": ["Budapest"]
+	},
+	{
+		"name": "Djibouti City",
+		"adjective": ["Djiboutian"],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "Let's have a nice little War, shall we?",
+		"attacked": "You gormless radger! You'll dine on your own teeth before you set foot in Djibouti!.",
+		"defeated": "I should have never given you that military base...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [67,210,249],
+		"cities": ["Djibouti City"]
 	},
 	{
 		"name": "Dublin",
@@ -2801,6 +2963,20 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [51, 97, 242],
 		"cities": ["Geneva"]
+	},
+	
+	{
+		"name": "Dubai",
+		"adjective": ["Dubaian"],
+		"cityStateType": "Productive",
+		"startBias": ["Coast"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Please take care of our tower while you're here.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [34,175,46],
+		"cities": ["Dubai"]
 	},
 
 
