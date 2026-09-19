@@ -22,8 +22,15 @@
 		"wonderCost": 185,
 		"techs": [
 			{
+				"name": "Sailing",
+				"row": 1,
+				"prerequisites": ["Agriculture"],
+                "uniques": ["[+100]% weight to this choice for AI decisions"],
+				"quote": "'He who commands the sea has command of everything.' - Themistocles"
+			},
+			{
 				"name": "Pottery",
-				"row": 2,
+				"row": 3,
 				"prerequisites": ["Agriculture"],
                 "uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
@@ -58,13 +65,6 @@
 		"buildingCost": 75,
 		"wonderCost": 185,
 		"techs": [
-			{
-				"name": "Sailing",
-				"row": 1,
-				"prerequisites": ["Pottery"],
-                "uniques": ["[+100]% weight to this choice for AI decisions"],
-				"quote": "'He who commands the sea has command of everything.' - Themistocles"
-			},
 			{
 				"name": "Calendar",
 				"row": 2,
