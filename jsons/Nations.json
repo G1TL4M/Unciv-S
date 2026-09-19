@@ -1254,7 +1254,7 @@
 	},
 	{
 		"name": "Chola",
-		"leaderName": "Gandhi",
+		"leaderName": "Chola",
 		"adjective": ["Chola"],
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Domination",
