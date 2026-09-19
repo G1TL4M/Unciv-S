@@ -2880,6 +2880,19 @@
 		"uniques": ["Will not be displayed in Civilopedia", "Will not be chosen for new games", "Excluded from map editor"]
 	},
 	{
+		"name": "Ngazargamu",
+		"adjective": ["Kanem-Bornu"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Lake"],
+
+		"declaringWar": "Let's have a nice little War, shall we?",
+		"attacked": "If you need your nose bloodied, we'll happily serve.",
+		"defeated": "So this is how it feels to die...",
+		"outerColor": [0, 0, 0], // I remember seeing a sort of flag for it and it was brown with a white crescent, and I hope this at least is brown
+		"innerColor": [178, 128, 20],
+		"cities": ["Ngazargamu"]
+	},
+	{
 		"name": "Sentinels",
 		"adjective": ["Sentinelese"],
 		"cityStateType": "Militaristic",
