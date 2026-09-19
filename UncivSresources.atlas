@@ -10,7 +10,7 @@ TileSets/FantasyHex/Tiles/Honey
   orig: 32, 32
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Honey+Apiary
+TileSets/FantasyHex/Tiles/Honey+Plantation
   rotate: false
   xy: 44, 4
   size: 32, 32
