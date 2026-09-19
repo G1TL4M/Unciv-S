@@ -26,7 +26,7 @@ NationIcons/The Maori
   index: -1
 NationIcons/Australia
   rotate: false
-  xy: 400, 0
+  xy: 300, 0
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -54,7 +54,7 @@ NationIcons/Colombia
   index: -1
 NationIcons/South Africa
   rotate: false
-  xy: 400, 100
+  xy: 300, 100
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
