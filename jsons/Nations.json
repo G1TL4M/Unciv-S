@@ -1048,7 +1048,47 @@
 		"civilopediaText": [
 			{"text": "From 'Modern Civilizations'"}
 		]
-	}
+	},
+	{
+		"name": "Argentina",
+		"leaderName": "Julio Roca",
+		"adjective": ["Argentine"],
+		"outerColor": [87, 129, 167],
+		"innerColor": [252, 209, 22],
+		"spyNames": ["Che","Pibe"],
+
+		"startBias": ["Plains"],
+		"preferredVictoryType": "Scientific",
+		"favoredReligion": "Christianity",
+
+		"startIntroPart1": "Good day it is, Julio, you, unlike others, did great things for Argentina, a prideful nation with good prowess. Argentina came from the provinces of the 'de La Plata river', who broke free from Spain into their own path. Conquering the Mapuches, they expanded their territory, and after that, their economy grew more and more, until becoming one of the best in Latin America. Although not being very successful in war, Argentina today is stable and periodically good.",
+		"startIntroPart2": "President, your people call you to bring good to the country. Will you make a civilization that can stand the pass of time?",
+		
+		"introduction": "I am Julio Roca, leader of Argentina. We'll treat you with honor and respect, if you do the same.",
+		"declaringWar": "I need to do this, for the sake of progress. You were never my friend.",
+		"attacked": "Ha! You think you can defeat me? Don't you know we are better than you?",
+		"afterPeace": "Although we are at peace, I still want to see you defeated.",
+		"defeated": "You are just another nation, this victory will not change that, because I actually gave up.",
+
+		"neutralHello": "Good morning.",
+		"hateHello": "Will you treat me how I deserve?!",
+
+		"tradeRequest": "I know you want this trade, I'm sure of that.",
+		"neutralLetsHearIt": "Yeah, I hear your offer.",
+		"hateLetsHearIt": ["Ok, what is it?", "Ok.. let's hear it..."],
+		"neutralNo": ["No no.", "Thank you, but no."],
+		"neutralYes": ["Thank you very much, goodbye.", "This is what I wanted!..."],
+		"hateNo": ["NO, no in the slightest", "Uy, no! How could you think on such a thing!?"],
+		"hateYes": ["I only accept because I have to.", "Whatever, I don't care."],
+
+		"uniqueName": "Pride of the People",
+		"uniques": ["[+1 Food] from every [Pasture]","[+1 Gold] from every [Wheat]"],
+		"cities": ["Buenos Aires","Cordoba","Rosario","La Plata","Tucuman","Salta","Mendoza","Vera Cruz","Corrientes","Pilar","Bahia Blanca",
+                "Resistencia","Posadas","Jujuy","Parana","Merlo","Neuquen","Quilmes","Banfield","Formosa","Lanus",
+                "La Rioja","Comodora","Rivadavia","San Luis","Ituzaingo","Santa fe","Rio Cuarto","San Rafael","Bariloche"],
+
+		"civilopediaText": [{"text": "From 'Latin American Civs'"}]
+	},
 	{
 		"name": "Australia",
 		"leaderName": "John Curtin",
@@ -1540,39 +1580,43 @@
 	},
 	{
 		"name": "Mexico",
-		"leaderName": "Zyxxyz",
-		"adjective": ["mexican"],
-		"startBias": ["Snow"],
-		"preferredVictoryType": "Cultural",
-		
-		"startIntroPart1": "We come in peace!",
-		"startIntroPart2": "This is an overpowered joke nation just as an example for the mods feature. Set Phasers to Obliterate!!",
-		
-		"declaringWar": "Resistance is futile! Prepare to be assimilated!",
-		"attacked": "You want to play? Very funny!",
-		"defeated": "How is it possible that those Apes hurt us? The galactic senate will take care of them.",
-		"introduction": "As superior galactic entities, you are not worthy of our attention.",
-		
-		"neutralHello": "How are you doing?",
-		//"neutralLetsHearIt": ["Go on.","What do you say?","You may begin."],
-		//"neutralNo": ["We absolutely refuse.","No!","I refuse."],
-		//"neutralYes": ["Very good.","Of course, yes.","That is very good."],
+		"leaderName": "Benito Juarez",
+		"adjective": ["Mexican"],
+		"outerColor": [0, 88, 60],
+		"innerColor": [206, 119, 78],
+		"spyNames": ["Juancho"],
 
-		"hateHello": "What do you want now?",
-		//"hateLetsHearIt": ["Speak!","What do you say?","Go on."],
-		//"hateNo": ["That is not possible!","We are not agreeing to that!","I beg your pardon?"],
-		//"hateYes": ["That is fine.","That is good enough.","Very well..."],
-		
-		//"afterPeace": "Very well, all that fighting was getting boring anyway.",
-		"tradeRequest": "We bestow you the honor of this trade offer.",
-		"denounced": "The accusations of primitive lifeforms are beneath us.",
-		"declaringfriendship": "Let us become like friends!",
-
-		"outerColor": [0,104,69],
-		"innerColor": [101,58,30],
+		"startBias": ["Hill"],
+        "preferredVictoryType": "Diplomatic",
 		"favoredReligion": "Christianity",
-		"unique": "MANIFEST_DESTINY",
-		"cities": ["Mexico City","Guadalajara","Tijuana"]
+
+		"startIntroPart1": "Ay! Greetings Mr. president. You lead the famous and cultured nation of Mexico. On the ruins of Tenochtitlan, the Aztec capital, and on top of the lake, Mexico City stands on what was one of the empires crushed by the Spanish. A heroic independence did not give stability to the wonderful nation, as it's political conflict lead to many unfortunate events, but when it's needed Mexico unites against foreign aggressors and do the best they can. Even with internal struggles, and bad geography, Mexico is one of the most influential cultures of America.",
+		"startIntroPart2": "Oh, great leader of the Mexican republic, your people desperately call you, they call you to bring them once again peace, and glory as well. Will you help your people? Can you transform this nation into the best? Will you create a civilization that stands the test of time?",
+		
+		"introduction": "Good morning, I'm Benito Juarez. Come with me and see my nation.",
+		"declaringWar": "First comes the homeland, therefore you must not be in my way.",
+		"attacked": "*Mexicans! Prepare to defend our homeland!*",
+		"afterPeace": "You vile empire, see how you couldn't defeat us? Ha!",
+		"defeated": "Nooo, why? Everything I did was for our fatherland...",
+
+		"neutralHello": "Good day amigo.",
+		"hateHello": "*Arghh*, no, go away.",
+
+		"tradeRequest": "Could you accept this trade offer?",
+		"neutralLetsHearIt": "Alrigt let's see:",
+		"hateLetsHearIt": "Don't try any shenanigans with me.",
+		"neutralNo": ["Not good enough.", "I would prefer something else"],
+		"neutralYes": ["Trade accepted", "Deal"],
+		"hateNo": ["Of course not.", "Nope, go away now"],
+		"hateYes": ["You give me no alternative!", "I have a bad feeling of this..."],
+
+		"uniqueName": "Day of the Death",
+        "uniques": ["[+1 Culture, +1 Food] from every [Trading post] <while the empire is happy>", "[+20]% Strength <for [{Military} {Land}] units> <when fighting in [Friendly Land] tiles> <when below [35] HP>"],
+        "cities": ["Mexico City","Tijuana","Ecatepec","Leon","Puebla","Juarez City","Guadalajara","Zapopan","Monterrey","Nezahualcoyotl",
+                "Merida","Cancun","Chihuahua","Durango","Tampico","Saltillo","Acapulco","Villahermosa","Veracruz","Mazatlan",
+                "Naucalpan","Aguascalientes","Hermosillo","Mexicali","Culiacan","Queretaro","Morelia","Reynosa","Guadalupe","San Luis Potosi"],
+
+		"civilopediaText": [{"text": "From 'Latin American Civs'"}]
 	},
 	{
 		"name": "Navajo",
