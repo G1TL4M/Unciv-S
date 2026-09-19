@@ -2428,7 +2428,7 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [211, 220, 103],
 		"cities": ["Rio de Janeiro"],
-		"uniques": ["Will not be displayed in Civilopedia", "Will not be chosen for new games", "Excluded from map editor"],
+		"uniques": ["Will not be displayed in Civilopedia", "Will not be chosen for new games", "Excluded from map editor"]
 	},
 	{
 		"name": "Sydney",
@@ -2494,7 +2494,7 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [153,204,255],
 		"cities": ["Venice"],
-		"uniques" ["Will not be displayed in Civilopedia", "Will not be chosen for new games", "Excluded from map editor"],
+		"uniques" ["Will not be displayed in Civilopedia","Will not be chosen for new games", "Excluded from map editor"]
 	},
 
 	{
