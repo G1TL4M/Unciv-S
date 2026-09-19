@@ -2061,6 +2061,20 @@
 
 	// City-States sorted by cityStateType, name
 	{
+		"name": "Antananarivo",
+		"adjective": ["Antananarivan"],
+		"cityStateType": "Cultured",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Unacceptable!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [213, 74, 255],
+		"cities": ["Antananarivo"],
+
+		"civilopediaText": [{"text": "From 'Civ 6 Mod'"}]
+	},
+	{
 		"name": "Brussels",
 		"adjective": ["Bruxellois"],
 		"cityStateType": "Cultured",
@@ -2094,7 +2108,8 @@
 		"defeated": "And so the flower of Florence falls to barbaric hands...",
 		"outerColor": [0, 0, 0],
 		"innerColor": [18, 188, 221],
-		"cities": ["Florence"]
+		"cities": ["Florence"],
+		"uniques": ["Will not be displayed in Civilopedia", "Will not be chosen for new games", "Excluded from map editor"],
 	},
 	{
 		"name": "Kabul",
@@ -2142,7 +2157,8 @@
 		"defeated": "You fiend! History shall remember this!",
 		"outerColor": [0, 0, 0],
 		"innerColor": [225, 194, 129],
-		"cities": ["Milan"]
+		"cities": ["Milan"],
+		"uniques": ["Will not be displayed in Civilopedia", "Will not be chosen for new games", "Excluded from map editor"],
 	},
 	{
 		"name": "Monaco",
@@ -2191,7 +2207,8 @@
 		"defeated": "I have failed. May you, at least, know compassion towards our people.",
 		"outerColor": [0, 0, 0],
 		"innerColor": [217, 158, 78],
-		"cities": ["Cape Town"]
+		"cities": ["Cape Town"],
+		"uniques": ["Will not be displayed in Civilopedia", "Will not be chosen for new games", "Excluded from map editor"],
 	},
 	{
 		"name": "Helsinki", // In GK, Helsinki becomes a Swedish city.
@@ -2253,7 +2270,8 @@
 		"defeated": "We were too weak to protect ourselves...",
 		"outerColor": [0, 0, 0],
 		"innerColor": [51, 97, 242],
-		"cities": ["Quebec City"]
+		"cities": ["Quebec City"],
+		"uniques": ["Will not be displayed in Civilopedia", "Will not be chosen for new games", "Excluded from map editor"],
 	},
 	{
 		"name": "Ragusa",
@@ -2279,7 +2297,8 @@
 		"defeated": "May God grant me these last wishes - peace and prosperity for Brazil.",
 		"outerColor": [0, 0, 0],
 		"innerColor": [211, 220, 103],
-		"cities": ["Rio de Janeiro"]
+		"cities": ["Rio de Janeiro"],
+		"uniques": ["Will not be displayed in Civilopedia", "Will not be chosen for new games", "Excluded from map editor"],
 	},
 	{
 		"name": "Sydney",
@@ -2291,7 +2310,8 @@
 		"defeated": "The principles for which we have fought will survive longer than any nation you could ever build.",
 		"outerColor": [0, 0, 0],
 		"innerColor": [51, 97, 242],
-		"cities": ["Sydney"]
+		"cities": ["Sydney"],
+		"uniques": ["Will not be displayed in Civilopedia", "Will not be chosen for new games", "Excluded from map editor"],
 	},
 	{
 		"name": "Ur", // Introduced in BNW
@@ -2331,7 +2351,8 @@
 		"defeated": "A wrong calculation, on my part.",
 		"outerColor": [0, 0, 0],
 		"innerColor": [153,204,255],
-		"cities": ["Venice"]
+		"cities": ["Venice"],
+		"uniques" ["Will not be displayed in Civilopedia", "Will not be chosen for new games", "Excluded from map editor"],
 	},
 
 	{
@@ -2531,7 +2552,8 @@
 		"defeated": "So this is how it feels to die...",
 		"outerColor": [0, 0, 0],
 		"innerColor": [167, 162, 216],
-		"cities": ["Hanoi"]
+		"cities": ["Hanoi"],
+		"uniques": ["Will not be displayed in Civilopedia", "Will not be chosen for new games", "Excluded from map editor"],
 	},
 	{
 		"name": "M'Banza-Kongo", // Introduced in BNW
@@ -2585,16 +2607,16 @@
 		"cities": ["Bratislava"]
 	},
 	{
-		"name": "Geneva",
-		"adjective": ["Genevan", "Genevese"],
-		"cityStateType": "Religious", // Changed from Cultured to Religious in GK
+		"name": "Catalhoyuk",
+		"adjective": ["Catalhoyuk"],
+		"cityStateType": "Religious",
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "I guess you weren't here for the sprouts after all...",
+		"defeated": "We were too weak to protect ourselves..."
 		"outerColor": [0, 0, 0],
-		"innerColor": [51, 97, 242],
-		"cities": ["Geneva"]
+		"innerColor": [242, 51, 97],
+		"cities": ["Catalhoyuk"]
 	},
 	{
 		"name": "Jerusalem",
@@ -2606,7 +2628,8 @@
 		"defeated": "I for one welcome our new conquer overlord!",
 		"outerColor": [0, 0, 0],
 		"innerColor": [255, 255, 255],
-		"cities": ["Jerusalem"]
+		"cities": ["Jerusalem"],
+		"uniques": ["Will not be displayed in Civilopedia", "Will not be chosen for new games", "Excluded from map editor"],
 	},
 	{
 		"name": "La Venta",
@@ -2655,6 +2678,18 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [167, 162, 216],
 		"cities": ["Wittenberg"]
+	},
+	
+	{
+		"name": "Geneva",
+		"adjective": ["Genevan", "Genevese"],
+		"cityStateType": "Scientific",
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "I guess you weren't here for the sprouts after all...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [51, 97, 242],
+		"cities": ["Geneva"]
 	},
 
 
