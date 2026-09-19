@@ -1,33 +1,89 @@
 uncivScivIcons.png
-size: 400, 200
+size: 400, 400
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-NationIcons/Canada
+NationIcons/Abbasid
   rotate: false
-  xy: 200, 100
+  xy: 0, 0
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Iroquois
+NationIcons/Saudi Arabia
+  rotate: false
+  xy: 100, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/The Maori
   rotate: false
   xy: 200, 0
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Mexico
+NationIcons/Australia
   rotate: false
-  xy: 300, 0
+  xy: 400, 0
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/The United States
+NationIcons/Kongo
   rotate: false
-  xy: 0, 0
-  size: 200, 200
-  orig: 200, 200
+  xy: 0, 100
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/The Zulu
+  rotate: false
+  xy: 100, 100
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Colombia
+  rotate: false
+  xy: 200, 100
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/South Africa
+  rotate: false
+  xy: 400, 100
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/The Mapuche
+  rotate: false
+  xy: 0, 200
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Sumeria
+  rotate: false
+  xy: 100, 200
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/The Cree
+  rotate: false
+  xy: 200, 200
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Antarctica
+  rotate: false
+  xy: 0, 300
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
