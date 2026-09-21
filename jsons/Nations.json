@@ -1414,7 +1414,40 @@
 		"uniques": ["[+100]% unhappiness from the number of cities", "[-50]% Unhappiness from [Population] [in all cities]"],
 		"cities": ["Pataliputra",
 			"Ayodhya","Prayaga","Mathura","Pragiyotisapura","Ujjain","Girinagara","Taxila","Pistapura","Kancipuram"],
-        "spyNames": ["Ashok", "Shanx", "Hormis", "Sanjeev", "Ananda", "Rani", "Parvati", "Mukta", "Karishma", "Jyotsna"]
+        "spyNames": ["Ashok", "Shanx", "Hormis", "Sanjeev", "Ananda", "Rani", "Parvati", "Mukta", "Karishma", "Jyotsna"],
+	},
+	{
+		"name": "Hawaii",
+		"leaderName": "Kamehameha I",
+		"adjective": ["Hawaiian"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Cultural",
+		"personality": "Kamehameha I",
+
+        "startIntroPart1": "Aloha to Kamehameha the Great, who the heavens allowed to unite your people! O great King, under your reign, the Big Island of Hawai'i became one in 1791 AD, and many other islands joined your vision of union in 1810. As the first King of Hawai'i, law and taxation systems were stabilized, and you promoted the Kanawai Mamalahoe, an edict to protect civilian people in times of war. Unification and sovereignty of all the islands continued thanks to your fair laws and deeds, even after you joined your ancestors in paradise in 1819.",
+        "startIntroPart2": "Wise and benevolent King, will you unite your people once again by wearing the bright mantle of the Lion of the Pacific? Will your new empire shine through the ages of history?",
+
+        "declaringWar": "The ancient fire flashing across the sky is what proclaimed that this day would come, though I had foolishly hoped for a different outcome.",
+		"attacked": "It is obvious now that I misjudged you and your true intentions.",
+		"defeated": "The hard-shelled crab yields, and the lion lies down to sleep. Kanaloa comes for me now.",
+		"denounced": "Friend, careful with your steps.",
+		"introduction": "Aloha! Greetings and blessings upon you, friend. I am Kamehameha, Great King of this strand of islands.",
+		
+		"neutralHello": "Welcome, friend!",
+		"hateHello": "Oh, it's you.",
+		"tradeRequest": "Come, let our people feast together!",
+		
+		"outerColor": [217,89,0],
+		"innerColor": [255,255,75],
+		"favoredReligion": "Tabu",
+		"uniqueName": "Wayfinding",
+		"uniques": ["Starts with [Sailing]","Enables embarkation for land units <starting from the [Ancient era]> <Suppress warning [*contains a conditional on a unit movement unique*]>",
+            "Enables [All] units to enter ocean tiles <starting from the [Ancient era]>",
+            "[+1] Sight <for [Embarked] units>",  "[+10]% Strength <within [2] tiles of a [Moai]>",
+			"Will not be displayed in Civilopedia", "Will not be chosen for new games", "Excluded from map editor"],
+		"cities": ["Honolulu",
+			"Hilo"],
+        "spyNames": ["Tiki", "Hotu Matua", "Rongo-ma-tane", "Kupe", "Haloti", "Degei", "Babamik", "Kulu Lau", "Nangananga", "Turua"]
 	},
 	{
 		"name": "India",
