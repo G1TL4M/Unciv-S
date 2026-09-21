@@ -1310,8 +1310,8 @@
 		"hateHello": "What do YOU want?!",
 		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
 				
-		"outerColor": [203, 214, 245],
-		"innerColor": [39, 42, 51],
+		"outerColor": [4, 14, 113],
+        "innerColor": [255, 163, 71],
 		"uniqueName": "Samayam",
 		"uniques": ["[+25]% Strength <for [Melee Water] units>","[+5]% Strength <for [Wounded] units>","[+1 Gold] from each Trade Route"],
 		"cities": ["Thanjavur",
