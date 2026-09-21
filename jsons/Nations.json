@@ -1294,32 +1294,30 @@
 	},
 	{
 		"name": "Chola",
-		"leaderName": "Chola",
+		"leaderName": "Rajendra Chola I",
 		"adjective": ["Chola"],
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Domination",
-		"personality": "Gandhi",
-
-        "startIntroPart1": "Wise Mahatma Gandhi, great leader of India, we honor you! India is one of the oldest countries in the world with 10,000 years of history, built on spirit and religion, as three of the world's great religions - Hinduism, Buddhism and Jainism - appeared on this sacred land. Every aspect of India society reveres art, music and color, showing great wealth but also grinding poverty. For centuries, India was torn between local kingdoms fighting each other but also repelling invaders. In the 12th century AD, Muslim Turks tried to conquer India, then the Mongols took their place. In the early 17th century, India, still fragmented, was colonized by the English and their diplomacy and technological superiority. After two centuries of British dominion, Indian nationalism woke up, and you, Great Mahatma, have led a peaceful and victorious rebellion never seen anywhere in history!",
-        "startIntroPart2": "Gandhi, your people ask again to be led on the path of freedom. Under protection of Ganesha and Surya, can India accomplish its great potential? Will your new empire shine through the ages of history?",
-
-        "declaringWar": "I have just received a report that large numbers of my troops have crossed your borders.",
-		"attacked": "My attempts to avoid violence have failed. An eye for an eye only makes the world blind.",
-		"defeated": "You can chain me, you can torture me, you can even destroy this body, but you will never imprison my mind.",
-		"denounced": "Interesting choice.",
-		"introduction": "Hello, I am Mohandas Gandhi. My people call me Bapu, but please, call me friend.",
-		"neutralHello": "I wish you peace.",
-		"hateHello": "What do you want?",
-		"tradeRequest": "My friend, are you interested in this arrangement?",
-
-        "outerColor": [4, 14, 113],
-        "innerColor": [255, 163, 71],
-		"favoredReligion": "Hinduism",
-		"uniqueName": "Population Growth",
-		"uniques": ["[+100]% unhappiness from the number of cities", "[-50]% Unhappiness from [Population] [in all cities]"],
-		"cities": ["Pazhaiyaarai",
-			"Thanjavur","Gangaikonda Cholapuram","Madurai","Nagapattinam","Kanchipuram",
-			"Anuradhapura","Polonnaruwa"],
+		
+		"startIntroPart1": "",
+		
+		"declaringWar": "For the good of The Empire i must declare war!",
+		"attacked": "You are making a big mistake.",
+		"defeated": "Will this be my last goodbye to you?",
+		"introduction": "Tell me, are you a barbarian, or are you as civilized as we are?",
+		
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+				
+		"outerColor": [203, 214, 245],
+		"innerColor": [39, 42, 51],
+		"uniqueName": "Samayam",
+		"uniques": ["[+25]% Strength <for [Melee Water] units>","[+5]% Strength <for [Wounded] units>","[+1 Gold] from each Trade Route"],
+		"cities": ["Thanjavur",
+			"Chennai","Bangalore","Hyderabad","Coimbatore","Kanchipuram",
+			"Tiruchirappalli","Kozhikode","Mysore","Vijayawada","Visakhapatnam",
+			"Pondicherry","Salem","Erode"],
         "spyNames": ["Ashok", "Shanx", "Hormis", "Sanjeev", "Ananda", "Rani", "Parvati", "Mukta", "Karishma", "Jyotsna"]
 	},
 	{
@@ -1620,39 +1618,28 @@
 	},
 	{
 		"name": "Navajo",
-		"leaderName": "Zyxxyz",
-		"adjective": ["navajo"],
-		"startBias": ["Snow"],
-		"preferredVictoryType": "Scientific",
+		"leaderName": "Barboncito",
+		"adjective": ["Navajo"],
+		"startBias": ["Plains"],
+		"preferredVictoryType": "Domination",
 		
-		"startIntroPart1": "We come in peace!",
-		"startIntroPart2": "This is an overpowered joke nation just as an example for the mods feature. Set Phasers to Obliterate!!",
+		"startIntroPart1": "",
 		
-		"declaringWar": "Resistance is futile! Prepare to be assimilated!",
-		"attacked": "You want to play? Very funny!",
-		"defeated": "How is it possible that those Apes hurt us? The galactic senate will take care of them.",
-		"introduction": "As superior galactic entities, you are not worthy of our attention.",
+		"declaringWar": "For the good of my people i must declare war!",
+		"attacked": "You are making a big mistake.",
+		"defeated": "Will this be my last goodbye to you?.",
+		"introduction": "Tell me, are you a barbarian, or are you as civilized as we are?",
 		
-		"neutralHello": "How are you doing?",
-		//"neutralLetsHearIt": ["Go on.","What do you say?","You may begin."],
-		//"neutralNo": ["We absolutely refuse.","No!","I refuse."],
-		//"neutralYes": ["Very good.","Of course, yes.","That is very good."],
-
-		"hateHello": "What do you want now?",
-		//"hateLetsHearIt": ["Speak!","What do you say?","Go on."],
-		//"hateNo": ["That is not possible!","We are not agreeing to that!","I beg your pardon?"],
-		//"hateYes": ["That is fine.","That is good enough.","Very well..."],
+		"neutralHello": "Hello.",
+		"hateHello": "What do YOU want?!",
 		
-		//"afterPeace": "Very well, all that fighting was getting boring anyway.",
-		"tradeRequest": "We bestow you the honor of this trade offer.",
-		"denounced": "The accusations of primitive lifeforms are beneath us.",
-		"declaringfriendship": "Let us become like friends!",
-
-		"outerColor": [16,16,16],
-		"innerColor": [255,200,200],
-		"uniqueName": "Code Talkers",
-		"uniques": ["[-75]% enemy spy effectiveness [in all cities]"],
-		"cities": ["The Hive","Q'Throczan","Q'Chovex","Q'Imphet","Q'Omphead","Q'Grecoks","Q'Vrelzieks","Q'Vronens","Q'Aerlae",
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+				
+		"outerColor": [255, 225, 196],
+		"innerColor": [173, 94, 17],
+		"uniqueName": "Dine Bizaad",
+		"uniques": ["[+1 Faith] [in all cities]","May buy [Food] buildings with [Faith] [in all cities]","[Faith] cost of purchasing [Food] buildings [-35]%","[-75]% enemy spy effectiveness [in all cities]"],
+		"cities": ["Alamo","Q'Throczan","Q'Chovex","Q'Imphet","Q'Omphead","Q'Grecoks","Q'Vrelzieks","Q'Vronens","Q'Aerlae",
 			"Q'Phulnoith","Q'Creved","Q'Xirqen","Q'Gax","Q'Threqals","Q'Bhilmuk","Q'Mazea","Q'Zomirs","Q'Drorkrex","Q'Honkrath",
 			"Q'Zulgra","Q'Vahars","Q'Crindith","Q'Raavraes","Q'Bhoknais","Qho'Qru","Q'Dateatz","Q'Elnad","Q'Izien","Qol'Ell",
 			"Q'Dhihien","Q'Naquiel","Q'Ugneon","Q'Straquks","Q'Nulptr","Q'Ohfahl"]
@@ -1725,6 +1712,33 @@
 		"civilopediaText": [
 			{"text": "From 'Modern Civilizations'"}
 		]
+	},
+	{
+		"name": "Siberia",
+		"leaderName": "Yadigar",
+		"adjective": ["Siberian"],
+		"startBias": ["Tundra"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "",
+		
+		"declaringWar": "For the good of my people i must declare war!",
+		"attacked": "You are making a big mistake.",
+		"defeated": "Will this be my last goodbye to you?",
+		"introduction": "Tell me, are you a barbarian, or are you as civilized as we are?",
+		
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+		
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+				
+		"outerColor": [189, 208, 242],
+		"innerColor": [21, 23, 26],
+		"uniqueName": "Frozen Frontier",
+		"uniques": ["[+15]% Strength <when fighting in [Tundra] tiles>","[+15]% Strength <when fighting in [Forest] tiles>","[+2 Gold, +2 Food] in cities on [Tundra] tiles","[+2 Faith] in cities on [Tundra] tiles <during a Golden Age>"],
+		"cities": ["Yakutsk",
+			"Tomsk","Irkutsk","Krasnoyarsk","Omsk","Novosibirsk",
+			"Tobolsk","Norilsk","Vladivostok","Magadan"]
 	},
 	{
 		"name": "South Africa",
@@ -1857,6 +1871,32 @@
 		"civilopediaText": [
 			{"text": "From 'Civ 6 Mod'"}
 		]
+	},
+	{
+		"name": "The Inuit",
+		"leaderName": "Nakasuk",
+		"adjective": ["The Inuit"],
+		"startBias": ["Snow"],
+		"preferredVictoryType": "Scientific",
+		
+		"startIntroPart1": "",
+		
+		"declaringWar": "For the good of my people i must declare war!",
+		"attacked": "You are making a big mistake.",
+		"defeated": "Will this be my last goodbye to you?.",
+		"introduction": "Tell me, are you a barbarian, or are you as civilized as we are?",
+		
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+		
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+				
+		"outerColor": [43, 43, 43],
+		"innerColor": [233, 237, 245],
+		"uniqueName": "Inuit Nunangat",
+		"uniques": ["[+1 Food] from every [Snow]", "[+1 Food] from every [Tundra]", "[+1 Science] from every [Atoll]"],
+		"cities": ["Iqaluit",
+			"Nunanik","Nuuk","Inuvik","Barrow","Kangerlussuaq","Anchorage","Iglulik","Juneau","Kagyrgyn","Sismiut","Tuktoyaktuk","Kodiak","Pagytkenay","Nome"]
 	},
 	{
 		"name": "The Maori",
@@ -2003,6 +2043,32 @@
 			"Q'umarkaj","Nakbe","Cerros","Xunantunich","Takalik Abaj","Cival","San Bartolo","Altar de Sacrificios","Seibal",
 			"Caracol","Naranjo","Dos Pilas","Mayapan","Ixinche","Zaculeu","Kabah"],
         "spyNames": ["Camazotz", "Coyopa", "Gukumatz", "Hunahpu", "Huracan", "Ixchel", "Ixtab", "Kukulkán", "Xbalanque", "Zipacna"]
+	},
+	{
+		"name": "The Mississippi",
+		"leaderName": "Tuskaloosa",
+		"adjective": ["Mississippian"],
+		"startBias": ["Grassland"],
+		"preferredVictoryType": "Cultural",
+		
+		"startIntroPart1": "",
+		
+		"declaringWar": "For the good of my people i must declare war!",
+		"attacked": "You are making a big mistake.",
+		"defeated": "Will this be my last goodbye to you?.",
+		"introduction": "Tell me, are you a barbarian, or are you as civilized as we are?",
+		
+		"neutralHello": "Hello.",
+		"hateHello": "What do YOU want?!",
+		
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+				
+		"outerColor": [21, 49, 84],
+		"innerColor": [252, 186, 3],
+		"uniqueName": "Mound Builder",
+		"uniques": ["[+1 Culture, +1 Food] from every specialist [in all cities]","[+2 Gold, +2 Food] from every specialist [in capital]","[+1 Gold, +1 Food] from every specialist [in capital] <during a Golden Age>"],
+		"cities": ["Cahokia",
+			"Moundville","Spiro","Angel Mounds","Atahachi","Emeral Mound","Etowah","Kincaid","Castalian Springs","Cloverdale","Grand Village","Mabila"]
 	},
 	{
 		"name": "The United States",
