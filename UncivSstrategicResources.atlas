@@ -1,0 +1,19 @@
+UncivSstrategicResources.png
+size: 80, 40
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/FantasyHex/Tiles/Elephants
+  rotate: false
+  xy: 4, 6
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Elephants+Pasture
+  rotate: false
+  xy: 44, 6
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
