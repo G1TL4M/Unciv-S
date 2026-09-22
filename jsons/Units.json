@@ -41,6 +41,7 @@
 		"movement": 3,
 		"strength": 5,
 		"cost": 25,
+		"requiredTech": "Agriculture",
 		"obsoleteTech": "Scientific Theory",
 		"uniques": ["May upgrade to [Archer] through ruins-like effects"],
 		"promotions": ["Ignore terrain cost"],
@@ -397,7 +398,7 @@
 	/* Classical Era */
 	{
 		"name": "Horseman",
-		"unitType": "Mounted",
+		"unitType": "Horse Mount",
 		"movement": 4,
 		"strength": 12,
 		"cost": 75,
@@ -411,7 +412,7 @@
 	},
 	{
 		"name": "Companion Cavalry",
-		"unitType": "Mounted",
+		"unitType": "Horse Mount",
 		"uniqueTo": "Greece",
 		"replaces": "Horseman",
 		"movement": 5,
@@ -428,7 +429,7 @@
 	},
 	{
 		"name": "African Forest Elephant",
-		"unitType": "Mounted",
+		"unitType": "Elephant Mount",
 		"uniqueTo": "Carthage",
 		"replaces": "Horseman",
 		"movement": 3,
@@ -438,6 +439,7 @@
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
 		"promotions": ["Great Generals II"],
+		"requiresResource": "Elephants"
 		"uniques": ["Can move after attacking", "No defensive terrain bonus", "[-33]% Strength <vs cities> <when attacking>",
 			"[-10]% Strength for enemy [Military] units in adjacent [All] tiles"],
 		"hurryCostModifier": 20,
@@ -445,7 +447,7 @@
 	},
 	{
 		"name": "Cataphract",
-		"unitType": "Mounted",
+		"unitType": "Horse Mount",
 		"uniqueTo": "Byzantium",
 		"replaces": "Horseman",
 		"movement": 3,
@@ -462,7 +464,7 @@
 	{
 		"name": "War-Cart",
 		"uniqueTo": "Sumeria",
-		"unitType": "Mounted",
+		"unitType": "Horse Mount",
 		"movement": 2,
 		"strength": 14,
 		"cost": 75,
@@ -638,7 +640,7 @@
 	},
 	{
 		"name": "Knight",
-		"unitType": "Mounted",
+		"unitType": "Horse Mount",
 		"movement": 4,
 		"strength": 20,
 		"cost": 120,
@@ -668,7 +670,7 @@
 	},
 	{
 		"name": "Conquistador",
-		"unitType": "Mounted",
+		"unitType": "Horse Mount",
 		"replaces": "Knight",
 		"uniqueTo": "Spain",
 		"movement": 4,
@@ -686,7 +688,7 @@
 	},
 	{
 		"name": "Naresuan's Elephant",
-		"unitType": "Mounted",
+		"unitType": "Elephant Mount",
 		"replaces": "Knight",
 		"uniqueTo": "Siam",
 		"movement": 3,
@@ -694,13 +696,14 @@
 		"cost": 120,
 		"requiredTech": "Chivalry",
 		"obsoleteTech": "Military Science",
+		"requiredResource": "Elephants",
 		"upgradesTo": "Cavalry",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[+50]% Strength <vs [Mounted] units>","[-33]% Strength <vs cities> <when attacking>"],
 		"attackSound": "elephant"
 	},
 	{
 		"name": "Mandekalu Cavalry",
-		"unitType": "Mounted",
+		"unitType": "Horse Mount",
 		"replaces": "Knight",
 		"uniqueTo": "Songhai",
 		"movement": 4,
@@ -736,7 +739,7 @@
 		"name": "Mandekalu Cavalry",
 		"uniqueTo": "Mali",
 		"replaces": "Knight",
-		"unitType": "Mounted",
+		"unitType": "Horse Mount",
 		"movement": 4,
 		"strength": 16,
 		"cost": 120,
@@ -751,7 +754,7 @@
 		"name": "Malon Raider",
 		"uniqueTo": "The Mapuche",
 		"replaces": "Knight",
-		"unitType": "Mounted",
+		"unitType": "Horse Mount",
 		"movement": 4,
 		"strength": 20,
 		"cost": 120,
@@ -1032,7 +1035,7 @@
 	},
 	{
 		"name": "Lancer",
-		"unitType": "Mounted",
+		"unitType": "Horse Mount",
 		"movement": 4,
 		"strength": 25,
 		"cost": 185,
@@ -1046,7 +1049,7 @@
 	},
 	{
 		"name": "Sipahi",
-		"unitType": "Mounted",
+		"unitType": "Horse Mount",
 		"replaces": "Lancer",
 		"uniqueTo": "Turkiye",
 		"movement": 5,
@@ -1063,7 +1066,7 @@
 	},
 	{
 		"name": "Hakkapeliitta",
-		"unitType": "Mounted",
+		"unitType": "Horse Mount",
 		"replaces": "Lancer",
 		"uniqueTo": "Sweden",
 		"movement": 4,
@@ -1161,7 +1164,7 @@
 	},
 	{
 		"name": "Cavalry",
-		"unitType": "Mounted",
+		"unitType": "Horse Mount",
 		"movement": 4,
 		"strength": 34,
 		"cost": 225,
@@ -1174,7 +1177,7 @@
 	},
 	{
 		"name": "Cossack",
-		"unitType": "Mounted",
+		"unitType": "Horse Mount",
 		"replaces": "Cavalry",
 		"uniqueTo": "Russia",
 		"movement": 4,
@@ -1190,7 +1193,7 @@
 	},
 	{
 		"name": "Hussar",
-		"unitType": "Mounted",
+		"unitType": "Horse Mount",
 		"replaces": "Cavalry",
 		"uniqueTo": "Austria",
 		"movement": 5,
@@ -1209,7 +1212,7 @@
 		"name": "Llanero",
 		"uniqueTo": "Colombia",
 		"replaces": "Cavalry",
-		"unitType": "Mounted",
+		"unitType": "Horse Mount",
 		"movement": 4,
 		"strength": 34,
 		"cost": 225,
@@ -1835,7 +1838,7 @@
 			"Is part of Great Person group [General]",
 			"[This Unit] gets a name from the [Comandante General] group",
 			"Great Person - [War]","Unbuildable","Uncapturable"],
-		"movement": 4
+		"movement": 3
 	},
 	{
 		"name": "Great Admiral",
