@@ -56,6 +56,11 @@
         "uniques": ["Earn [50]% of [Military] unit's [Strength] as [Faith] when killed within 4 tiles of a city following this religion"]
     },
     {
+        "name": "God-King",
+        "type": "Pantheon",
+        "uniques": ["[+1 Faith, +1 Culture, +1 Gold, +1 Science, +1 Production] from every [Palace]"]
+    },
+    {
         "name": "Goddess of Festivals",
         "type": "Pantheon",
         "uniques": ["[+1 Culture, +1 Faith] from every [Wine]", "[+1 Culture, +1 Faith] from every [Incense]"]
