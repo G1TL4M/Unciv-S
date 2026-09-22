@@ -121,7 +121,7 @@
 	},
 	{
 		"name": "Circus",
-		"requiredNearbyImprovedResources": ["Ivory","Horses"],
+		"requiredNearbyImprovedResources": ["Elephants","Horses"],
 		"happiness": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Trapping"
@@ -238,12 +238,13 @@
 	{
 		"name": "Stable",
 		"maintenance": 1,
-		"requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],
+		"requiredNearbyImprovedResources": ["Horses","Elephants","Sheep","Cattle"],
 		"hurryCostModifier": 25,
 		"uniques": ["[+15]% Production when constructing [Mounted] units [in this city]",
 			"[+1 Production] from [Cattle] tiles [in this city]",
+			"[+1 Production] from [Sheep] tiles [in this city]",
 			"[+1 Production] from [Horses] tiles [in this city]",
-			"[+1 Production] from [Sheep] tiles [in this city]"],
+			"[+1 Production] from [Elephants] tiles[in this city]"],
 		"requiredTech": "Horseback Riding"
 	},
 	{
