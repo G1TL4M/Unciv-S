@@ -1469,6 +1469,7 @@
 
 		"outerColor": [	255, 255, 204],
 		"innerColor": [	51, 153, 255],
+		"favoredReligion": "Judaism",
 		"uniqueName": "Promised Land",
 		"uniques": ["[+1 Food, +1 Faith] from every [Pasture]","[+1 Faith] per [4] population [in all cities]","May choose [1] additional [Founder] beliefs when [founding] a religion"]
 		"cities": ["Jerusalem","Hebron","Gaza","Jericho","Bethlehem","Nazareth","Meggido","Beer-Sheba","Judah",
