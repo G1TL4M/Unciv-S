@@ -712,6 +712,18 @@
     {
         "name": "Devout",
         "uniques": ["Can Spread Religion <[1] additional time(s)>"]
+	},
+	{
+		"name": "Heavy Charge",
+		"uniques": ["[+25]% Strength <when attacking>"]
+	},
+	{
+		"name": "Desert Warrior",
+		"uniques": ["[+50]% Strength <when fighting in [Desert] tiles>"]
+	},
+	{
+		"name": "Homeland Guardian",
+		"uniques": ["[+25]% Strength <when fighting in [Friendly Land] tiles>"]
     },
 	{
 		"name": "[Mohawk Warrior] ability",
