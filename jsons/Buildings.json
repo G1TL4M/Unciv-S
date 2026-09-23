@@ -346,6 +346,18 @@
 		"requiredBuilding": "Shrine",
 		"requiredTech": "Philosophy"
 	},
+    {
+	    "name": "Synagogue",
+		"replaces": "Temple",
+		"uniqueTo": "Israel", 
+		"faith": 2,
+		"happiness": 1,
+		"gold": 2,
+		"cost": 100,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Shrine"
+		"requiredTech": "Philosophy"
+	},
 	{
 		"name": "National College",
 		"cost": 125,
@@ -731,6 +743,19 @@
 		"maintenance": 2,
 		"requiredTech": "Acoustics",
 		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Water Puppet Theatre",
+		"replaces": "Opera House",
+		"uniqueTo": "Vietnam", 
+		"culture": 3,
+		"happiness": 1,
+		"specialistSlots": {"Artist": 1},
+		"hurryCostModifier": 10,
+		"requiredBuilding": "Amphitheater",
+		"maintenance": 2,
+		"uniques": ["[+2 Culture] from [Lakes] tiles [in this city]"]
+		"requiredTech": "Acoustics"
 	},
 	{
 		"name": "Sistine Chapel",
