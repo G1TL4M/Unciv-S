@@ -51,7 +51,7 @@
 		"name": "Pathfinder", 
 		"unitType": "Scout",
 		"replaces": "Scout",
-		"uniqueTo": "Shoshone",
+		"uniqueTo": "The Shoshone",
 		"movement": 2,
 		"strength": 8,
 		"upgradesTo": "Composite Bowman",
