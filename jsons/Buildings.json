@@ -202,6 +202,16 @@
 			"New [Military] units start with [15] XP [in this city]", "Destroyed when the city is captured"],
 		"requiredTech": "Bronze Working"
 	},
+    {
+    	"name": "Ikanda", 
+        "replaces": "Barracks",
+        "uniqueTo": "Zulu",
+        "cost": 75,
+        "hurryCostModifier": 25,
+        "maintenance": 1,
+		"uniques": ["Destroyed when the city is captured","New [Military] units start with [15] Experience [in this city]","All newly-trained [Sword] units [in this city] receive the [Buffalo Horns] promotion"],
+        "requiredTech": "Bronze Working"
+	},
 	{
 		"name": "Statue of Zeus",
 		"culture": 1,
@@ -246,6 +256,20 @@
 			"[+1 Production] from [Horses] tiles [in this city]",
 			"[+1 Production] from [Elephants] tiles[in this city]"],
 		"requiredTech": "Horseback Riding"
+	},
+    {
+	    "name": "Ducal Stable", 
+        "replaces": "Stable",
+        "uniqueTo": "Poland",
+        "cost": 75,
+        "maintenance": 0,
+        "requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],
+        "hurryCostModifier": 25,
+        "uniques": ["New [Mounted] units start with [15] Experience [in this city]","[+15]% Production when constructing [Mounted] units [in this city]",
+			"[+1 Production, +1 Gold] from [Cattle] tiles [in this city]",
+			"[+1 Production, +1 Gold] from [Horses] tiles [in this city]",
+			"[+1 Production, +1 Gold] from [Sheep] tiles [in this city]"],
+        "requiredTech": "Horseback Riding"
 	},
 	{
 		"name": "Circus Maximus",
@@ -350,6 +374,14 @@
 		"hurryCostModifier": 25,
 		"uniques": ["Destroyed when the city is captured"],
 		"requiredTech": "Drama and Poetry"
+	},
+    {
+	    "name": "Parthenon", 
+        "culture": 6,
+        "isWonder": true,
+        "greatPersonPoints": {"Great Artist": 1},
+        "requiredTech": "Drama and Poetry",
+        "quote": "'Earth proudly wears the Parthenon as the best gem upon her zone.' - Ralph Waldo Emerson"
 	},
 	{
 		"name": "National Epic",
