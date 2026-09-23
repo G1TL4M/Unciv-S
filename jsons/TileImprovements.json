@@ -314,7 +314,7 @@
 		"turnsToBuild": 7,
 		"techRequired": "Guilds",
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Desert"],
-		"uniques": ["[+1 Food] for each adjacent [Pasture]",
+		"uniques": ["[+1 Food] for each adjacent [Pasture]"],
 		"shortcutKey": K
 	},
 	{
