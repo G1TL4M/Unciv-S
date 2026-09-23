@@ -392,39 +392,6 @@
 			"Rason","Gyeongju","Chungju","Sacheon","Gimje","Anju"],
         "spyNames": ["Kim", "Park", "Han", "Na", "Kong", "Yu", "Ahn", "Da", "Eun"]
     },
-
-	{
-		"name": "Iroquois",
-		"leaderName": "Hiawatha",
-		"adjective": ["Iroquoise"],
-		"startBias": ["Forest"],
-		"preferredVictoryType": "Scientific",
-		"personality": "Hiawatha",
-
-        "startIntroPart1": "Greetings, noble Hiawatha, leader of the mighty Iroquois nations! Your people lived near the great and holy lake Ontario since the ancient ages, on a land that will be later known as New York city. Long ago, the five peoples of Seneca, Onondaga, Mohawks, Cayugas and Oneida became one nation, the Haudenosaunee, the Iroquois. Although not having a written language, the wise Iroquois created the Great Law of Peace, which can be considered the first established constitution. For decades, your people fought powerful enemies, such as the Huron, and then the French and English colonists. With less warriors and inferior weaponry, the Iroquois still survived and walk on the path of peace and harmony, until their way of living faded away under the crush of the newborn United States nation.",
-        "startIntroPart2": "Great Sachem Hiawatha, do you hear the complaints of your people? Can you light the path leading to the ancient Iroquois union? Will your new empire shine through the ages of history?",
-
-        "declaringWar": "You are a plague upon Mother Earth! Prepare for battle!",
-		"attacked": "You evil creature! My braves will slaughter you!",
-		"defeated": "You have defeated us... but our spirits will never be vanquished! We shall return!",
-		"denounced": "Go back to the shadows, you fool.",
-		"introduction": "Greetings, stranger. I am Hiawatha, speaker for the Iroquois. We seek peace with all, but we do not shrink from war.",
-		"neutralHello": "Good day.",
-		"hateHello": "Oh, it's you.",
-		"tradeRequest": "Does this trade work for you, my friend?",
-
-        "outerColor": [88,60,183],
-        "innerColor": [255,255,255],
-
-        "favoredReligion": "Christianity",
-		"uniqueName": "The Great Warpath",
-		"uniques": ["All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel."],
-		"cities": ["Onondaga","Osininka","Grand River","Akwesasme","Buffalo Creek","Brantford","Montreal","Genesse River",
-			"Canandaigua Lake","Lake Simcoe","Salamanca","Gowanda","Cuba","Akron","Kanesatake","Ganienkeh","Cayuga Castle",
-			"Chondote","Canajoharie","Nedrow","Oneida Lake","Kanonwalohale","Green Bay","Southwold","Mohawk Valley",
-			"Schoharie","Bay of Quinte","Kanawale","Kanatsiokareke","Tyendinaga","Hahta"],
-        "spyNames": ["Onatah", "Oneida", "Oshadagea", "Otetiani", "Genesee", "Dadgayadoh", "Otwtiani", "Kateri", "Onondakai", "Honanyawus"]
-    },
 	{
 		"name": "Persia",
 		"leaderName": "Darius I",
@@ -609,40 +576,6 @@
 			"Baruun-Urt","Ereen","Batshireet","Choyr","Ulaangom","Tosontsengel","Altay","Uliastay","Bayanhongor",
 			"Har-Ayrag","Nalayh","Tes"],
         "spyNames": ["Asashōryū", "Tömöriin", "Zevegiin", "Jigjidiin", "Enkhbat", "Mönkhbayar", "Gündegmaa", "Ssima", "Batachikhan", "Chulunny"]
-    },
-	{
-		"name": "Inca",
-		"leaderName": "Pachacuti",
-		"adjective": ["Incan"],
-		"startBias": ["Hill"],
-		"preferredVictoryType": "Cultural",
-		"personality": "Pachacuti",
-
-        "startIntroPart1": "King Pachacuti Sapa Inca, maker of the world and ruler of Tawantinsuyu and the Inca people, your loyal subjects greet you! In the beginning, the small state of Cusco already showed the Incans were promised for greatness. They won many wars against powerful enemies, relentlessly crushing any army that dared oppose them, and forged a mighty empire stretching from Ecuador to Chile, the greatest ever seen in pre-Columbian America. Not just undaunted soldiers, Inca people were accomplished builders and artists, their magnificient and unequalled culture still fascinating the world today.",
-        "startIntroPart2": "O Emperor Pachacuti, honor your name of 'Earth Shaker'! Will you once again summon the power of the earth to unite all Incan people under the protection of Sapa Inca, the Son of the Sun? Will your new empire shine through the ages of history?",
-
-        "declaringWar": "Resistance is futile! You cannot hope to stand against the mighty Incan empire. If you will not surrender immediately, then prepare for war!",
-		"attacked": "Declare war on me?!? You can't, because I declare war on you first!",
-		"defeated": "How did you darken the sun? I ruled with diligence and mercy—see that you do so as well.",
-		"introduction": "How are you? You stand before Pachacuti Inca Yupanqui.",
-
-		"neutralHello": "How are you doing?",
-		"hateHello": "What do you want now?",
-		"tradeRequest": "The Incan people offer this fair trade.",
-
-        "outerColor": [255,184,33],
-        "innerColor": [3,115,86],
-
-		"favoredReligion": "Christianity",
-		"uniqueName": "Great Andean Road",
-		"uniques": ["Units ignore terrain costs when moving into any tile with Hills",
-			"[-50]% maintenance on road & railroads",
-			"No Maintenance costs for improvements in [Hill] tiles"],
-		"cities": ["Cuzco","Tiwanaku","Machu","Ollantaytambo","Corihuayrachina","Huamanga","Rumicucho","Vilcabamba","Vitcos",
-			"Andahuaylas","Ica","Arequipa","Nasca","Atico","Juli","Chuito","Chuquiapo","Huanuco Pampa","Tamboccocha",
-			"Huaras","Riobamba","Caxamalca","Sausa","Tambo Colorado","Huaca","Tumbes","Chan Chan","Sipan","Pachacamac",
-			"Llactapata","Pisac","Kuelap","Pajaten","Chucuito","Choquequirao"],
-        "spyNames": ["Amaru", "Apichu", "Pariapichiu", "Puma", "Quenti", "Suyuntu", "Uturuncu", "Purutu", "Ozcollo"]
     },
 	{
 		"name": "Denmark",
@@ -1410,6 +1343,40 @@
         "spyNames": ["Tiki", "Hotu Matua", "Rongo-ma-tane", "Kupe", "Haloti", "Degei", "Babamik", "Kulu Lau", "Nangananga", "Turua"]
 	},
 	{
+		"name": "Inca",
+		"leaderName": "Pachacuti",
+		"adjective": ["Incan"],
+		"startBias": ["Hill"],
+		"preferredVictoryType": "Cultural",
+		"personality": "Pachacuti",
+
+        "startIntroPart1": "King Pachacuti Sapa Inca, maker of the world and ruler of Tawantinsuyu and the Inca people, your loyal subjects greet you! In the beginning, the small state of Cusco already showed the Incans were promised for greatness. They won many wars against powerful enemies, relentlessly crushing any army that dared oppose them, and forged a mighty empire stretching from Ecuador to Chile, the greatest ever seen in pre-Columbian America. Not just undaunted soldiers, Inca people were accomplished builders and artists, their magnificient and unequalled culture still fascinating the world today.",
+        "startIntroPart2": "O Emperor Pachacuti, honor your name of 'Earth Shaker'! Will you once again summon the power of the earth to unite all Incan people under the protection of Sapa Inca, the Son of the Sun? Will your new empire shine through the ages of history?",
+
+        "declaringWar": "Resistance is futile! You cannot hope to stand against the mighty Incan empire. If you will not surrender immediately, then prepare for war!",
+		"attacked": "Declare war on me?!? You can't, because I declare war on you first!",
+		"defeated": "How did you darken the sun? I ruled with diligence and mercy—see that you do so as well.",
+		"introduction": "How are you? You stand before Pachacuti Inca Yupanqui.",
+
+		"neutralHello": "How are you doing?",
+		"hateHello": "What do you want now?",
+		"tradeRequest": "The Incan people offer this fair trade.",
+
+        "outerColor": [255,184,33],
+        "innerColor": [3,115,86],
+
+		"favoredReligion": "Inti",
+		"uniqueName": "Great Andean Road",
+		"uniques": ["Units ignore terrain costs when moving into any tile with Hills",
+			"[-50]% maintenance on road & railroads",
+			"No Maintenance costs for improvements in [Hill] tiles"],
+		"cities": ["Cuzco","Tiwanaku","Machu","Ollantaytambo","Corihuayrachina","Huamanga","Rumicucho","Vilcabamba","Vitcos",
+			"Andahuaylas","Ica","Arequipa","Nasca","Atico","Juli","Chuito","Chuquiapo","Huanuco Pampa","Tamboccocha",
+			"Huaras","Riobamba","Caxamalca","Sausa","Tambo Colorado","Huaca","Tumbes","Chan Chan","Sipan","Pachacamac",
+			"Llactapata","Pisac","Kuelap","Pajaten","Chucuito","Choquequirao"],
+        "spyNames": ["Amaru", "Apichu", "Pariapichiu", "Puma", "Quenti", "Suyuntu", "Uturuncu", "Purutu", "Ozcollo"]
+	},
+	{
 		"name": "India",
 		"leaderName": "Gandhi",
 		"adjective": ["Indian"],
@@ -1440,6 +1407,38 @@
 			"Kolhapur","Indraprastha","Gulbarga","Jaunpur","Rajagriha","Sravasti","Tiruchirapalli",
 			"Bodhgaya","Kushinagar","Amaravati","Gaur","Gwalior","Jaipur","Karachi"],
         "spyNames": ["Ashok", "Shanx", "Hormis", "Sanjeev", "Ananda", "Rani", "Parvati", "Mukta", "Karishma", "Jyotsna"]
+	},
+	{
+		""name": "Iroquois",
+		"leaderName": "Hiawatha",
+		"adjective": ["Iroquoise"],
+		"startBias": ["Forest"],
+		"preferredVictoryType": "Scientific",
+		"personality": "Hiawatha",
+
+        "startIntroPart1": "Greetings, noble Hiawatha, leader of the mighty Iroquois nations! Your people lived near the great and holy lake Ontario since the ancient ages, on a land that will be later known as New York city. Long ago, the five peoples of Seneca, Onondaga, Mohawks, Cayugas and Oneida became one nation, the Haudenosaunee, the Iroquois. Although not having a written language, the wise Iroquois created the Great Law of Peace, which can be considered the first established constitution. For decades, your people fought powerful enemies, such as the Huron, and then the French and English colonists. With less warriors and inferior weaponry, the Iroquois still survived and walk on the path of peace and harmony, until their way of living faded away under the crush of the newborn United States nation.",
+        "startIntroPart2": "Great Sachem Hiawatha, do you hear the complaints of your people? Can you light the path leading to the ancient Iroquois union? Will your new empire shine through the ages of history?",
+
+        "declaringWar": "You are a plague upon Mother Earth! Prepare for battle!",
+		"attacked": "You evil creature! My braves will slaughter you!",
+		"defeated": "You have defeated us... but our spirits will never be vanquished! We shall return!",
+		"denounced": "Go back to the shadows, you fool.",
+		"introduction": "Greetings, stranger. I am Hiawatha, speaker for the Iroquois. We seek peace with all, but we do not shrink from war.",
+		"neutralHello": "Good day.",
+		"hateHello": "Oh, it's you.",
+		"tradeRequest": "Does this trade work for you, my friend?",
+
+        "outerColor": [88,60,183],
+        "innerColor": [255,255,255],
+
+        "favoredReligion": "Wakan Tanka",
+		"uniqueName": "The Great Warpath",
+		"uniques": ["All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel."],
+		"cities": ["Onondaga","Osininka","Grand River","Akwesasme","Buffalo Creek","Brantford","Montreal","Genesse River",
+			"Canandaigua Lake","Lake Simcoe","Salamanca","Gowanda","Cuba","Akron","Kanesatake","Ganienkeh","Cayuga Castle",
+			"Chondote","Canajoharie","Nedrow","Oneida Lake","Kanonwalohale","Green Bay","Southwold","Mohawk Valley",
+			"Schoharie","Bay of Quinte","Kanawale","Kanatsiokareke","Tyendinaga","Hahta"],
+        "spyNames": ["Onatah", "Oneida", "Oshadagea", "Otetiani", "Genesee", "Dadgayadoh", "Otwtiani", "Kateri", "Onondakai", "Honanyawus"]
 	},
 	{
 		"name": "Israel",
@@ -1750,9 +1749,10 @@
 		"hateHello": "What do YOU want?!",
 		
 		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
-				
+		"favoredReligion": "Wakan Tanka",
 		"outerColor": [255, 225, 196],
 		"innerColor": [173, 94, 17],
+		
 		"uniqueName": "Dine Bizaad",
 		"uniques": ["[+1 Faith] [in all cities]","May buy [Food] buildings with [Faith] [in all cities]","[Faith] cost of purchasing [Food] buildings [-35]%","[-75]% enemy spy effectiveness [in all cities]"],
 		"cities": ["Alamo","Q'Throczan","Q'Chovex","Q'Imphet","Q'Omphead","Q'Grecoks","Q'Vrelzieks","Q'Vronens","Q'Aerlae",
@@ -2030,6 +2030,7 @@
 		
 		"outerColor": [1,42,108],
 		"innerColor": [70,175,10],
+		"favoredReligion": "Wakan Tanka",
 		"uniqueName": "Nihithaw",
 		"uniques": ["Free [Worker] appears <upon discovering [Pottery] technology>",
 			"[+2 Gold] from each Trade Route",
@@ -2067,6 +2068,7 @@
 				
 		"outerColor": [43, 43, 43],
 		"innerColor": [233, 237, 245],
+		"favoredReligion": "Wakan Tanka",
 		"uniqueName": "Inuit Nunangat",
 		"uniques": ["[+1 Food] from every [Snow]", "[+1 Food] from every [Tundra]", "[+1 Science] from every [Atoll]"],
 		"cities": ["Iqaluit",
@@ -2148,6 +2150,7 @@
 		
 		"outerColor": [0,79,205],
 		"innerColor": [117,163,243],
+		"favoredReligion": "Inti",
 		"uniqueName": "Toqui",
 		"uniques": ["[50]% XP gained from combat <for [Military] units>",
 			"[+10]% Strength <for [All] units> <during a Golden Age>"],
@@ -2239,6 +2242,7 @@
 				
 		"outerColor": [21, 49, 84],
 		"innerColor": [252, 186, 3],
+		"favoredReligion": "Wakan Tanka",
 		"uniqueName": "Mound Builder",
 		"uniques": ["[+1 Culture, +1 Food] from every specialist [in all cities]","[+2 Gold, +2 Food] from every specialist [in capital]","[+1 Gold, +1 Food] from every specialist [in capital] <during a Golden Age>"],
 		"cities": ["Cahokia",
@@ -2261,6 +2265,7 @@
 		"tradeRequest": "Would you listen to my proposal?",
 		"outerColor": [65,54,42],
 		"innerColor": [78,244,234],
+		"favoredReligion": "Wakan Tanka",
 		"uniqueName": "Great Expanse",
 		"uniques": ["[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>","[-25]% Culture cost of natural border growth [in all cities]"],
 		"cities": ["Moson Kahni","Te-Moak","Agaidika","Goshute","Pohokwi","Washakie","Timbisha","Hukandeka","Duckwater","Tukudeka",
