@@ -1409,7 +1409,7 @@
         "spyNames": ["Ashok", "Shanx", "Hormis", "Sanjeev", "Ananda", "Rani", "Parvati", "Mukta", "Karishma", "Jyotsna"]
 	},
 	{
-		""name": "Iroquois",
+		"name": "Iroquois",
 		"leaderName": "Hiawatha",
 		"adjective": ["Iroquoise"],
 		"startBias": ["Forest"],
