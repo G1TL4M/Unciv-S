@@ -1285,7 +1285,7 @@
 		"name": "Comanche Rider", 
 		"unitType": "Horse Mount",
 		"replaces": "Cavalry",
-		"uniqueTo": "Shoshone",
+		"uniqueTo": "The Shoshone",
 		"movement": 5,
 		"strength": 34,
 		"cost": 200,
