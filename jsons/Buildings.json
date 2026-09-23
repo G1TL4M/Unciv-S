@@ -824,6 +824,17 @@
 		"requiredBuilding": "Colosseum",
 		"requiredTech": "Printing Press"
 	},
+    {
+	    "name": "Pizzeria",
+        "replaces": "Theatre",
+        "uniqueTo": "Italy",
+        "food": 2,
+		"happiness": 3,
+		"hurryCostModifier": 10,
+		"maintenance": 0,
+		"requiredBuilding": "Colosseum",
+		"requiredTech": "Printing Press"
+	},
 	{
 		"name": "Leaning Tower of Pisa",
 		"culture": 1,
@@ -1163,6 +1174,17 @@
 		"requiredTech": "Flight",
 		"uniques": ["Available with Oil","[+5 Gold] from [Oil] tiles [in this city]",
 			"[25]% Food is carried over after population increases [in this city]"]
+	},
+	{
+		"name": "Safari Park",
+		"replaces": "Medical Lab",
+		"uniqueTo": "South Africa",
+		"requiredNearbyImprovedResources": ["Deer","Ivory","Furs","Truffles"],
+		"maintenance": 0,
+		"requiredTech": "Flight",
+		"uniques": ["Available with Camp",
+			"[+3 Culture] from [Camp] tiles [in this city]",
+            "[25]% Food is carried over after population increases [in this city]"]
     },
 	{
 		"name": "Manhattan Project",
@@ -1392,6 +1414,14 @@
 			"Can only be built <in [in capital] cities>",
 			"Only available <in cities without a [Alexander]>",
 			"Only available <in cities without a [Leonidas]>"]
+	},
+	{
+		"name": "Enrico Dandolo",
+		"isWonder": true,
+		"uniqueTo": "Italy",
+		"cost": 0,
+		"uniques": ["",
+			"Can only be built <in [in capital] cities>",
 	},
     {
 		"name": "Abdul Aziz al Saud",
