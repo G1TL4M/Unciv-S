@@ -1404,9 +1404,7 @@
 		"favoredReligion": "Tabu",
 		"uniqueName": "Wayfinding",
 		"uniques": ["Starts with [Sailing]","Enables embarkation for land units <starting from the [Ancient era]> <Suppress warning [*contains a conditional on a unit movement unique*]>",
-            "Enables [All] units to enter ocean tiles <starting from the [Ancient era]>",
-            "[+1] Sight <for [Embarked] units>",  "[+10]% Strength <within [2] tiles of a [Moai]>",
-			"Will not be displayed in Civilopedia", "Will not be chosen for new games", "Excluded from map editor"],
+            "Enables [All] units to enter ocean tiles <starting from the [Ancient era]>","[+1] Sight <for [Embarked] units>"]
 		"cities": ["Honolulu",
 			"Hilo"],
         "spyNames": ["Tiki", "Hotu Matua", "Rongo-ma-tane", "Kupe", "Haloti", "Degei", "Babamik", "Kulu Lau", "Nangananga", "Turua"]
