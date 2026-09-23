@@ -48,6 +48,20 @@
 		"attackSound": "nonmetalhit"
 	},
 	{
+		"name": "Pathfinder", 
+		"unitType": "Scout",
+		"replaces": "Scout",
+		"uniqueTo": "Shoshone",
+		"movement": 2,
+		"strength": 8,
+		"upgradesTo": "Composite Bowman",
+		"cost": 35,
+		"obsoleteTech": "Scientific Theory",
+		"promotions": ["Ignore terrain cost"],
+		"uniques": ["May upgrade to [Composite Bowman] through ruins-like effects"],
+		"attackSound": "nonmetalhit"
+	},
+	{
 		"name": "Warrior",
 		"unitType": "Sword",
 		"movement": 2,
@@ -610,19 +624,17 @@
 		//"Requires [Mercenary Army]" in BNW
 	},
 	{
-		"name": "Impi",
-		"uniqueTo": "The Zulu",
+		"name": "Impi", 
 		"replaces": "Pikeman",
+		"uniqueTo": "Zulu",
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 16,
-		"cost": 45,
+		"cost": 90,
 		"requiredTech": "Civil Service",
-		"obsoleteTech": "Metallurgy",
-		"upgradesTo": "Lancer",
-		"uniques": ["[+25]% XP gained from combat",
-			"[+100]% to Flank Attack bonuses",
-			"[-67]% maintenance costs"],
+		"uniques": ["[+25]% Strength <vs [Gunpowder] units>","[+50]% Strength <vs [Mounted] units>","[1] additional attacks per turn"],
+		"upgradesTo": "Rifleman",
+		"obsoleteTech": "Rifling",
 		"attackSound": "metalhit"
 	},
 	{
@@ -912,6 +924,20 @@
 		"attackSound": "cannon"
 	},
 	{
+		"name": "Nau", 
+		"uniqueTo": "Portugal",
+		"replaces": "Caravel",
+		"unitType": "Melee Water",
+		"movement": 5,
+		"strength": 20,
+		"cost": 120,
+		"hurryCostModifier": 30,
+		"requiredTech": "Astronomy",
+		"upgradesTo": "Ironclad",
+		"obsoleteTech": "Combustion",
+		"uniques": ["Can move after attacking","[+1] Sight","May withdraw before melee ([50]%)","Can undertake a trade mission with City-State, giving a large sum of gold and [0] Influence"],
+	},
+	{
 		"name": "Musketman",
 		"unitType": "Gunpowder",
 		"movement": 2,
@@ -1081,6 +1107,22 @@
 		"attackSound": "horse"
 	},
 	{
+		"name": "Winged Hussar", 
+		"replaces": "Lancer",
+		"uniqueTo": "Poland",
+		"unitType": "Horse Mount",
+		"movement": 5,
+		"strength": 28,
+		"cost": 185,
+		"requiredTech": "Metallurgy",
+		"obsoleteTech": "Combined Arms",
+		"upgradesTo": "Anti-Tank Gun",
+		"uniques": ["Can move after attacking","No defensive terrain bonus",
+			"[-33]% Strength <vs cities>","Consumes [1] [Horses]"],
+		"promotions": ["Shock I","Formation I","Heavy Charge"],
+		"attackSound": "horse"
+	},
+	{
 		"name": "Cannon",
 		"unitType": "Siege",
 		"movement": 2,
@@ -1224,6 +1266,37 @@
 		"attackSound": "horse"
 	},
 	{
+		"name": "Berber Cavalry", 
+		"replaces": "Cavalry",
+		"unitType": "Horse Mount",
+		"uniqueTo": "Morocco",
+		"movement": 4,
+		"strength": 34,
+		"cost": 225,
+		"requiredTech": "Military Science",
+		"obsoleteTech": "Combustion",
+		"upgradesTo": "Landship",
+		"promotions": ["Homeland Guardian","Desert Warrior"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus",
+			"[-33]% Strength <vs cities>","Consumes [1] [Horses]"],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Comanche Rider", 
+		"unitType": "Horse Mount",
+		"replaces": "Cavalry",
+		"uniqueTo": "Shoshone",
+		"movement": 5,
+		"strength": 34,
+		"cost": 200,
+		"requiredTech": "Military Science",
+		"obsoleteTech": "Combustion",
+		"upgradesTo": "Landship",
+		"uniques": ["Can move after attacking","No defensive terrain bonus",
+			"[-33]% Strength <vs cities>","Consumes [1] [Horses]"],
+		"attackSound": "horse"
+	},
+	{
 		"name": "Ironclad",
 		"unitType": "Melee Water",
 		"movement": 3,
@@ -1330,6 +1403,21 @@
 		"requiredTech": "Plastics",
 		"upgradesTo": "Mechanized Infantry",
 		"obsoleteTech": "Mobile Tactics",
+		"attackSound": "shot"
+	},
+	{
+		"name": "Pracinha", 
+		"unitType": "Gunpowder",
+		"uniqueTo": "Brazil",
+		"replaces": "Infantry",
+		"movement": 2,
+		"strength": 70,
+		"cost": 375,
+		"requiredTech": "Plastics",
+		"upgradesTo": "Mechanized Infantry",
+		"obsoleteTech": "Mobile Tactics",
+		"promotions": ["Great Generals II"],
+		"uniques": ["[+20]% Strength <when fighting in [Foreign Land] tiles>"],
 		"attackSound": "shot"
 	},
 	{
