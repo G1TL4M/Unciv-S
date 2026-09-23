@@ -257,7 +257,7 @@
 	//Civilization unique improvements
 	{
 		"name": "Moai",
-		"uniqueTo": "Polynesia",
+		"uniqueTo": "Rapa Nui",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"culture": 1,
 		"turnsToBuild": 4,
@@ -289,8 +289,8 @@
 		"techRequired": "Guilds",
 		"shortcutKey": "F"
 	},
-  {
-    "name": "Nubian Pyramid",
+    {
+        "name": "Nubian Pyramid",
 		"uniqueTo": "Nubia",
 		"faith": 2,
 		"food": 2,
@@ -304,8 +304,28 @@
 			"[+1 Faith] <with [1] to [6] neighboring [Holy site] tiles>",
 			"[+1 Production] <with [1] to [6] neighboring [Manufactory] tiles>",
 			"[+1 Culture] <with [1] to [6] neighboring [Landmark] tiles>"]
-    "shortcutKey": "N"
-  },
+        "shortcutKey": "N"
+	},
+	{
+		"name": "Outback Station",
+		"uniqueTo": "Australia",
+		"food": 1,
+		"production": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Guilds",
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Desert"],
+		"uniques": ["[+1 Food] for each adjacent [Pasture]",
+		"shortcutKey": K
+	},
+	{
+		"name": "Ziggurat",
+		"uniqueTo": "Sumeria",
+		"science": 2,
+		"turnsToBuild": 7,
+		"terrainsCanBeBuiltOn": ["Grassland","Desert","Plains","Tundra","Flood plains"],
+		"uniques": ["[+1 Culture] <with [1] to [6] neighboring [River] tiles>"],
+		"shortcutKey": "Z"
+	},
 
 	// Unbuildable improvements
 	{
