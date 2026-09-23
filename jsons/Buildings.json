@@ -1420,8 +1420,7 @@
 		"isWonder": true,
 		"uniqueTo": "Italy",
 		"cost": 0,
-		"uniques": ["",
-			"Can only be built <in [in capital] cities>",
+		"uniques": ["Can only be built <in [in capital] cities>"]
 	},
     {
 		"name": "Abdul Aziz al Saud",
