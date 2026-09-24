@@ -638,6 +638,28 @@
 		"attackSound": "metalhit"
 	},
 	{
+		"name": "Medic",
+		"unitType": "Medic",
+		"movement": 3,
+		"strength": 8,
+		"cost": 90,
+		"requiredTech": "Civil Service",
+		"uniques": ["All adjacent units heal [+15] HP when healing"],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Medicine Man",
+		"unitType": "Medic",
+		"replaces": "Medic",
+		"uniqueTo": "Navajo",
+		"movement": 4,
+		"strength": 8,
+		"cost": 90,
+		"requiredTech": "Civil Service",
+		"uniques": ["All adjacent units heal [+20] HP when healing"],
+		"attackSound": "nonmetalhit"
+	},
+	{
 		"name": "Galleass",
 		"unitType": "Ranged Water",
 		"movement": 3,
