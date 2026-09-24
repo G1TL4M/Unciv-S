@@ -145,7 +145,7 @@
             "[+1 Faith, +1 Culture, -1 Food] from every [Fish]",
             "[+1 Faith, +1 Culture, -1 Gold] from every [Furs]",
             "[+1 Faith, +1 Culture, -1 Food] from every [Whales]",
-            "[+1 Faith, +1 Culture, -1 Food] from every [Crab]",
+            "[+1 Faith, +1 Culture, -1 Food] from every [Crab]"]
     },
     {
         "name": "Asceticism",
