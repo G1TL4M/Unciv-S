@@ -139,8 +139,13 @@
         "name": "Ahimsa",
         "type": "Follower",
         "uniques": ["[+1 Faith, +1 Culture, -1 Food] from every [Cattle]",
+            "[+1 Faith, +1 Culture, -1 Food] from every [Bison]",
             "[+1 Faith, +1 Culture, -1 Food] from every [Deer]",
-            "[+1 Faith, +1 Culture, -1 Food] from every [Sheep]"]
+            "[+1 Faith, +1 Culture, -1 Food] from every [Sheep]",
+            "[+1 Faith, +1 Culture, -1 Food] from every [Fish]",
+            "[+1 Faith, +1 Culture, -1 Gold] from every [Furs]",
+            "[+1 Faith, +1 Culture, -1 Food] from every [Whales]",
+            "[+1 Faith, +1 Culture, -1 Food] from every [Crab]",
     },
     {
         "name": "Asceticism",
