@@ -36,6 +36,10 @@
         "movementType": "Land"
     },
     {
+        "name": "Medic",
+        "movementType": "Land"
+    },
+    {
         "name": "Siege",
         "movementType": "Land",
         "civilopediaText": [
