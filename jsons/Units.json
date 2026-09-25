@@ -660,6 +660,18 @@
 		"attackSound": "nonmetalhit"
 	},
 	{
+		"name": "Ngangkari",
+		"unitType": "Medic",
+		"replaces": "Medic",
+		"uniqueTo": "The Aboriginals",
+		"movement": 4,
+		"strength": 8,
+		"cost": 90,
+		"requiredTech": "Civil Service",
+		"uniques": ["All adjacent units heal [+20] HP when healing"],
+		"attackSound": "nonmetalhit"
+	},
+	{
 		"name": "Galleass",
 		"unitType": "Ranged Water",
 		"movement": 3,
