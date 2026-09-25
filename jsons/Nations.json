@@ -1980,7 +1980,7 @@
 		]
 	},
 	{
-		"name": "The Aboriginals",
+		"name": "The Aboriginals", // If I could have this split into multiple distinct civs, I would
 		"leaderName": "John Curtin",
 		"adjective": ["Aboriginal"],
 		"startBias": ["Desert","Plains"],
@@ -2005,7 +2005,7 @@
 			"[+1 Faith] from every [Holy site]",
 			"[+1 Culture] from every [Landmark]"],
 		"cities": ["Mparntwe",
-			"Lajamanu","Mutitjulu","Nyirripi","Nhulunbuy","Yuendumu",
+			"Lajamanu","Mutitjulu","Nyirripi","Tae Rak","Nhulunbuy","Yuendumu",
 			"Alekarenge","Willowra"]
 	},
 	{
@@ -2777,18 +2777,6 @@
 		"uniques": ["Will not be displayed in Civilopedia", "Will not be chosen for new games", "Excluded from map editor"]
 	},
 	{
-		"name": "Tae Rak",
-		"adjective": ["Gunditjmara"],
-		"cityStateType": "Maritime",
-		
-		"declaringWar": "You leave us no choice. War it must be.",
-		"defeated": "Very well, this shall not be forgotten.",
-		"defeated": "Perhaps, in another world, we could have been friends.",
-		"outerColor": [0, 0, 0],
-		"innerColor": [56, 255, 112],
-		"cities": ["Tae Rak"],
-	},
-	{
 		"name": "Ur", // Introduced in BNW
 		"adjective": ["Urian"],
 		"cityStateType": "Maritime",
@@ -3293,19 +3281,6 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [255, 0, 0],
 		"cities": ["Valletta"]
-	},
-
-	{
-		"name": "Alice Springs",
-		"adiective": ["Arrernte"],
-		"cityStateType": "Religious",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "We never fully trusted you from the start.",
-		"outerColor": [0, 0, 0],
-		"innerColor": [255, 255, 255],
-		"cities": ["Alice Springs"]
 	},
 	{
 		"name": "Bratislava",
