@@ -3249,6 +3249,42 @@
 		"innerColor": [255, 255, 200],
 		"cities": ["Turpan"]
 	},
+	{
+		"name": "Ambon",
+		"adiective": ["Ambon"],
+		"cityStateType": "Spice Islands",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Unacceptable!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255, 176, 10],
+		"cities": ["Ambon"]
+	},
+	{
+		"name": "Sofifi",
+		"adiective": ["Sofifi"],
+		"cityStateType": "Spice Islands",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Unacceptable!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255, 176, 10],
+		"cities": ["Sofifi"]
+	},
+	{
+		"name": "Ternate",
+		"adiective": ["Ternate"],
+		"cityStateType": "Spice Islands",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Unacceptable!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255, 176, 10],
+		"cities": ["Ternate"]
+	},
 
 	{
 		"name": "Almaty",
