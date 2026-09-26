@@ -59,7 +59,7 @@
 	},
 	{
 		"name": "Siberian Yurt",
-        "uniqueTo": "Sibir",
+        "uniqueTo": "Siberia",
 		"replaces": "Granary",
 		"food": 3,
         "production": 1,
@@ -957,7 +957,7 @@
 		"specialistSlots": {"Engineer": 1},
 		"hurryCostModifier": 25,
 		"maintenance": 2,
-		"uniques": ["[+10]% Production when constructing [All] buildings [in this city]","[+1 Gold, +1 Food] from [Maple Forest] tiles [in this city]","[+1 Gold] from [Forest] tiles [in this city]","[+1 Gold] from every [Cherry Forest] tiles [in this city]"],
+		"uniques": ["[+10]% Production when constructing [All] buildings [in this city]","[+1 Gold, +1 Food] from [Maple Forest] tiles [in this city]","[+1 Gold] from [Forest] tiles [in this city]","[+1 Gold] from every [Cherry Forest] tiles [in this city]","Provides [2] [Maple Syrup]"],
 		"requiredTech": "Economics"
 	},
 	{
