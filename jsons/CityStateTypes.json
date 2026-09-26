@@ -49,6 +49,19 @@
         "color": [255, 255, 200]
     },
     {
+        "name": "Spice Islands",
+        "friendBonusUniques": [
+            "[+2 Happiness] <before the [Medieval era]>",
+            "[+3 Happiness] <starting from the [Medieval era]>"
+        ],
+        "allyBonusUniques": [
+            "[+2 Happiness] <before the [Medieval era]>",
+            "[+3 Happiness] <starting from the [Medieval era]>",
+            "Provides a unique luxury"
+        ],
+        "color": [255, 176, 10]
+    },
+    {
         "name": "Militaristic",
         "friendBonusUniques": ["Provides military units every ≈[20] turns"],
         "allyBonusUniques": ["Provides military units every ≈[15] turns"],
