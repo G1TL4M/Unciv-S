@@ -1980,33 +1980,30 @@
 		]
 	},
 	{
-		"name": "The Aboriginals", // If I could have this split into multiple distinct civs, I would
-		"leaderName": "John Curtin",
-		"adjective": ["Aboriginal"],
-		"startBias": ["Desert","Plains"],
-		"preferredVictoryType": "Cultural",
+		"name": "The Bunuba",
+		"leaderName": "Jandamarra",
+		"adjective": ["Bunuba"],
+		"startBias": ["Hill"],
+		"preferredVictoryType": "Domination",
 		
-		"declaringWar": "After thorough deliberation, Australia finds itself at a crossroads. Prepare yourself, war is upon us.",
-		"attacked": "We will mobilize every means of resistance to stop this transgression against our nation!",
-		"defeated": "The principles for which we have fought will survive longer than any nation you could ever build.",
-		"introduction": "John Curtin, I speak for the people of Australia as their Prime Minister. We seek sympathetic allies in the fight against the hawks of war.",
+		"startIntroPart1": "",
 		
-		"neutralHello": "How are you today?",
-		"hateHello": "An unwelcome turn.",
-		"tradeRequest": "I've sent a trade delegation to your territories. I hope you will receive them with my sincerest thanks.",
+		"declaringWar": "For the good of The Empire i must declare war!",
+		"attacked": "You are making a big mistake.",
+		"defeated": "Will this be my last goodbye to you?.",
+		"introduction": "Tell me, are you a barbarian, or are you as civilized as we are?",
 		
-		"outerColor": [21, 49, 108],
-		"innerColor": [248,217,2],
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+		
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+				
+		"outerColor": [147, 189, 182],
+		"innerColor": [18, 18, 46],
 		"favoredReligion": "Dreamtime",
-		"uniqueName": "Land Down Under",
-		"uniques": ["[15]% Food is carried over after population increases [in all coastal cities]",
-			"[+1 Science] from every [Academy]",
-			"[+1 Gold] from every [Customs house]",
-			"[+1 Faith] from every [Holy site]",
-			"[+1 Culture] from every [Landmark]"],
-		"cities": ["Mparntwe",
-			"Lajamanu","Mutitjulu","Nyirripi","Tae Rak","Nhulunbuy","Yuendumu",
-			"Alekarenge","Willowra"]
+		"uniqueName": "Windjana Resistance",
+		"uniques": ["[+1 Food] from every [Camp]","Earn [35]% of killed [Military] unit's [Strength] as [Faith]","Earn [5]% of killed [Military] unit's [Strength] as [Culture]","[+1 Faith] from all [Granary] buildings","[+10]% Production when constructing [Settler] units [in all cities]"],
+		"cities": ["Junjuwa","Daringunaya","Bandilngan","Dimalurru", "Yaranggi", "Baraa", "Jijidu", "Yuwa", "Miluwindi", "Mindi Rardi", "Gurang.ngadja", "Dawadiya", "Danggu", "Biridu", "Balili", "Kurnangki", "Bungardi", "Galamunda", "Malarabah", "Yirimalay", "Buruwa", "Jimbalakudunj"],
 	},
 	{
 		"name": "The Celts", // The only differences are the name and that Gaul got bunched in this too
@@ -2076,6 +2073,36 @@
 		"civilopediaText": [
 			{"text": "From 'Civ 6 Mod'"}
 		]
+	},
+	{
+		"name": "The Gunditjmara",
+		"leaderName": "Boorn Boorn",
+		"adjective": ["Gunditjmara"],
+		"startBias": ["Marsh"],
+		"preferredVictoryType": "Cultural",
+
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+        "declaringWar": "You've behaved yourself very badly, you know it. Now it's payback time.",
+		"attacked": "You've mistaken my passion for a weakness, you'll regret about this.",
+		"defeated": "We were defeated, so this makes me your prisoner. I suppose there are worse fates.",
+		"introduction": "I greet you, stranger! If you are as intelligent and tactful as you are attractive, we'll get along just fine.",
+		
+		"neutralHello": "Hello!",
+		"hateHello": "What do you need?!",
+		"tradeRequest": "How would you like it if I propose this kind of exchange?",
+		
+        "outerColor": [29, 61, 53],
+		"innerColor": [186, 255, 238],
+		"favoredReligion": "Dreamtime",
+		"uniqueName": "Fighting Gunditjmara",
+		"uniques": ["[+1 Faith] from every [Marsh]","[+1 Faith] from every [Fresh water]"],
+		"cities": ["Tae Rak",
+			"Budj Bim","Tyrendarra","Kurtonitj","Warnambool","Euneralla",
+			"Kardermudelar","Tapoc"],
+        "spyNames": ["Born"]
 	},
 	{
 		"name": "The Inuit",
