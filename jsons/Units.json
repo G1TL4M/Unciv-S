@@ -663,7 +663,7 @@
 		"name": "Ngangkari",
 		"unitType": "Medic",
 		"replaces": "Medic",
-		"uniqueTo": "The Aboriginals",
+		"uniqueTo": "Anangu",
 		"movement": 3,
 		"strength": 8,
 		"cost": 90,
