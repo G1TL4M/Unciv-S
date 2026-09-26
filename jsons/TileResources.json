@@ -403,6 +403,18 @@
 		            "Doesn't generate naturally <in [{Tundra} {Maple Forest}] tiles>"]
 	},
 	{
+		"name": "Cloves",
+		"resourceType": "Luxury",
+		"gold": 2,
+		"uniques": ["Can only be created by Spice Islands City-States"]
+	},
+	{
+		"name": "Nutmeg",
+		"resourceType": "Luxury",
+		"gold": 2,
+		"uniques": ["Can only be created by Spice Islands City-States"]
+	},
+	{
 		"name": "Grapes",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Grassland","Plains"],
