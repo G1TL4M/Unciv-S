@@ -44,6 +44,32 @@
 		"requiredTech": "Pottery"
 	},
 	{
+	    "name": "Hogan",
+        "uniqueTo": "Navajo",
+		"replaces": "Granary",
+		"food": 2,
+        "production": 1,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Food] from [Deer] tiles [in this city]",
+			"[+1 Food] from [Bananas] tiles [in this city]",
+			"[+1 Food] from [Wheat] tiles [in this city]",
+			"[+1 Culture] from [Desert] tiles [in this city]"],
+		"requiredTech": "Pottery"
+	},
+	{
+		"name": "Siberian Yurt",
+        "uniqueTo": "Sibir",
+		"replaces": "Granary",
+		"food": 3,
+        "production": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Food] from [Deer] tiles [in this city]",
+			"[+1 Food] from [Bananas] tiles [in this city]",
+			"[+1 Food] from [Wheat] tiles [in this city]"],
+		"requiredTech": "Pottery"
+	},
+	{
 		"name": "Shrine",
 		"faith": 1,
 		"cost": 40,
