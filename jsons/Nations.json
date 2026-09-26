@@ -895,6 +895,33 @@
         "spyNames": ["Solhofaat", "Khenzeer", "Zarafah", "Temsaah", "Abyadh", "Mostafa", "Yusuf", "Waddah", "Sameera", "Gamal"]
 	},
 	{
+		"name": "Anangu",
+		"leaderName": "Tiger Tjalkalyirri",
+		"adjective": ["Anangu"],
+		"startBias": ["Desert"],
+		"preferredVictoryType": "Domination",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "We cannot tolerate you anymore",
+		"attacked": "The war has hardened us, but it has not broken us",
+		"defeated": "This cannot happen!",
+		"introduction": "Welcome to our land",
+		
+		"neutralHello": "Hello.",
+		"hateHello": "We do not fear war",
+		"tradeRequest": "Check out this",
+		
+		"outerColor": [16, 30, 158],
+		"innerColor": [255, 255, 255],
+		"favoredReligion": "Dreamtime",
+		"uniqueName": "Tjukurpa",
+		"uniques": ["[+1 Culture] from all [Culture] buildings","[+3 Culture] from [Natural Wonder] tiles [in all cities]","[+3 Culture] from [Holy site] tiles [in all cities]"],
+		"cities": ["Mutitjulu", "Pukatja", "Warakurna", "Amata", "Milyirrtjarra", "Walungurru", "Kaltukatjara", "Indulkana", "Papunya", "Kaltjiti", "Mimili", "Aputula"],
+		"spyNames": ["Wikilyiri", "Kunmanara", "Nyiru", "Ilyatjari", "Ngupulya", "Tjungkara", "Tjalara"]
+	},
+	{
 		"name": "Antarctica",
 		"leaderName": "Roald Amundsen",
 		"adjective": ["Antarctican"],
@@ -2161,16 +2188,8 @@
 			"[+1 Production] from every [Forest] <in tiles without [Lumber mill]> <in tiles without [Camp]> <in tiles without [Plantation]>",
 			"[+1 Production] from every [Jungle] <in tiles without [Lumber mill]> <in tiles without [Camp]> <in tiles without [Plantation]>",],
 		"cities": ["Te Hokianga-nui-a-kupe",
-			"Ngaruawahia",
-			"Opango",
-			"Whakarewarewa",
-			"Kaiapoi",
-			"Whanganui",
-			"Kawhia",
-			"Taumutu",
-			"Kapiti",
-			"Te Pokohiwi",
-			"Otatara pa",
+			"Ngaruawahia","Opango","Whakarewarewa","Kaiapoi","Whanganui",
+			"Kawhia","Taumutu","Kapiti","Te Pokohiwi","Otatara pa",
 			"Motupohue",
 			"Ruatoria",
 			"Maungakiekie pa",
@@ -3309,6 +3328,7 @@
 		"innerColor": [255, 0, 0],
 		"cities": ["Valletta"]
 	},
+	
 	{
 		"name": "Bratislava",
 		"adjective": ["Bratislavan"],
@@ -3395,6 +3415,18 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [255, 255, 255],
 		"cities": ["Lhasa"]
+	},
+	{
+		"name": "Mparntwe",
+		"adiective": ["Arrernte"],
+		"cityStateType": "Religious",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255, 255, 255],
+		"cities": ["Mparntwe"]
 	},
 	{
 		"name": "Nazca",
