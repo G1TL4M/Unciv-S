@@ -1431,6 +1431,20 @@
 		"uniques": ["[+2] Happiness from each type of luxury resource",
 			"Can only be built <in [in capital] cities>"]
     },
+    {
+		"name": "Pedro II",
+		"isWonder": true,
+		"uniqueTo": "Brazil",
+		"cost": 1,
+		"uniques": ["[+20]% Great Person generation [in all cities]",
+			"[Faith] cost of purchasing [Great Admiral] units [-15]%",
+			"[Faith] cost of purchasing [Great Artist] units [-15]%",
+			"[Faith] cost of purchasing [Great Engineer] units [-15]%",
+			"[Faith] cost of purchasing [Great General] units [-15]%",
+			"[Faith] cost of purchasing [Great Merchant] units [-15]%",
+			"[Faith] cost of purchasing [Great Scientist] units [-15]%",
+			"Can only be built <in [in capital] cities>"]
+    },
 	{
 		"name": "Cleopatra",
 		"isWonder": true,
@@ -1481,7 +1495,8 @@
 		"uniques": ["[+1] Movement <for [Melee] units>","[+1] Sight <for [Ranged] units>",
 			"Can only be built <in [in capital] cities>",
 			"Only available <in cities without a [Leonidas]>",
-			"Only available <in cities without a [Theodora]>"]
+			"Only available <in cities without a [Pericles]>",
+		    "Only available <in cities without a [Theodora]>"]
 	},
 	{
 		"name": "Leonidas",
@@ -1491,6 +1506,18 @@
 		"uniques": ["[+50]% Production when constructing [All] units [in all cities] <when at war>",
 			"Can only be built <in [in capital] cities>",
 			"Only available <in cities without a [Alexander]>",
+			"Only available <in cities without a [Pericles]>",
+		    "Only available <in cities without a [Theodora]>"]
+	},
+    {
+		"name": "Pericles",
+		"isWonder": true,
+		"uniqueTo": "Greece",
+		"cost": 1,
+		"uniques": ["[+200]% [Culture] from City-States",
+			"Can only be built <in [in capital] cities>",
+			"Only available <in cities without a [Alexander]>",
+			"Only available <in cities without a [Leonidas]>",
 			"Only available <in cities without a [Theodora]>"]
 	},
 	{
@@ -1501,14 +1528,24 @@
 		"uniques": ["May choose [1] additional belief(s) of any type when [founding] a religion",
 			"Can only be built <in [in capital] cities>",
 			"Only available <in cities without a [Alexander]>",
-			"Only available <in cities without a [Leonidas]>"]
+			"Only available <in cities without a [Leonidas]>",
+			"Only available <in cities without a [Pericles]>"]
+	},
+    {
+		"name": "Pachacuti",
+		"isWonder": true,
+		"uniqueTo": "Inca",
+		"cost": 1,
+		"uniques": ["[+1 Food] from every [Mountain]",
+			"[All] units gain the [Qhapaq Nan] promotion",
+			"Can only be built <in [in capital] cities>"]
 	},
     {
 		"name": "Mahatma Ghandi",
 		"isWonder": true,
 		"uniqueTo": "India",
 		"cost": 1,
-		"uniques": ["[+5 Faith] [in capital] <when not at war>"
+		"uniques": ["[+5 Faith] [in capital] <when not at war>",
 			"Can only be built <in [in capital] cities>"]
 	},
 	{
@@ -1539,7 +1576,7 @@
 			"Can only be built <in [in capital] cities>"]
 	},
     {
-	    "name": "The",
+	    "name": "Lautaro",
 		"isWonder": true,
 		"uniqueTo": "The Mapuche",
 		"cost": 1,
