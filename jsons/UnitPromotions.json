@@ -790,11 +790,11 @@
 	// Leader Promotions
 	{
 		"name": "Qhapaq Nan", //Pachacuti
-		"uniques": ["Can pass through impassable tiles <after adopting [Civil Service]>",
+		"uniques": ["Can pass through impassable tiles <after adopting [Civil Service]>"]
 	},
 	{
 		"name": "The First Emperor", //Qin Shi Huang
-		"uniques": ["Can speed up construction of a building <before the [Medieval era]>"
+		"uniques": ["Can speed up construction of a building <before the [Medieval era]>"]
 	},
 	{	// For barbarian water units
 		"name": "Unable to pillage tiles",
