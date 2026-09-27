@@ -1445,6 +1445,21 @@
 			"[Faith] cost of purchasing [Great Scientist] units [-15]%",
 			"Can only be built <in [in capital] cities>"]
     },
+    {
+		"name": "Wilfred Laurier",
+		"isWonder": true,
+		"uniqueTo": "Canada",
+		"cost": 1,
+		"uniques": ["[-50]% Gold cost of acquiring tiles [in all cities] <within [1] tiles of a [Tundra]>",
+			"Can only be built <in [in capital] cities>"]
+	},
+	{
+		"name": "Qin Shi Huang",
+		"isWonder": true,
+		"uniqueTo": "China",
+		"cost": 1,
+		"uniques": ["[Worker] units gain the [The First Emperor] promotion",
+    },
 	{
 		"name": "Cleopatra",
 		"isWonder": true,
@@ -1556,6 +1571,15 @@
 		"uniques": ["Can only be built <in [in capital] cities>"]
 	},
     {
+		"name": "Seondeok",
+		"isWonder": true,
+		"uniqueTo": "Korea",
+		"cost": 1,
+		"uniques": ["[+6]% [Science] [in all cities with a garrison]",
+			"[+6]% [Culture] [in all cities with a garrison]",
+			"Can only be built <in [in capital] cities>"]
+    },
+    {
 	    "name": "Mansa Musa",
 		"isWonder": true,
 		"uniqueTo": "Mali",
@@ -1576,11 +1600,19 @@
 			"Can only be built <in [in capital] cities>"]
 	},
     {
-	    "name": "Lautaro",
+		"name": "Trajan",
 		"isWonder": true,
-		"uniqueTo": "The Mapuche",
+		"uniqueTo": "Rome",
 		"cost": 1,
-		"uniques": ["[+67]% Strength <during a Golden Age>"
+		"uniques": ["Gain a free [Monument] [in all cities]",
+			"Can only be built <in [in capital] cities>"]
+	},
+	{
+		"name": "Peter I",
+		"isWonder": true,
+		"uniqueTo": "Russia",
+		"cost": 1,
+		"uniques": ["Science gained from research agreements [+50]%",
 			"Can only be built <in [in capital] cities>"]
 	},
     {
@@ -1589,6 +1621,14 @@
 		"uniqueTo": "Saudi Arabia",
 		"cost": 1,
 		"uniques": ["[+100]% [Oil] resource production",
+			"Can only be built <in [in capital] cities>"]
+	},
+	{
+		"name": "Philip II",
+		"isWonder": true,
+		"uniqueTo": "Spain",
+		"cost": 1,
+		"uniques": ["[Faith] cost of purchasing [Inquisitor] units [-50]%",
 			"Can only be built <in [in capital] cities>"]
 	},
     {
@@ -1617,6 +1657,23 @@
 			"Can only be built <in [in capital] cities>",
 			"Only available <in cities without a [Ambiorix]>"]
 	},
+    {
+		"name": "Poundmaker",
+		"isWonder": true,
+		"uniqueTo": "The Cree",
+		"cost": 1,
+		"uniques": ["[+1 Food] from each Trade Route",
+			"[+1 Gold] from every [Camp]",
+			"[+1 Gold] from [Pasture] tiles [in all cities]"]
+	},
+	{
+		"name": "Lautaro",
+		"isWonder": true,
+		"uniqueTo": "The Mapuche",
+		"cost": 1,
+		"uniques": ["[+67]% Strength <during a Golden Age>"
+			"Can only be built <in [in capital] cities>"]
+	},
 	{
 	    "name": "George Washington",
 		"isWonder": true,
@@ -1640,7 +1697,7 @@
 		"isWonder": true,
 		"uniqueTo": "The Zulu",
 		"cost": 1,
-		"uniques": ["[+15]% Strength <for [Melee] units> <when adjacent to a [Melee] unit>",
+		"uniques": ["[+25]% Strength <for [Melee] units> <when adjacent to a [Melee] unit>",
 			"Can only be built <in [in capital] cities>"]
     }
 		]
