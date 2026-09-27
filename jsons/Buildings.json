@@ -1061,6 +1061,17 @@
 		"requiredTech": "Military Science",
 		"quote": "'Pale Death beats equally at the poor man's gate and at the palaces of kings.' - Horace"
 	},
+	{
+		"name": "Mount Rushmore",
+        "isWonder": true,
+    	"culture" : 2,
+    	"greatPersonPoints": { "Great Engineer": 1 },
+        "uniques": ["[-35]% Gold cost of acquiring tiles [in all cities]",
+				"[-15]% unhappiness from the number of cities",
+				"Must have an owned [Mountain] within [2] tiles"],
+        "requiredTech": "Dynamite",
+        "quote": "'Who can give up essential liberty to obtain a little temporary safety, deserve neither liberty nor safety.' - Benjamin Franklin"
+	},
 	// Column 10
 	{
 		"name": "Hospital",
@@ -1284,6 +1295,15 @@
         ]
 	},
     {
+		"name": "The Internet",
+        "isWonder": true,
+        "uniques": ["Free Technology",
+				"[+10]% [Culture] [in all cities]"],
+	    "greatPersonPoints": {"Great Engineer": 1},
+        "requiredTech": "Computers",
+        "quote": "'Beep... Boop...'",
+	},
+    {
         "name": "Great Firewall",
         "isWonder": true,
         "uniques": ["Only available <when espionage is enabled>", "[-99]% enemy spy effectiveness [in this city]",
@@ -1331,6 +1351,15 @@
 		"requiredBuilding": "Factory",
 		"uniques": ["[+50]% Production when constructing [Spaceship part] units [in this city]"],
 		"requiredTech": "Robotics"
+	},
+	{
+		"name": "International Space Station",
+        "isWonder": true,
+    	"percentStatBonus": {"culture": 10,"science": 10},
+        "uniques": ["[+1 Science] from [Great Improvement] tiles [in all cities]",
+				"[+50]% Production when constructing [Spaceship part] units [in this city]"],
+        "requiredTech": "Globalization",
+        "quote": "'In space, we're all people from Earth' - Sunita Williams"
 	},
 	// Column 16
 	{
