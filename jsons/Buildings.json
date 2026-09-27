@@ -1459,6 +1459,7 @@
 		"uniqueTo": "China",
 		"cost": 1,
 		"uniques": ["[Worker] units gain the [The First Emperor] promotion",
+			"Can only be built <in [in capital] cities>"]
     },
 	{
 		"name": "Cleopatra",
