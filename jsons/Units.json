@@ -644,6 +644,7 @@
 		"strength": 8,
 		"cost": 90,
 		"requiredTech": "Civil Service",
+		"uniques": ["All adjacent units heal [+10] HP when healing"], // It should heal 15 by default
 		"promotions": ["Medic"],
 		"attackSound": "nonmetalhit"
 	},
@@ -656,7 +657,7 @@
 		"strength": 8,
 		"cost": 90,
 		"requiredTech": "Civil Service",
-		"uniques": ["All adjacent units heal [+5] HP when healing"],
+		"uniques": ["All adjacent units heal [+15] HP when healing"],
 		"promotions": ["Medic"],
 		"attackSound": "nonmetalhit"
 	},
@@ -669,7 +670,7 @@
 		"strength": 8,
 		"cost": 90,
 		"requiredTech": "Civil Service",
-		"uniques": ["All adjacent units heal [+5] HP when healing","Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]"],
+		"uniques": ["All adjacent units heal [+15] HP when healing","Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]"],
 		"promotions": ["Medic"],
 		"attackSound": "nonmetalhit"
 	},
