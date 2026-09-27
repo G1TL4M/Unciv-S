@@ -491,7 +491,7 @@
 		"uniques": ["Must be adjacent to [1] to [6] [Coast] tiles",
 			"Must be adjacent to [0] [Ice] tiles",
 			"Neighboring tiles will convert to [Coast]"],
-		"turnsInto": "Mountain",
+		"turnsInto": "Volcano",
 		"impassable": true,
 		"unbuildable": true,
 		"weight": 10
