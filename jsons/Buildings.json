@@ -1424,6 +1424,14 @@
      // The game lets you pick a leader and they give the nation an additional boost
 
     {
+		"name": "Montezuma",
+		"isWonder": true,
+		"uniqueTo": "Aztec",
+		"cost": 1,
+		"uniques": ["[+2] Happiness from each type of luxury resource",
+			"Can only be built <in [in capital] cities>"]
+    },
+	{
 		"name": "Cleopatra",
 		"isWonder": true,
 		"uniqueTo": "Egypt",
@@ -1509,6 +1517,34 @@
 		"uniqueTo": "Italy",
 		"cost": 1,
 		"uniques": ["Can only be built <in [in capital] cities>"]
+	},
+    {
+	    "name": "Mansa Musa",
+		"isWonder": true,
+		"uniqueTo": "Mali",
+		"cost": 1,
+		"uniques": ["[+1 Gold] from every [Desert]",
+			"[+25]% [Gold] from Trade Routes <during a Golden Age>",
+			"Can only be built <in [in capital] cities>"]
+	},
+    {
+		"name": "Kupe",
+		"isWonder": true,
+		"uniqueTo": "Maori",
+		"cost": 1,
+		"uniques": ["[+1 Science, +1 Culture, +1 Happiness] [in capital]",
+			"[15]% Food is carried over after population increases [in capital]",
+			"[+1] population [in capital]",
+			"Free [Worker] appears",
+			"Can only be built <in [in capital] cities>"]
+	},
+    {
+	    "name": "The",
+		"isWonder": true,
+		"uniqueTo": "The Mapuche",
+		"cost": 1,
+		"uniques": ["[+67]% Strength <during a Golden Age>"
+			"Can only be built <in [in capital] cities>"]
 	},
     {
 		"name": "Abdul Aziz al Saud",
