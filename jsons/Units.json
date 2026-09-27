@@ -644,7 +644,7 @@
 		"strength": 8,
 		"cost": 90,
 		"requiredTech": "Civil Service",
-		"uniques": ["All adjacent units heal [+15] HP when healing"],
+		"promotions": ["Medic"],
 		"attackSound": "nonmetalhit"
 	},
 	{
