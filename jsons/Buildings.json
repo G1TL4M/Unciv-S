@@ -216,6 +216,7 @@
 		"culture": 2,
 		"faith": 1,
 		"isWonder": true,
+		"uniques": ["[+20]% Production when constructing [Culture] buildings [in all cities]"],
 		"requiredTech": "Masonry",
 		"quote": "'Lorem ipsum dolor sit amet' - developer"
 	},
