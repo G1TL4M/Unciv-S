@@ -3,6 +3,7 @@ size: 100, 100
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
+Abbasid
 BuildingIcons/Harun al-Rashid
   rotate: false
   xy: 0, 0
@@ -10,6 +11,47 @@ BuildingIcons/Harun al-Rashid
   orig: 100, 100
   offset: 0, 0
   index: -1
+Aztecs
+BuildingIcons/Montezuma I
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+Brazil
+BuildingIcons/Pedro II
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+Canada
+BuildingIcons/Wilfred Laurier
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+China
+BuildingIcons/Qin Shi Huang
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+Egypt
+BuildingIcons/Cleopatra
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+England
 BuildingIcons/Victoria
   rotate: false
   xy: 0, 0
@@ -24,6 +66,7 @@ BuildingIcons/Winston Churchill
   orig: 100, 100
   offset: 0, 0
   index: -1
+France
 BuildingIcons/Napoleon Bonaparte
   rotate: false
   xy: 0, 0
@@ -31,6 +74,7 @@ BuildingIcons/Napoleon Bonaparte
   orig: 100, 100
   offset: 0, 0
   index: -1
+Greece
 BuildingIcons/Alexander
   rotate: false
   xy: 0, 0
@@ -45,6 +89,13 @@ BuildingIcons/Leonidas
   orig: 100, 100
   offset: 0, 0
   index: -1
+BuildingIcons/Pericles
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 BuildingIcons/Theodora
   rotate: false
   xy: 0, 0
@@ -52,6 +103,78 @@ BuildingIcons/Theodora
   orig: 100, 100
   offset: 0, 0
   index: -1
+Inca
+BuildingIcons/Pachacuti
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+India
+BuildingIcons/Mahatma Ghandi
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+Korea
+BuildingIcons/Joseon
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Seondeok
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+Mali
+BuildingIcons/Mansa Musa
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+Maori
+BuildingIcons/Kupe
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+Mongolia
+BuildingIcons/Genghis Khan
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+Rome
+BuildingIcons/Trajan
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+Russia
+BuildingIcons/Peter I
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+Saudi Arabia
 BuildingIcons/Abdul Aziz al Saud
   rotate: false
   xy: 0, 0
@@ -59,6 +182,23 @@ BuildingIcons/Abdul Aziz al Saud
   orig: 100, 100
   offset: 0, 0
   index: -1
+Spain
+BuildingIcons/Philip II
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+Sumeria
+BuildingIcons/Gilgamesh
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+The Celts
 BuildingIcons/Ambiorix
   rotate: false
   xy: 0, 0
@@ -73,6 +213,15 @@ BuildingIcons/Boudicca
   orig: 100, 100
   offset: 0, 0
   index: -1
+The Cree
+BuildingIcons/Poundmaker
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+The United States
 BuildingIcons/George Washington
   rotate: false
   xy: 0, 0
@@ -87,6 +236,7 @@ BuildingIcons/Theodore Roosevelt
   orig: 100, 100
   offset: 0, 0
   index: -1
+The Zulu
 BuildingIcons/Shaka
   rotate: false
   xy: 0, 0
