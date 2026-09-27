@@ -214,6 +214,7 @@
     {
 	    "name": "Monks Mound",
 		"culture": 2,
+		"faith": 1,
 		"isWonder": true,
 		"requiredTech": "Masonry",
 		"quote": "'Lorem ipsum dolor sit amet' - developer"
