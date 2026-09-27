@@ -1424,10 +1424,18 @@
      // The game lets you pick a leader and they give the nation an additional boost
 
     {
+		"name": "Cleopatra",
+		"isWonder": true,
+		"uniqueTo": "Egypt",
+		"cost": 1,
+		"uniques": ["[+100]% [Gold] from City-States",
+			"Can only be built <in [in capital] cities>"]
+	},
+	{
 		"name": "Victoria",
 		"isWonder": true,
 		"uniqueTo": "England",
-		"cost": 0,
+		"cost": 1,
 		"uniques": ["Empire enters golden age <upon entering the [Industrial era]>","[+1 Production] from every [Factory]","[+1 Production] from every [Manufactory]",
 			"Can only be built <in [in capital] cities>",
 			"Only available <in cities without a [Winston Churchill]>"]
@@ -1436,7 +1444,7 @@
         "name": "Winston Churchill",
 		"isWonder": true,
 		"uniqueTo": "England",
-		"cost": 0,
+		"cost": 1,
 		"uniques": ["",
 			"Can only be built <in [in capital] cities>",
 			"Only available <in cities without a [Victoria]>"]
@@ -1445,15 +1453,23 @@
 	    "name": "Napoleon Bonaparte",
 		"isWonder": true,
 		"uniqueTo": "France",
-		"cost": 0,
+		"cost": 1,
 		"uniques": ["[+1] Movement <for [All] units>",
+			"Can only be built <in [in capital] cities>"]
+	},
+	{
+		"name": "Frederick Barbarossa"
+		"isWonder": true,
+		"uniqueTo": "Germany",
+		"cost": 1,
+		"uniques": ["[+30]% Strength <vs [City-States]>",
 			"Can only be built <in [in capital] cities>"]
     },
     {
 		"name": "Alexander",
 		"isWonder": true,
 		"uniqueTo": "Greece",
-		"cost": 0,
+		"cost": 1,
 		"uniques": ["[+1] Movement <for [Melee] units>","[+1] Sight <for [Ranged] units>",
 			"Can only be built <in [in capital] cities>",
 			"Only available <in cities without a [Leonidas]>",
@@ -1463,7 +1479,7 @@
 		"name": "Leonidas",
 		"isWonder": true,
 		"uniqueTo": "Greece",
-		"cost": 0,
+		"cost": 1,
 		"uniques": ["[+50]% Production when constructing [All] units [in all cities] <when at war>",
 			"Can only be built <in [in capital] cities>",
 			"Only available <in cities without a [Alexander]>",
@@ -1473,32 +1489,48 @@
 		"name": "Theodora",
 		"isWonder": true,
 		"uniqueTo": "Greece",
-		"cost": 0,
+		"cost": 1,
 		"uniques": ["May choose [1] additional belief(s) of any type when [founding] a religion",
 			"Can only be built <in [in capital] cities>",
 			"Only available <in cities without a [Alexander]>",
 			"Only available <in cities without a [Leonidas]>"]
 	},
+    {
+		"name": "Mahatma Ghandi",
+		"isWonder": true,
+		"uniqueTo": "India",
+		"cost": 1,
+		"uniques": ["[+5 Faith] [in capital] <when not at war>"
+			"Can only be built <in [in capital] cities>"]
+	},
 	{
 		"name": "Enrico Dandolo",
 		"isWonder": true,
 		"uniqueTo": "Italy",
-		"cost": 0,
+		"cost": 1,
 		"uniques": ["Can only be built <in [in capital] cities>"]
 	},
     {
 		"name": "Abdul Aziz al Saud",
 		"isWonder": true,
 		"uniqueTo": "Saudi Arabia",
-		"cost": 0,
+		"cost": 1,
 		"uniques": ["[+100]% [Oil] resource production",
+			"Can only be built <in [in capital] cities>"]
+	},
+    {
+		"name": "Gilgamesh",
+		"isWonder": true,
+		"uniqueTo": "Sumeria",
+		"cost": 1,
+		"uniques": ["When declaring friendship, both parties gain a [50]% boost to great person generation",
 			"Can only be built <in [in capital] cities>"]
 	},
     {
         "name": "Ambiorix",
 		"isWonder": true,
 		"uniqueTo": "The Celts",
-		"cost": 0,
+		"cost": 1,
 		"uniques": ["[+1 Culture] from [Mine] tiles [in all cities]","[-25]% Culture cost of natural border growth [in all cities]","[-25]% Gold cost of acquiring tiles [in all cities]",
 			"Can only be built <in [in capital] cities>",
 			"Only available <in cities without a [Boudicca]>"]
@@ -1507,7 +1539,7 @@
 	    "name": "Boudicca",
 		"isWonder": true,
 		"uniqueTo": "The Celts",
-		"cost": 0,
+		"cost": 1,
 		"uniques": ["[+10]% Strength <when fighting units from a Civilization with more Cities than you>","Earn [67]% of killed [Military] unit's [Strength] as [Faith]",
 			"Can only be built <in [in capital] cities>",
 			"Only available <in cities without a [Ambiorix]>"]
@@ -1516,7 +1548,7 @@
 	    "name": "George Washington",
 		"isWonder": true,
 		"uniqueTo": "The United States",
-		"cost": 0,
+		"cost": 1,
 		"uniques": ["[+10]% Strength <when fighting units from a Civilization with more Cities than you>",
 			"Can only be built <in [in capital] cities>",
 			"Only available <in cities without a [Theodore Roosevelt]>"]
@@ -1525,7 +1557,7 @@
 		"name": "Theodore Roosevelt",
 		"isWonder": true,
 		"uniqueTo": "The United States",
-		"cost": 0,
+		"cost": 1,
 		"uniques": ["[+10]% Strength <when fighting units from a Civilization with more Cities than you>",
 			"Can only be built <in [in capital] cities>",
 			"Only available <in cities without a [George Washington]>"]
@@ -1534,7 +1566,7 @@
         "name": "Shaka",
 		"isWonder": true,
 		"uniqueTo": "The Zulu",
-		"cost": 0,
+		"cost": 1,
 		"uniques": ["[+15]% Strength <for [Melee] units> <when adjacent to a [Melee] unit>",
 			"Can only be built <in [in capital] cities>"]
     }
