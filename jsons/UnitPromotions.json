@@ -786,6 +786,16 @@
 		"name": "[Snowmobile] ability",
 		"uniques": ["[+33]% Strength <when fighting in [Snow] tiles>","[+33]% Strength <when fighting in [Tundra] tiles>"]
 	},
+	
+	// Leader Promotions
+	{
+		"name": "Qhapaq Nan", //Pachacuti
+		"uniques": ["Can pass through impassable tiles <after adopting [Civil Service]>",
+	},
+	{
+		"name": "The First Emperor", //Qin Shi Huang
+		"uniques": ["Can speed up construction of a building <before the [Medieval era]>"
+	},
 	{	// For barbarian water units
 		"name": "Unable to pillage tiles",
 		"uniques": ["Unable to pillage tiles"]
