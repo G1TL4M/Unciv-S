@@ -211,6 +211,13 @@
 		"requiredTech": "Masonry",
 		"quote": "'The whole earth is the tomb of heroic men and their story is not given only on stone over their clay but abides everywhere without visible symbol woven into the stuff of other men's lives.' - Pericles"
 	},
+    {
+	    "name": "Monks Mound",
+		"culture": 2,
+		"isWonder": true,
+		"requiredTech": "Masonry",
+		"quote": "'Lorem ipsum dolor sit amet' - developer"
+	},
 	{
 		"name": "Barracks",
 		"hurryCostModifier": 25,
