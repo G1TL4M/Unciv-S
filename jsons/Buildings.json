@@ -1424,9 +1424,9 @@
      // The game lets you pick a leader and they give the nation an additional boost
 
     {
-		"name": "Montezuma",
+		"name": "Montezuma I",
 		"isWonder": true,
-		"uniqueTo": "Aztec",
+		"uniqueTo": "Aztecs",
 		"cost": 1,
 		"uniques": ["[+2] Happiness from each type of luxury resource",
 			"Can only be built <in [in capital] cities>"]
