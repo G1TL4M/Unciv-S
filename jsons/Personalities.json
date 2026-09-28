@@ -102,10 +102,10 @@
       "Order": 5
     },
 	  "uniques": [
-		  "[+1000]% weight to [Alexander] for AI decisions",
-		  "[+1000]% weight to [Leonidas] for AI decisions",
-		  "[+1000]% weight to [Pericles] for AI decisions",
-		  "[+1000]% weight to [Theodora] for AI decisions"]
+		  "[+100]% weight to [Alexander] for AI decisions",
+		  "[+100]% weight to [Leonidas] for AI decisions",
+		  "[+100]% weight to [Pericles] for AI decisions",
+		  "[+100]% weight to [Theodora] for AI decisions"]
     "civilopediaText": [
       {
         "text": "Alexander the Great, born in Macedon, was one of the most skilled generals, even more by his young age, and in only 17 years he conquered all the Greek known world."
