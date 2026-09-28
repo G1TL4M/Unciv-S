@@ -289,6 +289,43 @@
 		"techRequired": "Guilds",
 		"shortcutKey": "F"
 	},
+	{
+		"name": "Hawilt",
+        "uniqueTo": "Aksum",
+        "terrainsCanBeBuiltOn": ["Land"],
+        "gold": 2,
+        "turnsToBuild": 7,
+        "techRequired": "Masonry",
+        "uniques": ["Cannot be built on [Hill] tiles", "[+1 Culture] for each adjacent [Hawilt]", "Pillaging this improvement yields approximately [+25 Gold]"],
+        "civilopediaText": [ {"text": "In Aksum, kingship was linked with religion, as kings were seen as the descendants of Astar, the principal god of the region. Before Aksum’s conversion to Christianity in the fourth century CE, royal tombs were marked by hawilt, large obelisks. These were decorated with false windows and doors, a type of vertical palatial skyscraper for the dead king. The obelisks were a source of ire for Aksum’s first Christian king, Ezana, who ended the practice, even though his own grave was marked with a hawilt. As a result, much of the original religious or social functions of these objects has been lost. Remaining hawilt number in the hundreds, including the Great Stele and King Ezana’s Stele."}, {"separator": true}],
+        "shortcutKey": "H"
+	},
+	{
+		"name": "Kabaka's Lake",
+        "uniqueTo": "Buganda",
+        "terrainsCanBeBuiltOn": ["Plains","Grassland"],
+        "food": 3,
+        "gold": 1,
+        "happiness": 2,
+        "turnsToBuild": 7,
+        "techRequired": "Engineering",
+        "uniques": ["[+1 Food] for each adjacent [{non-[Fresh water]} {Farm}]", "Only available <with [0] to [0] neighboring [Kabaka's Lake] tiles>", "Pillaging this improvement yields approximately [+25 Gold]"],
+        "civilopediaText": [ {"text": "Buganda was an empire of lakes. From their great raids against rival groups across ‘Nnalubaale (Lake Victoria) to their reliance on lake resources, the Baganda (the name of Buganda’s people) knew the lakes held their salvation. With this in mind, the kabaka (king) of Buganda, Mwanga II, constructed a lake (partially with his own hands to shame nobles who refused the hard labor) to be a strategic spot in the face of the British threat, which intensified in the late 1800s. Today, only one Kabaka’s lake remains in the city of Kampala, which is the largest man-made lake in the country – but there is no reason why local nobility might not build their own."}, {"separator": true}],
+        "shortcutKey": "K"
+	},
+	{
+		"name": "Lo'i Kalo",
+        "uniqueTo": "Hawaii",
+        "terrainsCanBeBuiltOn": ["Grassland","Plains"],
+        "food": 1,
+        "production": 1,
+        "turnsToBuild": 7,
+        "uniques": ["[+2 Culture] for each adjacent [Fishing Boats]", "[+1 Food] from [Fresh water] tiles <after discovering [Civil Service]>", "[+1 Food] from [non-fresh water] tiles <after discovering [Fertilizer]>",   
+                    "Only available <with [0] to [0] neighboring [Lo'i Kalo] tiles>", "Pillaging this improvement yields approximately [+25 Gold]"],
+         "civilopediaText": [ {"text": "Hawaiian rulers faced the same challenge as the Inca: how to turn mountainous terrain into a productive powerhouse? Like the Inca, they arrived upon a common solution: terraced farms. In the Hawaiian case, the staple crop, taro, required artificial wetlands to thrive, and lo’i kalo provided that space. The streams that feed lo’i kalo (literally “taro patch”) begin at artificial stone dams where cool water flows. This water is redirected to channels that feed the patches, and requires constant maintenance to ensure it flows fresh and cool. The establishment of these plots supplied one of the two major historical empires (along with the Inca) whose staple crops were not grains or cereals, but tubers."}, {"separator": true}],
+        "techRequired": "Construction",
+        "shortcutKey": "L"
+	},
     {
         "name": "Nubian Pyramid",
 		"uniqueTo": "Nubia",
@@ -307,6 +344,17 @@
         "shortcutKey": "N"
 	},
 	{
+		"name": "Örtöö",
+        "uniqueTo": "Mongolia",
+        "terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Tundra","Snow"],
+        "gold": 2,
+        "turnsToBuild": 7,
+        "uniques": ["Comment [When a unit moves onto this tile, it gains 2 movement]", "Pillaging this improvement yields approximately [+25 Gold]"],
+        "civilopediaText": [ {"text": "In today’s world of near-instantaneous information, it is hard to imagine how crucial the flow of information was to a functioning empire when that information traveled only as fast as its messenger. For the Mongol Empire, which spread across the known world, a message had to be able to travel from China to Poland as fast as possible. The Mongols attempted to minimize this hurdle by creating a system of checkpoints – Örtöö – where a message could be transferred to a fresh rider and horse, who passed the message along again at another point closer to the destination. These checkpoints were spaced around 30 miles apart and moved messages nearly 200 miles in a day. In the years after the Mongol Empire collapsed, Russians adopted the system, eventually resulting in the postal service."}, {"separator": true}],
+        "techRequired": "Civil Service",
+        "shortcutKey": "O"
+	},
+	{
 		"name": "Outback Station",
 		"uniqueTo": "Australia",
 		"food": 1,
@@ -316,6 +364,29 @@
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Desert"],
 		"uniques": ["[+1 Food] for each adjacent [Pasture]"],
 		"shortcutKey": K
+	},
+	{
+		"name": "Pairidaeza",
+        "uniqueTo": "Persia",
+        "terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Tundra","Snow","Hill"],
+        "gold": 2,
+        "culture": 1,
+        "turnsToBuild": 7,
+        "techRequired": "Mathematics",
+        "uniques": ["[+2 Happiness] for each adjacent [Great Improvement]", "[+1 Happiness] for each adjacent [City center]", "Pillaging this improvement yields approximately [+25 Gold]"],
+        "civilopediaText": [ {"text": "What is paradise? In the dry Iranian plateau, a walled garden with cool streams and groves of shady trees would have been a welcome respite from the heat. Mesopotamian rulers often built gardens in their palaces as otherworldly landscapes, at times re-creating the flora of the lands they had conquered. This tradition was taken into Persia, and the pairidaeza, or paradise, became a marker of luxury. These were not simply horticultural exhibitions. In addition to the exotic plants in the pairidaeza, hydroengineering technology moved water into artificial streams, fountains, waterfalls, and canals – irrigation for more than agriculture, for a re-creation of Eden (or its Zoroastrian equivalent)."}, {"separator": true}],
+        "shortcutKey": "P"
+	},
+	{
+		"name": "Potkop",
+        "uniqueTo": "The Mississipi",
+        "terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Tundra","Snow"],
+        "gold": 2,
+        "turnsToBuild": 7,
+        "techRequired": "Calendar",
+        "uniques": ["[+1 Food] for each adjacent [resource]", "Pillaging this improvement yields approximately [+25 Gold]"],
+        "civilopediaText": [ {"text": "'Potkop' is a Natchez term for 'mountain' or 'mound'. Here it refers to the mounds raised by the Mississippian people, although they would have called it something else (they were likely Siouan speakers, and the Natchez language is an isolate). Nonetheless, the Natchez were building mounds they called potkop when they encountered Europeans in the 17th century. \nThe Mississippian potkop was a flat-topped structure made of packed earth, topped by a temple, storage buildings, or important homes and other central buildings. They were often used over successive generations, though Mississippian cities regularly went through cycles of growth and dissolution. The mounds are the most significant architectural aspect of their society that survives to the present."}, {"separator": true}],
+        "shortcutKey": "P"
 	},
 	{
 		"name": "Ziggurat",
