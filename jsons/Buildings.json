@@ -1507,10 +1507,12 @@
 		"name": "Alexander",
 		"isWonder": true,
 		"uniqueTo": "Greece",
+		"greatPersonPoints": {"Great General": 3},
 		"cost": 1,
 		"uniques": ["[+1] Movement <for [Melee] units>","[+1] Sight <for [Ranged] units>",
 			"Can only be built <in [in capital] cities>",
 			"Only available <in cities without a [Leonidas]>",
+			"Only available <in cities without a [Minos]>",
 			"Only available <in cities without a [Pericles]>",
 		    "Only available <in cities without a [Theodora]>"]
 	},
@@ -1524,8 +1526,23 @@
 			"Earn [50]% of killed [Military] unit's [Strength] as [Culture]",
 			"Can only be built <in [in capital] cities>",
 			"Only available <in cities without a [Alexander]>",
+			"Only available <in cities without a [Minos]>",
 			"Only available <in cities without a [Pericles]>",
 		    "Only available <in cities without a [Theodora]>"]
+	},
+    {
+	    "name": "Minos":
+		"isWonder": true,
+		"uniqueTo": "Greece",
+		"cost": 1,
+		"uniques": ["[+1 Gold] <in this city>",
+			"Enables embarkation for land units <starting from the [Ancient era]> <Suppress warning [*contains a conditional on a unit movement unique*]>",
+            "Enables [All] units to enter ocean tiles <starting from the [Ancient era]>",
+			"Can only be built <in [in capital] cities>",
+			"Only available <in cities without a [Alexander]>",
+			"Only available <in cities without a [Leonidas]>",
+			"Only available <in cities without a [Pericles]>",
+			"Only available <in cities without a [Theodora]>",
 	},
     {
 		"name": "Pericles",
@@ -1537,6 +1554,7 @@
 			"Can only be built <in [in capital] cities>",
 			"Only available <in cities without a [Alexander]>",
 			"Only available <in cities without a [Leonidas]>",
+			"Only available <in cities without a [Minos]>",
 			"Only available <in cities without a [Theodora]>"]
 	},
 	{
@@ -1549,6 +1567,7 @@
 			"Can only be built <in [in capital] cities>",
 			"Only available <in cities without a [Alexander]>",
 			"Only available <in cities without a [Leonidas]>",
+			"Only available <in cities without a [Minos]>",
 			"Only available <in cities without a [Pericles]>"]
 	},
     {
