@@ -89,6 +89,13 @@ BuildingIcons/Leonidas
   orig: 100, 100
   offset: 0, 0
   index: -1
+BuildingIcons/Minos
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 BuildingIcons/Pericles
   rotate: false
   xy: 0, 0
@@ -119,6 +126,29 @@ BuildingIcons/Mahatma Ghandi
   orig: 100, 100
   offset: 0, 0
   index: -1
+BuildingIcons/Mahatma Ghandi (Nuclear)
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+Iroquois
+BuildingIcons/Minos
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+Italy
+BuildingIcons/Enrico Dandolo
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 Korea
 BuildingIcons/Joseon
   rotate: false
@@ -136,14 +166,6 @@ BuildingIcons/Seondeok
   index: -1
 Mali
 BuildingIcons/Mansa Musa
-  rotate: false
-  xy: 0, 0
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-Maori
-BuildingIcons/Kupe
   rotate: false
   xy: 0, 0
   size: 100, 100
@@ -215,6 +237,22 @@ BuildingIcons/Boudicca
   index: -1
 The Cree
 BuildingIcons/Poundmaker
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+The Maori
+BuildingIcons/Kupe
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+The Mapuche
+BuildingIcons/Lautaro
   rotate: false
   xy: 0, 0
   size: 100, 100
