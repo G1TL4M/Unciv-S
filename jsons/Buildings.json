@@ -1519,7 +1519,9 @@
 		"isWonder": true,
 		"uniqueTo": "Greece",
 		"cost": 1,
-		"uniques": ["[+50]% Production when constructing [All] units [in all cities] <when at war>",
+		"uniques": ["[+1 Production] <in this city>",
+			"[+50]% Production when constructing [All] units [in all cities] <when at war>",
+			"Earn [50]% of killed [Military] unit's [Strength] as [Culture]",
 			"Can only be built <in [in capital] cities>",
 			"Only available <in cities without a [Alexander]>",
 			"Only available <in cities without a [Pericles]>",
@@ -1530,7 +1532,8 @@
 		"isWonder": true,
 		"uniqueTo": "Greece",
 		"cost": 1,
-		"uniques": ["[+200]% [Culture] from City-States",
+		"uniques": ["[+1 Culture] <in this city>",
+			"[+200]% [Culture] from City-States",
 			"Can only be built <in [in capital] cities>",
 			"Only available <in cities without a [Alexander]>",
 			"Only available <in cities without a [Leonidas]>",
@@ -1541,7 +1544,8 @@
 		"isWonder": true,
 		"uniqueTo": "Greece",
 		"cost": 1,
-		"uniques": ["May choose [1] additional belief(s) of any type when [founding] a religion",
+		"uniques": ["[+1 Faith] <in this city>",
+			"May choose [1] additional belief(s) of any type when [founding] a religion",
 			"Can only be built <in [in capital] cities>",
 			"Only available <in cities without a [Alexander]>",
 			"Only available <in cities without a [Leonidas]>",
@@ -1561,7 +1565,8 @@
 		"isWonder": true,
 		"uniqueTo": "India",
 		"cost": 1,
-		"uniques": ["[+5 Faith] [in capital] <when not at war>",
+		"uniques": ["[+1 Happiness] <in this city>",
+			"[+5 Faith] [in capital] <when not at war>",
 			"Can only be built <in [in capital] cities>"]
 	},
 	{
@@ -1569,14 +1574,16 @@
 		"isWonder": true,
 		"uniqueTo": "Italy",
 		"cost": 1,
-		"uniques": ["Can only be built <in [in capital] cities>"]
+		"uniques": ["[+1 Gold] <in this city>",
+			"Can only be built <in [in capital] cities>"]
 	},
     {
 		"name": "Seondeok",
 		"isWonder": true,
 		"uniqueTo": "Korea",
 		"cost": 1,
-		"uniques": ["[+6]% [Science] [in all cities with a garrison]",
+		"uniques": ["[+1 Science] <in this city>",
+			"[+6]% [Science] [in all cities with a garrison]",
 			"[+6]% [Culture] [in all cities with a garrison]",
 			"Can only be built <in [in capital] cities>"]
     },
@@ -1598,6 +1605,15 @@
 			"[15]% Food is carried over after population increases [in capital]",
 			"[+1] population [in capital]",
 			"Free [Worker] appears",
+			"Can only be built <in [in capital] cities>"]
+	},
+    {
+		"name": "Genghis Khan",
+		"isWonder": true,
+		"uniqueTo": "Mongolia",
+		"cost": 1,
+		"uniques": ["[Horse Mount] units gain the [Mongol Horde] promotion",
+			"[Elephant Mount] units gain the [Mongol Horde] promotion", // Flexibility
 			"Can only be built <in [in capital] cities>"]
 	},
     {
