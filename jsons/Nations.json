@@ -895,6 +895,37 @@
         "spyNames": ["Solhofaat", "Khenzeer", "Zarafah", "Temsaah", "Abyadh", "Mostafa", "Yusuf", "Waddah", "Sameera", "Gamal"]
 	},
 	{
+		"name": "Aksum",
+		"leaderName": "Makeda",
+		"adjective": ["Aksumite"],
+		"startBias": ["Coast", "Hill"],
+		"preferredVictoryType": "Diplomatic",
+		
+		"startIntroPart1": "The African coast of the Red Sea was the domain of Aksum, named by the prophet Mani as one of the four key powers of the ancient world. For most of the first millennium CE, Aksumite merchants bore ivory, gold, spices and other goods from the African interior to India, Persia, and the Mediterranean. Yet these trade routes planted the seeds of Aksum’s fall – when the Arab caliphates took over the Silk Road, Aksum was isolated and fell into decline.",
+		"startIntroPart2": "Great Queen Makeda, your rule has been remembered for a thousand years and more, by being in the Court of Solomon. You have converted your people to the light of Christianity, and from then on your nation remained a bastion of faith and piety since. But now your people are scattered and impoverished, as the trade that once fed your nation has dried up. Can you help your people regain their former wealth and power? Can you spread the wisdom of Solomon accross distant shores once more? Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": "You have tourtued your people long enough! I shall liberate your people from your oppressive rule!",
+		"attacked": "I knew this was coming, the beliefs that you constantly spew at others made clear of your intentions.",
+		"defeated": "How? What marvels of engineering, ...of science, ...of wealth, did you need to conquer me? ",
+		"introduction": "Greetings, strange traveller! I am Queen Makeda, ruler of Aksum and Ethiopia.",
+		
+		"neutralHello": "Səm-u la-nəgəśt, In the name of the queen.",
+		"hateHello": "Səm-u la-nəgəśt!",
+		"tradeRequest": "Aksum holds many goods you could not refuse to buy.",
+		"denounced": "Nəḥna 'i-nəkl ḥawira. Your jealousy of Aksum is worth more than gold to me!",
+		"declaringfriendship": "Hagar əḫəw! Shall we declare the friendship of our empires?",
+
+		"spyNames": ["Dagnew","Dinqinesh","Iyasu","Menen","Mengesha","Senedu","Sebhat","Tewabech","Wolde","Zewditu"],
+
+		"outerColor": [255,255,20],
+		"innerColor": [25,120,25],
+		"uniqueName": "Kingdom of Natural Wealth",
+		"uniques": ["[+3 Gold] from [resource] tiles [in all coastal cities]"],
+		"cities": ["Aksum","Adulis","Matara","Lalibela","Saba","Koloe","Qohayto","Maste","Tekondo","Zala-Bet-Makeda",
+			"Etchmara","Gulo-Makeda","Haghero-Deragweh","Dergouah","Henzat","Ham","Anza","Hawzien","Degum","Chergos Agula",
+			"Nazret","Yeha","Aden","Hehzat"]
+	},
+	{
 		"name": "Anangu",
 		"leaderName": "Tiger Tjalkalyirri",
 		"adjective": ["Anangu"],
@@ -1152,6 +1183,38 @@
 		]
 	},
 	{
+		"name": "Buganda",
+		"leaderName": "Mwanga II",
+		"adjective": ["Bugandan"],
+		"startBias": ["Lakes"],
+		"preferredVictoryType": "Cultural",
+		
+		"startIntroPart1": "From the shores of Nnalubaale – Lake Victoria – were launched the deadly war canoes of Buganda. By the late 19th century, Buganda was the most populous place in Africa’s interior, with man-made lakes, a well-ordered city, and envoys from all the surrounding people seeking the king’s ear. And well they should – Bagandan raids were a terrifying force.",
+		"startIntroPart2": "O Great Mwanga II, you have lead the Baganda well. You have settled religious conflict in your natiuon with an iron fist, ensuring the stability of your empire. European powers were cautiously welcomed during your rule, but they eventually attacked you and your people for their financial gain. You tried to defend Buganda, but the Europeans and the reigious rebels were too much. Even after exile and torture for thge rest of your life, you remained a staunch anti-imperialist, with your spitit never breaking. Now the Baganda call you to lead tham once more. Can you lead you people against the encroaching imperial powers? Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": "You people are like pythons that swallow each other!",
+		"attacked": "You have come. You have built forts on my land, you have ate the crops of my land; you have made me sign unjust treaties and curtailed my powers. Now I shall enact my revenge.",
+		"defeated": "Now that I shall die, so shall Buganda. Now you will savage my lands, and destroy the Baganda.",
+		"introduction": "I am Mwanga, son of Mutesa. What Mutesa was in Buganda, I am also. Anyone who stands against my people will not have mercy spared upon them.",
+
+		"neutralHello": "Welcome.",
+		"hateHello": "You dare disturb me?!",
+		"tradeRequest": "Would you care to consider this deal?",
+		"denounced": "All I want is for the people of Buganda to life great lives, and weaklings like you see that as an insult, for some reason.",
+		"declaringfriendship": "Across our shores, our people jejoice. Shall we make our friendship official?",
+
+		"spyNames": ["Kagolo","Daudi","Nuhu","Kamaanya","Mulondo","Kigali","Lwanga","Kinogo","Sebanakitta","Mawanda"],
+
+		"outerColor": [179,179,107],
+		"innerColor": [161,51,43],
+		"uniqueName": "'Nnalubaale",
+		"uniques": ["[+2 Culture, +2 Food] from every [Lakes]",
+					"[Military] units gain the [Amphibious] promotion"],
+		"cities": ["Kampala","Kasangati","Mukono","Ssentema","Butoolo","Mitiyana","Buzinde","Nakasongola","Kaabasanda","Masaka",
+			"Sembalue","Lakaayi","Kabula","Mwera","Ntenjeru","Mpenja","Kanoni","Kaweeri","Kalangala","Maggyo",
+			"Kibbale","Kakumiro","Jinja","Entebbe"],
+	},
+	{
 		"name": "Canada",
 		"leaderName": "Wilfrid Laurier",
 		"startBias": ["Tundra","Snow"],
@@ -1189,31 +1252,35 @@
 	},
 	{
 		"name": "Chola",
-		"leaderName": "Rajendra Chola I",
+		"leaderName": "Rajaraja I",
 		"adjective": ["Chola"],
-		"startBias": ["Coast"],
-		"preferredVictoryType": "Domination",
+		"startBias": ["Coast","Jungle"],
+		"preferredVictoryType": "Diplomatic",
 		
-		"startIntroPart1": "",
+		"startIntroPart1": "Cornering trade across the Indian Ocean, the Chola oversaw a vast network of merchants and naval vessels that brought Indic texts and traditions along with spices, ivory, ebony, and other trade goods. Their dominion extended at times to vassals in Burma and Sumatra. But danger came from home, as neighboring kingdoms drove them into obscurity.",
+		"startIntroPart2": "Great King Rajaraja! You have expanded the Chola's reach beyond previous horizons, conquering Sri Lanka, the Maldives and all lands up the Ganges. You have also invested heavily into the arts and faith, earning you the title of 'Thirumurai Kanda Cholar' after your vast collection of literature and art. But now the Chola have been pushed to obscurity, and the Tamil people are divided. Can you unite your people and lead them into a golden age, where the arts and conquest flourish? Can you build a civilization that will stand the test of time?",
 		
-		"declaringWar": "For the good of The Empire i must declare war!",
-		"attacked": "You are making a big mistake.",
-		"defeated": "Will this be my last goodbye to you?",
-		"introduction": "Tell me, are you a barbarian, or are you as civilized as we are?",
+		"declaringWar": "Your land holds important points that are essential for the Chola's survival. Prepare for war!",
+		"attacked": "Do you really think you can usurp me? Ha! ",
+		"defeated": "May Shiva strike you and your people down!",
+		"introduction": "Greetings, I am Rajaraja, the Great leader of the Chola. Say, do you have any goods you are willing to trade?",
 		
-		"neutralHello": "Greetings.",
-		"hateHello": "What do YOU want?!",
-		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
-				
-		"outerColor": [4, 14, 113],
-        "innerColor": [255, 163, 71],
+		"neutralHello": "Vaṇakkam, welcome.",
+		"hateHello": "Mīṇṭum nīṅkaḷ... ",
+		"tradeRequest": "The Chola has goods from far and wide. Would you like to sample them?",
+		"denounced": "It is bold to insult the captians of trade.",
+		"declaringfriendship": "Becoming a friend of the Chola is great! After all, we offer great deals to the people closest to us!",
+
+		"spyNames": ["Anasuya","Govind","Bhadraa","Krishna","Kerani","Paramveer","Reeya","Purshotam","Sita","Uday"],
+
+		"outerColor": [121,0,2],
+		"innerColor": [252,206,24],
 		"uniqueName": "Samayam",
-		"uniques": ["[+25]% Strength <for [Melee Water] units>","[+5]% Strength <for [Wounded] units>","[+1 Gold] from each Trade Route"],
-		"cities": ["Thanjavur",
-			"Chennai","Bangalore","Hyderabad","Coimbatore","Kanchipuram",
-			"Tiruchirappalli","Kozhikode","Mysore","Vijayawada","Visakhapatnam",
-			"Pondicherry","Salem","Erode"],
-        "spyNames": ["Ashok", "Shanx", "Hormis", "Sanjeev", "Ananda", "Rani", "Parvati", "Mukta", "Karishma", "Jyotsna"]
+		"uniques": ["Gifts of Gold to City-States generate [100]% more Influence",
+					"Allied City-States provide [Gold] equal to [50]% of what they produce for themselves"],
+		"cities": ["Gangaikonda Cholapuram","Pazhayarai","Thanjavur","Uraiyuir","Nagapattinam","Kanchipuram","Madurai","Karur","Talakkad","Mahodaiyapuram",
+			"Kollam","Kantalur-Salai","Talakadu","Vengi","Mahabalipuram","Vasavasamudram","Arikamedu","Kaveripatnam","Tondi","Periyapattinam",
+			"Rameswaram","Devipattinam","Alagankulam","Korkal"],
 	},
 	{
 		"name": "Colombia",
@@ -1311,64 +1378,36 @@
         "spyNames": ["Jean-Paul", "Martine", "Lucien", "François", "Augustine", "Monsieur X", "Dr. Dupont", "Vipère", "Yvette", "Renard"]
 	},
 	{
-		"name": "Gupta",
-		"leaderName": "Gupta",
-		"adjective": ["Gupta"],
-		"startBias": ["Grassland"],
-		"preferredVictoryType": "Cultural",
-		"personality": "Gandhi",
-
-        "startIntroPart1": "Wise Mahatma Gandhi, great leader of India, we honor you! India is one of the oldest countries in the world with 10,000 years of history, built on spirit and religion, as three of the world's great religions - Hinduism, Buddhism and Jainism - appeared on this sacred land. Every aspect of India society reveres art, music and color, showing great wealth but also grinding poverty. For centuries, India was torn between local kingdoms fighting each other but also repelling invaders. In the 12th century AD, Muslim Turks tried to conquer India, then the Mongols took their place. In the early 17th century, India, still fragmented, was colonized by the English and their diplomacy and technological superiority. After two centuries of British dominion, Indian nationalism woke up, and you, Great Mahatma, have led a peaceful and victorious rebellion never seen anywhere in history!",
-        "startIntroPart2": "Gandhi, your people ask again to be led on the path of freedom. Under protection of Ganesha and Surya, can India accomplish its great potential? Will your new empire shine through the ages of history?",
-
-        "declaringWar": "I have just received a report that large numbers of my troops have crossed your borders.",
-		"attacked": "My attempts to avoid violence have failed. An eye for an eye only makes the world blind.",
-		"defeated": "You can chain me, you can torture me, you can even destroy this body, but you will never imprison my mind.",
-		"denounced": "Interesting choice.",
-		"introduction": "Hello, I am Mohandas Gandhi. My people call me Bapu, but please, call me friend.",
-		"neutralHello": "I wish you peace.",
-		"hateHello": "What do you want?",
-		"tradeRequest": "My friend, are you interested in this arrangement?",
-
-        "outerColor": [128, 82, 36],
-        "innerColor": [39, 138, 29],
-		"favoredReligion": "Hinduism",
-		"uniqueName": "Population Growth",
-		"uniques": ["[+100]% unhappiness from the number of cities", "[-50]% Unhappiness from [Population] [in all cities]"],
-		"cities": ["Pataliputra",
-			"Ayodhya","Prayaga","Mathura","Pragiyotisapura","Ujjain","Girinagara","Taxila","Pistapura","Kancipuram"],
-        "spyNames": ["Ashok", "Shanx", "Hormis", "Sanjeev", "Ananda", "Rani", "Parvati", "Mukta", "Karishma", "Jyotsna"],
-	},
-	{
 		"name": "Hawaii",
-		"leaderName": "Kamehameha I",
+		"leaderName": "Kamehameha Liholiho",
 		"adjective": ["Hawaiian"],
-		"startBias": ["Coast"],
+		"startBias": ["Coast", "Avoid [Tundra]"],
 		"preferredVictoryType": "Cultural",
-		"personality": "Kamehameha I",
-
-        "startIntroPart1": "Aloha to Kamehameha the Great, who the heavens allowed to unite your people! O great King, under your reign, the Big Island of Hawai'i became one in 1791 AD, and many other islands joined your vision of union in 1810. As the first King of Hawai'i, law and taxation systems were stabilized, and you promoted the Kanawai Mamalahoe, an edict to protect civilian people in times of war. Unification and sovereignty of all the islands continued thanks to your fair laws and deeds, even after you joined your ancestors in paradise in 1819.",
-        "startIntroPart2": "Wise and benevolent King, will you unite your people once again by wearing the bright mantle of the Lion of the Pacific? Will your new empire shine through the ages of history?",
-
-        "declaringWar": "The ancient fire flashing across the sky is what proclaimed that this day would come, though I had foolishly hoped for a different outcome.",
-		"attacked": "It is obvious now that I misjudged you and your true intentions.",
-		"defeated": "The hard-shelled crab yields, and the lion lies down to sleep. Kanaloa comes for me now.",
-		"denounced": "Friend, careful with your steps.",
-		"introduction": "Aloha! Greetings and blessings upon you, friend. I am Kamehameha, Great King of this strand of islands.",
 		
-		"neutralHello": "Welcome, friend!",
-		"hateHello": "Oh, it's you.",
-		"tradeRequest": "Come, let our people feast together!",
+		"startIntroPart1": "The world’s greatest sailors, the Hawaiians venture forth when all others fail. With the blessing of their kahuna, they brave the blue expanse in search of new lands to sow with taro, new treasures to collect, and new legacies to forge. The conch is blowing, the wind is right - it is time for the oar to bite water.",
+		"startIntroPart2": "Can you build a civilization that will stand the test of time?",
 		
-		"outerColor": [217,89,0],
-		"innerColor": [255,255,75],
-		"favoredReligion": "Tabu",
-		"uniqueName": "Wayfinding",
-		"uniques": ["Starts with [Sailing]","Enables embarkation for land units <starting from the [Ancient era]> <Suppress warning [*contains a conditional on a unit movement unique*]>",
-            "Enables [All] units to enter ocean tiles <starting from the [Ancient era]>","[+1] Sight <for [Embarked] units>"]
-		"cities": ["Honolulu",
-			"Hilo"],
-        "spyNames": ["Tiki", "Hotu Matua", "Rongo-ma-tane", "Kupe", "Haloti", "Degei", "Babamik", "Kulu Lau", "Nangananga", "Turua"]
+		"declaringWar": "Your people are lke parasites to my people, and I will spare no expense to cleanse them from my kingdom!",
+		"attacked": "This petty attempt to my people shall be crushed!",
+		"defeated": "Your scourge and kapu will be erased from this world, mark my words!",
+		"introduction": "Greetings, stranger. I am Kamehameha III, grandson of the grand unifire on our people. But, if you seek peace with my kingdom, call me Liholiho.",
+		
+		"neutralHello": "Hello friend! Want to go surfing?",
+		"hateHello": "Dont muddy our waters with your presence...",
+		"tradeRequest": "Take this deal, if you please.",
+		"denounced": "May the waves wash your foul words away.",
+		"declaringfriendship": "Hey, fancy going surfing?",
+
+		"spyNames": ["Lili’uokalani","Kamehameha","Ka’ahumanu","Pilikaʻaiea","Peleʻioholani","Lono-a-Piʻilani","Alapaʻi","Lakona","Kalaniʻōpuʻu","Piʻilani"],
+
+		"outerColor": [64,156,39],
+		"innerColor": [255,230,0],
+		"uniqueName": "Moananuiākea",
+		"uniques": ["[+1 Happiness] from every [Fishing Boats]",
+					"Gain [30] [Culture] <upon building a [Fishing Boats] improvement> <(modified by game speed)>"],
+		"cities": ["Lā-hainā","Kou","Hilo","Wai-luku","Lihu'e","'Ewa","Kai-lua","Wai-pahū","Lāna'i","Ka-hului",
+			"Kihei","Wai-kolu","Ka-pa'a","Pearl City","Kona","Kauna-kahakai","Nānākuli","Wai-lua","Pāpa'i-kou","Kaha-lu'u",
+			"Wai-mea","Mākaha","Hāna","Wai-he'e"],
 	},
 	{
 		"name": "Inca",
@@ -1654,49 +1693,38 @@
 		]
 	},
 	{
-		"name": "Majapahit",					// 1293–1527
-		"leaderName": "Hayam Wuruk",
-		"adjective": ["Javanese"],
+		"name": "Majapahit",
+		"leaderName": "Gajah Mada",
+		"adjective": ["Majapahit"],
 		"startBias": ["Coast"],
-		"personality": "Hayam Wuruk",
-		"preferredVictoryType": "Domination",
-		"favoredReligion": "Buddhism",
-
-		"startIntroPart1": "Hail to you, illustrious Hayam Wuruk, radiant ruler of Majapahit! Born amidst the tumultuous times following the Yuan-Mongol invasion of Java, Majapahit rose like a phoenix from the remnants of the Singhasari Empire. Assisted by the valorous Gajah Mada and the skilled Laksamana Nala, you led Majapahit through the challenges of expansion and diplomacy. Your reign was a tapestry of triumph as you solidified Majapahit's stature in the region. Its dominion spanned across the lush islands of Java, Sumatra, Bali, Borneo, and more.  The realm flourished as a splendid hub of trade and culture, where art and architecture blended in exquisite harmony. It was an empire of splendor that shimmered like the tropical seas that embraced it.",
-		"startIntroPart2": "Maharaja Sri Rājasanagara, once again your people turn their gaze to you, hoping to reclaim the glory of Majapahit! Will you  set out to conquer the neighboring kingdoms, further expanding the glory of your empire? Can you build a civilization that will stand the test of time?",
-			
-		"declaringWar": "Before this war ends, you will know the fury of a thousand ships.",
-		"attacked": "Finally! A worthy opponent! Our battle will be legendary!", // ok
-		"defeated": "The dream of Nusantara is lost to the turning tide.",
-		"introduction": "Welcome, seeker of majesty. I am Hayam Wuruk, ruler of Majapahit. What brings you to our shores?",
-			
-		"neutralHello": "Hello.",
-		"hateHello": "Shameless fool!",
-		"tradeRequest": "With this, we can be friends.",
-			
-		"outerColor": [121,  0,  2],
-		"innerColor": [234,225,158],
-		"uniqueName": "Nagarakretagama",
-		"uniques": ["[+50]% Strength <for [Land] units> <when fighting in [Coastal] tiles>",
-				"Upon capturing a city, receive [5] times its [Food] production as [Gold] immediately"],
+		"preferredVictoryType": "Cultural",
 		
-		"cities": ["Trowulan",
-			"Klaten","Kadiri","Surabaya","Malang","Probolinggo",
-			"Madiun","Mojokerto","Semarang","Solo","Pekalongan",
-			"Tegal","Salatiga","Magelang","Palembang","Bandar Lampung",
-			"Pangkalpinang","Denpasar","Bengkulu","Jambi","Pekanbaru",
-			"Padang","Medan","Makassar","Batam","Samarinda",
-			"Ambon","Kupang","Kutaraja","Pontianak","Palangka Raya",
-			"Banjarmasin","Samarinda","Kupang","Mataram Kuno","Bima",
-			"Kendari","Mamuju","Palu","Manado","Ambon",
-			"Dili","Manokwari","Johor","Malacca","Alor Setar",
-			"Seremban","Kuantan","Penang","Perak","Terengganu",
-			"Selangor","Kuching","Kota Kinabalu","Bandar Brunei","Pontianak",
-			"Balikpapan","Komodo","Biak","Kudus","Lombok",
-			"Samosir","Sragen","Garut","Gresik","Nias","Sragen"],
-		"spyNames": ["Wijaya","Soheeta","Jayanagara","Gitarja","Aji","Nyoman","Setyanto","Joko","Siti","Soegimin"],
+		"startIntroPart1": "The last great Hindu kingdom of Indonesia arose with the surprise betrayal of Kublai Khan’s navy, paving the way for the Majapahit, who conquered and controlled the spice islands at the dawn of the global era. But after three hundred years of dominance, the winds began to change. Muslim trade networks sidelined the Majapahit state, forcing them to the island of Bali, where their legacy remains.",
+		"startIntroPart2": "Mighty warrior Gajah Mada, your people yearn for a strong leader who can return them to prosperity! Will you set out to conquer the neighboring kingdoms, further expanding your glory of your empire? Will you build a civilization that can stand the test of time?",
+		
+		"declaringWar": "I don't want to stnd in your way, but I shall protect my people!",
+		"attacked": "How dare you! Your insignificant attack shall falter!",
+		"defeated": "You may win, but you cannot win upon my spirit",
+		"introduction": "You came before the great warrior, Gajah Mada of Nusantara!",
+		
+		"neutralHello": "Greetings",
+		"hateHello": "You again...",
+		"tradeRequest": "What if we make a deal, you and me?",
+		"denounced": "Watch your words, fool.",
+		"declaringfriendship": "The Majapahit extends their hand to you. ",
 
-		"civilopediaText": [{"text": "From 'Nusantara Civilizations'"}]
+		"spyNames": ["Adityawarman","Kidul","Bayu","Dewi","Jayapangus","Pitaloka","Raden","Sukarna","Samaragrawira","Susilawati"],
+
+		"outerColor": [121,0,2],
+		"innerColor": [0,195,140],
+		"uniqueName": "Negara",
+		"uniques": ["Comment [[+2 Science, +2 Gold, -1 Food] from every specialist [in all cities except the capital]]",
+					"[+2 Science, +2 Gold, -1 Food] from every specialist [in all cities] <hidden from users>",
+					"[-2 Science, -2 Gold, +1 Food] from every specialist [in capital] <hidden from users>",
+					"[+2 Happiness] in cities on [Coastal] tiles"],
+		"cities": ["Wilwatikta","Lumajang","Daha","Tuban","Hujung Galuh","Pajang","Palembang","Jambi","Berune","Tumasik",
+			"Kalanten","Samudra","Lamuri","Barus","Darmmacraya","Bedahulu","Lwagajah","Lombok Mirah","Gurun","Saksak",
+			"Sukdana","Sampit","Panai","Taliwang"],
 	},
 	{
 		"name": "Mali",
@@ -1764,44 +1792,79 @@
 		"civilopediaText": [{"text": "From 'Civ 6 Mod'"}]
 	},
 	{
+		"name": "Maurya",
+		"leaderName": "Ashoka",
+		"adjective": ["Mauryan"],
+		"startBias": ["Forest"],
+		"preferredVictoryType": "Scientific",
+		
+		"startIntroPart1": "The Maurya arose from a land of incredible cultural diversity, but one reeling from war. From Chandragupta’s conquests of Alexander the Great’s successors, the dynasty reached its height under Ashoka, who embraced nonviolence and tolerance. Balancing open-mindedness with military might, the Maurya built an empire that was as wise as it was glorious – until its fall to an assassin’s blade",
+		"startIntroPart2": "Great King Ashoka, you have been horrified from the cruelty and terror of war, resulting in you conveting to Buhddism to seek inner peace. From being accuesed of going to the depths of hell to discover new torture methods, you now are known as a peaceful pacifist, devoted to spreading the word of Buhddism. Can you spread the message of pacifism to your people, and help stop the horrors of war? Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": "The path of violence is a path that I swore never to take again. But here we are",
+		"attacked": "Violence echoes across multiple lives, multiple worlds. It will return to you.",
+		"defeated": "And now, the burning wheel passes over me...",
+		"introduction": "I am Ashoka, the great king at the center of the world, ...and profound sinner.",
+		
+		"neutralHello": "Welcome, what have you come here for?",
+		"hateHello": "Why are you here?",
+		"tradeRequest": "I hope this offer will be beneficial for both of us.",
+		"denounced": "This must be a mistake, no? If not, then you have made a grand error, my friend.",
+		"declaringfriendship": "I hope our people may rejoice in unity.",
+
+		"spyNames": ["Darshan","Asha","Kuruvilla","Dakshina","Narayan","Lajila","Pulkit","Savatari","Surya","Vineeta"],
+
+		"outerColor": [50,200,200],
+		"innerColor": [50,10,150],
+		"uniqueName": "Dhamma Lipi",
+		"uniques": ["Gain a free [Pantheon] belief <upon discovering [Philosophy] technology>",
+					"[+1 Science] <for every [5] [Happiness]>"],
+		"cities": ["Pataliputra","Ujjayini","Tosali","Suvarnagiri","Taksasila","Kausambi","Samapa","Risila","Pudanagala","Girinagara",
+			"Sopara","Kandahar","Kopbal","Virata","Brahmagiri","Vidisa","Varanasi","Kalsi","Rampurva","Banavasi",
+			"Erragudi","Shahbazgarhi","Lauriya Araraj","Sannathi"],
+	},
+	{
 		"name": "Mexico",
 		"leaderName": "Benito Juarez",
 		"adjective": ["Mexican"],
-		"outerColor": [0, 88, 60],
-		"innerColor": [206, 119, 78],
-		"spyNames": ["Juancho"],
-
-		"startBias": ["Hill"],
-        "preferredVictoryType": "Diplomatic",
-		"favoredReligion": "Christianity",
-
-		"startIntroPart1": "Ay! Greetings Mr. president. You lead the famous and cultured nation of Mexico. On the ruins of Tenochtitlan, the Aztec capital, and on top of the lake, Mexico City stands on what was one of the empires crushed by the Spanish. A heroic independence did not give stability to the wonderful nation, as it's political conflict lead to many unfortunate events, but when it's needed Mexico unites against foreign aggressors and do the best they can. Even with internal struggles, and bad geography, Mexico is one of the most influential cultures of America.",
-		"startIntroPart2": "Oh, great leader of the Mexican republic, your people desperately call you, they call you to bring them once again peace, and glory as well. Will you help your people? Can you transform this nation into the best? Will you create a civilization that stands the test of time?",
+		"startBias": ["Desert","Plains"],
+		"preferredVictoryType": "Cultural",
 		
-		"introduction": "Good morning, I'm Benito Juarez. Come with me and see my nation.",
-		"declaringWar": "First comes the homeland, therefore you must not be in my way.",
-		"attacked": "*Mexicans! Prepare to defend our homeland!*",
-		"afterPeace": "You vile empire, see how you couldn't defeat us? Ha!",
-		"defeated": "Nooo, why? Everything I did was for our fatherland...",
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		
+		"neutralHello": "",
+		"hateHello": "",
+		"tradeRequest": "",
+		"denounced": "",
+		"declaringfriendship": "",
 
-		"neutralHello": "Good day amigo.",
-		"hateHello": "*Arghh*, no, go away.",
-
-		"tradeRequest": "Could you accept this trade offer?",
-		"neutralLetsHearIt": "Alrigt let's see:",
-		"hateLetsHearIt": "Don't try any shenanigans with me.",
-		"neutralNo": ["Not good enough.", "I would prefer something else"],
-		"neutralYes": ["Trade accepted", "Deal"],
-		"hateNo": ["Of course not.", "Nope, go away now"],
-		"hateYes": ["You give me no alternative!", "I have a bad feeling of this..."],
-
-		"uniqueName": "Day of the Death",
-        "uniques": ["[+1 Culture, +1 Food] from every [Trading post] <while the empire is happy>", "[+20]% Strength <for [{Military} {Land}] units> <when fighting in [Friendly Land] tiles> <when below [35] HP>"],
-        "cities": ["Mexico City","Tijuana","Ecatepec","Leon","Puebla","Juarez City","Guadalajara","Zapopan","Monterrey","Nezahualcoyotl",
-                "Merida","Cancun","Chihuahua","Durango","Tampico","Saltillo","Acapulco","Villahermosa","Veracruz","Mazatlan",
-                "Naucalpan","Aguascalientes","Hermosillo","Mexicali","Culiacan","Queretaro","Morelia","Reynosa","Guadalupe","San Luis Potosi"],
-
-		"civilopediaText": [{"text": "From 'Latin American Civs'"}]
+		"outerColor": [12,82,56],
+		"innerColor": [249,24,30],
+		"uniqueName": "Revolución",
+		"uniqueText": "+25% [Culture] for 12 turns after starting any policy tree",
+		"uniques": ["[+25]% [Culture] <for [12] turns> <after adopting [Tradition]>",
+					"[+25]% [Culture] <for [12] turns> <after adopting [Liberty]>",
+					"[+25]% [Culture] <for [12] turns> <after adopting [Honor]>",
+					"[+25]% [Culture] <for [12] turns> <after adopting [Piety]>",
+					"[+25]% [Culture] <for [12] turns> <after adopting [Commerce]>",
+					"[+25]% [Culture] <for [12] turns> <after adopting [Rationalism]>",
+					"[+25]% [Culture] <for [12] turns> <after adopting [Order]>",
+					"[+25]% [Culture] <for [12] turns> <after adopting [Freedom]>",
+					"[+25]% [Culture] <for [12] turns> <after adopting [Autocracy]>",
+					"[+25]% [Culture] <for [12] turns> <after adopting [Patronage]>",
+			        "[+25]% [Culture] <for [12] turns> <after adopting [Aesthetics]>",
+			        "[+25]% [Culture] <for [12] turns> <after adopting [Exploration]>",
+			        "[+25]% [Culture] <for [12] turns> <after adopting [Cooperation]>",
+			        "[+25]% [Culture] <for [12] turns> <after adopting [Conservation]>",
+		"cities": ["Mexico City","Guadalajara","Puebla","Monterrey","Tampico","Mérida","Tehuacán","León","Toluca","Zacatlán",
+			"Huauchinango","Querétaro","Morelia","San Luis Potosí","Aguascalientes","Chalchicomula","Saltillo","Veracruz","Tacubaya","Torreón",
+			"Culiacán","Culiacán","Cholula","San Pedro"],
 	},
 	{
 		"name": "Morocco",
@@ -2373,31 +2436,68 @@
         "spyNames": ["Camazotz", "Coyopa", "Gukumatz", "Hunahpu", "Huracan", "Ixchel", "Ixtab", "Kukulkán", "Xbalanque", "Zipacna"]
 	},
 	{
-		"name": "The Mississippi",
+		"name": "The Mississipi",
 		"leaderName": "Tuskaloosa",
-		"adjective": ["Mississippian"],
-		"startBias": ["Grassland"],
-		"preferredVictoryType": "Cultural",
+		"adjective": ["Mississipi"],
+		"startBias": ["River"],
+		"preferredVictoryType": "Diplomatic",
 		
-		"startIntroPart1": "",
+		"startIntroPart1": "The Mississippians - named for the river near where their earthen mounds stand - leave no writing behind, but archaeology tells of a complex society, a political system where cities waxed and waned in influence, maize farming, and trade in copper, shells, and hides. But by 1400 CE, whether through natural or political means, the Mississippians had already faded into memory.",
+		"startIntroPart2": "Chief Tuskaloosa! You have fought against the spanish colonisers for your peoples freedom. Even when you were captured as a slave by roaming conquistadors, your bravery remained strong. You sacrificed yourself so your followers can live freely and not under a colonisers boot, but all was in vain. O Great Chief, the Mississipi are now divided, with many tribes vanishing without a trace. Can you reunite your people, bringing them back to their former glory? Can you build a civilization that will stand the test of time?",
 		
-		"declaringWar": "For the good of my people i must declare war!",
-		"attacked": "You are making a big mistake.",
-		"defeated": "Will this be my last goodbye to you?.",
-		"introduction": "Tell me, are you a barbarian, or are you as civilized as we are?",
+		"declaringWar": "I shall idle no more! It is time to fight!",
+		"attacked": "Me and my people shall defend to the last man, woman and child. Your tyranny shall not reach our lands!",
+		"defeated": "If I shall die fighting for my peoples freedoms in flames, I shall die a noble death.",
+		"introduction": "I am Tuskaloosa, Chief of the Mississipi. Make your presence known to my people, stranger, and we shall live in peace.",
 		
-		"neutralHello": "Hello.",
-		"hateHello": "What do YOU want?!",
+		"neutralHello": "The Mississipi welcome you.",
+		"hateHello": "I see you approach me?!",
+		"tradeRequest": "Trade has been good this year, so the Mississipi offer you this deal.",
+		"denounced": "Don't try to force my hand. The last person to insult me like that suffered a terrible fate, one I'm sure you don't want to face.",
+		"declaringfriendship": "You're not bad, not bad at all.",
+
+		"spyNames": ["Abit","Biisan","Chahta","Chashwi","Watonathi","Waahih","Chito","Chaliis","Chaan","Achaakatabi"],
+
+		"outerColor": [100,40,40],
+		"innerColor": [120,100,230],
+		"uniqueName": "Goose Societies",
+		"uniques": ["[+1 Food] from [resource] tiles [in all cities]"],
+		"cities": ["Cahokia","Coosa","Chickasaw","Alabama","Apalachee","Choctaw","Creek","Hitchiti","Houma","Kansa",
+			"Missouria","Mobilian","Natchez","Osage","Quapaw","Tunica","Yamasee","Yuchi","Quizquiz","Chucalisa",
+			"Nodana","Wapanocca","Chauga","Coste"]
+	},
+	{
+		"name": "The Republic of Pirates",
+		"leaderName": "Edward Teach",
+		"adjective": ["Pirate"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Domination",
 		
-		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
-				
-		"outerColor": [21, 49, 84],
-		"innerColor": [252, 186, 3],
-		"favoredReligion": "Wakan Tanka",
-		"uniqueName": "Mound Builder",
-		"uniques": ["[+1 Culture, +1 Food] from every specialist [in all cities]","[+2 Gold, +2 Food] from every specialist [in capital]","[+1 Gold, +1 Food] from every specialist [in capital] <during a Golden Age>"],
-		"cities": ["Cahokia",
-			"Moundville","Spiro","Angel Mounds","Atahachi","Emeral Mound","Etowah","Kincaid","Castalian Springs","Cloverdale","Grand Village","Mabila"]
+		"startIntroPart1": "Ahoy, bucko! Ye’ve gone on account with those who ken no lord but the sea and the salt. Weigh anchor, then, an see if it be gold or Jack Ketch at the end of yer gangway. The writ’s been signed, an the devil’s afoot.",
+		"startIntroPart2": "Admiral of the Black, you know well that it is the name, not the gun, that is the deadliest bullet, and though you were born Edward Teach, it is the name Blackbeard that caused sailors to quail. Cast off now, as there are ships and caravans alike heavy with plunder. Prepare the Queen Anne’s Revenge again for war - there’s booty to be had!",
+		
+		"declaringWar": "Bring a spring on her cable, hearties! There's blood to be had!",
+		"attacked": "Damnation seize my soul if I give you quarter or take any from ye!",
+		"defeated": "This shall be written in the history books, about how I, the great King, have been deposed by a pathetic barbarian.",
+		"introduction": "Hark ye to the Admiral of the Black, the scourge of the seven seas - Edward Teach, Blackbeard in the flesh.",
+		
+		"neutralHello": "Good to see you, friend!",
+		"hateHello": "What do you want, fool?",
+		"tradeRequest": "How about this deal?",
+		"denounced": "You wouldn't be talking so calmly when you see your seas filled with my fleets!",
+		"declaringfriendship": "Shall we make it done handsomely?",
+
+		"spyNames": ["Edward","Mary","William","Charlotte","Charles","Jacquotte","John","Martha","Benjamin","Christina"],
+
+		"outerColor": [72,2,101],
+		"innerColor": [255,255,255],
+		"uniqueName": "Flying Gang",
+		"uniques": ["Comment [May capture killed Embarked and Water units with 50% chance]",
+					"Earn [250]% of the damage done to [Water] units as [Gold]",
+					"Cannot build [Settler] units <in [non-[Capital]] cities>"],
+		"cities": ["Nassau","Port Royal","Tortuga","Providence","Port-au-Prince","Charlotte Amalie","Newport","Havana","San Juan","Santo Domingo",
+			"Road Town","New Haven","Petit-Goâve","Île Sainte-Marie","Umhaille","Fort Saint Louis","Brigdetown","Île-à-Vache","Ocracoke","Eleuthera",
+			"St John's","Portobelo","Campeche","St George's"],
 	},
 	{
 		"name": "The Shoshone",
