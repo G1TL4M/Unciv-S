@@ -279,12 +279,8 @@
       "Order": 7
     },
 	  "uniques": [
-			"[+100]% weight to [Frederick Barbarossa] for AI decisions"
-    "civilopediaText": [
-      {
-        "text": "The successful political career of the Iron Chancellor cannot be undermined, for he united Germany as we know it today, in his own way."
-      }
-    ]
+			"[+100]% weight to [Frederick Barbarossa] for AI decisions"]
+    "civilopediaText": [{"text": "The successful political career of the Iron Chancellor cannot be undermined, for he united Germany as we know it today, in his own way."}]
   },
   {
     "name": "Boudicca",
@@ -382,7 +378,7 @@
       "Freedom": 2,
       "Autocracy": 3,
       "Order": 6
-    }
+    },
 	  "uniques": [
 			"[+100]% weight to [Peter I] for AI decisions"]
   },
@@ -474,7 +470,10 @@
       "Freedom": 5,
       "Autocracy": 4,
       "Order": 6
-    }
+    },
+	  "uniques": [
+		  "[+100]% weight to [Victoria] for AI decisions",
+		  "[+100]% weight to [Winston Churchill] for AI decisions"]
   },
   {
     "name": "Enrico Dandolo",
@@ -564,7 +563,9 @@
       "Freedom": 10,
       "Autocracy": 1,
       "Order": 5
-    }
+    },
+	  "uniques": [
+			"[+100]% weight to [Mahatma Ghandi] for AI decisions"]
   },
   {
     "name": "Genghis Khan",
@@ -811,7 +812,9 @@
       "Freedom": 5,
       "Autocracy": 5,
       "Order": 4
-    }
+    },
+	  "uniques": [
+			"[+100]% weight to [Philip II] for AI decisions"]
   },
   {
     "name": "Kamehameha I",
@@ -901,7 +904,9 @@
       "Freedom": 6,
       "Autocracy": 9,
       "Order": 3
-    }
+    },
+	  "uniques": [
+			"[+100]% weight to [Montezuma I] for AI decisions"]
   },
   {
     "name": "Napoleon",
@@ -931,7 +936,9 @@
       "Freedom": 4,
       "Autocracy": 9,
       "Order": 3
-    }
+    },
+	  "uniques": [
+			"[+100]% weight to [Napoleon Bonaparte] for AI decisions"]
   },
   {
     "name": "Nebuchadnezzar II",
@@ -1051,7 +1058,9 @@
       "Freedom": 4,
       "Autocracy": 4,
       "Order": 5
-    }
+    },
+	  "uniques": [
+			"[+100]% weight to [Pachacuti] for AI decisions"]
   },
   {
     "name": "Pedro II",
@@ -1081,7 +1090,9 @@
       "Freedom": 9,
       "Autocracy": 3,
       "Order": 6
-    }
+    },
+	  "uniques": [
+			"[+100]% weight to [Pedro II] for AI decisions"
   },
   {
     "name": "Pocatello",
@@ -1141,7 +1152,9 @@
       "Freedom": 6,
       "Autocracy": 4,
       "Order": 7
-    }
+    },
+	  "uniques": [
+			"[+100]% weight to [Cleopatra] for AI decisions"]
   },
   {
     "name": "Ramkhamhaeng",
@@ -1201,7 +1214,9 @@
       "Freedom": 5,
       "Autocracy": 4,
       "Order": 7
-    }
+    },
+	  "uniques": [
+			"[+100]% weight to [Seondeok] for AI decisions"]
   },
   {
     "name": "Shaka",
@@ -1321,7 +1336,10 @@
       "Freedom": 6,
       "Autocracy": 7,
       "Order": 8
-    }
+    },
+	  "uniques": [
+			"[+100]% weight to [George Washington] for AI decisions",
+		    "[+100]% weight to [Theodore Roosevelt] for AI decisions"]
   },
   {
     "name": "William of Orange",
@@ -1381,6 +1399,8 @@
       "Freedom": 7,
       "Autocracy": 7,
       "Order": 7
-    }
+    }, 
+	  "uniques": [
+			"[+100]% weight to [Qin Shi Huang] for AI decisions"]
   }
     ]
