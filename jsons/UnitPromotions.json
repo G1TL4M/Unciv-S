@@ -789,11 +789,15 @@
 	
 	// Leader Promotions
 	{
-		"name": "Qhapaq Nan", //Pachacuti
+		"name": "Mongol Horde", // Genghis Khan
+		"uniques": ["[+10]% Strength","[+10]% Strength <vs cities>"]
+	},
+	{
+		"name": "Qhapaq Nan", // Pachacuti
 		"uniques": ["Can pass through impassable tiles <after adopting [Civil Service]>"]
 	},
 	{
-		"name": "The First Emperor", //Qin Shi Huang
+		"name": "The First Emperor", // Qin Shi Huang
 		"uniques": ["Can speed up construction of a building <before the [Medieval era]>"]
 	},
 	{	// For barbarian water units
