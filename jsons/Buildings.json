@@ -1531,7 +1531,7 @@
 		    "Only available <in cities without a [Theodora]>"]
 	},
     {
-	    "name": "Minos":
+	    "name": "Minos",
 		"isWonder": true,
 		"uniqueTo": "Greece",
 		"cost": 1,
