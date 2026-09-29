@@ -1845,7 +1845,7 @@
 		"uniqueTo": "The United States",
 		"cost": 1,
 		"uniques": ["[+25]% Production when constructing [All] units [in all cities] <for [10] turns> <upon declaring war on [Major] Civilizations>",
-					"[Gold] cost of purchasing [Civilian] units [-50]%"",
+			"[Gold] cost of purchasing [Civilian] units [-50]%",
 			"Can only be built <in [in capital] cities>",
 			"Only available <in cities without a [Abraham Lincoln]>",
 			"Only available <in cities without a [George Washington]>",
