@@ -1855,9 +1855,9 @@
 		"cost": 1,
 		"uniques": ["[+10]% Strength <when fighting units from a Civilization with more Cities than you>",
 			"Can only be built <in [in capital] cities>",
-			"Only available <in cities without a [Abraham Lincoln]>",
 			"Only available <in cities without a [Benjamin Franklin]>",
-			"Only available <in cities without a [George Washington]>"]
+			"Only available <in cities without a [George Washington]>",
+			"Only available <in cities without a [Theodore Roosevelt]>"]
 	},
     {
 	    "name": "Banjamin Franklin",
