@@ -1469,6 +1469,15 @@
 		"uniques": ["[+100]% [Gold] from City-States",
 			"Can only be built <in [in capital] cities>"]
 	},
+    {
+		"name": "Hatshepsut",
+		"isWonder": true,
+		"uniqueTo": "Egypt",
+		"cost": 1,
+		"uniques": ["[+1 Production] from [River] tiles [in all cities]",
+					"[+1 Food, +1 Culture] from [River] tiles [in all cities] <after discovering [Masonry]>",
+			"Can only be built <in [in capital] cities>"]
+	},
 	{
 		"name": "Victoria",
 		"isWonder": true,
@@ -1622,6 +1631,17 @@
 		"cost": 1,
 		"uniques": ["[+10]% Strength <when fighting units from a Civilization with more Cities than you>",
 			"Can only be built <in [in capital] cities>"]
+		
+	},
+    {
+	    "name": "Shirakawa",
+		"isWonder": true,
+		"uniqueTo": "Japan",
+		"cost": 1,
+		"uniques": ["[+1 Culture] from [Land] tiles [in all cities] <in tiles adjacent to [Mountain] tiles> <in tiles not adjacent to [Coast] tiles>",
+			"[+1 Culture] from [Land] tiles [in all cities] <in tiles adjacent to [Coast] tiles>",
+			"[Work Boats] units gain the [Mono No Aware] promotion",
+			"Can only be built <in [in capital] cities>"]
 	},
     {
 		"name": "Seondeok",
@@ -1659,6 +1679,25 @@
 		"uniques": ["[+10]% Strength <when fighting units from a Civilization with more Cities than you>",
 			"Can only be built <in [in capital] cities>"]
 	},
+    {
+		"name": "Xerxes",
+		"isWonder": true,
+		"uniqueTo": "Persia",
+		"cost": 1,
+		"uniques": ["[+10]% Strength <for [All] units> <when attacking>",
+			"[5000] units cost no maintenance <hidden from users>",
+			"Comment [All units cost no maintenence]",
+			"Can only be built <in [in capital] cities>"]
+	},
+    {
+		"name": "Octavian",
+		"isWonder": true,
+		"uniqueTo": "Rome",
+		"cost": 1,
+		"uniques": ["Free Social Policy <upon entering a new era>",
+			"[-15]% Culture cost of adopting new Policies <when at war>",
+			"Can only be built <in [in capital] cities>"]
+    },
     {
 		"name": "Trajan",
 		"isWonder": true,
