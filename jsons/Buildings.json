@@ -1467,7 +1467,8 @@
 		"uniqueTo": "Egypt",
 		"cost": 1,
 		"uniques": ["[+100]% [Gold] from City-States",
-			"Can only be built <in [in capital] cities>"]
+			"Can only be built <in [in capital] cities>",
+			"Only available <in cities without a [Hatshepsut]>"]
 	},
     {
 		"name": "Hatshepsut",
@@ -1475,8 +1476,9 @@
 		"uniqueTo": "Egypt",
 		"cost": 1,
 		"uniques": ["[+1 Production] from [River] tiles [in all cities]",
-					"[+1 Food, +1 Culture] from [River] tiles [in all cities] <after discovering [Masonry]>",
-			"Can only be built <in [in capital] cities>"]
+			"[+1 Food, +1 Culture] from [River] tiles [in all cities] <after discovering [Masonry]>",
+			"Can only be built <in [in capital] cities>",
+			"Only available <in cities without a [Cleopatra]>"]
 	},
 	{
 		"name": "Victoria",
@@ -1631,7 +1633,9 @@
 		"cost": 1,
 		"uniques": ["[+33]% Strength <for [Land] units> <when fighting in [Coast] tiles>",
 			"[+33]% Strength <for [Water] units> <when fighting in [Coast] tiles>",
-			"Can only be built <in [in capital] cities>"]
+			"Can only be built <in [in capital] cities>",
+			"Only available <in cities without a [Meiji]>",
+			"Only available <in cities without a [Shirakawa]>"]
 	},
     {
 	    "name": "Meiji",
@@ -1640,7 +1644,9 @@
 		"cost": 1,
 		"uniques": ["[+50]% Production when constructing [Science] buildings [in all cities]",
 			"[+50]% Production when constructing [Production] buildings [in all cities]",
-			"Can only be built <in [in capital] cities>"]
+			"Can only be built <in [in capital] cities>",
+			"Only available <in cities without a [Hojo Tokimune]>",
+			"Only available <in cities without a [Shirakawa]>"]
 	},
     {
 	    "name": "Shirakawa",
@@ -1650,7 +1656,9 @@
 		"uniques": ["[+1 Culture] from [Land] tiles [in all cities] <in tiles adjacent to [Mountain] tiles> <in tiles not adjacent to [Coast] tiles>",
 			"[+1 Culture] from [Land] tiles [in all cities] <in tiles adjacent to [Coast] tiles>",
 			"[Work Boats] units gain the [Mono No Aware] promotion",
-			"Can only be built <in [in capital] cities>"]
+			"Can only be built <in [in capital] cities>",
+			"Only available <in cities without a [Hojo Tokimune]>",
+			"Only available <in cities without a [Meiji]>"]
 	},
     {
 		"name": "Joseon",
@@ -1660,7 +1668,9 @@
 		"uniques": ["[+1 Science] per [2] population [in capital]",
 			"[+1 Culture] per [2] population [in capital]",
 			"[+1 Culture, +1 Science] from every specialist [in capital]",
-			"Can only be built <in [in capital] cities>"]
+			"Can only be built <in [in capital] cities>",
+			"Only available <in cities without a [Seondeok]>",
+			"Only available <in cities without a [Taejo Wang Kŏn]>"]
 	},
 	{
 		"name": "Seondeok",
@@ -1670,7 +1680,9 @@
 		"uniques": ["[+1 Science] <in this city>",
 			"[+6]% [Science] [in all cities with a garrison]",
 			"[+6]% [Culture] [in all cities with a garrison]",
-			"Can only be built <in [in capital] cities>"]
+			"Can only be built <in [in capital] cities>",
+			"Only available <in cities without a [Joseon]>",
+			"Only available <in cities without a [Taejo Wang Kŏn]>"]
 	},
     {
 	    "name": "Taejo Wang Kŏn",
@@ -1679,7 +1691,9 @@
 		"cost": 1,
 		"uniques": ["[+2 Culture] from every [Great Improvement]",
             "[+25]% Yield from every [Great Improvment] <during a Golden Age>",
-			"Can only be built <in [in capital] cities>"]
+			"Can only be built <in [in capital] cities>",
+			"Only available <in cities without a [Joseon]>"
+			"Only available <in cities without a [Seondeok]>"]
     },
     {
 	    "name": "Mansa Musa",
@@ -1708,7 +1722,8 @@
 			"[+25]% [Science] [in puppeted cities]",
 			"[+25]% [Culture] [in puppeted cities]",
 			"[+3 Happiness] [in puppeted cities]",
-			"Can only be built <in [in capital] cities>"]
+			"Can only be built <in [in capital] cities>",
+			"Only available <in cities without a [Xerxes]>"]
 	},
     {
 		"name": "Xerxes",
@@ -1718,7 +1733,8 @@
 		"uniques": ["[+10]% Strength <for [All] units> <when attacking>",
 			"[5000] units cost no maintenance <hidden from users>",
 			"Comment [All units cost no maintenence]",
-			"Can only be built <in [in capital] cities>"]
+			"Can only be built <in [in capital] cities>",
+			"Only available <in cities without a [Cyrus]>"]
 	},
     {
 		"name": "Octavian",
@@ -1727,7 +1743,8 @@
 		"cost": 1,
 		"uniques": ["Free Social Policy <upon entering a new era>",
 			"[-15]% Culture cost of adopting new Policies <when at war>",
-			"Can only be built <in [in capital] cities>"]
+			"Can only be built <in [in capital] cities>",
+			"Only available <in cities without a [Trajan]>"]
     },
     {
 		"name": "Trajan",
@@ -1735,7 +1752,8 @@
 		"uniqueTo": "Rome",
 		"cost": 1,
 		"uniques": ["Gain a free [Monument] [in all cities]",
-			"Can only be built <in [in capital] cities>"]
+			"Can only be built <in [in capital] cities>",
+			"Only available <in cities without a [Octavian]>"]
 	},
 	{
 		"name": "Peter I",
@@ -1761,7 +1779,8 @@
 		"uniques": ["[+30]% [Gold] [in all cities] <on foreign continents>",
 			"[+15]% [Food] [in all cities] <on foreign continents>",
 			"[+10]% [Production] [in all cities] <on foreign continents>",
-			"Can only be built <in [in capital] cities>"]
+			"Can only be built <in [in capital] cities>",
+			"Only available <in cities without a [Philip II]>"]
 	},
     {
 		"name": "Philip II",
@@ -1769,7 +1788,8 @@
 		"uniqueTo": "Spain",
 		"cost": 1,
 		"uniques": ["[Faith] cost of purchasing [Inquisitor] units [-50]%",
-			"Can only be built <in [in capital] cities>"]
+			"Can only be built <in [in capital] cities>",
+			"Only available <in cities without a [Isabella I]>"]
 	},
     {
 		"name": "Gilgamesh",
