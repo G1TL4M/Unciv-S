@@ -1655,7 +1655,7 @@
     {
 		"name": "Joseon",
 		"isWonder": true,
-		"uniqueTo": "Egypt",
+		"uniqueTo": "Korea",
 		"cost": 1,
 		"uniques": ["[+1 Science] per [2] population [in capital]",
 			"[+1 Culture] per [2] population [in capital]",
