@@ -1,5 +1,5 @@
 uncivScivIcons.png
-size: 400, 400
+size: 700, 400
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
@@ -27,6 +27,27 @@ NationIcons/The Maori
 NationIcons/Australia
   rotate: false
   xy: 300, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Buganda
+  rotate: false
+  xy: 400, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/The Mississippi
+  rotate: false
+  xy: 500, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Hawaii
+  rotate: false
+  xy: 600, 0
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -59,6 +80,20 @@ NationIcons/South Africa
   orig: 100, 100
   offset: 0, 0
   index: -1
+NationIcons/Chola
+  rotate: false
+  xy: 400, 100
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Majapahit
+  rotate: false
+  xy: 500, 100
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 NationIcons/The Mapuche
   rotate: false
   xy: 0, 200
@@ -76,6 +111,34 @@ NationIcons/Sumeria
 NationIcons/The Cree
   rotate: false
   xy: 200, 200
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Italy
+  rotate: false
+  xy: 300, 200
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Aksum
+  rotate: false
+  xy: 400, 200
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/The Republic Of Pirates
+  rotate: false
+  xy: 500, 200
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Maurya
+  rotate: false
+  xy: 600, 2p0
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
