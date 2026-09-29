@@ -1629,9 +1629,18 @@
 		"isWonder": true,
 		"uniqueTo": "Japan",
 		"cost": 1,
-		"uniques": ["[+10]% Strength <when fighting units from a Civilization with more Cities than you>",
+		"uniques": ["[+33]% Strength <for [Land] units> <when fighting in [Coast] tiles>",
+			"[+33]% Strength <for [Water] units> <when fighting in [Coast] tiles>",
 			"Can only be built <in [in capital] cities>"]
-		
+	},
+    {
+	    "name": "Meiji",
+		"isWonder": true,
+		"uniqueTo": "Japan",
+		"cost": 1,
+		"uniques": ["[+50]% Production when constructing [Science] buildings [in all cities]",
+			"[+50]% Production when constructing [Production] buildings [in all cities]",
+			"Can only be built <in [in capital] cities>"]
 	},
     {
 	    "name": "Shirakawa",
@@ -1644,6 +1653,16 @@
 			"Can only be built <in [in capital] cities>"]
 	},
     {
+		"name": "Joseon",
+		"isWonder": true,
+		"uniqueTo": "Egypt",
+		"cost": 1,
+		"uniques": ["[+1 Science] per [2] population [in capital]",
+			"[+1 Culture] per [2] population [in capital]",
+			"[+1 Culture, +1 Science] from every specialist [in capital]",
+			"Can only be built <in [in capital] cities>"]
+	},
+	{
 		"name": "Seondeok",
 		"isWonder": true,
 		"uniqueTo": "Korea",
@@ -1651,6 +1670,15 @@
 		"uniques": ["[+1 Science] <in this city>",
 			"[+6]% [Science] [in all cities with a garrison]",
 			"[+6]% [Culture] [in all cities with a garrison]",
+			"Can only be built <in [in capital] cities>"]
+	},
+    {
+	    "name": "Taejo Wang Kŏn",
+		"isWonder": true,
+		"uniqueTo": "Korea",
+		"cost": 1,
+		"uniques": ["[+2 Culture] from every [Great Improvement]",
+            "[+25]% Yield from every [Great Improvment] <during a Golden Age>",
 			"Can only be built <in [in capital] cities>"]
     },
     {
@@ -1676,7 +1704,10 @@
 		"isWonder": true,
 		"uniqueTo": "Persia",
 		"cost": 1,
-		"uniques": ["[+10]% Strength <when fighting units from a Civilization with more Cities than you>",
+		"uniques": ["[+1] Movement <for [Military] units> <during a Golden Age>",
+			"[+25]% [Science] [in puppeted cities]",
+			"[+25]% [Culture] [in puppeted cities]",
+			"[+3 Happiness] [in puppeted cities]",
 			"Can only be built <in [in capital] cities>"]
 	},
     {
@@ -1723,6 +1754,16 @@
 			"Can only be built <in [in capital] cities>"]
 	},
 	{
+		"name": "Isabella I",
+		"isWonder": true,
+		"uniqueTo": "Spain",
+		"cost": 1,
+		"uniques": ["[+30]% [Gold] [in all cities] <on foreign continents>",
+			"[+15]% [Food] [in all cities] <on foreign continents>",
+			"[+10]% [Production] [in all cities] <on foreign continents>",
+			"Can only be built <in [in capital] cities>"]
+	},
+    {
 		"name": "Philip II",
 		"isWonder": true,
 		"uniqueTo": "Spain",
