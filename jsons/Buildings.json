@@ -1870,7 +1870,7 @@
 		"uniques": ["[+1 Science] <in this city>",
 			"[+2 Science] from [Natural Wonder] tiles [in all cities]",
 			"[+2 Science] from [Mountain] tiles [in all cities] <in tiles without [Natural Wonder]>",
-			"[+2 Culture] from [Forest] tiles [in all cities] <in tiles without [Lumber mill]> <in tiles without [Camp]> <in tiles without [Plantation]>",,
+			"[+2 Culture] from [Forest] tiles [in all cities] <in tiles without [Lumber mill]> <in tiles without [Camp]> <in tiles without [Plantation]>",
 			"Can only be built <in [in capital] cities>",
 			"Only available <in cities without a [Abraham Lincoln]>",
 			"Only available <in cities without a [Benjamin Franklin]>",
