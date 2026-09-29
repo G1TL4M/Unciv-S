@@ -1579,6 +1579,16 @@
 			"[All] units gain the [Qhapaq Nan] promotion",
 			"Can only be built <in [in capital] cities>"]
 	},
+	{
+		"name": "Gitarja",
+		"isWonder": true,
+		"uniqueTo": "Indonesia",
+		"cost": 1,
+		"uniques": ["May buy [{Military} {Water}] units with [Faith] for [2] times their normal Production cost",
+			"[+2 Faith] from every [City center] <with [1] to [6] neighboring [Coast] tiles>",
+			"[+2 Faith] from every [City center] <with [1] to [6] neighboring [Lakes] tiles>",
+			"Can only be built <in [in capital] cities>"]
+	},
     {
 		"name": "Mahatma Ghandi",
 		"isWonder": true,
@@ -1603,6 +1613,14 @@
 		"uniqueTo": "Italy",
 		"cost": 1,
 		"uniques": ["[+1 Gold] <in this city>",
+			"Can only be built <in [in capital] cities>"]
+	},
+    {
+	    "name": "Hojo Tokimune",
+		"isWonder": true,
+		"uniqueTo": "Japan",
+		"cost": 1,
+		"uniques": ["[+10]% Strength <when fighting units from a Civilization with more Cities than you>",
 			"Can only be built <in [in capital] cities>"]
 	},
     {
@@ -1631,6 +1649,14 @@
 		"cost": 1,
 		"uniques": ["[Horse Mount] units gain the [Mongol Horde] promotion",
 			"[Elephant Mount] units gain the [Mongol Horde] promotion", // Flexibility
+			"Can only be built <in [in capital] cities>"]
+	},
+	{
+		"name": "Cyrus",
+		"isWonder": true,
+		"uniqueTo": "Persia",
+		"cost": 1,
+		"uniques": ["[+10]% Strength <when fighting units from a Civilization with more Cities than you>",
 			"Can only be built <in [in capital] cities>"]
 	},
     {
@@ -1678,7 +1704,10 @@
 		"isWonder": true,
 		"uniqueTo": "The Celts",
 		"cost": 1,
-		"uniques": ["[+1 Culture] from [Mine] tiles [in all cities]","[-25]% Culture cost of natural border growth [in all cities]","[-25]% Gold cost of acquiring tiles [in all cities]",
+		"uniques": ["[+1 Culture] <in this city>",
+			"[+1 Culture] from [Mine] tiles [in all cities]",
+			"[-25]% Culture cost of natural border growth [in all cities]",
+			"[-25]% Gold cost of acquiring tiles [in all cities]",
 			"Can only be built <in [in capital] cities>",
 			"Only available <in cities without a [Boudicca]>"]
 	},
@@ -1757,7 +1786,10 @@
 		"isWonder": true,
 		"uniqueTo": "The United States",
 		"cost": 1,
-		"uniques": ["[+10]% Strength <when fighting units from a Civilization with more Cities than you>",
+		"uniques": ["[+1 Science] <in this city>",
+			"[+2 Science] from [Natural Wonder] tiles [in all cities]",
+			"[+2 Science] from [Mountain] tiles [in all cities] <in tiles without [Natural Wonder]>",
+			"[+2 Culture] from [Forest] tiles [in all cities] <in tiles without [Lumber mill]> <in tiles without [Camp]> <in tiles without [Plantation]>",,
 			"Can only be built <in [in capital] cities>",
 			"Only available <in cities without a [Abraham Lincoln]>",
 			"Only available <in cities without a [Benjamin Franklin]>",
