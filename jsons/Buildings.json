@@ -1542,7 +1542,7 @@
 		"isWonder": true,
 		"uniqueTo": "China",
 		"cost": 1,
-		"uniques": ["[+1 Production] <in this city",
+		"uniques": ["[+1 Production] <in this city>",
 			"[Worker] units gain the [The First Emperor] promotion",
 			"Can only be built <in [in capital] cities>"]
     },
@@ -1573,6 +1573,7 @@
 		"uniqueTo": "England",
 		"cost": 1,
 		"uniques": ["[+1 Production] <in this city>",
+			"[+5]% [Production] [in all coastal cities]",
 			"Empire enters golden age <upon entering the [Industrial era]>","[+1 Production] from every [Factory]","[+1 Production] from every [Manufactory]",
 			"Can only be built <in [in capital] cities>",
 			"Only available <in cities without a [Winston Churchill]>"]
