@@ -363,7 +363,7 @@
 		"techRequired": "Guilds",
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Desert"],
 		"uniques": ["[+1 Food] for each adjacent [Pasture]"],
-		"shortcutKey": K
+		"shortcutKey": "K"
 	},
 	{
 		"name": "Pairidaeza",
@@ -373,7 +373,7 @@
         "culture": 1,
         "turnsToBuild": 7,
         "techRequired": "Mathematics",
-        "uniques": ["[+2 Happiness] for each adjacent [Great Improvement]", "[+1 Happiness] for each adjacent [City center]", "Pillaging this improvement yields approximately [+25 Gold]"],
+        "uniques": ["[+1 Happiness] for each adjacent [Great Improvement]", "[+1 Happiness] for each adjacent [City center]", "Pillaging this improvement yields approximately [+25 Gold]"],
         "civilopediaText": [ {"text": "What is paradise? In the dry Iranian plateau, a walled garden with cool streams and groves of shady trees would have been a welcome respite from the heat. Mesopotamian rulers often built gardens in their palaces as otherworldly landscapes, at times re-creating the flora of the lands they had conquered. This tradition was taken into Persia, and the pairidaeza, or paradise, became a marker of luxury. These were not simply horticultural exhibitions. In addition to the exotic plants in the pairidaeza, hydroengineering technology moved water into artificial streams, fountains, waterfalls, and canals – irrigation for more than agriculture, for a re-creation of Eden (or its Zoroastrian equivalent)."}, {"separator": true}],
         "shortcutKey": "P"
 	},
