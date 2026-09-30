@@ -1675,7 +1675,8 @@
 		"isWonder": true,
 		"uniqueTo": "Inca",
 		"cost": 1,
-		"uniques": ["[+1 Food] from every [Mountain]",
+		"uniques": ["[+1 Food] <in this city>",
+			"[+1 Food] from every [Mountain]",
 			"[All] units gain the [Qhapaq Nan] promotion",
 			"Can only be built <in [in capital] cities>"]
 	},
@@ -1684,7 +1685,8 @@
 		"isWonder": true,
 		"uniqueTo": "Indonesia",
 		"cost": 1,
-		"uniques": ["May buy [{Military} {Water}] units with [Faith] for [2] times their normal Production cost",
+		"uniques": ["[+1 Faith] <in this city>",
+			"May buy [{Military} {Water}] units with [Faith] for [2] times their normal Production cost",
 			"[+2 Faith] from every [City center] <with [1] to [6] neighboring [Coast] tiles>",
 			"[+2 Faith] from every [City center] <with [1] to [6] neighboring [Lakes] tiles>",
 			"Can only be built <in [in capital] cities>"]
@@ -1713,6 +1715,8 @@
 		"uniqueTo": "Italy",
 		"cost": 1,
 		"uniques": ["[+1 Gold] <in this city>",
+			"[+100]% [Gold] [in capital]",
+			"Receive free [Merchant of Venice] when you discover [Optics]",
 			"Can only be built <in [in capital] cities>"]
 	},
     {
@@ -1720,7 +1724,8 @@
 		"isWonder": true,
 		"uniqueTo": "Japan",
 		"cost": 1,
-		"uniques": ["[+33]% Strength <for [Land] units> <when fighting in [Coast] tiles>",
+		"uniques": ["[+1 Production] <in this city>",
+			"[+33]% Strength <for [Land] units> <when fighting in [Coast] tiles>",
 			"[+33]% Strength <for [Water] units> <when fighting in [Coast] tiles>",
 			"Can only be built <in [in capital] cities>",
 			"Only available <in cities without a [Meiji]>",
@@ -1731,7 +1736,8 @@
 		"isWonder": true,
 		"uniqueTo": "Japan",
 		"cost": 1,
-		"uniques": ["[+50]% Production when constructing [Science] buildings [in all cities]",
+		"uniques": ["[+1 Science] <in this city>",
+			"[+50]% Production when constructing [Science] buildings [in all cities]",
 			"[+50]% Production when constructing [Production] buildings [in all cities]",
 			"Can only be built <in [in capital] cities>",
 			"Only available <in cities without a [Hojo Tokimune]>",
@@ -1742,7 +1748,8 @@
 		"isWonder": true,
 		"uniqueTo": "Japan",
 		"cost": 1,
-		"uniques": ["[+1 Culture] from [Land] tiles [in all cities] <in tiles adjacent to [Mountain] tiles> <in tiles not adjacent to [Coast] tiles>",
+		"uniques": ["[+1 Culture] <in this city>",
+			"[+1 Culture] from [Land] tiles [in all cities] <in tiles adjacent to [Mountain] tiles> <in tiles not adjacent to [Coast] tiles>",
 			"[+1 Culture] from [Land] tiles [in all cities] <in tiles adjacent to [Coast] tiles>",
 			"[Work Boats] units gain the [Mono No Aware] promotion",
 			"Can only be built <in [in capital] cities>",
@@ -1754,7 +1761,8 @@
 		"isWonder": true,
 		"uniqueTo": "Korea",
 		"cost": 1,
-		"uniques": ["[+1 Science] per [2] population [in capital]",
+		"uniques": ["[+1 Science] <in this city>",
+			"[+1 Science] per [2] population [in capital]",
 			"[+1 Culture] per [2] population [in capital]",
 			"[+1 Culture, +1 Science] from every specialist [in capital]",
 			"Can only be built <in [in capital] cities>",
@@ -1778,7 +1786,8 @@
 		"isWonder": true,
 		"uniqueTo": "Korea",
 		"cost": 1,
-		"uniques": ["[+2 Culture] from every [Great Improvement]",
+		"uniques": ["[+1 Culture] <in this city>",
+			"[+2 Culture] from every [Great Improvement]",
             "[+25]% Yield from every [Great Improvment] <during a Golden Age>",
 			"Can only be built <in [in capital] cities>",
 			"Only available <in cities without a [Joseon]>"
@@ -1789,7 +1798,8 @@
 		"isWonder": true,
 		"uniqueTo": "Mali",
 		"cost": 1,
-		"uniques": ["[+1 Gold] from every [Desert]",
+		"uniques": ["[+1 Gold] <in this city>",
+			"[+1 Gold] from every [Desert]",
 			"[+25]% [Gold] from Trade Routes <during a Golden Age>",
 			"Can only be built <in [in capital] cities>"]
 	},
@@ -1798,7 +1808,8 @@
 		"isWonder": true,
 		"uniqueTo": "Mongolia",
 		"cost": 1,
-		"uniques": ["[Horse Mount] units gain the [Mongol Horde] promotion",
+		"uniques": ["[+1] Movement <for [All] units>",
+			"[Horse Mount] units gain the [Mongol Horde] promotion",
 			"[Elephant Mount] units gain the [Mongol Horde] promotion", // Flexibility
 			"Can only be built <in [in capital] cities>"]
 	},
@@ -1807,7 +1818,8 @@
 		"isWonder": true,
 		"uniqueTo": "Persia",
 		"cost": 1,
-		"uniques": ["[+1] Movement <for [Military] units> <during a Golden Age>",
+		"uniques": ["[+2 Happiness] <in this city>",
+			"[+1] Movement <for [Military] units> <during a Golden Age>",
 			"[+25]% [Science] [in puppeted cities]",
 			"[+25]% [Culture] [in puppeted cities]",
 			"[+3 Happiness] [in puppeted cities]",
@@ -1819,7 +1831,8 @@
 		"isWonder": true,
 		"uniqueTo": "Persia",
 		"cost": 1,
-		"uniques": ["[+10]% Strength <for [All] units> <when attacking>",
+		"uniques": ["[+1 Gold] <in this city>",
+			"[+10]% Strength <for [All] units> <when attacking>",
 			"[5000] units cost no maintenance <hidden from users>",
 			"Comment [All units cost no maintenence]",
 			"Can only be built <in [in capital] cities>",
@@ -1830,7 +1843,8 @@
 		"isWonder": true,
 		"uniqueTo": "Rome",
 		"cost": 1,
-		"uniques": ["Free Social Policy <upon entering a new era>",
+		"uniques": ["[+1 Culture] <in this city>",
+			"Free Social Policy <upon entering a new era>",
 			"[-15]% Culture cost of adopting new Policies <when at war>",
 			"Can only be built <in [in capital] cities>",
 			"Only available <in cities without a [Trajan]>"]
@@ -1840,7 +1854,8 @@
 		"isWonder": true,
 		"uniqueTo": "Rome",
 		"cost": 1,
-		"uniques": ["Gain a free [Monument] [in all cities]",
+		"uniques": ["[+2 Culture] <in this city>",
+			"Gain a free [Monument] [in all cities]",
 			"Can only be built <in [in capital] cities>",
 			"Only available <in cities without a [Octavian]>"]
 	},
@@ -1849,7 +1864,8 @@
 		"isWonder": true,
 		"uniqueTo": "Russia",
 		"cost": 1,
-		"uniques": ["Science gained from research agreements [+50]%",
+		"uniques": ["[+2 Science] <in this city>",
+			"Science gained from research agreements [+50]%",
 			"Can only be built <in [in capital] cities>"]
 	},
     {
@@ -1857,7 +1873,8 @@
 		"isWonder": true,
 		"uniqueTo": "Saudi Arabia",
 		"cost": 1,
-		"uniques": ["[+100]% [Oil] resource production",
+		"uniques": ["[+1 Gold] <in this city>",
+			"[+100]% [Oil] resource production",
 			"Can only be built <in [in capital] cities>"]
 	},
 	{
@@ -1865,7 +1882,8 @@
 		"isWonder": true,
 		"uniqueTo": "Spain",
 		"cost": 1,
-		"uniques": ["[+30]% [Gold] [in all cities] <on foreign continents>",
+		"uniques": ["[+1] Movement <for [All] units>", // After selecting Exploration
+			"[+30]% [Gold] [in all cities] <on foreign continents>",
 			"[+15]% [Food] [in all cities] <on foreign continents>",
 			"[+10]% [Production] [in all cities] <on foreign continents>",
 			"Can only be built <in [in capital] cities>",
@@ -1876,7 +1894,8 @@
 		"isWonder": true,
 		"uniqueTo": "Spain",
 		"cost": 1,
-		"uniques": ["[Faith] cost of purchasing [Inquisitor] units [-50]%",
+		"uniques": ["[+2 Faith] <in this city>",
+			"[Faith] cost of purchasing [Inquisitor] units [-50]%",
 			"Can only be built <in [in capital] cities>",
 			"Only available <in cities without a [Isabella I]>"]
 	},
@@ -1885,7 +1904,8 @@
 		"isWonder": true,
 		"uniqueTo": "Sumeria",
 		"cost": 1,
-		"uniques": ["When declaring friendship, both parties gain a [50]% boost to great person generation",
+		"uniques": ["[+25]% Great Person generation <in this city>",
+			"When declaring friendship, both parties gain a [50]% boost to great person generation",
 			"Can only be built <in [in capital] cities>"]
 	},
     {
@@ -1914,7 +1934,8 @@
 		"isWonder": true,
 		"uniqueTo": "The Cree",
 		"cost": 1,
-		"uniques": ["[+1 Food] from each Trade Route",
+		"uniques": ["[+1 Gold] <in this city>",
+			"[+1 Food] from each Trade Route",
 			"[+1 Gold] from every [Camp]",
 			"[+1 Gold] from [Pasture] tiles [in all cities]"]
 	},
@@ -1923,7 +1944,8 @@
 		"isWonder": true,
 		"uniqueTo": "The Maori",
 		"cost": 1,
-		"uniques": ["[+1 Science, +1 Culture, +1 Happiness] [in capital]",
+		"uniques": ["[+1 Food] <in this city>",
+			"[+1 Science, +1 Culture, +1 Happiness] [in capital]",
 			"[15]% Food is carried over after population increases [in capital]",
 			"[+1] population [in capital]",
 			"Free [Worker] appears",
@@ -1934,7 +1956,8 @@
 		"isWonder": true,
 		"uniqueTo": "The Mapuche",
 		"cost": 1,
-		"uniques": ["[+67]% Strength <during a Golden Age>"
+		"uniques": ["[+2 Happiness] <in this city>",
+			"[+67]% Strength <during a Golden Age>",
 			"Can only be built <in [in capital] cities>"]
 	},
 	{
@@ -1953,7 +1976,8 @@
 		"isWonder": true,
 		"uniqueTo": "The United States",
 		"cost": 1,
-		"uniques": ["[+25]% Production when constructing [All] units [in all cities] <for [10] turns> <upon declaring war on [Major] Civilizations>",
+		"uniques": ["[+1 Gold] <in this city>",
+			"[+25]% Production when constructing [All] units [in all cities] <for [10] turns> <upon declaring war on [Major] Civilizations>",
 			"[Gold] cost of purchasing [Civilian] units [-50]%",
 			"Can only be built <in [in capital] cities>",
 			"Only available <in cities without a [Abraham Lincoln]>",
@@ -1965,6 +1989,8 @@
 		"isWonder": true,
 		"uniqueTo": "The United States",
 		"cost": 1,
+		"cityStrength": 5,
+		"cityHealth": 10,
 		"uniques": ["[+10]% Strength <when fighting units from a Civilization with more Cities than you>",
 			"Can only be built <in [in capital] cities>",
 			"Only available <in cities without a [Abraham Lincoln]>",
@@ -1976,7 +2002,8 @@
 		"isWonder": true,
 		"uniqueTo": "The United States",
 		"cost": 1,
-		"uniques": ["[+1 Science] <in this city>",
+		"uniques": ["[+1 Science] <in this city",
+			"[+1 Science] <in this city>",
 			"[+2 Science] from [Natural Wonder] tiles [in all cities]",
 			"[+2 Science] from [Mountain] tiles [in all cities] <in tiles without [Natural Wonder]>",
 			"[+2 Culture] from [Forest] tiles [in all cities] <in tiles without [Lumber mill]> <in tiles without [Camp]> <in tiles without [Plantation]>",
@@ -1990,7 +2017,8 @@
 		"isWonder": true,
 		"uniqueTo": "The Zulu",
 		"cost": 1,
-		"uniques": ["[+25]% Strength <for [Melee] units> <when adjacent to a [Melee] unit>",
+		"uniques": ["[+1 Production] <in this city>",
+			"[+25]% Strength <for [Melee] units> <when adjacent to a [Melee] unit>",
 			"Can only be built <in [in capital] cities>"]
     }
 		]
