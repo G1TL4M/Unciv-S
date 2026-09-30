@@ -394,6 +394,32 @@
 		"requiredTech": "Philosophy"
 	},
 	{
+		"name": "Pura",
+		"replaces": "Temple",
+		"uniqueTo": "Majapahit",
+		"cost": 70,
+		"hurryCostModifier": 160,
+		"faith": 2,
+		"requiredBuilding": "Shrine",
+		"civilopediaText": [ {"text": "Hinduism was the first major global religion to reach Indonesia, arriving with the wave of Sanskrit and other South Asian influences in the first century AD. Hinduism spread via the poetry and epics of Sanskrit literature, and local rulers sought power by linking themselves via the religion to distant (and prestigious) centers in South Asia. Once settled in the palace, the religion slowly filtered down to the rest of the population. We see the construction of Hindu temples steadily from the first millennium onward, including the structures at Borobudur, Prambanan, and elsewhere. Building temples became a language of power for Majapahit elites, one they took with them as they fled their declining empire to the island of Bali. \nFrom Bali, we take the term 'pura'. Hindu temples in Java, where the Majapahit Empire was based, are still referred to as candi, but here we use the Balinese term to avoid confusion with the candi bentar building as well as mark the Majapahit legacy of the island."}, {"separator": true}],
+		"uniques": ["[-15]% Food consumption by [Specialists] [in this city]",
+					"Destroyed when the city is captured"],
+		"requiredTech": "Philosophy"
+	},
+    {
+	    "name": "Vihara",
+		"replaces": "Temple",
+		"uniqueTo": "Maurya",
+		"cost": 100,
+		"hurryCostModifier": 160,
+		"faith": 2,
+		"requiredBuilding": "Shrine",
+		"civilopediaText": [ {"text": "The rainy season poses a special problem for Buddhist monks. Prohibited from taking life, monks had to exercise special caution navigating paths and avoid stepping on the insects that proliferated during this time of year. With this in mind, many Theravada Buddhist monks retreated to a special hall – a vihara – during the rains. At least, this is the theological interpretation. Practically, rain retreats and special quarters for monks allowed the monastic community to persist, cultivate discipline (or reinforce orthodoxy), and focus on the individual education of monks and novices. Even in the dry season, viharas are places of communal gathering for Buddhist monks, where a lot of the business of the monastery takes place. \nDuring the Maurya period, viharas could be rest stops for travelers, even those of non-religious orientations. But under Ashoka, these more pleasure-oriented centers gave way to explicitly religious sites, often carved directly into the rock, as at Ellora. Ashoka even heavily promoted the gifts of goods and land to such religious viharas over the years."}, {"separator": true}],
+		"uniques": ["[+10]% [Happiness] [in this city]",
+					"Destroyed when the city is captured"],
+		"requiredTech": "Philosophy"
+	},
+	{
 		"name": "National College",
 		"cost": 125,
 		"science": 3,
@@ -420,6 +446,20 @@
 		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"uniques": ["Destroyed when the city is captured"],
+		"requiredTech": "Drama and Poetry"
+	},
+    {
+		"name": "Acropolis",
+		"replaces": "Amphitheater",
+		"uniqueTo": "Greece",
+		"cost": 100,
+		"hurryCostModifier": 160,
+		"culture": 3,
+		"specialistSlots": {"Artist": 1},
+        "requiredBuilding": "Monument",
+		"civilopediaText": [ {"text": "The Acropolis, 'upper city', was the core district of a Greek settlement. Built atop a steep hill, it was designed as a citadel and provided a safe haven to the populace in the event of war. Due to its strong defenses, the acropolis often housed the city’s treasury, as well as the residence of its leader. In peacetime, it was a center for religion and society. Temples were raised to the gods, rituals and festivals were held within its walls, and cultural events such as theatrical and musical performances attracted locals and tourists alike. \nWhile each major city featured an acropolis, the most famous remains that of Athens. Around its base lay the Odeon and the Theater of Dionysus; at its summit, amid temples and shrines, sat the Parthenon and an immense statue of the goddess Athena, surveying her namesake city."}, {"separator": true}],
+		"uniques": ["[+10]% Happiness from luxury resources gifted by City-States",
+					"Destroyed when the city is captured"],
 		"requiredTech": "Drama and Poetry"
 	},
     {
@@ -835,6 +875,19 @@
   		"requiredTech": "Banking"
 	},
     {
+		"name": "Anjuvannam",
+		"replaces": "Bank",
+		"uniqueTo": "Chola",
+		"cost": 200,
+		"hurryCostModifier": 160,
+		"gold": 3,
+		"percentStatBonus": {"gold": 25},
+		"civilopediaText": [ {"text": "The Five Hundred Lords and the manigramam were ethnic Indian traders; the anjuvannam was a guild of foreigners (most often Persians and Arabs, but could include Jews and Christians) operating within the Chola Empire. That such merchants not only existed, but existed in numbers requiring their own category, is a testament to the reach of the empire. Traders from every known people and religion operated in a complex web of trade. Such networks extended to Southeast Asia in the east (and from there to China) and the African coast and the Middle East to the west, linking the world in ways that would only intensify as history progressed."}, {"separator": true}],
+		"uniques": ["[+50]% Production when constructing [Water] units [in this city]"],
+		"specialistSlots": {"Merchant": 1},
+		"requiredTech": "Banking"
+	},
+    {
         "name": "Constabulary",
         "cost": 160,
         "maintenance": 1,
@@ -897,6 +950,19 @@
 		"requiredBuilding": "Harbor",
 		"uniques": ["[+1 Production, +1 Gold] from [Water resource] tiles [in this city]",
 			"Must be next to [Coast]", "[+15]% Production when constructing [Water] units [in this city]"],
+		"requiredTech": "Navigation"
+	},
+    {
+	    "name": "Haven",
+		"replaces": "Seaport",
+		"uniqueTo": "The Republic of Pirates",
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Harbor",
+		"civilopediaText": [ {"text": "The governors of colonial cities faced challenges. They were reliant upon protection from powers based an ocean away, often in the middle of territory partially controlled by rival nations and the indigenous inhabitants who resented their presence – all the while sitting upon vast potential wealth. Is it any wonder that many struck deals with pirates for protection, for supplies, or just for wealth? \nIn the Caribbean, Tortuga, New Providence, and Port Royal were famous havens. In Africa, St. Mary’s Island supplied pirates working the Indian Ocean trade, and in Indonesia, Sulawesi and the Sulu islands were likewise pirate havens."}, {"separator": true}],
+		"uniques": ["[+1 Production, +1 Gold] from [Water resource] tiles [in this city]",
+					"Must be next to [Coast]", 
+					"[+50]% Production when constructing [Water] units [in this city]",
+					"[Water] Units adjacent to this city heal [25] HP per turn when healing"],
 		"requiredTech": "Navigation"
 	},
 	{
@@ -1033,6 +1099,21 @@
 		"hurryCostModifier": 0,
 		"requiredResource": "Coal",
 		"requiredTech": "Industrialization"
+	},
+    {
+	    "name": "Industrial Park",
+        "replaces": "Factory",
+        "uniqueTo": "The United States",
+        "production": 4,
+		"percentStatBonus": {"production": 10},
+		"specialistSlots": {"Engineer": 2},
+     	"cost": 360,
+		"maintenance": 3,
+		"requiredResource": "Coal",
+		"civilopediaText": [ {"text": "The growth of industry in early America was initially wrapped up in the development of urban centers. Yet as production efforts grew, bringing large businesses together into one dedicated space became more lucrative. These industrial parks typically attracted heavy industries, such as steel mills and machine production, which required more space, materials, and infrastructure than lighter trades. By allocating these facilities to their own districts, cities ensured that these critical industries, which supplied both products and jobs, had room to thrive while reducing their social and environmental impact on the surrounding population. \nHeavy industries relied on consistent and extensive deliveries of resources, as well as the ability to distribute their output. As a result, proximity to transportation was paramount to the success of these parks. Ports provided access to shipping, while the advent of the railway greatly expanded opportunities to foster industry across the United States."}, {"separator": true}],
+    	"uniques": ["[+2 Production] from [Strategic resource] tiles [in this city]",
+					"[+1 Production, +1 Gold] from [Luxury resource] tiles [in this city]"],
+        "requiredTech": "Industrialization"
 	},
 	{
 		"name": "Big Ben",
