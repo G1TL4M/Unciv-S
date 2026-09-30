@@ -1428,7 +1428,8 @@
 		"isWonder": true,
 		"uniqueTo": "Aztecs",
 		"cost": 1,
-		"uniques": ["[+2] Happiness from each type of luxury resource",
+		"uniques": ["[+1 Gold] <in this city>",
+			"[+2] Happiness from each type of luxury resource",
 			"Can only be built <in [in capital] cities>"]
     },
     {
@@ -1436,7 +1437,8 @@
 		"isWonder": true,
 		"uniqueTo": "Brazil",
 		"cost": 1,
-		"uniques": ["[+20]% Great Person generation [in all cities]",
+		"uniques": ["[+1 Faith] <in this city>",
+			"[+20]% Great Person generation [in all cities]",
 			"[Faith] cost of purchasing [Great Admiral] units [-15]%",
 			"[Faith] cost of purchasing [Great Artist] units [-15]%",
 			"[Faith] cost of purchasing [Great Engineer] units [-15]%",
@@ -1450,7 +1452,8 @@
 		"isWonder": true,
 		"uniqueTo": "Canada",
 		"cost": 1,
-		"uniques": ["[-50]% Gold cost of acquiring tiles [in all cities] <within [1] tiles of a [Tundra]>",
+		"uniques": ["[+1 Gold] <in this city>",
+			"[-50]% Gold cost of acquiring tiles [in all cities] <within [1] tiles of a [Tundra]>",
 			"Can only be built <in [in capital] cities>"]
 	},
 	{
@@ -1458,7 +1461,8 @@
 		"isWonder": true,
 		"uniqueTo": "China",
 		"cost": 1,
-		"uniques": ["[Worker] units gain the [The First Emperor] promotion",
+		"uniques": ["[+1 Production] <in this city",
+			"[Worker] units gain the [The First Emperor] promotion",
 			"Can only be built <in [in capital] cities>"]
     },
 	{
@@ -1466,7 +1470,8 @@
 		"isWonder": true,
 		"uniqueTo": "Egypt",
 		"cost": 1,
-		"uniques": ["[+100]% [Gold] from City-States",
+		"uniques": ["[+1 Gold] <in this city>",
+			"[+100]% [Gold] from City-States",
 			"Can only be built <in [in capital] cities>",
 			"Only available <in cities without a [Hatshepsut]>"]
 	},
@@ -1475,7 +1480,8 @@
 		"isWonder": true,
 		"uniqueTo": "Egypt",
 		"cost": 1,
-		"uniques": ["[+1 Production] from [River] tiles [in all cities]",
+		"uniques": ["[+1 Production] <in this city>",
+			"[+1 Production] from [River] tiles [in all cities]",
 			"[+1 Food, +1 Culture] from [River] tiles [in all cities] <after discovering [Masonry]>",
 			"Can only be built <in [in capital] cities>",
 			"Only available <in cities without a [Cleopatra]>"]
@@ -1485,7 +1491,8 @@
 		"isWonder": true,
 		"uniqueTo": "England",
 		"cost": 1,
-		"uniques": ["Empire enters golden age <upon entering the [Industrial era]>","[+1 Production] from every [Factory]","[+1 Production] from every [Manufactory]",
+		"uniques": ["[+1 Production] <in this city>",
+			"Empire enters golden age <upon entering the [Industrial era]>","[+1 Production] from every [Factory]","[+1 Production] from every [Manufactory]",
 			"Can only be built <in [in capital] cities>",
 			"Only available <in cities without a [Winston Churchill]>"]
 	},
