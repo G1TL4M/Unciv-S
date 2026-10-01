@@ -2500,6 +2500,39 @@
 			"St John's","Portobelo","Campeche","St George's"],
 	},
 	{
+		"name": "The Shawnee",
+		"leaderName": "Tecumseh",
+		"adjective": ["Shawnee"],
+		"startBias": ["River","Grassland","Plains"],
+		"preferredVictoryType": "Diplomatic",
+		
+		"startIntroPart1": "In the Ohio Valley, the Shawnee made their stand on the world stage. The descendants of what archaeologists term the Fort Ancient culture, they built elaborate earthworks, cultivated maize, and built small cities surrounding a central council house, where public debate took place. When the newly-born United States began to expand, they fought battle after battle to keep their lands, and though they lost their Prophetstown, they remain.",
+		"startIntroPart2": "Cheif Tecumseh, you have devoted your liofe to protect your people from the westward expantion of the United States. You and your brother have unified groups of people that were thought to be impossible to unite. With your unbridled urge to defend the freedoms of all Native Americans, you were kiilled in thye war of 1812, a conflict between two colonisers dividing your people. Now the Shawnee call out to you once more. Can yuo stop the expansion of foreign powers onto your land? Can you keep your people united against a common foe? Can you build a civilization that can stand the test of time?",
+		
+		"declaringWar": "We will drive you back to the sea, to the caves, to whatever place you have come from.",
+		"attacked": "Let it be taken, our homes and our land given to us by the Great Spirit? The places we bury the ones who have gone home? Never!",
+		
+		"defeated": "A death song has come to me and I am going to sing it. When I am done, I will go to where the snows of winter go, where you cannot reach.",
+		"introduction": "You see a star that crosses the night sky like a bolt of lightning? That is me, Tecumseh, the one who leaps great distances.",
+		
+		"neutralHello": "Good day, my friend.",
+		"hateHello": "Why do you approach me?",
+		"tradeRequest": "Let us assess this deal over these peace pipes.",
+		"denounced": "Sour words will not ruin the sweet freedom of the Shawnee",
+		"declaringfriendship": "Let us smoke together over these peace pipes!",
+
+		"spyNames": ["Kinwisiimo","Napiwesi","Napiyehaska","Natopesi","Piyecikapowi","Kitakimiyesi","Kokwetekwisiimo","Hakowesi","Haalakotaaka","Hacipiwasi"],
+		
+		"outerColor": [160,115,185],
+		"innerColor": [230,230,0],
+		"uniqueName": "Nepekifaki",
+		"uniques": ["[+2 Food] from every [River] <in cities with a [Water Mill]>",
+					"[-10]% [Food] <in cities without a [Water Mill]>"],
+		"cities": ["Cilakofa","Pikawiiki","Thuthy's Hotewe","Penfekim'teko","White Oak","Little Axe","Prophet's Town","Sekakwis","Wakacaalli","Yetakapewaki",
+			"Ikan'hatki","Wapa'konetta","Cornstalk's Town","Nonhelema's Town","Nepipemi Hotaapata","Saawanwa Hotewe","Wapatomica","Makacheki","Mawaskawewiikiwa","New Pekowiki",
+			"Chillicothe Old Town","Bluejacket's Town","Wicita","Eskalapia"],
+	},
+	{
 		"name": "The Shoshone",
 		"leaderName": "Pocatello",
 		"adjective": ["Shoshone"],
