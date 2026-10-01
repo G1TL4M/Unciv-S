@@ -11,6 +11,22 @@ BuildingIcons/Harun al-Rashid
   orig: 100, 100
   offset: 0, 0
   index: -1
+Aksum
+BuildingIcons/Makeda
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+Antarctica 
+BuildingIcons/Roald Amundsen
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 Aztecs
 BuildingIcons/Montezuma I
   rotate: false
@@ -43,8 +59,23 @@ BuildingIcons/Qin Shi Huang
   orig: 100, 100
   offset: 0, 0
   index: -1
+Chola
+BuildingIcons/Rajaraja I
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 Egypt
 BuildingIcons/Cleopatra
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Hatshepsut
   rotate: false
   xy: 0, 0
   size: 100, 100
@@ -68,6 +99,21 @@ BuildingIcons/Winston Churchill
   index: -1
 France
 BuildingIcons/Napoleon Bonaparte
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+Germany
+BuildingIcons/Frederick Barbarossa
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Otto Von Bismark
   rotate: false
   xy: 0, 0
   size: 100, 100
@@ -110,6 +156,14 @@ BuildingIcons/Theodora
   orig: 100, 100
   offset: 0, 0
   index: -1
+Hawaii
+BuildingIcons/Kamehameha I
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 Inca
 BuildingIcons/Pachacuti
   rotate: false
@@ -134,7 +188,7 @@ BuildingIcons/Mahatma Ghandi (Nuclear)
   offset: 0, 0
   index: -1
 Iroquois
-BuildingIcons/Minos
+BuildingIcons/Hiawatha
   rotate: false
   xy: 0, 0
   size: 100, 100
@@ -143,6 +197,42 @@ BuildingIcons/Minos
   index: -1
 Italy
 BuildingIcons/Enrico Dandolo
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Pope Innocent III
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Simone Boccanegra
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+Japan
+BuildingIcons/Meiji
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Shirakawa
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/T
   rotate: false
   xy: 0, 0
   size: 100, 100
@@ -164,8 +254,39 @@ BuildingIcons/Seondeok
   orig: 100, 100
   offset: 0, 0
   index: -1
+BuildingIcons/Taejo Wang Kŏn
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 Mali
 BuildingIcons/Mansa Musa
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+Majapahit
+BuildingIcons/Gajah Mada
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+Maurya
+BuildingIcons/Ashoka
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+Mexico
+BuildingIcons/Benito Juarez
   rotate: false
   xy: 0, 0
   size: 100, 100
@@ -180,7 +301,29 @@ BuildingIcons/Genghis Khan
   orig: 100, 100
   offset: 0, 0
   index: -1
+Persia
+BuildingIcons/Cyrus
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Xerxes
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 Rome
+BuildingIcons/Octavian
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 BuildingIcons/Trajan
   rotate: false
   xy: 0, 0
@@ -205,6 +348,13 @@ BuildingIcons/Abdul Aziz al Saud
   offset: 0, 0
   index: -1
 Spain
+BuildingIcons/Isabella I
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 BuildingIcons/Philip II
   rotate: false
   xy: 0, 0
@@ -235,6 +385,13 @@ BuildingIcons/Boudicca
   orig: 100, 100
   offset: 0, 0
   index: -1
+BuildingIcons/Robert the Bruce
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 The Cree
 BuildingIcons/Poundmaker
   rotate: false
@@ -259,7 +416,37 @@ BuildingIcons/Lautaro
   orig: 100, 100
   offset: 0, 0
   index: -1
+The Mississippi
+BuildingIcons/Tuskaloosa
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+The Republic of Pirates
+BuildingIcons/Edward Teach
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 The United States
+BuildingIcons/Abraham Lincoln
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Benjamin Franklin
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 BuildingIcons/George Washington
   rotate: false
   xy: 0, 0
