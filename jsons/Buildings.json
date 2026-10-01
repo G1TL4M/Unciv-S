@@ -1942,29 +1942,45 @@
 		"isWonder": true,
 		"uniqueTo": "The Celts",
 		"cost": 1,
-		"uniques": ["[+1 Culture] <in this city>",
+		"culture": 1,
 			"[+1 Culture] from [Mine] tiles [in all cities]",
 			"[-25]% Culture cost of natural border growth [in all cities]",
 			"[-25]% Gold cost of acquiring tiles [in all cities]",
 			"Can only be built <in [in capital] cities>",
-			"Only available <in cities without a [Boudicca]>"]
+			"Only available <in cities without a [Boudicca]>",
+			"Only available <in cities without a [Robert The Bruce]>"]
 	},
     {
 	    "name": "Boudicca",
 		"isWonder": true,
 		"uniqueTo": "The Celts",
 		"cost": 1,
-		"uniques": ["[+10]% Strength <when fighting units from a Civilization with more Cities than you>","Earn [67]% of killed [Military] unit's [Strength] as [Faith]",
+		"faith": 1,
+		"uniques": ["[+10]% Strength <when fighting units from a Civilization with more Cities than you>",
+			"Earn [67]% of killed [Military] unit's [Strength] as [Faith]",
 			"Can only be built <in [in capital] cities>",
-			"Only available <in cities without a [Ambiorix]>"]
+			"Only available <in cities without a [Ambiorix]>",
+			"Only available <in cities without a [Robert The Bruce]>"]
+	},
+    {
+		"name": "Robert The Bruce",
+		"isWonder": true,
+		"uniqueTo": "The Celts",
+		"cost": 1,
+		"production": 1,
+		"uniques": ["[+100]% Production when constructing [Military] units [in all cities] <for [10] turns> <after adopting [Civil Service]>",
+			"[+2] Movement <for [non-air] units> <for [10] turns> <after adopting [Civil Service]>",
+			"Can only be built <in [in capital] cities>",
+			"Only available <in cities without a [Ambiorix]>",
+			"Only available <in cities without a [Boudicca]>"]
 	},
     {
 		"name": "Poundmaker",
 		"isWonder": true,
 		"uniqueTo": "The Cree",
 		"cost": 1,
-		"uniques": ["[+1 Gold] <in this city>",
-			"[+1 Food] from each Trade Route",
+		"gold": 1,
+		"uniques": ["[+1 Food] from each Trade Route",
 			"[+1 Gold] from every [Camp]",
 			"[+1 Gold] from [Pasture] tiles [in all cities]"]
 	},
