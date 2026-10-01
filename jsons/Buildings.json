@@ -1943,7 +1943,7 @@
 		"uniqueTo": "The Celts",
 		"cost": 1,
 		"culture": 1,
-			"[+1 Culture] from [Mine] tiles [in all cities]",
+		"uniques": ["[+1 Culture] from [Mine] tiles [in all cities]",
 			"[-25]% Culture cost of natural border growth [in all cities]",
 			"[-25]% Gold cost of acquiring tiles [in all cities]",
 			"Can only be built <in [in capital] cities>",
