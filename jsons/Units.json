@@ -186,6 +186,24 @@
 		"attackSound": "arrow"
 	},
 	{
+		"name": "Burning Arrow",
+		"replaces": "Archer",
+		"uniqueTo": "The Mississipi",
+        "unitType": "Archery",
+        "movement": 2,
+        "strength": 5,
+        "rangedStrength": 7,
+		"range": 2,
+        "cost": 40,
+        "requiredTech": "Archery",
+        "upgradesTo": "Composite Bowman",
+        "obsoleteTech": "Construction",
+		"uniques": ["[+50]% Strength <vs cities> <when attacking>"],
+		"promotions": ["[Burning Arrows] ability"],
+		"civilopediaText": [ {"text": "Mississippian warfare typically utilized clubs and stone axes for melee weapons. Clubs were a point of pride and skill – the weapon of nobility. Battles appear to have been significant enough that Mississippians built fortifications around major settlements, although these defenses may have been designed to prevent war via intimidation rather than defend against actual siege. \nFor ranged attacks, thick bows held a draw of about fifty pounds (about half the force of an English longbow). Mississippian cities were constructed of wood and thatch. This meant that fire was a devastating weapon against them. Evidence from Cahokia shows that fire arrows were used offensively during raids – the resulting devastation and confusion only increased the shock value of such warfare."}, {"separator": true}],
+        "attackSound": "arrow"
+	},
+	{
 		"name": "Skirmisher",
 		"unitType": "Archery",
 		"uniqueTo": "Barbarians",
@@ -248,6 +266,23 @@
 		"upgradesTo": "Galleass",
 		"obsoleteTech": "Astronomy",
 		"attackSound": "arrow"
+	},
+	{
+		"name": "Dhow",
+        "replaces": "Trireme",
+        "uniqueTo": "Aksum",
+        "unitType": "Ranged Water",
+        "movement": 4,
+        "strength": 10,
+		"rangedStrength": 6,
+        "range": 2,
+        "cost": 45,
+        "requiredTech": "Sailing",
+        "uniques": ["Cannot enter ocean tiles","Can move after attacking"],
+		"civilopediaText": [ {"text": "Dhow ply the Indian Ocean and Red Sea and have for centuries. The word 'dhow' has Arabic origins, but the ships were a vital line of trade between India, East Africa, and the Middle East. From ports such as Lamu in Kenya to Adulis in Aksum, Musa in Yemen, Gujarat in India, and eastwards, the sharp-prowed dhow with its lateen (triangular) sail carried incense, ivory, and tortoise from the African coast to exchange with precious metals and wine elsewhere. Until the 19th century, human beings were also part of this cargo. \nAs a general term, “dhow” also encompasses a wide body of similar kinds of ships, from the massive two-masted baghlah (a 30-meter ship with 30-40 crewmembers) that would undertake the longest voyages, to the smaller fishing dhow, crewed by a dozen or so men. The success of these various models created an opportunity for piracy, and many larger dhow formed the core of pirate fleets operating in and around the region."}, {"separator": true}],
+        "upgradesTo": "Caravel",
+        "obsoleteTech": "Astronomy",
+        "attackSound": "nonmetalhit"
 	},
 	{
 		"name": "Galley",
@@ -476,6 +511,22 @@
 		"attackSound": "horse"
 	},
 	{
+		"name": "Purabhettarah",
+		"replaces": "Horseman",
+		"uniqueTo": "Maurya",
+		"unitType": "Elephant Mount",
+        "movement": 3,
+        "strength": 12,
+        "cost": 75,
+        "requiredTech": "Horseback Riding",
+        "upgradesTo": "Knight",
+        "obsoleteTech": "Chivalry",
+        "uniques": ["Can move after attacking","No defensive terrain bonus","[+50]% Strength <vs cities> <when attacking>"],
+		"civilopediaText": [ {"text": "Known as a 'city-breaker', the Mauryan war elephant was a battering ram – a living hulk of armored flesh trained to smash, ram, and stomp city walls. The advance of Vedic people across the subcontinent is most clearly associated with the chariot (the wheel being a core symbol of Vedic conquests), but the elephant also left a lasting impact. When Alexander attempted the invasion of India, his exhaustion finally caught up with him after battles with war elephants. The slightly later Mauryans fielded nearly ten thousand elephants in their wars, and elephants remained dominant against all but the best horsemen – their trumpeting would scatter horses and infantry. The Mongols won some brief advantages, turning their highly-trained and nimble horses into mobile archery platforms, but the use of elephants didn't wane until the adoption of cannons (even muskets were relatively ineffective against the behemoths)."}, {"separator": true}],
+        "hurryCostModifier": 20,
+        "attackSound": "elephant"
+	},
+	{
 		"name": "War-Cart",
 		"uniqueTo": "Sumeria",
 		"unitType": "Horse Mount",
@@ -594,6 +645,22 @@
 			"[+67]% Strength <vs [Ranged] units> <when defending>"],
 		"attackSound": "metalhit"
 	},
+	{
+		"name": "Leiomano",
+		"replaces": "Swordsman",
+        "uniqueTo": "Hawai'i",
+        "unitType": "Sword",
+        "movement": 2,
+        "strength": 14,
+        "cost": 75,
+        "requiredTech": "Iron Working",
+		"promotions": ["[Leiomano] ability"],
+		"civilopediaText": [ {"text": "How can weapons of war be fashioned without metal, obsidian, or flint? For the Hawaiians, the answer was found in the sea. The leiomano, the shark’s lei, is a broad wooden club rimmed with tiger shark teeth, which put the power of a shark's bite into the hands of individual Hawaiian warriors. \nHawai’i hasn't always been a unified archipelago. Some areas and islands had different kings, and these kings often engaged in bloody battles of conquest – until the rise of Kamehameha in the late 1700s. This leader engaged in a broad system of conquest to unite the fractious isles through outrigger, spear, and shark-tooth club."}, {"separator": true}],
+        "upgradesTo": "Longswordsman",
+        "obsoleteTech": "Steel",
+        "hurryCostModifier": 20,
+        "attackSound": "metalhit"
+	},
 
 	// Medieval Era
 	{
@@ -686,6 +753,24 @@
 		"upgradesTo": "Frigate",
 		"uniques": ["Cannot enter ocean tiles"],
 		"attackSound": "arrow"
+	},
+	{
+		"name": "Cetbang",
+        "replaces": "Galleass",
+        "uniqueTo": "Majapahit",
+        "unitType": "Ranged Water",
+        "movement": 4,
+		"rangedStrength": 17,
+        "range": 2,
+        "strength": 16,
+        "cost": 100,
+        "requiredTech": "Compass",
+        "uniques": ["[+15]% Strength <vs [Water] units>", "Cannot enter ocean tiles"],
+		"promotions": ["Extended Range"],
+		"civilopediaText": [ {"text": "'Mongol hordes' call to mind a sweeping mass of horse archers stretched across the Eurasian steppe. However the Mongols – referring to Kublai Khan’s Yuan Dynasty in China – also attempted a takeover of Java in 1293 CE, which set the stage for the rise of the Majapahit Empire. This invasion failed thanks to naval treachery, but Java kept the Mongols' guns after the invaders left. The cetbang was a light cannon with one or two barrels, and was mounted onto a swivel, giving it a remarkably modern appearance – the same year that the Majapahit were using double-barreled swivel cannons, the English and French were still contesting over the superiority of longbows or crossbows. \nThe cetbang did not have the power of later bombards, and could not productively be used against enemy ships, but they still had their uses. At the time, navies were essentially floating platforms to carry warriors, so a volley of cetbang fire onto an enemy’s crowded decks could cause a great deal of damage, even before the first keris (Javanese dagger) was drawn."}, {"separator": true}],
+        "upgradesTo": "Frigate",
+        "obsoleteTech": "Navigation",
+        "attackSound": "nonmetalhit"
 	},
 	{
 		"name": "Knight",
@@ -973,6 +1058,21 @@
 		"upgradesTo": "Ironclad",
 		"obsoleteTech": "Combustion",
 		"uniques": ["Can move after attacking","[+1] Sight","Withdraws before melee combat <with [80]% chance>","Can undertake a trade mission with City-State, giving a large sum of gold and [0] Influence"],
+	},
+	{
+		"name": "Kalam",
+        "replaces": "Caravel",
+        "uniqueTo": "Chola",
+        "unitType": "Melee Water",
+        "movement": 4,
+        "strength": 20,
+        "cost": 120,
+        "requiredTech": "Astronomy",
+        "uniques": ["Can move after attacking","[1] additional attacks per turn","[+1] Sight","Withdraws before melee combat <with [80]% chance>"],
+		"civilopediaText": [ {"text": "By some definitions, the Chola navy was a vast enterprise, arranging conquests from Sri Lanka to Cambodia, extending trade routes from Africa to China, and amassing power over the Indian Ocean. However, by other definitions, the Chola navy did not even exist. Instead of a standing navy, in times of war, the Chola would contract a large number of merchant vessels and privateers (possibly pirates). The design of these ships and how they functioned is largely lost to history, and surviving records are riddled with inaccuracies. \nHere 'kalam' refers to 'vessel' in Tamil. It is not a terribly descriptive name, nor is it evocative, but it remains the most accurate term to describe a unit of the immense and diverse navy of the Cholas"}, {"separator": true}],
+        "upgradesTo": "Ironclad",
+        "obsoleteTech": "Steam Power",
+        "attackSound": "nonmetalhit"
 	},
 	{
 		"name": "Musketman",
