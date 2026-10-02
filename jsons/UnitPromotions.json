@@ -814,7 +814,7 @@
 	},
 	{
 		"name": "Minoan", // Minos
-		"uniques": [""]
+		"uniques": ["May attack when embarked","[0] Movement point cost to embark","[0] Movement point cost to disembark"]
 	},
 	{
 		"name": "Qhapaq Nan", // Pachacuti
