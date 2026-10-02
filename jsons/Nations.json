@@ -976,9 +976,8 @@
 				"SANAE IV","Casey","Davis","Dumont d'Urville","Carlini","Novolazarevskaya","Halley VI","Concordia","King Sejong",
 				"Jang Bogo","Zhongshan","Great Wall","Neumayer III","Escudero","Mawson"],
 
-		"civilopediaText": [
-			{"text": "From 'Modern Civilizations'"}
-		]
+		"civilopediaText": [{"text": "From 'Modern Civilizations'"}]
+		"civilopediaText": [{"text": "Antarctica is a continent"}]
 	},
 	{
 		"name": "Argentina",
@@ -1537,7 +1536,9 @@
 			"Canandaigua Lake","Lake Simcoe","Salamanca","Gowanda","Cuba","Akron","Kanesatake","Ganienkeh",
 			"Chondote","Canajoharie","Nedrow","Kanonwalohale","Green Bay","Southwold",
 			"Schoharie","Bay of Quinte","Kanawale","Kanatsiokareke","Tyendinaga","Hahta"],
-        "spyNames": ["Onatah", "Oneida", "Oshadagea", "Otetiani", "Genesee", "Dadgayadoh", "Otwtiani", "Kateri", "Onondakai", "Honanyawus"]
+        "spyNames": ["Onatah", "Oneida", "Oshadagea", "Otetiani", "Genesee", "Dadgayadoh", "Otwtiani", "Kateri", "Onondakai", "Honanyawus"],
+
+		"civilopediaText": [{"text": "The Iroquois (or Haudenosaunee) Confederacy was"}]
 	},
 	{
 		"name": "Israel",
@@ -2593,7 +2594,9 @@
 			"Oakland","Tampa Bay","Orlando","Tacoma","Santa Fe","Olympia","Hunt Valley","Springfield","Palo Alto","Centralia",
 			"Spokane","Jacksonville","Savannah","Charleston","San Antonio","Birmingham","Anchorage","Sacramento","Reno",
 			"Salt Lake City","Boise","Milwaukee","Santa Cruz","Little Rock"],
-        "spyNames": ["Cousin", "Felix", "Dennis", "Edward", "Prof. Rex", "Eliza", "Mary", "Virginia", "Scarlett", "Barbara"]
+        "spyNames": ["Cousin", "Felix", "Dennis", "Edward", "Prof. Rex", "Eliza", "Mary", "Virginia", "Scarlett", "Barbara"],
+
+		"civilopediaText": [{"text": "The United States (1776 - present) is a country"}]
 	},
 	{
 		"name": "The Zulu",
@@ -2684,8 +2687,8 @@
 		"afterPeace": "I am glad the war is finally over.",
 		"tradeRequest": "What do you think?",
 
-		"outerColor": [	239, 2, 2],
-		"innerColor": [	255, 247, 9],
+		"outerColor": [239, 2, 2],
+		"innerColor": [255, 247, 9],
 		"uniqueName": "The Dragon Path",
 		"uniques": ["[+25]% Strength <for [Wounded] units>","[+1 Happiness] from every [Barracks]","[+1 Food] from every [Plantation]"],
 		"cities": ["Hanoi","Saigon","Hai Phong","Bien Hoa","Co Loa","Than Hoa","Da Nang","Nhang Hong","Hoi An",
