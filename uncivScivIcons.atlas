@@ -1,151 +1,207 @@
 uncivScivIcons.png
-size: 700, 400
+size: 700, 500
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-NationIcons/Abbasid
+NationIcons/The United States
   rotate: false
   xy: 0, 0
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Saudi Arabia
+NationIcons/Canada
   rotate: false
   xy: 100, 0
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/The Maori
+NationIcons/Mexico
   rotate: false
   xy: 200, 0
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Australia
+NationIcons/Iroquois
   rotate: false
   xy: 300, 0
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Buganda
+NationIcons/Nubia
   rotate: false
   xy: 400, 0
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/The Mississippi
+NationIcons/Poland
   rotate: false
   xy: 500, 0
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Hawaii
-  rotate: false
-  xy: 600, 0
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-NationIcons/Kongo
+NationIcons/Abbasid
   rotate: false
   xy: 0, 100
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/The Zulu
+NationIcons/Saudi Arabia
   rotate: false
   xy: 100, 100
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Colombia
+NationIcons/The Maori
   rotate: false
   xy: 200, 100
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/South Africa
+NationIcons/Australia
   rotate: false
   xy: 300, 100
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Chola
+NationIcons/Buganda
   rotate: false
   xy: 400, 100
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Majapahit
+NationIcons/The Mississippi
   rotate: false
   xy: 500, 100
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/The Mapuche
+NationIcons/Hawaii
+  rotate: false
+  xy: 600, 100
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Kongo
   rotate: false
   xy: 0, 200
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Sumeria
+NationIcons/The Zulu
   rotate: false
   xy: 100, 200
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/The Cree
+NationIcons/Colombia
   rotate: false
   xy: 200, 200
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Italy
+NationIcons/South Africa
   rotate: false
   xy: 300, 200
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Aksum
+NationIcons/Chola
   rotate: false
   xy: 400, 200
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/The Republic of Pirates
+NationIcons/Majapahit
   rotate: false
   xy: 500, 200
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Maurya
+NationIcons/The Shawnee
   rotate: false
   xy: 600, 200
+  size: 100, 100
+  orig: 0, 0
+  offset: 0, 0
+  index: -1
+NationIcons/The Mapuche
+  rotate: false
+  xy: 0, 300
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Sumeria
+  rotate: false
+  xy: 100, 300
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/The Cree
+  rotate: false
+  xy: 200, 300
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Italy
+  rotate: false
+  xy: 300, 300
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Aksum
+  rotate: false
+  xy: 400, 300
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/The Republic of Pirates
+  rotate: false
+  xy: 500, 300
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Maurya
+  rotate: false
+  xy: 600, 300
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Antarctica
   rotate: false
-  xy: 0, 300
+  xy: 0, 400
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Wabanaki
+  rotaye: false
+  xy: 100, 400
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
