@@ -2091,6 +2091,23 @@
             "Great Person - [War]", "Unbuildable", "Uncapturable"],
 		"movement": 4
 	},
+    {
+		"name": "Buccaneer",
+		"unitType": "Civilian Water",
+		"replaces": "Great Admiral",
+		"uniqueTo": "The Republic of Pirates",
+		"uniques": [
+            // TODO: "[Every adjacent [{Friendly} {Water}] unit] heals [100] HP <by consuming this unit>",
+            "May Paradrop to [{your} {Coastal} {City center}] tiles up to [25] tiles away <in [City center] tiles>", // Change Port
+            "[+15]% Strength bonus for [{Military} {Water}] units within [2] tiles",
+			"[+10]% Strength bonus for [Military] units within [3] tiles <during a Golden Age>",
+			"Free [Settler] appears <once>",
+			"Can be earned through combat <for [Water] units>",
+            "Is part of Great Person group [Admiral]",
+			"[This Unit] gets a name from the [Buccaneer] group",
+            "Great Person - [War]", "Unbuildable", "Uncapturable"],
+		"civilopediaText": [ {"text": "A buccaneer is a general term for a pirate, but the word itself has an etymology that extends beyond. In the 17th century, as livestock from colonial settlements escaped and grew feral, Hispaniola gained a population of wild pigs – and some settlers, too, escaped and grew feral. These outlaws were named 'buccaneers', after the Arawak word (buccan) for a meat-grilling stand. By the time that more Europeans had arrived in the area, the word had come to mean anyone living off of brigandry and piracy – especially as colonial authorities tried to eradicate these lawless individuals and their feral prey and many sought employment and gain by plunder."}, {"separator": true}],
+		"movement": 4
 
 	/* Religious units */
 
@@ -2104,6 +2121,20 @@
 			"[-1] Sight", "Unbuildable", "Religious Unit", "Only available <when religion is enabled>"],
 		"movement": 4,
 		"religiousStrength": 1000
+	},
+    {
+		"name": "Hoceepkileni",
+		"unitType": "Civilian",
+		"replaces": "Missionary",
+		"uniqueTo": "Shawnee",
+		"cost": -1,
+        "uniques": ["Can Spread Religion <for [5] movement> <[3] times> <after which this unit is consumed>",
+		    "May enter foreign tiles without open borders, but loses [200] religious strength each turn it ends there",
+		    "Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
+        	    "[-1] Sight", "Unbuildable", "Religious Unit", "Only available <when religion is enabled>"],
+		"civilopediaText": [ {"text": "The hoceepkileni, 'medicine man', was a spiritual leader among the Shawnee people. They were intermediaries between the physical and metaphysical worlds and guided the community in their relationship with the divine. Healing was an important part of the hoceepkileni’s skills, and physical ailments were treated medicinally and spiritually. However, the hoceepkileni also addressed social tensions and communal disputes, mending divisions within the population."}, {"separator": true}],
+        "movement": 5,
+        "religiousStrength": 800
 	},
 	{
 		"name": "Inquisitor",
