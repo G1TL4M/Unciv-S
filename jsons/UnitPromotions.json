@@ -823,6 +823,7 @@
 	{
 		"name": "The First Emperor", // Qin Shi Huang
 		"uniques": ["Can speed up construction of a building <before the [Medieval era]>"]
+	},
 	
 	// For barbarian water units
 	{
