@@ -419,6 +419,19 @@
 					"Destroyed when the city is captured"],
 		"requiredTech": "Philosophy"
 	},
+    {
+	    "name": "Uwaybil K'uh",
+		"replaces": "Temple",
+		"uniqueTo": "The Maya",
+		"cost": 100,
+		"hurryCostModifier": 160,
+		"faith": 2,
+		"requiredBuilding": "Shrine",
+		"civilopediaText": [ {"text": "The Maya godhouse – the uwaybil k’uh – was a place of veneration for the Maya deities. Temples were houses for the gods, places where the deities could rest and be at home. As such, they were often covered by a cloth, at once enhancing the familiarity of the place (i.e. its appearance as a place of rest and relaxation) as well as its otherworldliness (i.e. this place of rest was intended for a divine being). These coverings were located in the innermost sanctum of a Maya temple, a place closed off to all but the most high-ranking priests. As such they emphasized the temples as places of religious veneration, not communal activity. In other words, the idea that religious rites are moments that bring a community together (a theory of Émile Durkheim) is contradicted here. These were places where individuals could perform the necessary duties that ensure the cooperation and placation of the vital forces underpinning the universe in seclusion."}, {"separator": true}],
+		"uniques": ["[+15]% [Production] [in this city] <for [5] turns> <upon discovering [All] technology>",
+					"Destroyed when the city is captured"],
+		"requiredTech": "Philosophy"
+	},
 	{
 		"name": "National College",
 		"cost": 125,
@@ -496,6 +509,20 @@
 		"percentStatBonus": {"gold": 25},
 		"uniques": ["Provides 1 extra copy of each improved luxury resource near this City",
 			"[+2 Gold] from [Oil] tiles [in this city]", "[+2 Gold] from [Oasis] tiles [in this city]"],
+		"requiredTech": "Currency"
+	},
+    {
+	    "name": "Forum",
+		"replaces": "Market",
+		"uniqueTo": "Rome",
+		"cost": 100,
+		"hurryCostModifier": 160,
+		"gold": 3,
+		"specialistSlots": {"Merchant": 2},
+        "percentStatBonus": {"gold": 25},
+		"civilopediaText": [ {"text": "The forum was the heart of Roman life, providing a communal center for the populace and drawing a settlement’s most important services – social, religious, economic, and cultural – into a single location. These public spaces began as commercial hubs, marketplaces that served multiple towns and drew them into a single political entity. They were also social centers for locals to gather and meet. Over time, these fora grew to incorporate additional functions. They housed the Temple of Jupiter and additional religious complexes and shrines. Political speeches and debates often took place on the steps of these buildings, while nearby basilicas bustled with legal matters and business transactions. During the Republic, the forum in Rome expanded in both scope and monumental architecture and became one of the city’s major tourist attractions, as well as the model for fora throughout the Roman world."}, {"separator": true}],
+		"uniques": ["[+1 Culture] <for every [Completed Policy branches]>",
+					"Comment [+1 Merchant slot]"],
 		"requiredTech": "Currency"
 	},
 	{
@@ -831,6 +858,19 @@
 		"maintenance": 2,
 		"uniques": ["[+2 Culture] from [Lakes] tiles [in this city]"]
 		"requiredTech": "Acoustics"
+	},
+    {
+		"name": "Plaza",
+		"replaces": "Opera House",
+		"uniqueTo": "Spain",
+        "culture": 4,
+		"specialistSlots": {"Artist": 1},
+		"cost": 200,
+        "hurryCostModifier": 100,
+       	"requiredTech": "Acoustics",
+		"civilopediaText": [ {"text": "The plaza was the center of Spanish government and society. These large open squares drew together the administrative buildings of a town or city, including the casa consistorial, the law court, and trade buildings of the Casa de Contratación, as well as the local church or cathedral. Because of its size and prominent location, the plaza was a key space for communal assemblies, operating as a site for social gatherings and celebrations as well as military parades. It was a consistent element of Spanish urban planning, so much so that it was exported to settlements around the world during Spain’s era of expansion and colonization."}, {"separator": true}],
+		"uniques": ["[+2 Gold, +1 Culture] from [Luxury resource] tiles [in this city]",
+					"Destroyed when the city is captured"],
 	},
 	{
 		"name": "Sistine Chapel",
@@ -1169,6 +1209,19 @@
 		"specialistSlots": {"Merchant": 2},
 		"hurryCostModifier": 15,
 		"requiredBuilding": "Bank",
+		"requiredTech": "Electricity"
+	},
+    {
+		"name": "Zócalo",
+		"replaces": "Stock Exchange",
+		"uniqueTo": "Mexico",
+		"cost": 360,
+		"hurryCostModifier": 160,
+		"gold": 3,
+		"percentStatBonus": {"gold": 33},
+		"civilopediaText": [ {"text": "Aztec ceremonial centers were built around a central plaza, a city plan that Spanish conquerors emulated in the Zócalo of Mexico City, here generalized to refer to the central plaza of all Mexican cities. It remains the place where important civic functions happen. The buildings surrounding the Zócalo are testaments to their importance in Mexican society: the cathedral, the city hall, and the main halls of administration. This space once contained the principal temple of the Aztec city of Tenochtitlan, and the Zócalo’s orientation toward the cardinal directions is a key outgrowth of its Aztec plan. This is the continuity of empire – the re-creation of a new world resting on the bones of the old."}, {"separator": true}],
+		"uniques": ["[+2 Culture, +1 Gold] <for every [Completed Policy branches]>"],
+		"specialistSlots": {"Merchant": 2},
 		"requiredTech": "Electricity"
 	},
 	{
