@@ -2152,6 +2152,7 @@
             "Great Person - [War]", "Unbuildable", "Uncapturable"],
 		"civilopediaText": [ {"text": "A buccaneer is a general term for a pirate, but the word itself has an etymology that extends beyond. In the 17th century, as livestock from colonial settlements escaped and grew feral, Hispaniola gained a population of wild pigs – and some settlers, too, escaped and grew feral. These outlaws were named 'buccaneers', after the Arawak word (buccan) for a meat-grilling stand. By the time that more Europeans had arrived in the area, the word had come to mean anyone living off of brigandry and piracy – especially as colonial authorities tried to eradicate these lawless individuals and their feral prey and many sought employment and gain by plunder."}, {"separator": true}],
 		"movement": 4
+	},
 
 	/* Religious units */
 
