@@ -2695,6 +2695,32 @@
 			"Hue","Phong Chau","Phu Xuan","Long Bien","Qui Nhon","Rach Gia","Dong Hoi","Vung Tau","Ha Long","Long Xuyen",
 			"My Tho","Cam Pha","Bac Lieu","Hai Duong","Thai Binh","Soc Trang","Lao Cai","Sa Dec","Vinh Long"]
 	},
+	{
+		"name": "Wabanaki",
+		"leaderName": "Henri Membertou",
+		"adjective": ["Wabanaki"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Diplomatic",
+		
+		"startIntroPart1": "",
+		
+		"declaringWar": "For the good of my people i must declare war!",
+		"attacked": "You are making a big mistake.",
+		"defeated": "Will this be my last goodbye to you?.",
+		"introduction": "Tell me, are you a barbarian, or are you as civilized as we are?",
+		
+		"neutralHello": "Hello.",
+		"hateHello": "What do YOU want?!",
+		
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+				
+		"outerColor": [239, 242, 48],
+		"innerColor": [37, 40, 99],
+		"uniqueName": "Wabanaki Confederacy",
+		"uniques": ["[+20]% Production when constructing [Water] units [in all cities]","[Gold] cost of purchasing [Water] units [-50]% <during a Golden Age>"],
+		"cities": ["Panawamskek",
+			"Odanak","Sipayik","Eelsetkook","Kadesquit","Lakeland Ridges"]
+	},
 
 
 	// City-States sorted by cityStateType, name
