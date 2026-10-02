@@ -786,11 +786,35 @@
 		"name": "[Snowmobile] ability",
 		"uniques": ["[+33]% Strength <when fighting in [Snow] tiles>","[+33]% Strength <when fighting in [Tundra] tiles>"]
 	},
+	{
+		"name": "[Burning Arrows] ability",
+        "uniques": ["[+50]% Strength <when fighting in [Forest] tiles>"]
+	},
+	{
+		"name": "[Leiomano] ability",
+        "uniques": ["[+10]% Strength <vs [Mounted] units>","[+10]% Strength <vs [Sword] units>"]
+	},
+	{
+		"name": "[Abambowa] ability",
+        "uniques": ["[+75]% Health from pillaging tiles"]
+	},
+	{
+		"name": "[Soldaderas] ability",
+        "uniques": ["All adjacent units heal [10] HP when healing"]
+	},
+	{
+		"name": "Hidden",
+        "uniques": ["Invisible to others", "[+10]% Strength <if it hasn't used other actions yet>"]
+	},
 	
 	// Leader Promotions
 	{
 		"name": "Mongol Horde", // Genghis Khan
 		"uniques": ["[+10]% Strength","[+10]% Strength <vs cities>"]
+	},
+	{
+		"name": "Minoan", // Minos
+		"uniques": [""]
 	},
 	{
 		"name": "Qhapaq Nan", // Pachacuti
@@ -799,8 +823,9 @@
 	{
 		"name": "The First Emperor", // Qin Shi Huang
 		"uniques": ["Can speed up construction of a building <before the [Medieval era]>"]
-	},
-	{	// For barbarian water units
+	
+	// For barbarian water units
+	{
 		"name": "Unable to pillage tiles",
 		"uniques": ["Unable to pillage tiles"]
 	}
