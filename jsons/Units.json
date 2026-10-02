@@ -942,6 +942,22 @@
 		"attackSound": "arrow"
 	},
 	{
+		"name": "Voi Chiến",
+        "unitType": "Archery",
+		"uniqueTo": "Đại Việt",
+		"replaces": "Crossbowman",
+        "movement": 3,
+        "strength": 13,
+        "rangedStrength": 23,
+        "cost": 160,
+        "requiredTech": "Machinery",
+        "upgradesTo": "Gatling Gun",
+        "obsoleteTech": "Industrialization",
+		"uniques":["[+1] Sight", "Can move after attacking", "No defensive terrain bonus"],
+		"civilopediaText": [ {"text": "War elephants – voi chiến in Vietnamese – were a staple of armies across Southeast Asia. Able to move with surprising grace even when hauling heavy loads, they were vital in logistics, and in battle, they were terrifying. From a commanding height, mounted atop tons of hide and flesh, elephant-mounted warriors armed with spears, pikes, or bows could reach above and behind enemy lines, and the beast itself could be goaded into crashing through and trampling even seasoned soldiers. Cavalry, it seems, were particularly susceptible to an elephant charge, as horses required a great deal of discipline and training to keep up an assault when facing a mass of elephants. As such, they were the tanks of their day. \nBut an elephant is, after all, a living thing. In the wars against the Song Dynasty, the forces of Lý Thường Kiệt, emboldened by their success against the Cham to the south, deployed war elephants against the Chinese. However, Chinese forces had learned to attack the sensitive trunks of the animals, causing them to fly into a rage and trample their own forces \nElephants remained in use for their hauling capacity and relative stealth well into the Vietnam War."}, {"separator": true}],
+        "attackSound": "crossbow"
+	},
+	{
 		"name": "Trebuchet",
 		"unitType": "Siege",
 		"movement": 2,
@@ -1340,6 +1356,34 @@
 		"upgradesTo": "Great War Infantry",
 		"promotions": ["Drill I","Home Sweet Home"],
 		"attackSound": "shot"
+	},
+	{
+		"name": "Abambowa",
+	    "unitType": "Sword",
+	    "uniqueTo": "Buganda",
+	    "replaces": "Rifleman",
+	    "strength": 34,
+	    "cost": 200,
+	    "movement": 2,
+	    "obsolete": "Replaceable Parts",
+	    "requiredTech": "Rifling",
+	    "upgradesTo": "Great War Infantry",
+	    "civilopediaText": [ {"text": "The guards to the kabaka, the king of Buganda, the Abambowa are an elite group of warriors and caretakers, close to the heart of Gandan rule. Ganda's kingship has a dual nature: a sacred monarchy is represented by regalia while other sources of divine power have their emissary (the word kabaka means emissary) in the body of an individual. The king’s body is sacrosanct, and outsiders are generally not permitted near them, so the Abambowa are a line of defense between the world and the monarchy. Abambowa adhere to a strict code of conduct, abstaining from food and drink before their shifts so they will not have to use the toilet on duty. More to the point, they are equipped with a set of ceremonial equipment: a spear (now a gun), a shield, a machete, and a length of rope for securing potential captives."}, {"separator": true}],
+	    "promotions": ["[Abambowa] ability"]
+	},
+	{
+		"name": "Soldaderas",
+	    "unitType": "Gunpowder",
+	    "uniqueTo": "Mexico",
+	    "replaces": "Rifleman",
+	    "strength": 34,
+	    "cost": 225,
+	    "movement": 2,
+	    "obsolete": "Replaceable Parts",
+	    "requiredTech": "Rifling",
+	    "upgradesTo": "Great War Infantry",
+	    "civilopediaText": [ {"text": "The Mexican Revolution was a decade-long conflict between multiple power groups, beginning with the collapse of the dictatorship of Porfirio Díaz. In 1911, Díaz had jailed a prominent opponent, a wealthy landowner from the north of Mexico who had launched a rebellion against Díaz and his 'Porfiriato' – and won. This sparked a series of rebellions, reactions, coups, and attempted coups that eventually settled into a period of stability that has lasted from 1920 to the present day. \nFemale soldiers and army attendants, or soldaderas, played a key role in these conflicts. These varied across different armies and theaters of the revolution, from bands of female soldiers to camp followers to the wives and children of soldiers, thus increasing cohesion – and the humaneness – of soldiers in a chaotic battlefield. Famous soldaderas of the southern revolutionaries included Petra Herrera (a soldier in Pancho Villa’s army) and Ángela Jiménez (a master of demolitions)."}, {"separator": true}],
+	    "promotions": ["[Soldaderas] ability"] // +10 health for adjacent units
 	},
 	{
 		"name": "Cavalry",
