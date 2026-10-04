@@ -606,13 +606,13 @@
 		"techs": [
 			{
 				"name": "Telecommunications",
-				"row": 2,
+				"row": 3,
 				"prerequisites": ["Ecology"],
 				"quote": "'The more we elaborate our means of communication, the less we communicate.' - J.B. Priestly"
 			},
 			{
 				"name": "Mobile Tactics",
-				"row": 3,
+				"row": 4,
 				"prerequisites": ["Ecology","Nuclear Fission"],
 				"quote": "'All men can see these tactics whereby I conquer, but what none can see is the strategy out of which victory is evolved.' - Sun Tzu"
 			},
@@ -654,20 +654,20 @@
 		"techs": [
 			{
 				"name": "The Internet",
-				"row": 1,
+				"row": 2,
 				"prerequisites": ["Telecommunications"],
 				"quote": "'The Internet is the first thing that humanity has built that humanity doesn't understand, the largest experiment in anarchy that we have ever had.' - Eric Schmidt"
 			},
 			{
 				"name": "Globalization",
-				"row": 2,
+				"row": 3,
 				"prerequisites": ["Telecommunications"],
                 "uniques": ["[-100]% weight to this choice for AI decisions"],
 				"quote": "'The new electronic interdependence recreates the world in the image of a global village.' - Marshall McLuhan"
 			},
 			{
 				"name": "Particle Physics",
-				"row": 3,
+				"row": 4,
 				"prerequisites": ["Telecommunications","Mobile Tactics","Advanced Ballistics"],
 				"quote": "'Every particle of matter is attracted by or gravitates to every other particle of matter with a force inversely proportional to the squares of their distances.' - Isaac Newton"
 			},
@@ -703,7 +703,7 @@
 			{
 				"name": "Future Tech",
 				"row": 5,
-				"prerequisites": ["Globalization","Particle Physics","Nuclear Fusion","Nanotechnology","Stealth"],
+				"prerequisites": ["The Internet","Globalization","Particle Physics","Nuclear Fusion","Nanotechnology","Stealth"],
 				"uniques": ["Can be continually researched"],
 				"quote": "'I think we agree, the past is over.' - George W. Bush",
                 "civilopediaText": [{"text": "Who knows what the future holds?"}]
