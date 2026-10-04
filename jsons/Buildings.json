@@ -213,12 +213,13 @@
 	},
     {
 	    "name": "Monks Mound",
+		"food": 3,
 		"culture": 2,
 		"faith": 1,
 		"isWonder": true,
-		"uniques": ["[+20]% Production when constructing [Culture] buildings [in all cities]"],
+		"uniques": ["Must be on [River]","[+20]% Production when constructing [Culture] buildings [in all cities]"],
 		"requiredTech": "Masonry",
-		"quote": "'Lorem ipsum dolor sit amet' - developer"
+		"quote": "'And here he lay, older than the hill he rested on' - Zitkala-Sa"
 	},
 	{
 		"name": "Barracks",
@@ -1427,15 +1428,6 @@
         "civilopediaText": [
             { "text": "Once you have completed the Apollo Program, you can start constructing spaceship parts in your cities (with the relevant technologies) to win a Scientific Victory!" }
         ]
-	},
-    {
-		"name": "The Internet",
-        "isWonder": true,
-        "uniques": ["Free Technology",
-				"[+10]% [Culture] [in all cities]"],
-	    "greatPersonPoints": {"Great Engineer": 1},
-        "requiredTech": "Computers",
-        "quote": "'Beep... Boop...'",
 	},
     {
         "name": "Great Firewall",
