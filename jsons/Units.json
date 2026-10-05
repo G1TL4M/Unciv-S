@@ -2011,7 +2011,7 @@
 		"strength": 35,
 		"rangedStrength": 35,
 		"range": 2,
-		"cost", 350,
+		"cost": 350,
 		"requiredTech": "Future Tech",
 		"uniques": ["No defensive terrain bonus", "Can move after attacking",
 			"All tiles cost 1 movement", "Unable to capture cities", "Never appears as a Barbarian unit"],
@@ -2024,7 +2024,7 @@
 		"strength": 20,
 		"rangedStrength": 20,
 		"range": 2,
-		"cost", 375,
+		"cost": 375,
 		"requiredTech": "Future Tech",
 		"uniques": ["All adjacent units heal [+20] HP when healing"], // It should heal 25 by default
 		"promotions": ["Medic"],
