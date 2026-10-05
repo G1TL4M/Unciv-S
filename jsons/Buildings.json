@@ -1586,7 +1586,7 @@
 		"name": "Qin Shi Huang",
 		"uniqueTo": "China",
 		"cost": 0,
-		"production", 1,
+		"production": 1,
 		"uniques": ["Get the leader title of [Qin Shi Huang]",
 			"[Worker] units gain the [The First Emperor] promotion",
 			"Can only be built <in [in capital] cities>"]
