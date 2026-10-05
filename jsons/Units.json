@@ -1626,23 +1626,6 @@
 		// Does not actually upgrade to Missile Cruisers
 	},
 	{
-		"name": "Minas Geraes",
-		"uniqueTo": "Brazil",
-		"replaces": "Battleship",
-		"unitType": "Ranged Water",
-		"movement": 5,
-		"range": 3,
-		"interceptRange": 2,
-		"strength": 55,
-		"rangedStrength": 55,
-		"cost": 375,
-		"requiredResource": "Oil",
-		"requiredTech": "Electronics",
-		"uniques": ["[100]% chance to intercept air attacks","[+167]% Strength <vs [Air] units>"],
-		"promotions": ["Indirect Fire"],
-		"attackSound": "shipguns"
-	},
-	{
 		"name": "Machine Gun",
 		"unitType": "Ranged Gunpowder",
 		"range": 1,
@@ -2005,6 +1988,49 @@
 		"uniques": ["Damage taken from interception reduced by [100]%", "Cannot be carried by [Carrier] units", "[+4] Sight", "Can see over obstacles"],
 		"promotions": ["Evasion"], // Not technically in Civ V, but this way new players / AI won't select this promotion which does nothing for this unit
 		"attackSound": "bombing"
+	},
+
+	// Future Era
+	{
+		"name": "Military Drone",
+		"unitType": "Gunpowder",
+		"movement": 4,
+		"strength": 70,
+		"rangedStrength": 75,
+		"range": 2,
+		"cost": 350,
+		"requiredTech": "Future Tech",
+		"uniques": ["No defensive terrain bonus", "Can move after attacking",
+			"All tiles cost 1 movement", "Unable to capture cities", "Never appears as a Barbarian unit"],
+		"attackSound": "machinegun"
+	},
+    {
+		"name": "Reconnaissance Drone",
+		"unitType": "Scout",
+		"movement": 6,
+		"strength": 35,
+		"rangedStrength": 35,
+		"range": 2,
+		"cost", 350,
+		"requiredTech": "Future Tech",
+		"uniques": ["No defensive terrain bonus", "Can move after attacking",
+			"All tiles cost 1 movement", "Unable to capture cities", "Never appears as a Barbarian unit"],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Medical Drone",
+		"unitType": "Medic",
+		"movement": 5,
+		"strength": 20,
+		"rangedStrength": 20,
+		"range": 2,
+		"cost", 375,
+		"requiredTech": "Future Tech",
+		"uniques": ["All adjacent units heal [+20] HP when healing"], // It should heal 25 by default
+		"promotions": ["Medic"],
+		"uniques": ["No defensive terrain bonus", "Can move after attacking",
+			"All tiles cost 1 movement", "Unable to capture cities", "Never appears as a Barbarian unit"],
+		"attackSound": "machinegun"
 	},
 
 	/* Great people */
