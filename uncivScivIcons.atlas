@@ -45,6 +45,13 @@ NationIcons/Poland
   orig: 100, 100
   offset: 0, 0
   index: -1
+NationIcons/The Sioux
+  rotate: false
+  xy: 600, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 NationIcons/Abbasid
   rotate: false
   xy: 0, 100
