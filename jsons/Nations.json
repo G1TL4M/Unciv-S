@@ -167,7 +167,11 @@
 			"Dover","Brighton","Norwich","Leeds","Reading","Birmingham","Richmond","Exeter","Cambridge","Gloucester",
 			"Manchester","Bristol","Leicester","Carlisle","Ipswich","Portsmouth","Berwick","Bath","Mumbles","Southampton",
 			"Sheffield","Salisbury","Colchester","Plymouth","Lancaster","Blackpool","Winchester","Hull"],
-        "spyNames": ["James", "Scarlett", "Mycroft", "Charlotte", "Gwendolyn", "Mr. Eks", "Dr. Grey", "Andrew", "Scott", "Anne"]
+        "spyNames": ["James", "Scarlett", "Mycroft", "Charlotte", "Gwendolyn", "Mr. Eks", "Dr. Grey", "Andrew", "Scott", "Anne"],
+
+		"civilopediaText": [
+			{"text": "England is a nation on the British Isles"}
+		]
     },
 	{
 		"name": "Russia",
@@ -2220,7 +2224,19 @@
 			"Aberdeen","Belfast","Caernarfon","Samarobriva","Newquay","Saint-Nazaire","Castletown",
 			"Stirling","Galway","Conwy","Durocorteron","St. Austell","Saint-Malo","Onchan",
 			"Dundee","Londonderry","Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch","Raturnacos","Falmouth","Lorient","Port St Mary"],
-        "spyNames": ["Crìsdean", "Siobhán", "Seamus", "Ffion", "Pádraig", "Deirdre", "Mr. Quinn", "Éadaoin", "Alwyn", "Col Ceathar"]
+        "spyNames": ["Crìsdean", "Siobhán", "Seamus", "Ffion", "Pádraig", "Deirdre", "Mr. Quinn", "Éadaoin", "Alwyn", "Col Ceathar"],
+
+		"civilopediaText": [
+			{"text": "The Celts"},
+			{"text": "In-game, The Celts is a compound of Scotland, Ireland, Wales, Gaul, Cornwall, Brittany, and the Isle Of Man, in that order. Cities are founded in this order (Edinburgh: Scotland, Douglass: Isle Of Man), looping."},
+			{"text": "Scotland occupies the northern third of Great Britain."},
+			{"text": "Ireland is an island west of Great Britain."},
+			{"text": "Wales"},
+			{"text": "Gaul"},
+			{"text": "Cornwall"},
+			{"text": "Brittany"},
+			{"text": "The Isle Of Man is an island in between Great Britain and Ireland."}
+		]
 	},
     {
 	    "name": "The Cree",
