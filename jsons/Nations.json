@@ -2779,7 +2779,21 @@
 		"innerColor": [139, 96, 255],
 		"cities": ["Antananarivo"],
 
-		"civilopediaText": [{"text": "From 'Civ 6 Mod'"}]
+		"civilopediaText": [{"text": "Capital of Madagascar"}]
+	},
+	{
+		"name": "Bilbao",
+		"adjective": ["Basque"],
+		"cityStateType": "Cultured",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Unacceptable!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [139, 96, 255],
+		"cities": ["Bilbao"],
+
+		"civilopediaText": [{"text": "Basque Country, Spain"}]
 	},
 	{
 		"name": "Brussels",
@@ -2791,7 +2805,9 @@
 		"defeated": "I guess you weren't here for the sprouts after all...",
 		"outerColor": [0, 0, 0],
 		"innerColor": [139, 96, 255],
-		"cities": ["Brussels"]
+		"cities": ["Brussels"],
+
+		"civilopediaText": [{"text": "Capital of Belgium"}]
 	},
 	{
 		"name": "Bucharest",
@@ -2803,7 +2819,9 @@
 		"defeated": "I guess you weren't here for the sprouts after all...",
 		"outerColor": [0, 0, 0],
 		"innerColor": [139, 96, 255],
-		"cities": ["Bucharest"]
+		"cities": ["Bucharest"],
+
+		"civilopediaText": [{"text": "Capital of Romania"}]
 	},
 	{
 		"name": "Florence",
@@ -2828,7 +2846,9 @@
 		"defeated": "Unacceptable!",
 		"outerColor": [0, 0, 0],
 		"innerColor": [139, 96, 255],
-		"cities": ["Kabul"]
+		"cities": ["Kabul"],
+
+		"civilopediaText": [{"text": "Capital 9f Afghanistan"}]
 	},
 	{
 		"name": "Kathmandu",
@@ -2840,7 +2860,9 @@
 		"defeated": "We... defeated? No... we had so much work to do!",
 		"outerColor": [0, 0, 0],
 		"innerColor": [139, 96, 255],
-		"cities": ["Kathmandu"]
+		"cities": ["Kathmandu"], 
+
+		"civilopediaText": [{"text": "Capital of Nepal"}]
 	},
 	{
 		"name": "Kuala Lumpur",
@@ -2852,7 +2874,9 @@
 		"defeated": "Today, the Malay people obey you, but do not think this is over...",
 		"outerColor": [0, 0, 0],
 		"innerColor": [139, 96, 255],
-		"cities": ["Kuala Lumpur"]
+		"cities": ["Kuala Lumpur"],
+		
+		"civilopediaText": [{"text": "Capital of Malaysia"}]
 	},
 	{
 		"name": "Kumasi",
@@ -2865,6 +2889,8 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [139, 96, 255],
 		"cities": ["Kumasi"],
+
+		"civilopediaText": [{"text": "Capital of the former Ashanti Empire, in modern Ghana"}]
 	},
 	{
 		"name": "Milan",
@@ -2889,7 +2915,9 @@
 		"defeated": "You fiend! History shall remember this!",
 		"outerColor": [0, 0, 0],
 		"innerColor": [139, 96, 255],
-		"cities": ["Monaco"]
+		"cities": ["Monaco"],
+
+		"civilopediaText": [{"text": "Capital of Monaco"}]
 	},
 	{
 		"name": "Prague",
@@ -2901,7 +2929,9 @@
 		"defeated": "You fiend! History shall remember this!",
 		"outerColor": [0, 0, 0],
 		"innerColor": [139, 96, 255],
-		"cities": ["Prague"]
+		"cities": ["Prague"],
+
+		"civilopediaText": [{"text": "Capital of Czechia"}]
 	},
 	{
 		"name": "Rapa Nui",
@@ -2913,6 +2943,8 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [139, 96, 255],
 		"cities": ["Rapa Nui"]
+
+		"civilopediaText": [{"text": "Easter Island"}]
 	},
 	{
 		"name": "Sanxingdui",
@@ -2938,7 +2970,9 @@
 		"defeated": "We were too weak to protect ourselves...",
 		"outerColor": [0, 0, 0],
 		"innerColor": [139, 96, 255],
-		"cities": ["Yerevan"]
+		"cities": ["Yerevan"],
+
+		"civilopediaText": [{"text": "Capital of Armenia"}]
 	},
 
 	{
@@ -2966,6 +3000,8 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [56, 255, 112],
 		"cities": ["Caral"]
+
+		"civilopediaText": [{"text": "A city from the Caral-Supe or Norte Chico civilization of modern Peru"}]
 	},
 	{
 		"name": "Daajing Giids",
@@ -3014,7 +3050,9 @@
 		"defeated": "Ah, Gods! Why have you forsaken us?",
 		"outerColor": [0, 0, 0],
 		"innerColor": [56, 255, 112],
-		"cities": ["Manila"]
+		"cities": ["Manila"],
+
+		"civilopediaText": [{"text": "Capital of The Philippines"}]
 	},
 	{
 		"name": "Mogadishu", // Introduced in BNW
@@ -3077,7 +3115,9 @@
 		"defeated": "Perhaps, in another world, we could have been friends...",
 		"outerColor": [0, 0, 0],
 		"innerColor": [56, 255, 112],
-		"cities": ["Reykjavik"]
+		"cities": ["Reykjavik"], 
+
+		"civilopediaText": [{"text": "Capital of Iceland"}]
 	},
 	{
 		"name": "Rio de Janeiro",
@@ -3159,7 +3199,9 @@
 		"defeated": "Perhaps, in another world, we could have been friends...",
 		"outerColor": [0, 0, 0],
 		"innerColor": [255, 216, 0],
-		"cities": ["Acoma"]
+		"cities": ["Acoma"],
+
+		"civilopediaText": [{"text": "A Puebloan City"}]
 	},
 	{
 		"name": "Antwerp",
@@ -3172,7 +3214,9 @@
 		"defeated": "They will write songs of this.... pray that they shall be in your favor.",
 		"outerColor": [0, 0, 0],
 		"innerColor": [255, 216, 0],
-		"cities": ["Antwerp"]
+		"cities": ["Antwerp"],
+
+		"civilopediaText": [{"text": "A city in Belgium"}]
 	},
 	{
 		"name": "Cahokia",
@@ -3184,7 +3228,8 @@
 		"defeated": "This isn't how it is supposed to be!",
 		"outerColor": [0, 0, 0],
 		"innerColor": [255, 216, 0],
-		"cities": ["Cahokia"]
+		"cities": ["Cahokia"],
+		"uniques": ["Will not be displayed in Civilopedia","Will not be chosen for new games", "Excluded from map editor"]
 	},
 	{
 		"name": "Colombo",
@@ -3196,7 +3241,9 @@
 		"defeated": "This isn't how it is supposed to be!",
 		"outerColor": [0, 0, 0],
 		"innerColor": [255, 216, 0],
-		"cities": ["Colombo"]
+		"cities": ["Colombo"],
+
+		"civilopediaText": [{"text": "Capital of Sri Lanka"}]
 	},
 	{
 		"name": "El Dorado",
@@ -3209,7 +3256,9 @@
 		"defeated": "How barbaric. Those who live by the sword shall perish by the sword.",
 		"outerColor": [0, 0, 0],
 		"innerColor": [255, 216, 0],
-		"cities": ["El Dorado"]
+		"cities": ["El Dorado"],
+
+		"civilopediaText": [{"text": "A fictional city in the Amazon Jungle of South America. A city of gold."}]
 	},
 	{
 		"name": "Genoa",
@@ -3222,7 +3271,8 @@
 		"defeated": "How barbaric. Those who live by the sword shall perish by the sword.",
 		"outerColor": [0, 0, 0],
 		"innerColor": [255, 216, 0],
-		"cities": ["Genoa"]
+		"cities": ["Genoa"],
+		"uniques": ["Will not be displayed in Civilopedia","Will not be chosen for new games", "Excluded from map editor"]
 	},
 	{
 		"name": "Great Zimbabwe",
@@ -3234,7 +3284,9 @@
 		"defeated": "Perhaps, in another world, we could have been friends...",
 		"outerColor": [0, 0, 0],
 		"innerColor": [255, 216, 0],
-		"cities": ["Great Zimbabwe"]
+		"cities": ["Great Zimbabwe"],
+
+		"civilopediaText": [{"text": "An old settlement in Zimbabwe."}]
 	}
 	{
 		"name": "Hadibu",
@@ -3247,7 +3299,9 @@
 		"defeated": "Please take care of our island while you're here.",
 		"outerColor": [0, 0, 0],
 		"innerColor": [255, 216, 0],
-		"cities": ["Hadibu"]
+		"cities": ["Hadibu"],
+
+		"civilopediaText": [{"text": "A settlement on the island of Socatra, Yeman."}]
 	},
 	{
 		"name": "Hong Kong",
@@ -3271,7 +3325,9 @@
 		"defeated": "Unacceptable!",
 		"outerColor": [0, 0, 0],
 		"innerColor": [255, 216, 0],
-		"cities": ["Khartoum"]
+		"cities": ["Khartoum"],
+
+		"civilopediaText": [{"text": "Capital of Sudan."}]
 	},
 	{
 		"name": "Macau",
@@ -3296,10 +3352,12 @@
 		"defeated": "We were too weak to protect ourselves...",
 		"outerColor": [0, 0, 0],
 		"innerColor": [255, 216, 0],
-		"cities": ["Nan Madol"]
+		"cities": ["Nan Madol"],
+
+		"civilopediaText": [{"text": "An old settlement in Micronesia."}]
 	},
 	{
-		"name": "Panama",
+		"name": "Panama City",
 		"adjective": ["Panamanian"],
 		"cityStateType": "Mercantile",
 		"startBias": ["Coast"],
@@ -3309,7 +3367,9 @@
 		"defeated": "Perhaps, in another world, we could have been friends...",
 		"outerColor": [0, 0, 0],
 		"innerColor": [255, 216, 0],
-		"cities": ["Panama City"]
+		"cities": ["Panama City"],
+
+		"civilopediaText": [{"text": "Capital of Panama. Home of the Panama Canal."}]
 	},
 	{
 		"name": "Port Moresby",
@@ -3322,7 +3382,9 @@
 		"defeated": "Perhaps, in another world, we could have been friends...",
 		"outerColor": [0, 0, 0],
 		"innerColor": [255, 216, 0],
-		"cities": ["Port Moresby"]
+		"cities": ["Port Moresby"],
+
+		"civilopediaText": [{"text": "Capital of Papua New Guinea."}]
 	},
 	{
 		"name": "Singapore",
@@ -3348,7 +3410,7 @@
 		"innerColor": [255, 216, 0],
 		"cities": ["Solnitsata"],
 
-		"civilopediaText": [{"text": "Reverse Given from 'Civ 6 Mod' changed from religious to mercantile because of the Wikipedia page"}]
+		"civilopediaText": [{"text": "An old settlement on the coast of Bulgaria."}]
 	},
 	{
 		"name": "Tyre",
@@ -3387,7 +3449,9 @@
 		"defeated": "May the Heavens forgive you for inflicting this humiliation to our people.",
 		"outerColor": [0, 0, 0],
 		"innerColor": [255, 216, 0],
-		"cities": ["Zanzibar"]
+		"cities": ["Zanzibar"],
+
+		"civilopediaText": [{"text": "A city in Tanzania."}]
 	},
 	{
 		"name": "Zurich",
@@ -3399,7 +3463,9 @@
 		"defeated": "May the Heavens forgive you for inflicting this humiliation to our people.",
 		"outerColor": [0, 0, 0],
 		"innerColor": [255, 216, 0],
-		"cities": ["Zurich"]
+		"cities": ["Zurich"],
+
+		"civilopediaText": [{"text": "A city in Switzerland."}]
 	},
 	{
 		"name": "Bukhara",
@@ -3520,7 +3586,8 @@
 		"defeated": "The serbian guerilla will never stop haunting you!",
 		"outerColor": [0, 0, 0],
 		"innerColor": [255, 0, 0],
-		"cities": ["Belgrade"]
+		"cities": ["Belgrade"],
+		"uniques": ["Will not be displayed in Civilopedia","Will not be chosen for new games", "Excluded from map editor"]
 	},
 	{
 		"name": "Budapest",
@@ -3532,7 +3599,8 @@
 		"defeated": "The serbian guerilla will never stop haunting you!",
 		"outerColor": [0, 0, 0],
 		"innerColor": [255, 0, 0],
-		"cities": ["Budapest"]
+		"cities": ["Budapest"],
+		"civilopediaText": [{"text": "Capital of Hungary."}]
 	},
 	{
 		"name": "Djibouti City",
@@ -3544,7 +3612,9 @@
 		"defeated": "I should have never given you that military base...",
 		"outerColor": [0, 0, 0],
 		"innerColor": [255, 0, 0],
-		"cities": ["Djibouti City"]
+		"cities": ["Djibouti City"],
+		
+		"civilopediaText": [{"text": "Capital of Djibouti."}]
 	},
 	{
 		"name": "Dublin",
@@ -3595,7 +3665,9 @@
 		"defeated": "You are nothing but a glorified barbarian. Cruel, and ruthless.",
 		"outerColor": [0, 0, 0],
 		"innerColor": [255, 0, 0],
-		"cities": ["Kigali"]
+		"cities": ["Kigali"],
+		
+		"civilopediaText": [{"text": "Capital of Rwanda."}]
 	},
 	{
 		"name": "M'Banza-Kongo", // Introduced in BNW
@@ -3621,7 +3693,7 @@
 		"defeated": "So this is how it feels to die...",
 		"outerColor": [0, 0, 0], // I remember seeing a sort of flag for it and it was brown with a white crescent, and I hope this at least is brown
 		"innerColor": [255, 0, 0],
-		"cities": ["Ngazargamu"]
+		"cities": ["Ngazargamu"],
 	},
 	{
 		"name": "Sidon",
@@ -3646,7 +3718,7 @@
 		"defeated": "This ship may sink, but our spirits will linger.",
 		"outerColor": [0, 0, 0],
 		"innerColor": [255, 0, 0],
-		"cities": ["Valletta"]
+		"cities": ["Valletta"],
 	},
 	
 	{
@@ -3659,7 +3731,9 @@
 		"defeated": "Why have you forsaken us my lord?",
 		"outerColor": [0, 0, 0],
 		"innerColor": [255, 255, 255],
-		"cities": ["Bratislava"]
+		"cities": ["Bratislava"],
+
+		"civilopediaText": [{"text": "Capital of Slovakia."}]
 	},
 	{
 		"name": "Catalhoyuk",
@@ -3671,7 +3745,9 @@
 		"defeated": "We were too weak to protect ourselves..."
 		"outerColor": [0, 0, 0],
 		"innerColor": [255, 255, 255],
-		"cities": ["Catalhoyuk"]
+		"cities": ["Catalhoyuk"],
+
+		"civilopediaText": [{"text": "An old city in modern Turkiye."}]
 	},
 	{
 		"name": "Ife",
@@ -3710,7 +3786,9 @@
 		"defeated": "Perhaps now we will find peace in death...",
 		"outerColor": [0, 0, 0],
 		"innerColor": [255, 255, 255],
-		"cities": ["Kituwa"]
+		"cities": ["Kituwa"],
+
+		"civilopediaText": [{"text": "A settlement by The Cherokee of The United States."}]
 	},
 	{
 		"name": "La Venta",
@@ -3722,7 +3800,9 @@
 		"defeated": "I for one welcome our new conquer overlord!",
 		"outerColor": [0, 0, 0],
 		"innerColor": [255, 255, 255],
-		"cities": ["La Venta"]
+		"cities": ["La Venta"],
+
+		"civilopediaText": [{"text": "A settlement by The Olmec of Mexico."}]
 	},
 	{
 		"name": "Lhasa",
@@ -3734,7 +3814,9 @@
 		"defeated": "Perhaps now we will find peace in death...",
 		"outerColor": [0, 0, 0],
 		"innerColor": [255, 255, 255],
-		"cities": ["Lhasa"]
+		"cities": ["Lhasa"],
+
+		"civilopediaText": [{"text": "Capital of Tibet, China."}]
 	},
 	{
 		"name": "Mparntwe",
@@ -3746,7 +3828,9 @@
 		"defeated": "We never fully trusted you from the start.",
 		"outerColor": [0, 0, 0],
 		"innerColor": [255, 255, 255],
-		"cities": ["Mparntwe"]
+		"cities": ["Mparntwe"],
+
+		"civilopediaText": [{"text": "A city in the Northern Territory, Australia. Also called Alice Springs."}]
 	},
 	{
 		"name": "Nazca",
@@ -3794,7 +3878,9 @@
 		"defeated": "I guess you weren't here for the sprouts after all...",
 		"outerColor": [0, 0, 0],
 		"innerColor": [141, 156, 255],
-		"cities": ["Geneva"]
+		"cities": ["Geneva"],
+
+		"civilopediaText": [{"text": "A city in Switzerland."}]
 	},
 	{
 		"name": "Mitla",
@@ -3845,7 +3931,9 @@
 		"dedeated": "Please take care of our kiwis while you're here.",
 		"outerColor": [0, 0, 0],
 		"innerColor": [191, 78, 0],
-		"cities": ["Auckland"]
+		"cities": ["Auckland"],
+
+		"civilopediaText": [{"text": "Capital of New Zealand."}]
 	},
 	{
 		"name": "Dubai",
@@ -3896,7 +3984,9 @@
 		"defeated": "*Sad unintelligible*",
 		"outerColor": [0, 0, 0],
 		"innerColor": [190, 190, 190],
-		"cities": ["The Sentinels"]
+		"cities": ["The Sentinels"],
+
+		"civilopediaText": [{"text": "Based on The Sentinels of North Sentinel Island, India."}]
 	},
 
 
