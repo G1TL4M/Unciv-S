@@ -2580,6 +2580,32 @@
 		]
 	},
 	{
+		"name": "The Sioux",
+		"leaderName": "Sitting Bull",
+		"adjective": ["Sioux"],
+		"preferredVictoryType": "Diplomatic",
+
+		"declaringWar": "Your wanton aggression leaves us no choice. Prepare for war!",
+		"attacked": "You have mistaken our love of peace for weakness. You shall regret this!",
+		"defeated": "The day...is yours. I hope you will be merciful in your triumph.",
+		"introduction": "The people of the United States of America welcome you.",
+		"neutralHello": "Good day.",
+		"hateHello": "Well?",
+		"tradeRequest": "Is the following trade of interest to you?",
+
+        "outerColor": [165,0,33],
+        "innerColor": [255,255,255],
+        "favoredReligion": "Wakan Tanka",
+		"uniqueName": "Manifest Destiny",
+		"uniques": ["[+1] Sight <for [{Military} {Land}] units>", "[-50]% Gold cost of acquiring tiles [in all cities]"],
+		"cities": ["Little Bighorn",
+		    "Wounded Knee","Cedar Creek","Slim Buttes","Three Forks","Stony Lake",
+		    "Killdeer","Bear Paw","Big Mound","Wood Lake","Dead Buffalo",
+			"Point of Rocks","Raging Brook","Running Bear","Silver Moon","Wildcat Valley",
+			"Great River","Seven Brothers","Snake Canyon","First Wind","Yellowtree",
+			"Chief's Crag","Morning Rock"]
+	},
+	{
 		"name": "The United States",
 		"leaderName": "George Washington",
 		"adjective": ["American"],
