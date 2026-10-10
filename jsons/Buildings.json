@@ -1589,6 +1589,24 @@
 		"production": 1,
 		"uniques": ["Get the leader title of [Qin Shi Huang]",
 			"[Worker] units gain the [The First Emperor] promotion",
+			"[+10]% Production when constructing [Ancient era] wonders [in all cities]",
+            "[+10]% Production when constructing [Classical era] wonders [in all cities]",
+			"Can only be built <in [in capital] cities>"]
+	},
+    {
+		"name": "Wu Zetian",
+		"uniqueTo": "China",
+		"cost": 0,
+		"science": 1,
+		"uniques": ["Get the leader title of [Wu Zetian]",
+			"Can only be built <in [in capital] cities>"]
+	},
+    {
+		"name": "Yongle",
+		"uniqueTo": "China",
+		"cost": 0,
+		"production": 1,
+		"uniques": ["Get the leader title of [Yongle]",
 			"Can only be built <in [in capital] cities>"]
     },
 	{
@@ -2056,7 +2074,7 @@
 		"uniqueTo": "The United States",
 		"cost": 0,
 		"uniques": ["Get the leader title of [Abraham Lincoln]",
-			"[+10]% Strength <when fighting units from a Civilization with more Cities than you>",
+			"[+2 Happiness] <in cities with a [Factory]>",
 			"Can only be built <in [in capital] cities>",
 			"Only available <in cities without a [Benjamin Franklin]>",
 			"Only available <in cities without a [George Washington]>",
