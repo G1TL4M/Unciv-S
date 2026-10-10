@@ -363,10 +363,7 @@
 		"gold": 2,
 		"improvement": "Camp",
 		"improvementStats": {"gold": 1},
-		"uniques": ["Generated with weight [35] <in [Plains] Regions>",
-					"Generated with weight [15] <in [Hybrid] Regions>",
-					"Generated near City States with weight [10]",
-					"Doesn't generate naturally <in [{Grassland} {Fresh Water}] tiles>"]
+		"uniques": ["Doesn't generate naturally"]
 	},
 	*/
 	{
@@ -389,6 +386,12 @@
 		"terrainsCanBeFoundOn": ["Jungle","Forest","Cherry Forest","Maple Forest","Marsh"],
 		"gold": 2,
 		"improvement": "Plantation",
+		"uniques": ["Doesn't generate naturally"]
+	},
+	{
+		"name": "Cloves",
+		"resourceType": "Luxury",
+		"gold": 2,
 		"uniques": ["Generated with weight [30] <in [Jungle] Regions>",
 					"Generated with weight [10] <in [Forest] Regions>",
                     "Generated with weight [10] <in [Cherry Forest] Regions>",
@@ -403,16 +406,29 @@
 		            "Doesn't generate naturally <in [{Tundra} {Maple Forest}] tiles>"]
 	},
 	{
-		"name": "Cloves",
-		"resourceType": "Luxury",
-		"gold": 2,
-		"uniques": ["Can only be created by Spice Islands City-States"]
-	},
-	{
 		"name": "Nutmeg",
 		"resourceType": "Luxury",
 		"gold": 2,
-		"uniques": ["Can only be created by Spice Islands City-States"]
+		"uniques": ["Generated with weight [30] <in [Jungle] Regions>",
+					"Generated with weight [10] <in [Forest] Regions>",
+                    "Generated with weight [10] <in [Cherry Forest] Regions>",
+			        "Generated with weight [10] <in [Maple Forest] Regions>",
+					"Generated with weight [5] <in [Plains] Regions>",
+					"Generated with weight [5] <in [Grassland] Regions>",
+					"Generated with weight [5] <in [Hybrid] Regions>",
+					"Generated near City States with weight [15]",
+					"Doesn't generate naturally <in [Hill] tiles>",
+					"Doesn't generate naturally <in [{Tundra} {Forest}] tiles>",
+                    "Doesn't generate naturally <in [{Tundra} {Cherry Forest}] tiles>",
+		            "Doesn't generate naturally <in [{Tundra} {Maple Forest}] tiles>"]
+	},
+	{
+		"name": "Wine",
+		"resourceType": "luxury",
+		"terrainsCanBeFoundOn": ["Grassland","Plains"],
+		"gold": 2,
+		"improvement": "Plantation",
+		"uniques": ["Doesn't generate naturally"]
 	},
 	{
 		"name": "Grapes",
