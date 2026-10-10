@@ -1599,6 +1599,8 @@
 		"cost": 0,
 		"science": 1,
 		"uniques": ["Get the leader title of [Wu Zetian]",
+			"Only available <when espionage is enabled>",
+			"Gain an extra spy <upon entering the [Renaissance era]>",
 			"Can only be built <in [in capital] cities>"]
 	},
     {
