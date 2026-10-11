@@ -1591,7 +1591,9 @@
 			"[Worker] units gain the [The First Emperor] promotion",
 			"[+10]% Production when constructing [Ancient era] wonders [in all cities]",
             "[+10]% Production when constructing [Classical era] wonders [in all cities]",
-			"Can only be built <in [in capital] cities>"]
+			"Can only be built <in [in capital] cities>",
+			"Only available <in cities without a [Wu Zetian]>",
+			"Only available <in cities without a [Yongle]>"]
 	},
     {
 		"name": "Wu Zetian",
@@ -1601,7 +1603,9 @@
 		"uniques": ["Get the leader title of [Wu Zetian]",
 			"Only available <when espionage is enabled>",
 			"Gain an extra spy <upon entering the [Renaissance era]>",
-			"Can only be built <in [in capital] cities>"]
+			"Can only be built <in [in capital] cities>",
+			"Only available <in cities without a [Qin Shi Huang]>",
+			"Only available <in cities without a [Yongle]>"]
 	},
     {
 		"name": "Yongle",
@@ -1609,7 +1613,9 @@
 		"cost": 0,
 		"production": 1,
 		"uniques": ["Get the leader title of [Yongle]",
-			"Can only be built <in [in capital] cities>"]
+			"Can only be built <in [in capital] cities>",
+			"Only available <in cities without a [Qin Shi Huang]>",
+			"Only available <in cities without a [Wu Zetian]>"]
     },
 	{
 		"name": "Cleopatra",
@@ -1653,12 +1659,26 @@
 			"Only available <in cities without a [Victoria]>"]
 	},
     {
+		"name": "Charlemagne",
+		"uniqueTo": "France",
+		"cost": 0,
+		"science": 1,
+		"uniques": ["Get the leader title of [Charlemagne]",
+			"[2] free [Horseman] units appear <upon entering a Golden Age> <during the [Classical era]>",
+			"[2] free [Knight] units appear <upon entering a Golden Age> <during the [Medieval era]>",
+			"[2] free [Lancer] units appear <upon entering a Golden Age> <during the [Renaissance era]>",
+			"[2] free [Cavalry] units appear <upon entering a Golden Age> <during the [Industrial era]>",
+			"Can only be built <in [in capital] cities>",
+			"Only available <in cities without a [Napoleon Bonaparte]>"]
+	},
+	{
 	    "name": "Napoleon Bonaparte",
 		"uniqueTo": "France",
 		"cost": 0,
 		"uniques": ["Get the leader title of [Napoleon Bonaparte]",
 			"[+1] Movement <for [All] units>",
-			"Can only be built <in [in capital] cities>"]
+			"Can only be built <in [in capital] cities>",
+			"Only available <in cities without a [Charlemagne]>"]
 	},
 	{
 		"name": "Frederick Barbarossa"
