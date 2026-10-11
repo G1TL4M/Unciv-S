@@ -1645,8 +1645,8 @@
 		"cost": 0,
 		"production": 1,
 		"uniques": ["Get the leader title of [Victoria]",
-			"[+5]% [Production] [in all coastal cities]",
-			"Empire enters golden age <upon entering the [Industrial era]>","[+1 Production] from every [Factory]","[+1 Production] from every [Manufactory]",
+			"[+15]% [Production] [in all coastal cities]",
+			"[+2 Production] from every [Factory]","[+2 Production] from every [Manufactory]",
 			"Can only be built <in [in capital] cities>",
 			"Only available <in cities without a [Winston Churchill]>"]
 	},
