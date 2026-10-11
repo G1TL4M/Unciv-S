@@ -3973,7 +3973,7 @@
 		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "How barbaric. Those who live by the sword shall perish by the sword.",
 		"outerColor": [0, 0, 0],
-		"innerColor": [191, 78, 0],
+		"innerColor": [133, 81, 53],
 		"cities": ["Hattusa"]
 	},
 	{
@@ -3985,7 +3985,7 @@
 		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "Unacceptable!",
 		"outerColor": [0, 0, 0],
-		"innerColor": [191, 78, 0],
+		"innerColor": [133, 81, 53],
 		"cities": ["Tzintzuntzan"]
 	},
 
