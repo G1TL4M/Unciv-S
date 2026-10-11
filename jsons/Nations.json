@@ -3967,7 +3967,7 @@
 	{
 		"name": "Hattusa",
 		"adhective": ["Hittite"],
-		"cityStateType": "Productive",
+		"cityStateType": "Strategic",
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -3979,7 +3979,7 @@
 	{
 		"name": "Tzintzuntzan",
 		"adjective": ["Purepecha"],
-		"cityStateType": "Productive",
+		"cityStateType": "Strategic",
 
 		"declaringWar": "You leave us no choice, War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
