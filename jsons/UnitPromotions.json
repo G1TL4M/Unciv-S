@@ -821,6 +821,10 @@
 		"uniques": ["Can pass through impassable tiles <after adopting [Civil Service]>"]
 	},
 	{
+		"name": "Rough Rider", // Rough Rider Teddy
+		"uniques": ["Ignores Zone of Control","[+10]% Strength <when fighting in [Hill] tiles>"]
+	},
+	{
 		"name": "The First Emperor", // Qin Shi Huang
 		"uniques": ["Can speed up construction of a building <before the [Medieval era]>"]
 	},
