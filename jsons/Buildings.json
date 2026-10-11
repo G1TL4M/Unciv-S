@@ -1827,7 +1827,7 @@
 		"gold": 1,
 		"uniques": ["Get the leader title of [Enrico Dandolo Of Venice]",
 			"[+100]% [Gold] [in capital]",
-			"Receive free [Merchant of Venice] when you discover [Optics]",
+			"Receive free [Merchant of Venice] <after discovering [Optics]>",
 			"Can only be built <in [in capital] cities>",
 			"Only available <in cities without a [Pope Innocent III]>",
 			"Only available <in cities without a [Simone Boccanegra]>"]
