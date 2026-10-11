@@ -1973,6 +1973,35 @@
 			"unsellable"]
 	},
     {
+		"name": "Augustus",
+		"uniqueTo": "Rome",
+		"cost": 0,
+		"production": 1,
+		"uniques": ["Get the leader title of Augustus]",
+			"[+2 Production] [in capital] <for every [city]>",
+			"Can only be built <in [in capital] cities>",
+			"Only available <in cities without a [Julius]>",
+			"Only available <in cities without a [Octavian]>",
+			"Only available <in cities without a [Trajan]>",
+			"Moves to new capital when capital changes",
+			"unsellable"]
+	},
+	{
+		"name": "Julius",
+		"uniqueTo": "Rome",
+		"cost": 0,
+		"gold": 1,
+		"uniques": ["Get the leader title of [Julius]",
+			"Gain [300] [Gold] <upon conquering a city> <before discovering [Metal Casting]>",
+			"Gain [600] [Gold] <upon conquering a city> <after discovering [Metal Casting]>",
+			"Can only be built <in [in capital] cities>",
+			"Only available <in cities without a [Augustus]>",
+			"Only available <in cities without a [Octavian]>",
+			"Only available <in cities without a [Trajan]>",
+			"Moves to new capital when capital changes",
+			"unsellable"]
+	},
+	{
 		"name": "Octavian",
 		"uniqueTo": "Rome",
 		"cost": 0,
@@ -1981,6 +2010,8 @@
 			"Free Social Policy <upon entering a new era>",
 			"[-15]% Culture cost of adopting new Policies <when at war>",
 			"Can only be built <in [in capital] cities>",
+			"Only available <in cities without a [Augustus]>",
+			"Only available <in cities without a [Julius]>",
 			"Only available <in cities without a [Trajan]>",
 			"Moves to new capital when capital changes",
 			"unsellable"]
@@ -1993,6 +2024,8 @@
 		"uniques": ["Get the leader title of [Trajan]",
 			"Gain a free [Monument] [in all cities]",
 			"Can only be built <in [in capital] cities>",
+			"Only available <in cities without a [Augustus]>",
+			"Only available <in cities without a [Julius]",
 			"Only available <in cities without a [Octavian]>",
 			"Moves to new capital when capital changes",
 			"unsellable"]
