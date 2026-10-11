@@ -114,8 +114,12 @@
         "allyBonusUniques": [
             "[+10]% [Production] [in all cities] <before the [Medieval era]>",
             "[+15]% [Production] [in all cities] <starting from the [Medieval era]>",
-            "Provides [2] [Iron]"
-            //this is a filler until i get it to provide random strategic resources
+            "Provides [2] [Horses] <before the [Medieval era]>",
+            "Provides [2] [Iron] <starting from the [Medieval era]> <before the [Industrial era]>",
+            "Provides [2] [Coal] <during the [Industrial era]>",
+            "Provides [1] [Aluminum] <during the [Modern era]>",
+            "Provides [1] [Oil] <starting from the [Modern era]>",
+            "Provides [1] [Uranium] <starting from the [Atomic era]>"
         ],
         "color": [133, 81, 53]
     },
