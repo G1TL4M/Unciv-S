@@ -1916,7 +1916,9 @@
 		"uniques": ["Get the leader title of [Mansa Musa]",
 			"[+1 Gold] from every [Desert]",
 			"[+25]% [Gold] from Trade Routes <during a Golden Age>",
-			"Can only be built <in [in capital] cities>"]
+			"Can only be built <in [in capital] cities>",
+			"Moves to new capital when capital changes",
+			"unsellable"]
 	},
     {
 		"name": "Genghis Khan",
@@ -1926,7 +1928,9 @@
 			"[+1] Movement <for [All] units>",
 			"[Horse Mount] units gain the [Mongol Horde] promotion",
 			"[Elephant Mount] units gain the [Mongol Horde] promotion", // Flexibility
-			"Can only be built <in [in capital] cities>"]
+			"Can only be built <in [in capital] cities>",
+			"Moves to new capital when capital changes",
+			"unsellable"]
 	},
 	{
 		"name": "Cyrus",
@@ -1939,7 +1943,9 @@
 			"[+25]% [Culture] [in puppeted cities]",
 			"[+3 Happiness] [in puppeted cities]",
 			"Can only be built <in [in capital] cities>",
-			"Only available <in cities without a [Xerxes]>"]
+			"Only available <in cities without a [Xerxes]>",
+			"Moves to new capital when capital changes",
+			"unsellable"]
 	},
     {
 		"name": "Xerxes",
@@ -1951,7 +1957,20 @@
 			"[5000] units cost no maintenance <hidden from users>",
 			"Comment [All units cost no maintenence]",
 			"Can only be built <in [in capital] cities>",
-			"Only available <in cities without a [Cyrus]>"]
+			"Only available <in cities without a [Cyrus]>",
+			"Moves to new capital when capital changes",
+			"unsellable"]
+	},
+	{
+		"name": "Joao III",
+		"uniqueTo": "Portugal",
+		"cost": 0,
+		"gold": 1,
+		"uniques": ["Get the leader title of [Joao III]",
+			"City-State territory always counts as friendly territory",
+			"Can only be built [in [in capital] cities]",
+			"Moves to new capital when capital changes",
+			"unsellable"]
 	},
     {
 		"name": "Octavian",
@@ -1962,7 +1981,9 @@
 			"Free Social Policy <upon entering a new era>",
 			"[-15]% Culture cost of adopting new Policies <when at war>",
 			"Can only be built <in [in capital] cities>",
-			"Only available <in cities without a [Trajan]>"]
+			"Only available <in cities without a [Trajan]>",
+			"Moves to new capital when capital changes",
+			"unsellable"]
     },
     {
 		"name": "Trajan",
@@ -1972,7 +1993,9 @@
 		"uniques": ["Get the leader title of [Trajan]",
 			"Gain a free [Monument] [in all cities]",
 			"Can only be built <in [in capital] cities>",
-			"Only available <in cities without a [Octavian]>"]
+			"Only available <in cities without a [Octavian]>",
+			"Moves to new capital when capital changes",
+			"unsellable"]
 	},
 	{
 		"name": "Peter I",
@@ -1981,7 +2004,9 @@
 		"science": 2,
 		"uniques": ["Get the leader title of [Peter I]",
 			"Science gained from research agreements [+50]%",
-			"Can only be built <in [in capital] cities>"]
+			"Can only be built <in [in capital] cities>",
+			"Moves to new capital when capital changes",
+			"unsellable"]
 	},
     {
 		"name": "Abdul Aziz al Saud",
@@ -1990,7 +2015,9 @@
 		"gold": 1,
 		"uniques": ["Get the leader title of [Abdul Aziz al Saud]",
 			"[+100]% [Oil] resource production",
-			"Can only be built <in [in capital] cities>"]
+			"Can only be built <in [in capital] cities>",
+			"Moves to new capital when capital changes",
+			"unsellable"]
 	},
 	{
 		"name": "Isabella I",
@@ -2002,7 +2029,9 @@
 			"[+15]% [Food] [in all cities] <on foreign continents>",
 			"[+10]% [Production] [in all cities] <on foreign continents>",
 			"Can only be built <in [in capital] cities>",
-			"Only available <in cities without a [Philip II]>"]
+			"Only available <in cities without a [Philip II]>",
+			"Moves to new capital when capital changes",
+			"unsellable"]
 	},
     {
 		"name": "Philip II",
@@ -2012,7 +2041,9 @@
 		"uniques": ["Get the leader title of [Philip II]",
 			"[Faith] cost of purchasing [Inquisitor] units [-50]%",
 			"Can only be built <in [in capital] cities>",
-			"Only available <in cities without a [Isabella I]>"]
+			"Only available <in cities without a [Isabella I]>",
+			"Moves to new capital when capital changes",
+			"unsellable"]
 	},
     {
 		"name": "Gilgamesh",
@@ -2021,7 +2052,9 @@
 		"uniques": ["Get the leader title of [Gilgamesh]",
 			"[+25]% Great Person generation <in this city>",
 			"When declaring friendship, both parties gain a [50]% boost to great person generation",
-			"Can only be built <in [in capital] cities>"]
+			"Can only be built <in [in capital] cities>",
+			"Moves to new capital when capital changes",
+			"unsellable"]
 	},
     {
         "name": "Ambiorix",
@@ -2034,7 +2067,9 @@
 			"[-25]% Gold cost of acquiring tiles [in all cities]",
 			"Can only be built <in [in capital] cities>",
 			"Only available <in cities without a [Boudicca]>",
-			"Only available <in cities without a [Robert The Bruce]>"]
+			"Only available <in cities without a [Robert The Bruce]>",
+			"Moves to new capital when capital changes",
+			"unsellable"]
 	},
     {
 	    "name": "Boudicca",
@@ -2046,7 +2081,9 @@
 			"Earn [67]% of killed [Military] unit's [Strength] as [Faith]",
 			"Can only be built <in [in capital] cities>",
 			"Only available <in cities without a [Ambiorix]>",
-			"Only available <in cities without a [Robert the Bruce]>"]
+			"Only available <in cities without a [Robert the Bruce]>",
+			"Moves to new capital when capital changes",
+			"unsellable"]
 	},
     {
 		"name": "Robert the Bruce",
@@ -2058,7 +2095,9 @@
 			"[+2] Movement <for [non-air] units> <for [10] turns> <after adopting [Civil Service]>",
 			"Can only be built <in [in capital] cities>",
 			"Only available <in cities without a [Ambiorix]>",
-			"Only available <in cities without a [Boudicca]>"]
+			"Only available <in cities without a [Boudicca]>",
+			"Moves to new capital when capital changes",
+			"unsellable"]
 	},
     {
 		"name": "Poundmaker",
@@ -2068,7 +2107,9 @@
 		"uniques": ["Get the leader title of [Poundmaker]",
 			"[+1 Food] from each Trade Route",
 			"[+1 Gold] from every [Camp]",
-			"[+1 Gold] from [Pasture] tiles [in all cities]"]
+			"[+1 Gold] from [Pasture] tiles [in all cities]",
+			"Moves to new capital when capital changes",
+			"unsellable"]
 	},
 	{
 		"name": "Kupe",
@@ -2080,7 +2121,9 @@
 			"[15]% Food is carried over after population increases [in capital]",
 			"[+1] population [in capital]",
 			"Free [Worker] appears",
-			"Can only be built <in [in capital] cities>"]
+			"Can only be built <in [in capital] cities>",
+			"Moves to new capital when capital changes",
+			"unsellable"]
 	},
 	{
 		"name": "Lautaro",
@@ -2089,7 +2132,9 @@
 		"happiness": 2,
 		"uniques": ["Get the leader title of [Lautaro]",
 			"[+67]% Strength <during a Golden Age>",
-			"Can only be built <in [in capital] cities>"]
+			"Can only be built <in [in capital] cities>",
+			"Moves to new capital when capital changes",
+			"unsellable"]
 	},
 	{
 		"name": "Abraham Lincoln",
@@ -2103,7 +2148,9 @@
 			"Can only be built <in [in capital] cities>",
 			"Only available <in cities without a [Benjamin Franklin]>",
 			"Only available <in cities without a [George Washington]>",
-			"Only available <in cities without a [Theodore Roosevelt]>"]
+			"Only available <in cities without a [Theodore Roosevelt]>",
+			"Moves to new capital when capital changes",
+			"unsellable"]
 	},
     {
 	    "name": "Benjamin Franklin",
@@ -2116,7 +2163,9 @@
 			"Can only be built <in [in capital] cities>",
 			"Only available <in cities without a [Abraham Lincoln]>",
 			"Only available <in cities without a [George Washington]>",
-			"Only available <in cities without a [Theodore Roosevelt]>"]
+			"Only available <in cities without a [Theodore Roosevelt]>",
+			"Moves to new capital when capital changes",
+			"unsellable"]
 	},
     {
 	    "name": "George Washington",
@@ -2130,7 +2179,9 @@
 			"Can only be built <in [in capital] cities>",
 			"Only available <in cities without a [Abraham Lincoln]>",
 			"Only available <in cities without a [Benjamin Franklin]>",
-			"Only available <in cities without a [Theodore Roosevelt]>"]
+			"Only available <in cities without a [Theodore Roosevelt]>",
+			"Moves to new capital when capital changes",
+			"unsellable"]
 	},
 	{
 		"name": "Theodore Roosevelt",
@@ -2145,7 +2196,9 @@
 			"Can only be built <in [in capital] cities>",
 			"Only available <in cities without a [Abraham Lincoln]>",
 			"Only available <in cities without a [Benjamin Franklin]>",
-			"Only available <in cities without a [George Washington]>"]
+			"Only available <in cities without a [George Washington]>",
+			"Moves to new capital when capital changes",
+			"unsellable"]
 	},
     {
         "name": "Shaka",
@@ -2154,6 +2207,8 @@
 		"production": 1,
 		"uniques": ["Get the leader title of [Shaka]",
 			"[+25]% Strength <for [Melee] units> <when adjacent to a [Melee] unit>",
-			"Can only be built <in [in capital] cities>"]
+			"Can only be built <in [in capital] cities>",
+			"Moves to new capital when capital changes",
+			"unsellable"]
     }
 		]
