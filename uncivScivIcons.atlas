@@ -1,5 +1,5 @@
 uncivScivIcons.png
-size: 700, 500
+size: 800, 500
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
@@ -48,6 +48,13 @@ NationIcons/Poland
 NationIcons/The Sioux
   rotate: false
   xy: 600, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Morocco
+  rotate: false
+  xy: 700, 0
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -101,6 +108,13 @@ NationIcons/Hawaii
   orig: 100, 100
   offset: 0, 0
   index: -1
+NationIcons/Portugal
+  rotate: false
+  xy: 700, 100
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 NationIcons/Kongo
   rotate: false
   xy: 0, 200
@@ -148,6 +162,13 @@ NationIcons/The Shawnee
   xy: 600, 200
   size: 100, 100
   orig: 0, 0
+  offset: 0, 0
+  index: -1
+NationIcons/Kilwa
+  rotate: false
+  xy: 700, 200
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/The Mapuche
@@ -207,6 +228,41 @@ NationIcons/Antarctica
   offset: 0, 0
   index: -1
 NationIcons/Wabanaki
+  rotaye: false
+  xy: 100, 400
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Brazil
+  rotaye: false
+  xy: 200, 400
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Timurid
+  rotaye: false
+  xy: 300, 400
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Burma
+  rotaye: false
+  xy: 100, 400
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Yugoslavia
+  rotaye: false
+  xy: 100, 400
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Israel
   rotaye: false
   xy: 100, 400
   size: 100, 100
