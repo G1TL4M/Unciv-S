@@ -2299,7 +2299,7 @@
 		"cost": 0,
 		"culture": 1,
 		"uniques": ["Unbuildable","Get the leader title of [Eleanor Of Aquitaine]",
-			"Can only be built <in [in capital] cities >",
+			"Can only be built <in [in capital] cities>",
 			"Moves to new capital when capital changes",
 			"unsellable"]
 	}
