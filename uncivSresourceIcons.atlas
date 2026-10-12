@@ -17,7 +17,7 @@ ResourceIcons/Coffee
   orig: 100, 100
   offset: 0, 0
   index: -1
-ResourceIcons/Chocolate
+ResourceIcons/Cocoa
   rotate: false
   xy: 0, 200
   size: 100, 100
@@ -26,21 +26,21 @@ ResourceIcons/Chocolate
   index: -1
 ResourceIcons/Honey
   rotate: false
-  xy: 0, 200
+  xy: 0, 300
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Bison
   rotate: false
-  xy: 0, 300
+  xy: 0, 400
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Maize
   rotate: false
-  xy: 100, 300
+  xy: 100, 400
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
