@@ -1,5 +1,5 @@
 UncivSterrains.png
-size: 80, 80
+size: 160, 80
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
@@ -17,6 +17,20 @@ TileSets/FantasyHex/Tiles/TundraCherry Forest
   orig: 32, 32
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/Cherry Forest+Lumber Mill
+  rotate: false
+  xy: 84, 4 
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/TundraCherry Forest+Lumber Mill
+  rotate: false
+  xy: 124, 4
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/Maple Forest
   rotate: false
   xy: 4, 44 
@@ -27,6 +41,20 @@ TileSets/FantasyHex/Tiles/Maple Forest
 TileSets/FantasyHex/Tiles/TundraMaple Forest
   rotate: false
   xy: 44, 44
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Maple Forest+Lumber Mill
+  rotate: false
+  xy: 84, 44 
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/TundraMaple Forest+Lumber Mill
+  rotate: false
+  xy: 124, 44
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
