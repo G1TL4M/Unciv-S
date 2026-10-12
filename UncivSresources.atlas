@@ -1,5 +1,5 @@
 UncivSresources.png
-size: 80, 40
+size: 160, 80
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
@@ -13,6 +13,27 @@ TileSets/FantasyHex/Tiles/Honey
 TileSets/FantasyHex/Tiles/Honey+Plantation
   rotate: false
   xy: 44, 4
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Coffee
+  rotate: false
+  xy: 4, 44 
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Tea
+  rotate: false
+  xy: 4, 84 
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Maize
+  rotate: false
+  xy: 4, 124 
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
