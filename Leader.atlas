@@ -52,7 +52,28 @@ BuildingIcons/Wilfred Laurier
   offset: 0, 0
   index: -1
 China
+BuildingIcons/Deng Xiaoping
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 BuildingIcons/Qin Shi Huang
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Wu Zetian
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Yongle
   rotate: false
   xy: 0, 0
   size: 100, 100
@@ -98,6 +119,20 @@ BuildingIcons/Winston Churchill
   offset: 0, 0
   index: -1
 France
+BuildingIcons/Charlemagne
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Lafayette
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 BuildingIcons/Napoleon Bonaparte
   rotate: false
   xy: 0, 0
@@ -316,7 +351,29 @@ BuildingIcons/Xerxes
   orig: 100, 100
   offset: 0, 0
   index: -1
+Portugal
+BuildingIcons/Joao III
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 Rome
+BuildingIcons/Augustus
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Julius
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 BuildingIcons/Octavian
   rotate: false
   xy: 0, 0
@@ -454,7 +511,14 @@ BuildingIcons/George Washington
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Theodore Roosevelt
+BuildingIcons/Theodore Roosevelt (Bull Moose)
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Theodore Roosevelt (Rough Rider)
   rotate: false
   xy: 0, 0
   size: 100, 100
