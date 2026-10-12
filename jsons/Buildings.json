@@ -1360,7 +1360,7 @@
 		"name": "Safari Park",
 		"replaces": "Medical Lab",
 		"uniqueTo": "South Africa",
-		"requiredNearbyImprovedResources": ["Deer","Ivory","Furs","Truffles"],
+		"requiredNearbyImprovedResources": ["Deer","Elephants","Furs","Truffles"],
 		"maintenance": 0,
 		"requiredTech": "Flight",
 		"uniques": ["Available with Camp",
@@ -1593,6 +1593,7 @@
 			"[+10]% Production when constructing [Ancient era] wonders [in all cities]",
             "[+10]% Production when constructing [Classical era] wonders [in all cities]",
 			"Can only be built <in [in capital] cities>",
+			"Only available <in cities without a [Kublai Khan]>",
 			"Only available <in cities without a [Wu Zetian]>",
 			"Only available <in cities without a [Yongle]>"]
 	},
@@ -1605,6 +1606,7 @@
 			"Only available <when espionage is enabled>",
 			"Gain an extra spy <upon entering the [Renaissance era]>",
 			"Can only be built <in [in capital] cities>",
+			"Only available <in cities without a [Kublai Khan]>",
 			"Only available <in cities without a [Qin Shi Huang]>",
 			"Only available <in cities without a [Yongle]>"]
 	},
@@ -1615,6 +1617,7 @@
 		"production": 1,
 		"uniques": ["Get the leader title of [Yongle]",
 			"Can only be built <in [in capital] cities>",
+			"Only available <in cities without a [Kublai Khan]>",
 			"Only available <in cities without a [Qin Shi Huang]>",
 			"Only available <in cities without a [Wu Zetian]>"]
     },
@@ -1648,6 +1651,7 @@
 			"[+15]% [Production] [in all coastal cities]",
 			"[+2 Production] from every [Factory]","[+2 Production] from every [Manufactory]",
 			"Can only be built <in [in capital] cities>",
+			"Only available <in cities without a [Eleanor of Aquitaine]>",
 			"Only available <in cities without a [Winston Churchill]>"]
 	},
     {
@@ -1657,6 +1661,7 @@
 		"uniques": ["Get the leader title of [Winston Churchill]",
 			"",
 			"Can only be built <in [in capital] cities>",
+			"Only available <in cities without a [Eleanor of Aquitaine]>",
 			"Only available <in cities without a [Victoria]>"]
 	},
     {
@@ -1671,6 +1676,7 @@
 			"[2] free [Lancer] units appear <upon entering a Golden Age> <during the [Renaissance era]> <hidden from users>",
 			"[2] free [Cavalry] units appear <upon entering a Golden Age> <during the [Industrial era]> <hidden from users>",
 			"Can only be built <in [in capital] cities>",
+			"Only available <in cities without a [Eleanor of Aquitaine]>",
 			"Only available <in cities without a [Napoleon Bonaparte]>",
 			"Only available <in cities without a [Lafayette]>",
 			"Moves to new capital when capital changes",
@@ -1686,6 +1692,7 @@
 			"[+1 Culture, +1 Happiness] [in all cities] <on foreign continents> <upon entering a new era> <hidden from users>",
 			"Can only be built <in [in capital] cities>",
 			"Only available <in cities without a [Charlemagne]>",
+			"Only available <in cities without a [Eleanor of Aquitaine]>",
 			"Only available <in cities without a [Napoleon Bonaparte]>",
 			"Moves to new capital when capital changes",
 			"unsellable"]
@@ -1698,6 +1705,7 @@
 			"[+1] Movement <for [All] units>",
 			"Can only be built <in [in capital] cities>",
 			"Only available <in cities without a [Charlemagne]>",
+			"Only available <in cities without a [Eleanor of Aquitaine]>",
 			"Only available <in cities without a [Lafayette]>",
 			"Moves to new capital when capital changes",
 			"unsellable"]
@@ -1956,6 +1964,7 @@
 			"[+1] Movement <for [All] units>",
 			"[Horse Mount] units gain the [Mongol Horde] promotion",
 			"[Elephant Mount] units gain the [Mongol Horde] promotion", // Flexibility
+			"Only available <in cities without a [Kublai Khan]>",
 			"Can only be built <in [in capital] cities>",
 			"Moves to new capital when capital changes",
 			"unsellable"]
@@ -2295,15 +2304,38 @@
     }
 
     {
-		"name": "Eleanor Of Aquitaine",
+		"name": "Eleanor of Aquitaine",
 		// Either England or France can select this
 		"cost": 0,
 		"culture": 1,
-		"uniques": ["Unbuildable","Get the leader title of [Eleanor Of Aquitaine]",
+		"uniques": ["Comment [Unique to England and France",
+			"Unbuildable","Get the leader title of [Eleanor Of Aquitaine]",
 			"Influence of all other civilizations with all city-states degrades [30]% faster",
 			"Can spend Gold to annex or puppet a City-State that has been your Ally for [7] turns",
+			"Only available <in cities without a [Charlemagne]>",
+			"Only available <in cities without a [Lafayette]>",
+			"Only available <in cities without a [Napoleon Bonaparte]>",
+			"Only available <in cities without a [Victoria]>",
+			"Only available <in cities without a [Winston Churchill]>",
 			"Can only be built <in [in capital] cities>",
 			"Moves to new capital when capital changes",
 			"unsellable"]
+    },
+    {
+		"name": "Kublai Khan",
+		// Either China or Mongolia can select this
+		"cost": 0,
+		"gold": 1,
+		"uniques": ["Comment [Unique to China and Mongolia]",
+			"Unbuildable","Get the leader title of [Kublai Khan]",
+			"[+2 Science] from every [Trading Post]",
+			"[+2 Science] from each Trade Route",
+			"Only available <in cities without a [Genghis Khan]>",
+			"Only available <in cities without a [Qin Shi Huang]>",
+			"Only available <in cities without a [Wu Zetian]>",
+			"Only available <in cities without a [Yongle]>",
+			"Can only be built <in [in capital] cities>",
+			"Moves to new capital when capital changes",
+			"Unsellable"]
 	}
 ]
