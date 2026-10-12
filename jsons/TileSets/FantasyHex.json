@@ -64,6 +64,8 @@
 	"Grassland+Forest+Truffles": ["Grassland","Truffles","GrasslandForest"],
         //Grassland+Hill
         "Grassland+Hill+Forest+Lumber mill": ["Grassland","Hill","HillForest+Lumber mill"],
+		"Grassland+Hill+Cherry Forest+Lumber mill": ["Grassland","Hill","Cherry Forest+Lumber mill"],
+		"Grassland+Hill+Maple Forest+Lumber mill": ["Grassland","Hill","Maple Forest+Lumber mill"],
         "Grassland+Hill+Forest+Horses": ["Grassland","Hill","Horses","Forest"],
         "Grassland+Hill+Forest+Iron": ["Grassland","Hill","Iron","Forest"],
         "Grassland+Hill+Forest+Coal": ["Grassland","Hill","Coal","Forest"],
@@ -85,6 +87,8 @@
         "Plains+Wheat+Farm": ["Plains+Farm","Wheat"],
         //Plains+Hill
         "Plains+Hill+Forest+Lumber mill": ["Plains","Hill","HillForest+Lumber mill"],
+		"Plains+Hill+Cherry Forest+Lumber mill": ["Plains","Hill","Cherry Forest+Lumber mill"],
+		"Plains+Hill+Maple Forest+Lumber mill": ["Plains","Hill","Maple Forest+Lumber mill"],
         "Plains+Hill+Forest+Horses": ["Plains","Hill","Horses","Forest"],
         "Plains+Hill+Forest+Iron": ["Plains","Hill","Iron","Forest"],
         "Plains+Hill+Forest+Coal": ["Plains","Hill","Coal","Forest"],
