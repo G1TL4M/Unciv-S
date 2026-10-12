@@ -2296,9 +2296,12 @@
 
     {
 		"name": "Eleanor Of Aquitaine",
+		// Either England or France can select this
 		"cost": 0,
 		"culture": 1,
 		"uniques": ["Unbuildable","Get the leader title of [Eleanor Of Aquitaine]",
+			"Influence of all other civilizations with all city-states degrades [30]% faster",
+			"Can spend Gold to annex or puppet a City-State that has been your Ally for [7] turns",
 			"Can only be built <in [in capital] cities>",
 			"Moves to new capital when capital changes",
 			"unsellable"]
