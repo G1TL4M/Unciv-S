@@ -2510,9 +2510,9 @@
         "spyNames": ["Camazotz", "Coyopa", "Gukumatz", "Hunahpu", "Huracan", "Ixchel", "Ixtab", "Kukulkán", "Xbalanque", "Zipacna"]
 	},
 	{
-		"name": "The Mississipi",
+		"name": "The Mississippi",
 		"leaderName": "Tuskaloosa",
-		"adjective": ["Mississipi"],
+		"adjective": ["Mississippi"],
 		"startBias": ["River"],
 		"preferredVictoryType": "Diplomatic",
 		
