@@ -188,7 +188,7 @@
 	{
 		"name": "Burning Arrow",
 		"replaces": "Archer",
-		"uniqueTo": "The Mississipi",
+		"uniqueTo": "The Mississippi",
         "unitType": "Archery",
         "movement": 2,
         "strength": 5,
