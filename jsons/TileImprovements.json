@@ -379,7 +379,7 @@
 	},
 	{
 		"name": "Potkop",
-        "uniqueTo": "The Mississipi",
+        "uniqueTo": "The Mississippi",
         "terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Tundra","Snow"],
         "gold": 2,
         "turnsToBuild": 7,
