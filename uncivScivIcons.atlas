@@ -241,7 +241,7 @@ NationIcons/Brazil
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Timurid
+NationIcons/Timurids
   rotaye: false
   xy: 300, 400
   size: 100, 100
@@ -250,21 +250,21 @@ NationIcons/Timurid
   index: -1
 NationIcons/Burma
   rotaye: false
-  xy: 100, 400
+  xy: 400, 400
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Yugoslavia
   rotaye: false
-  xy: 100, 400
+  xy: 500, 400
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Israel
   rotaye: false
-  xy: 100, 400
+  xy: 600, 400
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
