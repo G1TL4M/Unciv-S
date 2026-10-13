@@ -1185,7 +1185,40 @@
 					"[Military] units gain the [Amphibious] promotion"],
 		"cities": ["Kampala","Kasangati","Mukono","Ssentema","Butoolo","Mitiyana","Buzinde","Nakasongola","Kaabasanda","Masaka",
 			"Sembalue","Lakaayi","Kabula","Mwera","Ntenjeru","Mpenja","Kanoni","Kaweeri","Kalangala","Maggyo",
-			"Kibbale","Kakumiro","Jinja","Entebbe"],
+			"Kibbale","Kakumiro","Jinja","Entebbe"]
+	},
+	{
+		"name": "Burma",
+        "leaderName": "Anawratha",
+        "adjective": ["Burma"],
+        "startBias": ["Avoid [Coast]"],
+		
+        "startIntroPart1": "O' King Anawrahta, founder of the Pagan Empire, your people bow before you. Since her establishment and flourishing in the Irrawaddy Delta, Burma has continuously astounded the world with both her strength and her culture; the lesser nations around her trembled before the might of her armies and gazed in awe upon the beauty of her architecture. You, who embraced Buddhism, stopped the might of the Khmer empire and made great efforts to turn the lands of central Burma into rice granaries, which formed the enduring economic base for centuries. All this allowed the Burmese to eventually form one of the largest and most cultured empires in the history of Southeast Asia, leaving a legacy both profound and glorious.",
+        "startIntroPart2": "Great Anawrahta, legendary Father of the Burmese Nation, your people look to you to bring forth a new prosperous age for your nation! Will you restore your empire to her former splendour? Will you once again lead your armies to victory? Can you build a civilization that will stand the test of time?",
+		
+        "declaringWar": "Karma has caught up with you, and it's only fair that we resolve this dispute with arms!",
+        "attacked": "Don't think your victory will come easy, if it will come at all. I'm ready to destroy your armies anytime.",
+        "defeated": "My people is scattered. My people are terrified and exhausted. Do what you want with these lands, but leave my people alone.",
+        "introduction": "You now stand in front of the father of Burmese nations. I, Anawrahta, founder of the Pagan Empire, bestow upon your welcome, stranger.",
+		
+        "neutralHello": "Greetings.",
+        "hateHello": "What do you want?",
+        "tradeRequest": "My granaries overflow and my craftsmen are ready. Shall our kingdoms benefit as one?",
+		
+        "outerColor": [255, 148, 10],
+        "innerColor": [3, 16, 230],
+        "uniqueName": "Pyu City States",
+        "uniques": ["[+1 Happiness] [in all cities]"],
+        "cities": ["Yangon",
+			"Pagan","Ava","Taungoo","Sri Ksetra","Halin",
+			"Binnaka","Beikthano","Maingmaw","Tagaung","Minbu",
+			"Kyaukse","Bago","Mergui","Arakan","Prome",
+			"Bhamo","Thaton","Bassein","Mrauk U","Nyaung U",
+			"Dala","Martaban","Nyaungshwe","Thibaw","Mohnyin",
+			"Kale","Mogaung","Theinni","Mone","Shwebo",
+			"Mandalay","Hsipaw","Ngapali","Chaungtha","Kyaikto",
+			"Kyaikkami","Naypyidaw"],
+        "spyNames": ["Adityawarman","Airlangga","Citra","Halayudha","Jayakatwang","Lingga","Mahendradatta","Prapana","Raden","Devi"]
 	},
 	{
 		"name": "Canada",
@@ -2606,29 +2639,32 @@
 	},
 	{
 		"name": "The Sioux",
-		"leaderName": "Sitting Bull",
-		"adjective": ["Sioux"],
-		"preferredVictoryType": "Diplomatic",
-
-		"declaringWar": "Your wanton aggression leaves us no choice. Prepare for war!",
-		"attacked": "You have mistaken our love of peace for weakness. You shall regret this!",
-		"defeated": "The day...is yours. I hope you will be merciful in your triumph.",
-		"introduction": "The people of the United States of America welcome you.",
-		"neutralHello": "Good day.",
-		"hateHello": "Well?",
-		"tradeRequest": "Is the following trade of interest to you?",
-
-        "outerColor": [165,0,33],
-        "innerColor": [255,255,255],
-        "favoredReligion": "Wakan Tanka",
-		"uniqueName": "Manifest Destiny",
-		"uniques": ["[+1] Sight <for [{Military} {Land}] units>", "[-50]% Gold cost of acquiring tiles [in all cities]"],
-		"cities": ["Little Bighorn",
-		    "Wounded Knee","Cedar Creek","Slim Buttes","Three Forks","Stony Lake",
-		    "Killdeer","Bear Paw","Big Mound","Wood Lake","Dead Buffalo",
-			"Point of Rocks","Raging Brook","Running Bear","Silver Moon","Wildcat Valley",
-			"Great River","Seven Brothers","Snake Canyon","First Wind","Yellowtree",
-			"Chief's Crag","Morning Rock"]
+        "leaderName": "Sitting Bull",
+        "adjective": ["Sioux"],
+        "startBias": ["Avoid [Coast]","Plains"],
+		
+        "startIntroPart1": "Proud Sitting Bull, Chief of the Hunkpapa Lakota, the Seven Council Fires gather to listen and honour your wisdom. Seasoned hunters, the Sioux followed the buffalo from the shores of Lake Superior to the Black Hills of the western Dakotas. With the introduction of the horse, they became fearless warriors, dominating the Great Plains and driving back the Kiowa and Pawnee. Your existance marked the peak of the united tribes led by you, for it crossed the borders of reservation, the symbol of tyranny and humiliation, and defeated the Americans under Little Bighorn, sending a message of liberty and freedom to the world. Alas, your people were fighting a losing battle, for the United States had grown too big, too fast. In just a few short years, even the promised reservations were reduced to mere fractions of their original size, and eventually you yourself fell victim of an assasination at the hands of the white man. Yet, the Sioux legacy survived and your people finally won their rights, inspired by your courage.",
+        "startIntroPart2": "Itancan, your enemies have sold your lands and slaughtered the buffalo, but the Great Spirit has allowed you to lead your people once again, as your courage and guidance are needed once more. Will you re-establish the ancestral hunting grounds and defend your people from foreign expansion? Can you build a civilization that will stand the test of time?",
+		
+        "declaringWar": "It seems that war has fallen on us. Let us see if you, at least, are a worthy enemy.",
+        "attacked": "You have no respect for our lands, nor for peace. If we must die, we will die defending our rights.",
+        "defeated": "I have failed once again. The Ghost Dance, however, will go on without me, devil.",
+        "introduction": "I am Sitting Bull, son of the Jumping Bull, chieftain of the Hunkpapa Lakota! Have you seen buffalos recently?",
+		
+        "neutralHello": "Welcome, friend.",
+        "hateHello": "State your business.",
+        "tradeRequest": "Each man is a good man in the eyes of the Great Spirit. Let us put our minds together at least this once.",
+		
+        "outerColor": [74,59,47],
+        "innerColor": [255,120,0],
+        "uniqueName": "Dwellers of the Plains",
+        "uniques": ["[+15]% Strength <for [Military] units> <in [Plains] tiles>"],
+        "cities": ["Ihankthunwanna",
+			"Bdewekhanthunwan","Isanyathi","Sichangju","Oglala","Itazipcho",
+			"Assiniboine","Sisithunwan","Wahpekhute","Wahpethunwan","Hunkpapha",
+			"Mnikhowozu","Sihasapa","Oohenunpa","Mnicoujou","Winnebago",
+			"Brule","Anishinabe","Iowa","Pawnee","Omaha"],
+        "spyNames": ["Onatah","Oneida","Oshadagea","Otetiani","Genesee","Dadgayadoh","Otwtiani","Kateri","Onondakai","Honanyawus"]
 	},
 	{
 		"name": "The United States",
@@ -2693,6 +2729,38 @@
 		"civilopediaText": [
 			{"text": "From 'BNW'"}
 		]
+	},
+	{
+		"name": "Timurids",
+        "leaderName": "Timur",
+        "adjective": ["Timurid"],
+        "startBias": ["Avoid [Coast]"],
+        "preferredVictoryType": "Domination",
+		
+        "startIntroPart1": "Tremble before Timur, the Scourge of Asia, whose armies toppled kingdoms and left pyramids of skulls. Your ruthless genius brought fear and glory from Delhi to Damascus.",
+        "startIntroPart2": "Timur, will you again conquer with unmatched fury? Or shall your empire now stand the test of time through something greater?",
+		
+        "declaringWar": "Mercy is not one of my weapons. Prepare for ruin.",
+        "attacked": "You've made your choice. Now I shall make your cities kneel.",
+        "defeated": "I fall today—but mark me: your heirs will fear mine.",
+        "introduction": "Hello, I am Timur, the Conqueror. My empire was vast, but my ambition was greater.",
+		
+        "neutralHello": "Speak now, while I still consider words more valuable than war.",
+        "hateHello": "Your arrogance is vast—like my empire once was. Time to reduce both.",
+        "tradeRequest": "Trade is the breath between wars. Speak your terms swiftly, before I change my mind.",
+		
+        "outerColor": [57,57,57],
+        "innerColor": [255,45,45],
+        "uniqueName": "Ulugh Beg's Observatory",
+        "uniques": ["Gain a free [Ulugh Beg's Observatory] [in capital]"],
+        "cities": ["Samarkand",
+			"Herat","Balkh","Bukhara","Kabul","Nishapur",
+			"Urgench","Merv","Ghazni","Kandahar","Tashkent",
+			"Tabriz","Tiflis","Isfahan","Kashgar",
+			"Peshawar","Multan","Lahore","Mosul","Hanadan",
+			"Ray","Kirman","Zarani","Shirazv",
+			"Basra","Ashgabat","Bishkek","Dushanbe"],
+        "spyNames": ["Adapa","Kubaba","Nabu","Nergal","Ninlil","Ninurta","Nisroch","Shamash","Pazuzu","Qingu"]
 	},
 	{
 		"name": "Turkiye",
@@ -2788,6 +2856,39 @@
 		"uniques": ["[+20]% Production when constructing [Water] units [in all cities]","[Gold] cost of purchasing [Water] units [-50]% <during a Golden Age>"],
 		"cities": ["Panawamskek",
 			"Odanak","Sipayik","Eelsetkook","Kadesquit","Lakeland Ridges"]
+	},
+	{
+		"name": "Yugoslavia",
+        "leaderName": "Aleksandar I",
+        "adjective": ["Yugoslav"],
+        "startBias": ["Avoid [Coast]"],
+        "preferredVictoryType": "Domination",
+		
+        "startIntroPart1": "Hail King Aleksandar I, unifier of the South Slavs. From the chaos of empires and war, you forged a new kingdom—Yugoslavia, born from the dream of unity and strength.",
+        "startIntroPart2": "Majesty, can you hold the realm together once more? Can you build a civilization that will stand the test of time?",
+		
+        "declaringWar": "Unity no longer binds us—conflict shall decide what remains.",
+        "attacked": "We have survived worse. We will not fracture now.",
+        "defeated": "The dream may splinter, but the memory will guide others.",
+        "introduction": "Welcome to the Kingdom of Yugoslavia, the land of strong bonds and shared destiny. I am King Aleksandar I.",
+		
+        "neutralHello": "Our peoples are many, our voices one. Let your voice speak truth, not division.",
+        "hateHello": "You meddle in what you do not understand. You mistake diplomacy for weakness.",
+        "tradeRequest": "Let us set aside divisions. Trade binds what war would tear apart, do we have an accord?",
+		
+        "outerColor": [26,49,119],
+        "innerColor": [220,88,83],
+        "uniqueName": "Non-Aligned Doctrine",
+        "uniques": ["Free Social Policy <upon entering the [Industrial era]>",
+			"[+1 Gold] from every specialist [in all cities] <after adopting [Autocracy]>", "[+2 Production, +2 Science] [in all cities] <after adopting [Autocracy]>",
+			"[+15]% Production when constructing [Land] units [in all cities] <after adopting [Freedom]>", "[+2 Production, +2 Science] [in all cities] <after adopting [Freedom]>",
+			"[+15]% Production when constructing [Land] units [in all cities] <after adopting [Order]>", "[+1 Gold] from every specialist [in all cities] <after adopting [Order]>"],
+        "cities": ["Belgrade",
+			"Zagreb","Sarajevo","Skopje","Ljubljana","Split",
+			"Pristina","Novi Sad","Nis","Banja","Rijeka",
+			"Maribor","Mostar","Osijek","Zadar","Kragujeva",
+			"Tuzla","Subotica","Pula","Prizren"],
+        "spyNames": ["Andrej","Bojana","Cvetko","Isidora","Gavro","Ana","Ivan","Josip","Marija","Marko"]
 	},
 
 
