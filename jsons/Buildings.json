@@ -1549,6 +1549,18 @@
     // Leaders
      // The game lets you pick a leader and they give the nation an additional boost
 
+	{
+		"name": "John Curtin",
+        "uniqueTo": "Australia",
+		"cost": 0,
+		"production": 1,
+		"uniques": ["Get the leader title of [John Curtin]",
+			"Comment [+100% Production in All cities upon being declared war on by any Civilization for 10 turns]",
+			"[+100]% [Production] <in [All] cities> <upon being declared war on by [All] Civilizations> <for [10] turns>",
+			"Can only be built <in [in capital] cities>",
+			"Moves to new capital when capital changes",
+			"unsellable"]
+	},
     {
 		"name": "Montezuma I",
 		"uniqueTo": "Aztecs",
@@ -1556,7 +1568,9 @@
 		"gold": 1,
 		"uniques": ["Get the leader title of [Montezuma I]",
 			"[+2] Happiness from each type of luxury resource",
-			"Can only be built <in [in capital] cities>"]
+			"Can only be built <in [in capital] cities>",
+			"Moves to new capital when capital changes",
+			"unsellable"]
     },
     {
 		"name": "Pedro II",
@@ -1572,7 +1586,9 @@
 			"[Faith] cost of purchasing [Great General] units [-15]% <hidden from users>",
 			"[Faith] cost of purchasing [Great Merchant] units [-15]% <hidden from users>",
 			"[Faith] cost of purchasing [Great Scientist] units [-15]% <hidden from users>",
-			"Can only be built <in [in capital] cities>"]
+			"Can only be built <in [in capital] cities>",
+			"Moves to new capital when capital changes",
+			"unsellable"]
     },
     {
 		"name": "Wilfred Laurier",
@@ -1581,7 +1597,9 @@
 		"gold": 1,
 		"uniques": ["Get the leader title of [Wilfred Laurier]",
 			"[-50]% Gold cost of acquiring tiles [in all cities] <within [1] tiles of a [Tundra]>",
-			"Can only be built <in [in capital] cities>"]
+			"Can only be built <in [in capital] cities>",
+			"Moves to new capital when capital changes",
+			"unsellable"]
 	},
 	{
 		"name": "Qin Shi Huang",
@@ -1595,7 +1613,9 @@
 			"Can only be built <in [in capital] cities>",
 			"Only available <in cities without a [Kublai Khan]>",
 			"Only available <in cities without a [Wu Zetian]>",
-			"Only available <in cities without a [Yongle]>"]
+			"Only available <in cities without a [Yongle]>",
+			"Moves to new capital when capital changes",
+			"unsellable"]
 	},
     {
 		"name": "Wu Zetian",
@@ -1608,7 +1628,9 @@
 			"Can only be built <in [in capital] cities>",
 			"Only available <in cities without a [Kublai Khan]>",
 			"Only available <in cities without a [Qin Shi Huang]>",
-			"Only available <in cities without a [Yongle]>"]
+			"Only available <in cities without a [Yongle]>",
+			"Moves to new capital when capital changes",
+			"unsellable"]
 	},
     {
 		"name": "Yongle",
@@ -1619,7 +1641,9 @@
 			"Can only be built <in [in capital] cities>",
 			"Only available <in cities without a [Kublai Khan]>",
 			"Only available <in cities without a [Qin Shi Huang]>",
-			"Only available <in cities without a [Wu Zetian]>"]
+			"Only available <in cities without a [Wu Zetian]>",
+			"Moves to new capital when capital changes",
+			"unsellable"]
     },
 	{
 		"name": "Cleopatra",
@@ -1629,7 +1653,9 @@
 		"uniques": ["Get the leader title of [Cleopatra]",
 			"[+100]% [Gold] from City-States",
 			"Can only be built <in [in capital] cities>",
-			"Only available <in cities without a [Hatshepsut]>"]
+			"Only available <in cities without a [Hatshepsut]>",
+			"Moves to new capital when capital changes",
+			"unsellable"]
 	},
     {
 		"name": "Hatshepsut",
@@ -1640,7 +1666,9 @@
 			"[+1 Production] from [River] tiles [in all cities]",
 			"[+1 Food, +1 Culture] from [River] tiles [in all cities] <after discovering [Masonry]>",
 			"Can only be built <in [in capital] cities>",
-			"Only available <in cities without a [Cleopatra]>"]
+			"Only available <in cities without a [Cleopatra]>",
+			"Moves to new capital when capital changes",
+			"unsellable"]
 	},
 	{
 		"name": "Victoria",
@@ -1652,7 +1680,9 @@
 			"[+2 Production] from every [Factory]","[+2 Production] from every [Manufactory]",
 			"Can only be built <in [in capital] cities>",
 			"Only available <in cities without a [Eleanor of Aquitaine]>",
-			"Only available <in cities without a [Winston Churchill]>"]
+			"Only available <in cities without a [Winston Churchill]>",
+			"Moves to new capital when capital changes",
+			"unsellable"]
 	},
     {
         "name": "Winston Churchill",
@@ -1662,7 +1692,9 @@
 			"",
 			"Can only be built <in [in capital] cities>",
 			"Only available <in cities without a [Eleanor of Aquitaine]>",
-			"Only available <in cities without a [Victoria]>"]
+			"Only available <in cities without a [Victoria]>",
+			"Moves to new capital when capital changes",
+			"unsellable"]
 	},
     {
 		"name": "Charlemagne",
