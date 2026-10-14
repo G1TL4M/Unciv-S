@@ -450,21 +450,6 @@
 		"weight": 1
 	},
 	{
-		"name": "Grand Mesa",
-		"type": "NaturalWonder",
-		"production": 2,
-		"gold": 3,
-		"occursOn": ["Plains","Desert","Tundra"],
-		"uniques": ["Must be adjacent to [0] [Coast] tiles",
-			"Must be adjacent to [0] [Grassland] tiles",
-			"Must be adjacent to [2] to [6] [Hill] tiles",
-			"Must be adjacent to [0] to [2] [Mountain] tiles"],
-		"turnsInto": "Mountain",
-		"impassable": true,
-		"unbuildable": true,
-		"weight": 10
-	},
-	{
 		"name": "Mount Fuji",
 		"type": "NaturalWonder",
 		"gold": 2,
@@ -568,38 +553,6 @@
 		"unbuildable": true,
 		"weight": 10
 	},
-	{
-		"name": "Sri Pada",
-		"type": "NaturalWonder",
-		"food": 2,
-		"faith": 4,
-		"happiness": 2,
-		"occursOn": ["Plains","Grassland"],
-		"uniques": ["Must be adjacent to [0] [Tundra] tiles",
-			"Must be adjacent to [0] [Desert] tiles",
-			"Must be adjacent to [0] [Marsh] tiles",
-			"Must not be on [1] largest landmasses"],
-		"turnsInto": "Mountain",
-		"impassable": true,
-		"unbuildable": true,
-		"weight": 10
-	},
-	{
-		"name": "Uluru",
-		"type": "NaturalWonder",
-		"food": 2,
-		"faith": 6,
-		"occursOn": ["Plains","Desert"],
-		"uniques": ["Must be adjacent to [0] [Coast] tiles",
-			"Must be adjacent to [0] [Grassland] tiles",
-			"Must be adjacent to [0] [Tundra] tiles",
-			"Must be adjacent to [0] [Marsh] tiles",
-			"Must be adjacent to [3] to [6] [Plains] tiles"],
-		"turnsInto": "Mountain",
-		"impassable": true,
-		"unbuildable": true,
-		"weight": 10
-	},
 /*
 	// BNW wonders
 	{
@@ -624,21 +577,6 @@
 		"impassable": true,
 		"unbuildable": true,
 		"uniques": ["Fresh water","Must be adjacent to [0] [Coast] tiles"],
-		"weight": 10
-	},
-	{
-		"name": "Mount Kilimanjaro",
-		"type": "NaturalWonder",
-		"food": 3,
-		"culture": 2,
-		"occursOn": ["Plains","Grassland"],
-		"turnsInto": "Mountain",
-		"impassable": true,
-		"unbuildable": true,
-		"uniques": ["Must be adjacent to [0] [Coast] tiles",
-			"Must be adjacent to [2] to [6] [Hill] tiles",
-			"Must be adjacent to [0] to [2] [Mountain] tiles",
-			"Grants [Altitude Training] ([double movement and +10% Strength in hills]) to adjacent [Land] units for the rest of the game"],
 		"weight": 10
 	},
 */
@@ -792,26 +730,6 @@
 		]
 	},
     {
-		"name": "White Cliffs",
-		"type": "NaturalWonder",
-		"food": 3,
-		"culture": 2,
-		"movementCost": 3,
-		"defenceBonus": 0.6,
-		"occursOn": ["Grassland"],
-		"turnsInto": "Grassland",
-		"unbuildable": true,
-		"uniques": ["Must be adjacent to [2] to [4] [Coast] tiles",
-			"Must be adjacent to [0] [Mountain] tiles",
-			"Must not be on [1] largest landmasses",
-			"[10] Strength for cities built on this terrain"],
-		"weight": 10,
-		"civilopediaText": [
-			{"text": "The White Cliffs of Dover are the region of English coastline facing the Strait of Dover and France. The cliff face, which reaches a height of 350 feet (110 m), owes its striking appearance to its composition of chalk accented by streaks of black flint, deposited during the Late Cretaceous."},
-			{"text": "The cliffs, on both sides of the town of Dover in Kent, stretch for eight miles (13 km). The White Cliffs of Dover form part of the North Downs. The cliffs are part of the Dover to Kingsdown Cliffs Site of Special Scientific Interest and Special Area of Conservation. The top of the cliffs hosts a chalk grassland ecosystem with an abundance of bird, flower, and butterfly species."}
-		]
-	},
-    {
 		"name": "Redwood Forest",
 		"type": "NaturalWonder",
 		"culture": 1,
@@ -826,6 +744,22 @@
 			"Must be adjacent to [0] [Volcano] tiles",
 			"Occurs in groups of [1] to [4] tiles"],
 		"turnsInto": "Grassland",
+		"unbuildable": true,
+		"weight": 10
+	},
+	{
+		"name": "Sri Pada",
+		"type": "NaturalWonder",
+		"food": 2,
+		"faith": 4,
+		"happiness": 2,
+		"occursOn": ["Plains","Grassland"],
+		"uniques": ["Must be adjacent to [0] [Tundra] tiles",
+			"Must be adjacent to [0] [Desert] tiles",
+			"Must be adjacent to [0] [Marsh] tiles",
+			"Must not be on [1] largest landmasses"],
+		"turnsInto": "Mountain",
+		"impassable": true,
 		"unbuildable": true,
 		"weight": 10
 	},
@@ -848,6 +782,21 @@
 			{"text": "Nearly two billion years of Earth's geological history have been exposed as the Colorado River and its tributaries cut their channels through layer after layer of rock while the Colorado Plateau was uplifted. While some aspects about the history of incision of the canyon are debated by geologists, several recent studies support the hypothesis that the Colorado River established its course through the area about 5 to 6 million years ago. Since that time, the Colorado River has driven the down-cutting of the tributaries and retreat of the cliffs, simultaneously deepening and widening the canyon."},
 			{"text": "For thousands of years, the area has been continuously inhabited by Native Americans, who built settlements within the canyon and its many caves. The Pueblo people considered the Grand Canyon a holy site, and made pilgrimages to it. The first European known to have viewed the Grand Canyon was García López de Cárdenas from Spain, who arrived in 1540."}
 		]
+	},
+	{
+		"name": "Grand Mesa",
+		"type": "NaturalWonder",
+		"production": 2,
+		"gold": 3,
+		"occursOn": ["Plains","Desert","Tundra"],
+		"uniques": ["Must be adjacent to [0] [Coast] tiles",
+			"Must be adjacent to [0] [Grassland] tiles",
+			"Must be adjacent to [2] to [6] [Hill] tiles",
+			"Must be adjacent to [0] to [2] [Mountain] tiles"],
+		"turnsInto": "Mountain",
+		"impassable": true,
+		"unbuildable": true,
+		"weight": 10
 	},
     {
 		"name": "Giant's Causeway",
@@ -972,5 +921,40 @@
 			{"text": "Uvs Lake Basin (also Uvs Nuur Basin or Ubs Nuur Basin; Mongolian: Увс нуурын хотгор, romanized: Uws nuuriin hotgor) is an endorheic basin located on the territorial border of Mongolia and Russia. The basin is part of the Central Asian Internal Drainage Basin and is named after Uvs Lake (Uvs Nuur, Ubsu Nur), a large saline lake situated in the western part of its drainage basin, and is one of the last remnants of the mammoth steppes. Uvs Lake is a shallow lake with an area of 3,350 km2 (1,290 sq mi). The basin, which includes several smaller lakes, is 70,000 km2 (27,000 sq mi)."},
 			{"text": "According to Greenpeace, Ubsunur Hollow counts 40,000 archaeological sites from nomadic Scythians, Turks, Huns and other tribes. A number of its archaeological artefacts remain unstudied. In Central Asia, it has the highest concentration of burial mounds, constituting around half of its archaeological sites, and many of which are older than the Egyptian pyramids. Thousands of rock carvings and stone sculptures remain from medieval settlements and Buddhist temples."}
 		]
-	}
+	},
+    {
+	    "name": "Uluru",
+		"type": "NaturalWonder",
+		"food": 2,
+		"faith": 6,
+		"occursOn": ["Plains","Desert"],
+		"uniques": ["Must be adjacent to [0] [Coast] tiles",
+			"Must be adjacent to [0] [Grassland] tiles",
+			"Must be adjacent to [0] [Tundra] tiles",
+			"Must be adjacent to [0] [Marsh] tiles",
+			"Must be adjacent to [3] to [6] [Plains] tiles"],
+		"turnsInto": "Mountain",
+		"impassable": true,
+		"unbuildable": true,
+		"weight": 10
+	},
+	{
+		"name": "White Cliffs",
+		"type": "NaturalWonder",
+		"food": 3,
+		"culture": 2,
+		"movementCost": 3,
+		"defenceBonus": 0.6,
+		"occursOn": ["Grassland"],
+		"turnsInto": "Grassland",
+		"unbuildable": true,
+		"uniques": ["Must be adjacent to [2] to [4] [Coast] tiles",
+			"Must be adjacent to [0] [Mountain] tiles",
+			"Must not be on [1] largest landmasses",
+			"[10] Strength for cities built on this terrain"],
+		"weight": 10,
+		"civilopediaText": [
+			{"text": "The White Cliffs of Dover are the region of English coastline facing the Strait of Dover and France. The cliff face, which reaches a height of 350 feet (110 m), owes its striking appearance to its composition of chalk accented by streaks of black flint, deposited during the Late Cretaceous."},
+			{"text": "The cliffs, on both sides of the town of Dover in Kent, stretch for eight miles (13 km). The White Cliffs of Dover form part of the North Downs. The cliffs are part of the Dover to Kingsdown Cliffs Site of Special Scientific Interest and Special Area of Conservation. The top of the cliffs hosts a chalk grassland ecosystem with an abundance of bird, flower, and butterfly species."}
+		]
 ]
