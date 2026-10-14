@@ -640,6 +640,51 @@
 			"Must be adjacent to [0] to [2] [Mountain] tiles",
 			"Grants [Altitude Training] ([double movement and +10% Strength in hills]) to adjacent [Land] units for the rest of the game"],
 		"weight": 10
-	}
+	},
 */
-    ]
+    //
+    {
+		"name": "Socatra",
+		"type": "NaturalWonder",
+		"food": 2,
+		"culture": 3,
+		"gold": 3,
+		"science": 3,
+		"movementCost": 1,
+		"occursOn": ["Coast","Ocean"],
+		"turnsInto": "Plains",
+		"uniques": ["Must be adjacent to [1] to [4] [Ocean] tiles",
+			"Occurs on latitudes from [10] to [70] percent of distance equator to pole",
+			"Occurs in groups of [1] to [3] tiles",
+			"Neighboring tiles will convert to [Coast] <in tiles without [Socatra]>"],
+		"unbuildable": true,
+		"weight": 10,
+		"civilopediaText": [
+			{"text": "Socotra, locally known as Saqatri, is a Yemeni island in the Indian Ocean."},
+			{"text": "It is situated between the Gulf of Aden, the Guardafui Channel and the Arabian Sea, and lies near major shipping routes."},
+			{"text": "Socotra is unusual in hosting a large number of species that are endemic; a third of its plant life is found nowhere else on Earth."},
+			{"text": "Due to the island's unusual geography, it has been described as 'the most alien-looking place on Earth'."},
+			{"text": ""},
+			{"text": "The trees shown in-game are the Dragon's Blood Trees."},
+			{"text": "It is named after the blood-like color of the red sap that the trees produce. It is also the national tree of Yemen."}
+		]
+	},
+    {
+		"name": "Dead Sea",
+		"type": "NaturalWonder",
+		"culture": 2,
+		"faith": 3,
+		"overrideStats": true,
+		"occursOn": ["Lakes"],
+		"uniques": ["Must be adjacent to [0] [Coast] tiles",
+			"Must be adjacent to [1] to [6] [Desert] tiles",
+			"Neighboring tiles will convert to [Desert]"],
+		"turnsInto": "Desert",
+		"impassable": true,
+		"unbuildable": true,
+		"weight": 10,
+		"civilopediaText": [
+			{"text": "The Dead Sea (Arabic: اَلْبَحْر الْمَيِّت, romanized: al-Baḥr al-Mayyit; or اَلْبَحْر الْمَيْت, al-Baḥr al-Mayt; Hebrew: יַם הַמֶּלַח, romanized: Yam hamMelaḥ), also known by other names, is a landlocked salt lake bordered by Jordan to the east, the West Bank to the west and Israel to the southwest. It lies in the endorheic basin of the Jordan Rift Valley, and its main tributary is the Jordan River."}
+		]
+	}
+]
