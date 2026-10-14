@@ -686,5 +686,291 @@
 		"civilopediaText": [
 			{"text": "The Dead Sea (Arabic: اَلْبَحْر الْمَيِّت, romanized: al-Baḥr al-Mayyit; or اَلْبَحْر الْمَيْت, al-Baḥr al-Mayt; Hebrew: יַם הַמֶּלַח, romanized: Yam hamMelaḥ), also known by other names, is a landlocked salt lake bordered by Jordan to the east, the West Bank to the west and Israel to the southwest. It lies in the endorheic basin of the Jordan Rift Valley, and its main tributary is the Jordan River."}
 		]
+	},
+    {
+		"name": "Mount Kineo",
+		"type": "NaturalWonder",
+		"gold": 2,
+		"production": 5,
+		"overrideStats": true,
+		"occursOn": ["Plains","Mountain"],
+		"uniques": ["Must be adjacent to [1] to [3] [Lakes] tiles",
+			"Must be adjacent to [0] [Desert] tiles",
+			"[+10]% Production when constructing [All] wonders [in this city]"],
+		"turnsInto": "Mountain",
+		"impassable": true,
+		"unbuildable": true,
+		"weight": 10,
+		"civilopediaText": [
+			{"text": "Mount Kineo is a prominent geological feature located on a 1,150-acre (470 ha) peninsula that extends from the easterly shore of Moosehead Lake in the northern forest of Maine."},
+			{"text": "Native Americans once traveled great distances to Mt. Kineo to acquire its rhyolite rock."},
+			{"text": "Being the country's largest known mass of this rock, once used by Indigenous people to craft arrowheads, hatchets, chisels, etc., Indigenous implements made from the stone have been found in all parts of New England and even further south, it is evident that various tribes visited Mt. Kineo for centuries to obtain this material."}
+		]
+	},
+    {
+		"name": "Darian Gap",
+		"type": "NaturalWonder",
+		"gold": 2,
+		"science": 3,
+		"movementCost": 3,
+		"defenceBonus": 0.5,
+		"occursOn": ["Jungle"],
+		"uniques": ["Must be adjacent to [2] to [4] [Coast] tiles",
+			"Must be adjacent to [2] [Grassland] tiles",
+			"Occurs in groups of [2] to [2] tiles",
+			"Units ending their turn on this terrain take [50] damage",
+			"Considered [Undesirable] when determining start locations"],
+		"turnsInto": "Grassland",
+		"unbuildable": true,
+		"weight": 10,
+		"civilopediaText": [
+			{"text": "The Darién Gap (Spanish: Tapón del Darién) is a remote, roadless, and dangerous area of rainforest on the international border between Colombia and Panama."},
+			{"text": "Stretching across southern Panama's Darién Province and the northern portion of Colombia's Chocó Department, it acts as a natural barrier between North America and South America. Consisting of a large drainage basin, dense rainforest, and mountains, it is known for its remoteness, difficult terrain, and extreme environment, with a reputation as one of the most inhospitable regions in the world."},
+			{"text": "Nevertheless, as the only land bridge between North America and South America, the Darién Gap has historically served as a major route for both humans and wildlife."}
+		]
+	},
+    {
+		"name": "Pantanal",
+		"type": "NaturalWonder",
+		"food": 2,
+		"culture": 2,
+		"movementCost": 3,
+		"defenceBonus": -0.15,
+		"occursOn": ["Grassland"],
+		"uniques": ["Fresh water",
+			"Must be adjacent to [1] to [6] [Grassland] tiles",
+			"Must be adjacent to [0] [Desert] tiles",
+			"Must be adjacent to [0] [Tundra] tiles",
+			"Must be adjacent to [0] [Coast] tiles",
+			"Occurs on latitudes from [20] to [70] percent of distance equator to pole",
+			"Occurs in groups of [2] to [4] tiles"],
+		"turnsInto": "Grassland",
+		"unbuildable": true,
+		"weight": 10,
+		"civilopediaText": [
+			{"text": "The Pantanal is a natural region encompassing the world's largest tropical wetland area, and the world's largest flooded grasslands."},
+			{"text": "It is located mostly within the Brazilian state of Mato Grosso do Sul, but it extends into Mato Grosso and portions of Bolivia and Paraguay. It sprawls over an area estimated at between 140,000 and 195,000 km2 (54,000 and 75,000 sq mi)."},
+			{"text": "Various subregional ecosystems exist, each with distinct hydrological, geological, and ecological characteristics; up to 12 of them have been defined."},
+			{"text": "Roughly 80% of the Pantanal floodplains are submerged during the rainy seasons, nurturing a biologically diverse collection of aquatic plants and helping to support a dense array of animal species."}
+		]
+	},
+    {
+		"name": "Mount Kilimanjaro",
+		"type": "NaturalWonder",
+		"food": 3,
+		"culture": 2,
+		"occursOn": ["Plains","Grassland"],
+		"turnsInto": "Mountain",
+		"impassable": true,
+		"unbuildable": true,
+		"uniques": ["Must be adjacent to [0] [Coast] tiles",
+			"Must be adjacent to [2] to [6] [Hill] tiles",
+			"Must be adjacent to [0] to [2] [Mountain] tiles",
+			"Grants [Altitude Training] ([double movement and +10% Strength in hills]) to adjacent [Land] units for the rest of the game"],
+		"weight": 10,
+		"civilopediaText": [
+			{"text": ""},
+			{"text": "The sprite was taken from BNW"}
+		]
+	},
+    {
+		"name": "Mariana Trench",
+		"type": "NaturalWonder",
+		"science": 5,
+		"movementCost": 1,
+		"occursOn": ["Ocean"],
+		"uniques": ["Must be adjacent to [1] to [5] [Ocean] tiles",
+			"Must be adjacent to [1] to [2] [Coast] tiles",
+			"Occurs in groups of [1] to [2] tiles"],
+		"turnsInto": "Ocean",
+		"unbuildable": true,
+		"weight": 10,
+		"civilopediaText": [
+			{"text": "The Mariana Trench is the deepest oceanic trench on Earth, located in the western Pacific Ocean, about 200 kilometers (124 mi) east of the Mariana Islands."},
+			{"text": "It is crescent-shaped and measures about 2,550 km (1,580 mi) in length and 69 km (43 mi) in width."},
+			{"text": "The maximum known depth is 10,935 ± 6 meters (35,876 ± 20 ft; 5,979.3 ± 3.3 fathoms; 6.7947 ± 0.0037 mi) at the southern end of a small slot-shaped valley in its floor known as the Challenger Deep. This makes the deepest point of the trench more than 2 km (1.2 mi) farther from sea level than the peak of Mount Everest."}
+		]
+	},
+    {
+		"name": "White Cliffs",
+		"type": "NaturalWonder",
+		"food": 3,
+		"culture": 2,
+		"movementCost": 3,
+		"defenceBonus": 0.6,
+		"occursOn": ["Grassland"],
+		"turnsInto": "Grassland",
+		"unbuildable": true,
+		"uniques": ["Must be adjacent to [2] to [4] [Coast] tiles",
+			"Must be adjacent to [0] [Mountain] tiles",
+			"Must not be on [1] largest landmasses",
+			"[10] Strength for cities built on this terrain"],
+		"weight": 10,
+		"civilopediaText": [
+			{"text": "The White Cliffs of Dover are the region of English coastline facing the Strait of Dover and France. The cliff face, which reaches a height of 350 feet (110 m), owes its striking appearance to its composition of chalk accented by streaks of black flint, deposited during the Late Cretaceous."},
+			{"text": "The cliffs, on both sides of the town of Dover in Kent, stretch for eight miles (13 km). The White Cliffs of Dover form part of the North Downs. The cliffs are part of the Dover to Kingsdown Cliffs Site of Special Scientific Interest and Special Area of Conservation. The top of the cliffs hosts a chalk grassland ecosystem with an abundance of bird, flower, and butterfly species."}
+		]
+	},
+    {
+		"name": "Redwood Forest",
+		"type": "NaturalWonder",
+		"culture": 1,
+		"science": 1,
+		"production": 3,
+		"movementCost": 2,
+		"defenceBonus": 0.35,
+		"occursOn": ["Grassland","Plains"],
+		"uniques": ["Must be adjacent to [1] to [3] [Coast] tiles",
+			"Must be adjacent to [0] to [2] [Redwood Forest] tiles",
+			"Must be adjacent to [0] to [2] [Mountain] tiles",
+			"Must be adjacent to [0] [Volcano] tiles",
+			"Occurs in groups of [1] to [4] tiles"],
+		"turnsInto": "Grassland",
+		"unbuildable": true,
+		"weight": 10
+	},
+    {
+		"name": "Grand Canyon",
+		"type": "NaturalWonder",
+		"science": 4,
+		"faith": 3,
+		"happiness": 2,
+		"overrideStats": true,
+		"occursOn": ["Desert"],
+		"uniques": ["Must be adjacent to [0] [Coast] tiles",
+			"Occurs in groups of [2] to [4] tiles"],
+		"turnsInto": "Desert",
+		"impassable": true,
+		"unbuildable": true,
+		"weight": 10,
+		"civilopediaText": [
+			{"text": "The Grand Canyon is a steep-sided canyon carved by the Colorado River in Arizona, United States. The Grand Canyon is 277 miles (446 km) long, up to 18 miles (29 km) wide and attains a depth of over a mile (6,093 feet or 1,857 meters)."},
+			{"text": "Nearly two billion years of Earth's geological history have been exposed as the Colorado River and its tributaries cut their channels through layer after layer of rock while the Colorado Plateau was uplifted. While some aspects about the history of incision of the canyon are debated by geologists, several recent studies support the hypothesis that the Colorado River established its course through the area about 5 to 6 million years ago. Since that time, the Colorado River has driven the down-cutting of the tributaries and retreat of the cliffs, simultaneously deepening and widening the canyon."},
+			{"text": "For thousands of years, the area has been continuously inhabited by Native Americans, who built settlements within the canyon and its many caves. The Pueblo people considered the Grand Canyon a holy site, and made pilgrimages to it. The first European known to have viewed the Grand Canyon was García López de Cárdenas from Spain, who arrived in 1540."}
+		]
+	},
+    {
+		"name": "Giant's Causeway",
+		"type": "NaturalWonder",
+		"culture": 2,
+		"faith": 1,
+		"science": 1,
+		"overrideStats": true,
+		"occursOn": ["Coast"],
+		"uniques": ["Must be adjacent to [2] to [4] [Land] tiles",
+			"Occurs on latitudes from [40] to [70] percent of distance equator to pole",
+			"Occurs in groups of [2] to [2] tiles",
+			"Grants [Spear of Fionn] ([+10% Strength]) to adjacent [Land] units for the rest of the game"],
+		"turnsInto": "Coast",
+		"impassable": true,
+		"unbuildable": true,
+		"weight": 10,
+		"civilopediaText": [
+			{"text": "The Giant's Causeway (Irish: Clochán an Aifir or Clochán na bhFomhórach) is an area of approximately 40,000 interlocking basalt columns, the result of an ancient volcanic fissure eruption, part of the North Atlantic Igneous Province active in the region during the Paleogene period. It is located in County Antrim on the north coast of Northern Ireland, about three miles (4.8 km) northeast of the town of Bushmills."},
+			{"text": "The tops of the columns form stepping stones that lead from the cliff foot and disappear under the sea. Most of the columns are hexagonal, although some have between four and eight sides. The tallest are approximately 12 metres (39 ft) high, and the solidified lava in the cliffs is 28 metres (92 ft) thick in places."},
+			{"text": ""},
+			{"text": "According to legend, a form of geomyth, the columns are the remains of a causeway built by a giant. The story goes that the Irish giant Fionn mac Cumhaill (Finn MacCool), from the Fenian Cycle of Gaelic mythology, was challenged to a fight by the Scottish giant Benandonner. Fionn accepted the challenge and built the causeway across the North Channel so that the two could meet. In one version of the story, Fionn defeats Benandonner. Another common telling of the story has Fionn hide from Benandonner when he realises that his foe is much bigger than he is. Fionn's wife, Sadhbh, disguises Fionn as a baby and tucks him in a cradle. When Benandonner sees the size of the 'baby', he imagines that its father, Fionn, must be a giant among giants. He flees back to Scotland in fright, destroying the causeway behind him so that Fionn would be unable to chase him down. Across the sea, there are identical basalt columns (a part of the same ancient lava flow) at Fingal's Cave on the Scottish isle of Staffa, and it is possible that the story was influenced by this."},
+			{"text": ""},
+			{"text": "The sprite is based on Malwen's Civ6 Tileset sprite"}
+		]
+	},
+    {
+		"name": "Ha Long Bay",
+		"type": "NaturalWonder",
+		"food": "3",
+		"production": "1",
+		"culture": "1",
+		"defenceBonus": 0.5,
+		"overrideStats": true,
+		"occursOn": ["Grassland","Coast"],
+		"uniques": ["Must be adjacent to [2] to [4] [Grassland] tiles",
+			"Must be adjacent to [2] to [4] [Water] tiles",
+			"Occurs on latitudes from [10] to [60] percent of distance equator to pole",
+			"Occurs in groups of [2] to [2] tiles"],
+		"turnsInto": "Coast",
+		"impassable": false,
+		"unbuildable": true,
+		"weight": 10
+	},
+    {
+		"name": "Chocolate Hills",
+		"type": "NaturalWonder",
+		"food": 2,
+		"production": 1,
+		"happiness": 2,
+		"movementCost": 2,
+		"defenceBonus": 0.25,
+		"overrideStats": true,
+		"occursOn": ["Grassland"],
+		"overrideStats": true,
+		"uniques": ["Must be adjacent to [0] to [0] [Desert] tiles",
+			"Occurs on latitudes from [0] to [40] percent of distance equator to pole",
+			"Occurs in groups of [1] to [3] tiles",
+			"Must not be on [1] largest landmasses"],
+			"turnsInto": "Grassland",
+		"unbuildable": true,
+		"weight": 10,
+		"civilopediaText": [
+			{"text": "The Chocolate Hills (Cebuano: Mga Bungtod sa Tsokolate, Filipino: Mga Tsokolateng Burol, or Mga Burol na Tsokolate) are a geological formation in the Philippine province of Bohol. A minimum of 1,260 hills, and possibly over 1,776, spread over an area of more than 50 square kilometers (20 sq mi). They are covered in green grass that turns a chocolate-brown during the dry season, hence the name."}
+		]
+	},
+    {
+		"name": "Chicxulub Crater",
+		"type": "NaturalWonder",
+		"science": 5,
+		"movementCost": 1,
+		"occursOn": ["Coast"],
+		"uniques": ["Must be adjacent to [1] to [3] [Grassland] tiles"],
+		"turnsInto": "Coast",
+		"unbuildable": true,
+		"weight": 10,
+		"civilopediaText": [
+			{"text": "The Chicxulub crater is an impact crater buried underneath the Yucatán Peninsula in Mexico. The crater is named after the onshore inland community of Chicxulub Pueblo."},
+			{"text": "It was formed slightly over 66 million years ago when an asteroid, about ten kilometers (six miles) in diameter, struck Earth. The crater is estimated to be two hundred kilometers (120 mi) in diameter and is buried to a depth of about one kilometer (0.6 mi) beneath younger sedimentary rocks."},
+			{"text": "It is one of the largest impact structures on Earth, alongside the much older Sudbury and Vredefort impact structures, and the only one whose peak ring is intact and directly accessible for scientific research."},
+			{"text": "The date of the impact coincides with the Cretaceous–Paleogene boundary (commonly known as the K–Pg or K–T boundary). It is now widely accepted that the devastation and climate disruption resulting from the impact was the primary cause of the Cretaceous–Paleogene extinction event, a mass extinction of 75% of plant and animal species on Earth, including all non-avian dinosaurs."}
+		]
+	},
+    {
+		"name": "Kalambo Falls",
+		"type": "NaturalWonder",
+		"food": 2,
+		"culture": 1,
+		"happiness": 1,
+		"science": 2,
+		"overrideStats": true,
+		"occursOn": ["Grassland","Plains"],
+		"uniques": ["Must be adjacent to [1] to [2] [Lakes] tiles"],
+		"turnsInto": "Mountain",
+		"impassable": true,
+		"unbuildable": true,
+		"weight": 10,
+		"civilopediaText": [
+			{"text": "The Kalambo Falls on the Kalambo River is a 235-metre (772 ft) single-drop waterfall on the border of Zambia and Rukwa Region, Tanzania at the southeast end of Lake Tanganyika."},
+			{"text": "The falls are some of the tallest uninterrupted falls in Africa (after South Africa's Tugela Falls, Ethiopia's Jin Bahir Falls and others)."},
+			{"text": "Kalambo Falls is also considered one of the most important archaeological sites in Africa, with occupation spanning over 447,000 years."},
+			{"text": "In 2023, archaeologists announced the discovery of wooden structures estimated to be 476,000 years old at the falls, predating Homo sapiens. Two worked wooden beams display evidence that burning was used to create an interlocking wooden structure, possibly a platform by what would have then been a water source for the early hominid residents. This is the earliest known hominid structure."}
+		]
+	},
+    {
+		"name": "Ubsunur Hollow",
+		"type": "NaturalWonder",
+		"food": "1",
+		"production": "1",
+		"faith": "2",
+		"overrideStats": true,
+		"occursOn": ["Plains","Desert","Tundra"],
+		"uniques": ["Fresh water",
+			"Must be adjacent to [0] to [1] [Desert] tiles",
+			"Must be adjacent to [1] [Tundra] tiles",
+			"Must be adjacent to [0] [Water] tiles",
+			"Occurs in groups of [2] to [4] tiles"],
+		"turnsInto": "Plains",
+		"unbuildable": true,
+		"weight": 10,
+		"civilopediaText": [
+			{"text": "Uvs Lake Basin (also Uvs Nuur Basin or Ubs Nuur Basin; Mongolian: Увс нуурын хотгор, romanized: Uws nuuriin hotgor) is an endorheic basin located on the territorial border of Mongolia and Russia. The basin is part of the Central Asian Internal Drainage Basin and is named after Uvs Lake (Uvs Nuur, Ubsu Nur), a large saline lake situated in the western part of its drainage basin, and is one of the last remnants of the mammoth steppes. Uvs Lake is a shallow lake with an area of 3,350 km2 (1,290 sq mi). The basin, which includes several smaller lakes, is 70,000 km2 (27,000 sq mi)."},
+			{"text": "According to Greenpeace, Ubsunur Hollow counts 40,000 archaeological sites from nomadic Scythians, Turks, Huns and other tribes. A number of its archaeological artefacts remain unstudied. In Central Asia, it has the highest concentration of burial mounds, constituting around half of its archaeological sites, and many of which are older than the Egyptian pyramids. Thousands of rock carvings and stone sculptures remain from medieval settlements and Buddhist temples."}
+		]
 	}
 ]
