@@ -1710,6 +1710,18 @@
 			"Moves to new capital when capital changes",
 			"unsellable"]
 	},
+    {
+	    "name": "Arminius"
+		"uniqueTo": "Germany",
+		"cost": 0,
+		"culture": 1,
+		"uniques": ["Get the leader title of [Arminius]",
+			"All newly-trained [Land] units [in all cities] receive the [Woodsman] promotion",
+			"Can only be built <in [in capital] cities>",
+			"Only available <in cities without a [Frederick Barbarossa]>",
+			"Moves to new capital when capital changes",
+			"unsellable"]
+	},
 	{
 		"name": "Frederick Barbarossa"
 		"uniqueTo": "Germany",
@@ -1717,8 +1729,11 @@
 		"production": 1,
 		"uniques": ["Get the leader title of [Frederick Barbarossa]",
 			"[+30]% Strength <vs [City-States]>",
-			"Can only be built <in [in capital] cities>"]
-    },
+			"Can only be built <in [in capital] cities>",
+			"Only available <in cities without a [Arminius]>",
+			"Moves to new capital when capital changes",
+			"unsellable"]
+	},
     {
 		"name": "Alexander",
 		"uniqueTo": "Greece",
