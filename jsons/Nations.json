@@ -1712,7 +1712,7 @@
 		"favoredReligion": "Islam",
 		"uniqueName": "Merchant Economy",
         "uniques": ["[+10]% growth [in all cities]",
-            "[+4 Gold] from each Trade Route"]],
+            "[+4 Gold] from each Trade Route]",
         "cities": ["Kilwa Kiswani",
 			"Malindi","Sofala","Pemba","Mozambique","Lamu",
 			"Mahajanga","Antsiranana","Kismaoyo","Mzizima","Inhambane",
