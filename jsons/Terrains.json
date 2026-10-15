@@ -6,7 +6,8 @@
 		"food": 1,
 		"gold": 1,
 		"movementCost": 1,
-		"RGB": [43, 87, 151]
+		"RGB": [43, 87, 151],
+		"uniques": ["[+2 Science] <for every adjacent [Mariana Trench]> <hidden from users>"]
 	},
 	{
 		"name": "Coast",
@@ -18,7 +19,10 @@
 		"uniques": ["[+2] to Fertility for Map Generation",
             "Considered [Desirable] when determining start locations <on water maps>",
             "Every [60] tiles with this terrain will receive a major deposit of a strategic resource.",
-            "Coastal Water"]
+            "Coastal Water",
+			"[+1 Culture] <for every adjacent [Giant's Causeway]> <hidden from users>",
+			"[+2 Science] <for every adjacent [Mariana Trench]> <hidden from users>",
+			"[+1 Production] <for every adjacent [Mount Kineo]> <hidden from users>"]
 	},
 	{
 		"name": "Grassland",
@@ -43,7 +47,10 @@
             "Considered [Food] when determining start locations <in [Hill] Regions>",
             "Considered [Food] when determining start locations <in [Grassland] Regions>",
             "Considered [Food] when determining start locations <in [Hybrid] Regions>",
-            "Every [33] tiles with this terrain will receive a major deposit of a strategic resource."]
+            "Every [33] tiles with this terrain will receive a major deposit of a strategic resource.",
+			"[+1 Culture] <for every adjacent [Giant's Causeway]> <hidden from users>",
+			"[+1 Food] <for every adjacent [Mount Kilimanjaro]> <hidden from users>",
+			"[+1 Production] <for every adjacent [Mount Kineo]> <hidden from users>"]
     },
 	{
 		"name": "Plains",
@@ -71,7 +78,13 @@
             "Considered [Food] when determining start locations <in [Hill] Regions>",
             "Considered [Food] when determining start locations <in [Plains] Regions>",
             "Considered [Food] when determining start locations <in [Hybrid] Regions>",
-            "Every [33] tiles with this terrain will receive a major deposit of a strategic resource."]
+            "Every [33] tiles with this terrain will receive a major deposit of a strategic resource.",
+			"[+1 Culture] <for every adjacent [Giant's Causeway]> <hidden from users>",
+			"[+1 Food] <for every adjacent [Mount Kilimanjaro]> <hidden from users>",
+			"[+1 Production] <for every adjacent [Mount Kineo]> <hidden from users>",
+			"[+1 Culture] <for every adjacent [Uluru]> <hidden from users>",
+			"[+1 Faith] <for every adjacent [Uluru]> <hidden from users>"]
+			
 	},
 	{
 		"name": "Tundra",
@@ -89,7 +102,10 @@
             "Considered [Food] when determining start locations <in [Tundra] Regions>",
             "Considered [Desirable] when determining start locations <in [Tundra] Regions>",
             "Becomes [Plains] when adjacent to [River]",
-            "Every [16] tiles with this terrain will receive a major deposit of a strategic resource."]
+            "Every [16] tiles with this terrain will receive a major deposit of a strategic resource.",
+			"[+1 Culture] <for every adjacent [Giant's Causeway]> <hidden from users>",
+			"[+1 Food] <for every adjacent [Mount Kilimanjaro]> <hidden from users>",
+			"[+1 Production] <for every adjacent [Mount Kineo]> <hidden from users>"]
 	},
 	{
 		"name": "Desert",
@@ -105,7 +121,12 @@
             "A Region is formed with at least [25]% [Desert] tiles, with priority [4]",
             "Becomes [Flood plains] when adjacent to [River]",
             "Considered [Undesirable] when determining start locations <in all except [Desert] Regions>",
-            "Every [13] tiles with this terrain will receive a major deposit of a strategic resource."]
+            "Every [13] tiles with this terrain will receive a major deposit of a strategic resource.",
+			"[+1 Faith] <for every adjacent [Dead Sea]> <hidden from users>",
+			"[+1 Culture] <for every adjacent [Giant's Causeway]> <hidden from users>",
+			"[+1 Food] <for every adjacent [Mount Kilimanjaro]> <hidden from users>",
+			"[+1 Culture] <for every adjacent [Uluru]> <hidden from users>",
+			"[+1 Faith] <for every adjacent [Uluru]> <hidden from users>"]
 	},
 	{
 		"name": "Lakes",
@@ -115,7 +136,9 @@
 		"RGB": [0, 171, 169],
 		"uniques": ["Fresh water",
 					"Considered [Food] when determining start locations",
-					"Considered [Desirable] when determining start locations"],
+					"Considered [Desirable] when determining start locations",
+			        "[+1 Food] <for every adjacent [Mount Kilimanjaro]> <hidden from users>",
+			        "[+1 Production] <for every adjacent [Mount Kineo]> <hidden from users>"]
         "civilopediaText": [
             {"text": "Lakes provide fresh water to adjacent tiles, allowing farming where it would otherwise not be possible (similar to Rivers and Oases)."},
             {"text": "Rivers", "link":"Terrain/River"},
@@ -136,7 +159,9 @@
             "Occurs in chains at high elevations",
             "Units ending their turn on this terrain take [50] damage",
             "Always Fertility [-2] for Map Generation",
-            "Considered [Undesirable] when determining start locations"]
+            "Considered [Undesirable] when determining start locations",
+			"[+1 Culture] <for every adjacent [Giant's Causeway]> <hidden from users>",
+			"[+1 Production] <for every adjacent [Mount Kineo]> <hidden from users>"]
 	},
 	{
 		"name": "Snow",
@@ -153,7 +178,10 @@
             "Considered [Undesirable] when determining start locations",
             "Becomes [Tundra] when adjacent to [River]",
             "Every [17] tiles with this terrain will receive a major deposit of a strategic resource.",
-            "Never receives any resources <in [Hill] tiles>"]
+            "Never receives any resources <in [Hill] tiles>",
+			"[+1 Culture] <for every adjacent [Giant's Causeway]> <hidden from users>",
+			"[+1 Food] <for every adjacent [Mount Kilimanjaro]> <hidden from users>",
+			"[+1 Production] <for every adjacent [Mount Kineo]> <hidden from users>"]
 	},
 	{
 		"name": "Volcano",
@@ -166,7 +194,9 @@
             "Occurs in chains at high elevations",
             "Units ending their turn on this terrain take [50] damage",
             "Always Fertility [-6] for Map Generation",
-            "Considered [Undesirable] when determining start locations"]
+            "Considered [Undesirable] when determining start locations",
+			"[+1 Culture] <for every adjacent [Giant's Causeway]> <hidden from users>",
+			"[+1 Production] <for every adjacent [Mount Kineo]> <hidden from users>"]
 	},
 
 	// Terrain features
@@ -397,10 +427,9 @@
 		"science": 2,
 		"occursOn": ["Ocean"],
 		"uniques": ["Must be adjacent to [1] to [6] [Coast] tiles",
-			"Must be adjacent to [4] [Water] tiles",
+			"Must be adjacent to [6] [Water] tiles",
 			"Occurs on latitudes from [10] to [70] percent of distance equator to pole",
-			"Occurs in groups of [4] to [4] tiles",
-			"Must be adjacent to [1] to [2] [Great Barrier Reef] tiles"],
+			"Occurs in groups of [4] to [4] tiles"],
 		"turnsInto": "Coast",
 		"impassable": true,
 		"unbuildable": true,
@@ -617,7 +646,8 @@
 		"occursOn": ["Lakes"],
 		"uniques": ["Must be adjacent to [0] [Coast] tiles",
 			"Must be adjacent to [1] to [6] [Desert] tiles",
-			"Neighboring tiles will convert to [Desert]"],
+			"Neighboring tiles will convert to [Desert]",
+			"Comment [+1 Faith for neighboring tiles]"],
 		"turnsInto": "Desert",
 		"impassable": true,
 		"unbuildable": true,
@@ -635,6 +665,7 @@
 		"occursOn": ["Plains","Mountain"],
 		"uniques": ["Must be adjacent to [1] to [3] [Lakes] tiles",
 			"Must be adjacent to [0] [Desert] tiles",
+			"Comment [+1 Production for neighboring tiles]"],
 			"[+10]% Production when constructing [All] wonders [in this city]"],
 		"turnsInto": "Mountain",
 		"impassable": true,
@@ -682,8 +713,7 @@
 			"Must be adjacent to [0] [Tundra] tiles",
 			"Must be adjacent to [0] [Coast] tiles",
 			"Occurs on latitudes from [20] to [70] percent of distance equator to pole",
-			"Occurs in groups of [4] to [4] tiles",
-			"Must be adjacent to [2] to [3] [Pantanal] tiles"],
+			"Occurs in groups of [4] to [4] tiles"],
 		"turnsInto": "Grassland",
 		"unbuildable": true,
 		"weight": 10,
@@ -704,9 +734,11 @@
 		"impassable": true,
 		"unbuildable": true,
 		"uniques": ["Must be adjacent to [0] [Coast] tiles",
+			"Must be adjacent to [0] [Mountain] tiles",
+			"Must be adjacent to [0] [Volcano] tiles",
 			"Must be adjacent to [2] to [6] [Hill] tiles",
-			"Must be adjacent to [0] to [2] [Mountain] tiles",
-			"Grants [Altitude Training] ([double movement and +10% Strength in hills]) to adjacent [Land] units for the rest of the game"],
+			"Grants [Altitude Training] ([double movement and +10% Strength in hills]) to adjacent [Land] units for the rest of the game",
+		    "Comment [+1 Food for neighboring tiles]"],
 		"weight": 10,
 		"civilopediaText": [
 			{"text": ""},
@@ -722,7 +754,7 @@
 		"uniques": ["Must be adjacent to [1] to [5] [Ocean] tiles",
 			"Must be adjacent to [1] to [2] [Coast] tiles",
 			"Occurs in groups of [4] to [4] tiles",
-			"Must be adjacent to [1] to [2] [Mariana Trench] tiles"],
+			"Comment [+2 Science for neighboring tiles]"],
 		"turnsInto": "Ocean",
 		"unbuildable": true,
 		"weight": 10,
@@ -742,7 +774,7 @@
 		"defenceBonus": 0.35,
 		"occursOn": ["Grassland","Plains"],
 		"uniques": ["Must be adjacent to [1] to [3] [Coast] tiles",
-			"Must be adjacent to [2] to [2] [Redwood Forest] tiles",
+			"Must be adjacent to [0] to [2] [Redwood Forest] tiles",
 			"Must be adjacent to [0] to [2] [Mountain] tiles",
 			"Must be adjacent to [0] [Volcano] tiles",
 			"Occurs in groups of [3] to [3] tiles"],
@@ -775,8 +807,7 @@
 		"overrideStats": true,
 		"occursOn": ["Desert"],
 		"uniques": ["Must be adjacent to [0] [Coast] tiles",
-			"Occurs in groups of [4] to [4] tiles",
-			"Must be adjacent to [2] to [3] tiles"],
+			"Occurs in groups of [4] to [4] tiles"],
 		"turnsInto": "Desert",
 		"impassable": true,
 		"unbuildable": true,
@@ -813,7 +844,8 @@
 		"uniques": ["Must be adjacent to [2] to [4] [Land] tiles",
 			"Occurs on latitudes from [40] to [70] percent of distance equator to pole",
 			"Occurs in groups of [2] to [2] tiles",
-			"Grants [Spear of Fionn] ([+10% Strength]) to adjacent [Land] units for the rest of the game"],
+			"Grants [Spear of Fionn] ([+10% Strength]) to adjacent [Land] units for the rest of the game",
+			"Comment [+1 Culture for neighboring tiles]"],
 		"turnsInto": "Coast",
 		"impassable": true,
 		"unbuildable": true,
@@ -917,8 +949,7 @@
 			"Must be adjacent to [0] to [1] [Desert] tiles",
 			"Must be adjacent to [1] [Tundra] tiles",
 			"Must be adjacent to [0] [Water] tiles",
-			"Occurs in groups of [4] to [4] tiles",
-			"Must be adjacent to [2] to [3] [Ubsunur Hollow] tiles"],
+			"Occurs in groups of [4] to [4] tiles"],
 		"turnsInto": "Plains",
 		"unbuildable": true,
 		"weight": 10,
@@ -937,7 +968,8 @@
 			"Must be adjacent to [0] [Grassland] tiles",
 			"Must be adjacent to [0] [Tundra] tiles",
 			"Must be adjacent to [0] [Marsh] tiles",
-			"Must be adjacent to [3] to [6] [Plains] tiles"],
+			"Must be adjacent to [3] to [6] [Plains] tiles",
+			"Comment [+1 Culture, +1 Faith for neighboring tiles]"],
 		"turnsInto": "Mountain",
 		"impassable": true,
 		"unbuildable": true,
