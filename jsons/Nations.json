@@ -1207,6 +1207,7 @@
 		
         "outerColor": [255, 148, 10],
         "innerColor": [3, 16, 230],
+		"favoredReligion": "Buddhism",
         "uniqueName": "Pyu City States",
         "uniques": ["[+1 Happiness] [in all cities]"],
         "cities": ["Yangon",
@@ -1687,6 +1688,38 @@
 			"Izumi","Omi","Echigo","Kozuke","Sado","Kobe","Nagano","Hiroshima","Takayama","Akita","Fukuoka","Aomori",
 			"Kamakura","Kochi","Naha","Sendai","Gifu","Yamaguchi","Ota","Tottori"],
         "spyNames": ["Akaishi", "Oki", "Hattori", "Morozumi", "Momochi", "Kawashima", "Orin", "Sakanishi", "Kaede", "Mochizuki"]
+	},
+	{
+		"name": "Kilwa",
+        "leaderName": "Ali ibn al-Hassan Shirazi",
+        "adjective": ["Kilwa"],
+        "startBias": ["Coast"],
+		
+        "startIntroPart1": "Greetings to you, resourceful Ali ibn al-Hassan Shirazi. You are the founder of the mighty Kilwa Sultanate, a proud people of the sea. You purchased the island which would become your capital for mere cloth after your unlawful ostracism at the hands of your brothers, and built it into a proud city, the envy of the known world. From this new capital, your people, proud traders by nature, travelled the length of the African coast, spreading the influence of your sultanate. The Kilwa are a tolerant people, indeed those cities under your rule feature many separate beliefs, languages and peoples - a venerable melting pot of cultures which together forged the identity of the Swahili people who to this day occupy the lands of your former sultanate.",
+        "startIntroPart2": "The empire lasted long after your death, with your descendants ruling for many more centuries, expanding the rule of the Kilwa Sultanate far and wide, falling only to an invasion of superior weaponry at the hands of European colonials. Yet none could compare to you, wise leader. Your people call for you to lead them to greatness across the seas. Will you answer their call? Can you build a civilization that will stand the test of time?",
+		
+        "declaringWar": "It is horrible both you and I have to resort to war. But what's done is done, I suppose...",
+        "attacked": "I think you know I have this great stash of gold like barely anyone has ever seen before. Maybe you can reconsider... No? Okay, fine, your loss...",
+        "defeated": "At least I am defeated in battle, instead of falling by some treacherous vizier or an unknown cousin...",
+        "introduction": "Ah, we finally meet. Rumors and news of your great nation has already reached me through travelers.",
+		
+        "neutralHello": "Greetings.",
+        "hateHello": "What do you want?",
+        "tradeRequest": "I urge to accept this deal. I have plenty of colored cloth...",
+		
+        "outerColor": [119,59,129],
+        "innerColor": [194,222,155],
+		"favoredReligion": "Islam",
+		"uniqueName": "Merchant Economy",
+        "uniques": ["[+10]% growth [in all cities]",
+            "[+4 Gold] from each Trade Route"]],
+        "cities": ["Kilwa Kiswani",
+			"Malindi","Sofala","Pemba","Mozambique","Lamu",
+			"Mahajanga","Antsiranana","Kismaoyo","Mzizima","Inhambane",
+			"Mafia","Comoro","Songo Mnara","Bazarula","Pate",
+			"Gedi","Chilane","Primeiras","Angosha","Mayotta",
+			"Kerimba","Anzwani","Mohilla"],
+        "spyNames": ["Daud","Talut","Sabhatx","Khalid","Al-Fudail","Adilah","Kamaria","Sanaa","Hasana","Taariq"
 	},
 	{
 		"name": "Kongo",
@@ -2657,6 +2690,7 @@
 		
         "outerColor": [74,59,47],
         "innerColor": [255,120,0],
+		"favoredReligion": "Wakan Tanka",
         "uniqueName": "Dwellers of the Plains",
         "uniques": ["[+15]% Strength <for [Military] units> <in [Plains] tiles>"],
         "cities": ["Ihankthunwanna",
@@ -2751,6 +2785,7 @@
 		
         "outerColor": [57,57,57],
         "innerColor": [255,45,45],
+		"favoredReligion": "Islam",
         "uniqueName": "Ulugh Beg's Observatory",
         "uniques": ["Gain a free [Ulugh Beg's Observatory] [in capital]"],
         "cities": ["Samarkand",
@@ -2878,6 +2913,7 @@
 		
         "outerColor": [26,49,119],
         "innerColor": [220,88,83],
+		"favoredReligion": "Christianity",
         "uniqueName": "Non-Aligned Doctrine",
         "uniques": ["Free Social Policy <upon entering the [Industrial era]>",
 			"[+1 Gold] from every specialist [in all cities] <after adopting [Autocracy]>", "[+2 Production, +2 Science] [in all cities] <after adopting [Autocracy]>",
@@ -3181,7 +3217,7 @@
 		"civilopediaText": [{"text": "Capital of The Philippines"}]
 	},
 	{
-		"name": "Mogadishu", // Introduced in BNW
+		"name": "Mogadishu", // Introduced in BNW, and this mod
 		"adjective": ["Maqdishawi"],
 		"cityStateType": "Maritime",
 
@@ -3191,7 +3227,6 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [56, 255, 112],
 		"cities": ["Mogadishu"],
-        "uniques": ["Will not be displayed in Civilopedia", "Will not be chosen for new games", "Excluded from map editor"]
 	},
 	{
 		"name": "Mombasa",
@@ -3439,7 +3474,9 @@
 		"defeated": "How barbaric. Those who live by the sword shall perish by the sword.",
 		"outerColor": [0, 0, 0],
 		"innerColor": [255, 216, 0],
-		"cities": ["Hong Kong"]
+		"cities": ["Hong Kong"],
+
+		"civilopediaText": [{"text": "A city in Southern China, colonized by Britain."}]
 	},
 	{
 		"name": "Khartoum",
@@ -3465,7 +3502,9 @@
 		"defeated": "We were too weak to protect ourselves...",
 		"outerColor": [0, 0, 0],
 		"innerColor": [255, 216, 0],
-		"cities": ["Macau"]
+		"cities": ["Macau"],
+
+		"civilopediaText": [{"text": "A city in Southern China, colonized by Portugal."}]
 	},
 	{
 		"name": "Nan Madol",
@@ -3740,7 +3779,8 @@
 		"innerColor": [255, 0, 0],
 		"cities": ["Djibouti City"],
 		
-		"civilopediaText": [{"text": "Capital of Djibouti."}]
+		"civilopediaText": [{"text": "Capital of Djibouti."},
+			{"text": "Djibouti has allowed military bases from several nations, including France, China, Italy, and the United States, which is why Djibouti City is militaristic in this mod."}]
 	},
 	{
 		"name": "Dublin",
