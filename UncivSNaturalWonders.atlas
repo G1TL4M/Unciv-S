@@ -94,7 +94,7 @@ TileSets/FantasyHex/Tiles/Chocolate Hills
   orig: 32, 32
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Chicxulub
+TileSets/FantasyHex/Tiles/Chicxulub Crater
   rotate: false
   xy: 124, 44
   size: 32, 32
