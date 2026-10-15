@@ -665,7 +665,7 @@
 		"occursOn": ["Plains","Mountain"],
 		"uniques": ["Must be adjacent to [1] to [3] [Lakes] tiles",
 			"Must be adjacent to [0] [Desert] tiles",
-			"Comment [+1 Production for neighboring tiles]"],
+			"Comment [+1 Production for neighboring tiles]",
 			"[+10]% Production when constructing [All] wonders [in this city]"],
 		"turnsInto": "Mountain",
 		"impassable": true,
