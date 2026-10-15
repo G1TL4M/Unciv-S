@@ -742,10 +742,10 @@
 		"defenceBonus": 0.35,
 		"occursOn": ["Grassland","Plains"],
 		"uniques": ["Must be adjacent to [1] to [3] [Coast] tiles",
-			"Must be adjacent to [0] to [2] [Redwood Forest] tiles",
+			"Must be adjacent to [2] to [2] [Redwood Forest] tiles",
 			"Must be adjacent to [0] to [2] [Mountain] tiles",
 			"Must be adjacent to [0] [Volcano] tiles",
-			"Occurs in groups of [1] to [4] tiles"],
+			"Occurs in groups of [3] to [3] tiles"],
 		"turnsInto": "Grassland",
 		"unbuildable": true,
 		"weight": 10
