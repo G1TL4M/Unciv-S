@@ -336,16 +336,16 @@
 				"quote": "'The winds and the waves are always on the side of the ablest navigators.' - Edward Gibbon"
 			},
 			{
-				"name": "Greenhouse",
-				"row": 4,
-				"prerequisites": ["Acoustics"],
-				"quote": "'Lorem ipsum dolor sit amet.' - Developer"
-			},
-			{
 				"name": "Architecture",
-				"row": 5,
+				"row": 4,
 				"prerequisites": ["Acoustics","Banking"],
 				"quote": "'Architecture begins where engineering ends.' - Walter Gropius"
+			},
+			{
+				"name": "Greenhouse",
+				"row": 5,
+				"prerequisites": ["Acoustics"],
+				"quote": "'Lorem ipsum dolor sit amet.' - Developer"
 			},
 			{
 				"name": "Economics",
