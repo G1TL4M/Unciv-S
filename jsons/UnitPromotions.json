@@ -828,6 +828,11 @@
 		"name": "The First Emperor", // Qin Shi Huang
 		"uniques": ["Can speed up construction of a building <before the [Medieval era]>"]
 	},
+
+	// Religious promotions
+	{
+		"name": "Faith Healers",
+		"uniques": ["All adjacent units heal [+15] HP when healing"]
 	
 	// For barbarian water units
 	{
