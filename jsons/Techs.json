@@ -336,8 +336,14 @@
 				"quote": "'The winds and the waves are always on the side of the ablest navigators.' - Edward Gibbon"
 			},
 			{
-				"name": "Architecture",
+				"name": "Greenhouse",
 				"row": 4,
+				"prerequisites": ["Acoustics"],
+				"quote": "'Lorem ipsum dolor sit amet.' - Developer"
+			},
+			{
+				"name": "Architecture",
+				"row": 5,
 				"prerequisites": ["Acoustics","Banking"],
 				"quote": "'Architecture begins where engineering ends.' - Walter Gropius"
 			},
@@ -381,7 +387,7 @@
 			{
 				"name": "Scientific Theory",
 				"row": 4,
-				"prerequisites": ["Architecture","Economics"],
+				"prerequisites": ["Greenhouse","Architecture","Economics"],
                 "uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'Every great advance in science has issued from a new audacity of imagination.' - John Dewey"
 			},
