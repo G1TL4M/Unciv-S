@@ -1495,7 +1495,7 @@
 		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
 	},
 	{
-		"nams": "Dar-e Mehr",
+		"name": "Dar-e Mehr",
 		"cost": 0,
 		"faith": 3,
 		"uniques": ["[+1 Faith] from every specialist [in this city]",
