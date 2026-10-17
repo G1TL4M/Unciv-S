@@ -1560,8 +1560,7 @@
 		"science": 2,
 		"culture": 3,
 		"uniques": ["[+1 Science] from [Jungle] tiles [in this city]",
-			"Unbuildable", "Only available <when religion is enabled>"],
-		"requiredTech": "Education"
+			"Unbuildable", "Only available <when religion is enabled>"]
 
 	},
 
