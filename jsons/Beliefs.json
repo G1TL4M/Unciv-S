@@ -306,7 +306,7 @@
     },
     {
         "name": "Cross-Cultural Dialogue",
-        "type" "Founder",
+        "type": "Founder",
         "uniques" ["[+1 Science] from every [5] global followers [in foreign cities]"]
     },
     {
