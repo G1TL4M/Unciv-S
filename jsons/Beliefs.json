@@ -29,6 +29,11 @@
         // Preferably I would not have a cityFilter here, but doing so requires no additional implementation
     },
     {
+        "name": "Fire Goddess",
+        "type": "Pantheon",
+        "uniques": ["[+2 Faith] from every [Volcano]"]
+    },
+    {
         "name": "God of Craftsman",
         "type": "Pantheon",
         "uniques": ["[+1 Production] [in cities following this religion] <in cities with at least [3] [Population]>",
@@ -52,9 +57,19 @@
         "uniques": ["[+1 Faith] from every [Mountain]", "[+1] Sight <for [Embarked] units>", "[+2 Faith] from every [Observatory]"]
     },
     {
+        "name": "God of the Sun",
+        "type": "Pantheon",
+        "uniques": ["[+1 Food] from every [Farm]"]
+    },
+    {
         "name": "God of War",
         "type": "Pantheon",
         "uniques": ["Earn [50]% of [Military] unit's [Strength] as [Faith] when killed within 4 tiles of a city following this religion"]
+    },
+    {
+        "name": "God of Watery Abyss",
+        "type": "Pantheon",
+        "uniques": ["[+1 Production] from every [Fishing Boats]"]
     },
     {
         "name": "God-King",
@@ -89,6 +104,11 @@
         "uniques": ["[+1 Food] from every [Camp]"]
     },
     {
+        "name": "Lady of the Reeds and Marshes",
+        "type": "Pantheon",
+        "uniques": ["[+2 Production] from every [Marsh]","[+2 Production] from every [Oasis]","[+2 Production] from every [Flood Plains]"]
+    },
+    {
         "name": "Messenger of the Gods",
         "type": "Pantheon",
         "uniques": ["[+2 Science] from each Trade Route"]
@@ -118,7 +138,7 @@
         "name": "Religious Settlements",
         "type": "Pantheon",
         "uniques": ["[-15]% Culture cost of natural border growth [in cities following this religion]",
-          "May buy [Settler] units with [Faith] for [4] times their normal Production cost <in [in cities following this religion] cities>"]
+          "May buy [Settler] units with [Faith] for [3] times their normal Production cost <in [in cities following this religion] cities>"]
     },
     {
         "name": "Sacred Path",
@@ -165,6 +185,11 @@
         "uniques": ["[+4 Culture] from every [Temple] <in cities with at least [5] [Followers of this Religion]>"]
     },
     {
+        "name": "Dar-e Mehr",
+        "type": "Follower",
+        "uniques": ["May buy [Dar-e Mehr] buildings with [Faith] [in cities following this religion]"]
+    },
+    {
         "name": "Divine inspiration",
         "type": "Follower",
         "uniques": ["[+2 Faith] from every [Wonder]"]
@@ -174,6 +199,11 @@
         "type": "Follower",
         "uniques": ["[+1 Food] from every [Shrine]", "[+2 Food] from every [Temple]",
             "[+2 Food] from every [Holy Site]"]
+    },
+    {
+        "name": "Gurdwara",
+        "type": "Follower",
+        "uniques": ["May buy [Gurdwara] buildings with [Faith] [in cities following this religion]"]
     },
     {
         "name": "Guruship",
@@ -190,6 +220,11 @@
         "name": "Liturgical Drama",
         "type": "Follower",
         "uniques": ["[+1 Faith] from every [Amphitheater] <in cities with at least [3] [Followers of this Religion]>"]
+    },
+    {
+        "name": "Meeting House",
+        "type": "Follower",
+        "uniques": ["May buy [Meeting House] buildings with [Faith] [in cities following this religion]"]
     },
     {
         "name": "Monasteries",
@@ -233,9 +268,24 @@
         "uniques": ["[+1]% [Production] from every follower, up to [20]%"]
     },
     {
+        "name": "Stupa",
+        "type": "Follower",
+        "uniques": ["May buy [Stupa] buildings with [Faith] [in cities following this religion]"]
+    },
+    {
         "name": "Swords into Ploughshares",
         "type": "Follower",
         "uniques": ["[+15]% growth [in this city] <when not at war>"]
+    },
+    {
+        "name": "Synagogue",
+        "type": "Follower",
+        "uniques": ["May buy [Synagogue] buildings with [Faith] [in cities following this religion]"]
+    },
+    {
+        "name": "Wat",
+        "type": "Follower",
+        "uniques": ["May buy [Wat] buildings with [Faith] [in cities following this religion]"]
     },
     {
         "name": "Idea 1",
@@ -255,6 +305,11 @@
         "uniques": ["[+2 Gold] for each global city following this religion"]
     },
     {
+        "name": "Cross-Cultural Dialogue",
+        "type" "Founder",
+        "uniques" ["[+1 Science] from every [5] global followers [in foreign cities]"]
+    },
+    {
         "name": "Initiation Rites",
         "type": "Founder",
         "uniques": ["[+100 Gold] when a city adopts this religion for the first time <(modified by game speed)>"]
@@ -263,6 +318,11 @@
         "name": "Interfaith Dialogue",
         "type": "Founder",
         "uniques": ["When spreading religion to a city, gain [10] times the amount of followers of other religions as [Science]"]
+    },
+    {
+        "name": "Lay Ministry",
+        "type": "Founder",
+        "uniques": ["[+1 Faith, +1 Culture] from every [Holy site]","[+1 Faith, +1 Culture] from every [Landmark]"]
     },
     {
         "name": "Papal Primacy",
@@ -280,6 +340,11 @@
         "name": "Pilgrimage",
         "type": "Founder",
         "uniques": ["[+2 Faith] for each global city following this religion"]
+    },
+    {
+        "name": "Stewardship",
+        "type": "Founder",
+        "uniques": ["[+1 Science, +1 Gold] from every [Academy]","[+1 Science, +1 Gold] from every [Customs house]"]
     },
     {
         "name": "Tithe",
