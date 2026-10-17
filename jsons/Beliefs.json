@@ -177,7 +177,8 @@
     {
         "name": "Cathedrals",
         "type": "Follower",
-        "uniques": ["May buy [Cathedral] buildings with [Faith] [in cities following this religion]"]
+        "uniques": ["May buy [Cathedral] buildings with [Faith] [in cities following this religion]",
+            "Comment [+3 Culture, +1 Happiness, +1 Faith, +1 Artist slot]"]
     },
     {
         "name": "Choral Music",
@@ -185,9 +186,10 @@
         "uniques": ["[+4 Culture] from every [Temple] <in cities with at least [5] [Followers of this Religion]>"]
     },
     {
-        "name": "Dar-e Mehr",
+        "name": "Dar-e Mehrs",
         "type": "Follower",
-        "uniques": ["May buy [Dar-e Mehr] buildings with [Faith] [in cities following this religion]"]
+        "uniques": ["May buy [Dar-e Mehr] buildings with [Faith] [in cities following this religion]",
+            "Comment [+3 Faith, +1 Faith from every specialist]"]
     },
     {
         "name": "Divine inspiration",
@@ -201,9 +203,10 @@
             "[+2 Food] from every [Holy Site]"]
     },
     {
-        "name": "Gurdwara",
+        "name": "Gurdwaras",
         "type": "Follower",
-        "uniques": ["May buy [Gurdwara] buildings with [Faith] [in cities following this religion]"]
+        "uniques": ["May buy [Gurdwara] buildings with [Faith] [in cities following this religion]",
+            "Comment [+3 Faith, +2 Food]"]
     },
     {
         "name": "Guruship",
@@ -222,19 +225,22 @@
         "uniques": ["[+1 Faith] from every [Amphitheater] <in cities with at least [3] [Followers of this Religion]>"]
     },
     {
-        "name": "Meeting House",
+        "name": "Meeting Houses",
         "type": "Follower",
-        "uniques": ["May buy [Meeting House] buildings with [Faith] [in cities following this religion]"]
+        "uniques": ["May buy [Meeting House] buildings with [Faith] [in cities following this religion]",
+            "Comment [+3 Faith, +2 Production]"]
     },
     {
         "name": "Monasteries",
         "type": "Follower",
-        "uniques": ["May buy [Monastery] buildings for [150] [Faith] [in cities following this religion]"]
+        "uniques": ["May buy [Monastery] buildings for [150] [Faith] [in cities following this religion]",
+            "Comment [+1 Culture, +1 Faith from Grape and Incense tiles in this city]"]
     },
     {
         "name": "Mosques",
         "type": "Follower",
-        "uniques": ["May buy [Mosque] buildings with [Faith] [in cities following this religion]"]
+        "uniques": ["May buy [Mosque] buildings with [Faith] [in cities following this religion]",
+            "Comment [+3 Faith, +2 Culture, +1 Happiness]"]
     },
     {
         "name": "Nonattachment",
@@ -244,7 +250,8 @@
     {
         "name": "Pagodas",
         "type": "Follower",
-        "uniques": ["May buy [Pagoda] buildings with [Faith] [in cities following this religion]"]
+        "uniques": ["May buy [Pagoda] buildings with [Faith] [in cities following this religion]",
+            "Comment [+2 Culture, Faith, and Happiness]"]
     },
     {
         "name": "Peace Gardens",
@@ -268,9 +275,10 @@
         "uniques": ["[+1]% [Production] from every follower, up to [20]%"]
     },
     {
-        "name": "Stupa",
+        "name": "Stupas",
         "type": "Follower",
-        "uniques": ["May buy [Stupa] buildings with [Faith] [in cities following this religion]"]
+        "uniques": ["May buy [Stupa] buildings with [Faith] [in cities following this religion]",
+            "Comment [+3 Faith, +2 Happiness]"]
     },
     {
         "name": "Swords into Ploughshares",
@@ -278,14 +286,16 @@
         "uniques": ["[+15]% growth [in this city] <when not at war>"]
     },
     {
-        "name": "Synagogue",
+        "name": "Synagogues",
         "type": "Follower",
-        "uniques": ["May buy [Synagogue] buildings with [Faith] [in cities following this religion]"]
+        "uniques": ["May buy [Synagogue] buildings with [Faith] [in cities following this religion]",
+            "Comment [+5 Faith, +2 Gold]"]
     },
     {
-        "name": "Wat",
+        "name": "Wats",
         "type": "Follower",
-        "uniques": ["May buy [Wat] buildings with [Faith] [in cities following this religion]"]
+        "uniques": ["May buy [Wat] buildings with [Faith] [in cities following this religion]",
+            "Comment [+3 Culture, +2 Science, +1 Science from Jungle tiles in this city]"]
     },
     {
         "name": "Idea 1",
