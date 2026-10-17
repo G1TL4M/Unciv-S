@@ -307,7 +307,7 @@
     {
         "name": "Cross-Cultural Dialogue",
         "type": "Founder",
-        "uniques" ["[+1 Science] from every [5] global followers [in foreign cities]"]
+        "uniques": ["[+1 Science] from every [5] global followers [in foreign cities]"]
     },
     {
         "name": "Initiation Rites",
