@@ -382,18 +382,6 @@
 		"requiredBuilding": "Shrine",
 		"requiredTech": "Philosophy"
 	},
-    {
-	    "name": "Synagogue",
-		"replaces": "Temple",
-		"uniqueTo": "Israel", 
-		"faith": 2,
-		"happiness": 1,
-		"gold": 2,
-		"cost": 100,
-		"hurryCostModifier": 25,
-		"requiredBuilding": "Shrine"
-		"requiredTech": "Philosophy"
-	},
 	{
 		"name": "Pura",
 		"replaces": "Temple",
@@ -709,19 +697,6 @@
 		"uniques": ["[+2 Science] from [Jungle] tiles [in this city]"],
 		"requiredTech": "Education"
 	},
-	{
-		"name": "Wat",
-		"replaces": "University",
-		"uniqueTo": "Siam",
-		"maintenance": 2,
-		"hurryCostModifier": 15,
-		"percentStatBonus": {"science": 33},
-		"specialistSlots": {"Scientist": 2},
-		"culture": 3,
-		"requiredBuilding": "Library",
-		"uniques": ["[+2 Science] from [Jungle] tiles [in this city]"],
-		"requiredTech": "Education"
-	},
     {
         "name": "Research Station",
 		"replaces": "University",
@@ -748,7 +723,7 @@
 		"culture": 1,
 		"greatPersonPoints": {"Great Engineer": 1},
 		"isWonder": true,
-		"uniques": ["[-25]% Culture cost of natural border growth [in all cities]","[-25]% Gold cost of acquiring tiles [in all cities]"],
+		"uniques": ["Gain a free [Wat] [in this city]","[-25]% Culture cost of natural border growth [in all cities]","[-25]% Gold cost of acquiring tiles [in all cities]"],
 		"requiredTech": "Education",
 		"quote": "'The temple is like no other building in the world. It has towers and decoration and all the refinements which the human genius can conceive of.' - Antonio da Magdalena"
 	},
@@ -1520,6 +1495,27 @@
 		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
 	},
 	{
+		"nams": "Dar-e Mehr",
+		"cost": 0,
+		"faith": 3,
+		"uniques": ["[+1 Faith] from every specialist [in this city]",
+			"Unbuildable", "Only available <when religion is enabled>"]
+    },
+    {
+		"name": "Gurdwara",
+		"cost": 0,
+		"faith": 3,
+		"food": 2,
+		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
+	},
+    {
+		"name": "Meeting House",
+		"cost": 0,
+		"faith": 3,
+		"production": 2,
+		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
+	},
+    {
 		"name": "Monastery",
 		"cost": 0,
 		"culture": 2,
@@ -1543,6 +1539,29 @@
 		"faith": 2,
 		"happiness": 2,
 		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
+	},
+	{
+		"name": "Stupa",
+		"cost": 0,
+		"faith": 3,
+		"happiness": 2,
+		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
+	},
+    {
+		"name": "Synagogue",
+		"cost": 0,
+		"faith": 5,
+		"gold": 2,
+		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
+	},
+	{
+		"name": "Wat",
+		"cost": 0,
+		"science": 2,
+		"culture": 3,
+		"uniques": ["[+1 Science] from [Jungle] tiles [in this city]",
+			"Unbuildable", "Only available <when religion is enabled>"],
+		"requiredTech": "Education"
 
 	},
 
