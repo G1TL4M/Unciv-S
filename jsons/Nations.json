@@ -1991,10 +1991,10 @@
 	},
 	{
 		"name": "Navajo",
-		"leaderName": "Barboncito",
+		"leaderName": "Hastiin Daghaa",
 		"adjective": ["Navajo"],
 		"startBias": ["Plains"],
-		"preferredVictoryType": "Domination",
+		"preferredVictoryType": "Diplomatic",
 		
 		"startIntroPart1": "",
 		
@@ -2013,10 +2013,9 @@
 		
 		"uniqueName": "Dine Bizaad",
 		"uniques": ["[+1 Faith] [in all cities]","May buy [Food] buildings with [Faith] [in all cities]","[Faith] cost of purchasing [Food] buildings [-35]%","[-75]% enemy spy effectiveness [in all cities]"],
-		"cities": ["Alamo","Q'Throczan","Q'Chovex","Q'Imphet","Q'Omphead","Q'Grecoks","Q'Vrelzieks","Q'Vronens","Q'Aerlae",
-			"Q'Phulnoith","Q'Creved","Q'Xirqen","Q'Gax","Q'Threqals","Q'Bhilmuk","Q'Mazea","Q'Zomirs","Q'Drorkrex","Q'Honkrath",
-			"Q'Zulgra","Q'Vahars","Q'Crindith","Q'Raavraes","Q'Bhoknais","Qho'Qru","Q'Dateatz","Q'Elnad","Q'Izien","Qol'Ell",
-			"Q'Dhihien","Q'Naquiel","Q'Ugneon","Q'Straquks","Q'Nulptr","Q'Ohfahl"]
+		"cities": ["Tseghahoodzani",
+			"Chinle","Cañon de Chelly","Navajo Springs","Kaibito","Lukachukai",
+			"Leupp","Ganado","Tohatchi","Reec Nos Pos","Shonto"]
 	},
 	{
 		"name": "Nubia",
