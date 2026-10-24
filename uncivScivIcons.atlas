@@ -1,5 +1,5 @@
 uncivScivIcons.png
-size: 800, 500
+size: 800, 600
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
@@ -220,6 +220,13 @@ NationIcons/Maurya
   orig: 100, 100
   offset: 0, 0
   index: -1
+NationIcons/The Celts
+  rotaye: false
+  xy: 700, 300
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 NationIcons/Antarctica
   rotate: false
   xy: 0, 400
@@ -265,6 +272,27 @@ NationIcons/Yugoslavia
 NationIcons/Israel
   rotaye: false
   xy: 600, 400
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/The Shoshone
+  rotaye: false
+  xy: 700, 400
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Turkiye
+  rotaye: false
+  xy: 0, 500
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Anangu
+  rotaye: false
+  xy: 100, 500
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
