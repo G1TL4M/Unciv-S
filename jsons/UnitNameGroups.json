@@ -4,8 +4,16 @@
         "unitNames": ["Ahuitzotl", "Akbar", "Albrecht von Wallenstein", "Arminius", "Belisarius", "Bernard Montgomery", "Cao Cao", "Chandragupta Maurya", "Charles Martel", "El Cid", "Epaminondas", "Erwin Rommel", "Eugene of Savoy", "Francisco Pizarro", "Gaius Marius", "George Patton", "Georgy Zhukov", "Geronimo", "Hamilcar Barca", "Hannibal Barca", "Heinz Guderian", "Hernan Cortez", "Ivan the Terrible", "Jeanne d'Arc", "Johann Tserclaes", "Khaled ibn al-Walid", "Leonidas", "Lysander", "Maurice of Nassau", "Oliver Cromwell", "Pompey", "Pyrrhus", "Robert E. Lee", "Sargon", "Scipio Africanus", "Sitting Bull", "Spartacus", "Subutai", "Sun Tzu", "Timur", "Vercingetorix", "William the Conqueror", "Winfield Scott", "Zhuge Liang"]
     },
     {
+        "name": "Khan",
+        "unitNames": ["Batu", "Berke", "Genghis", "Guyuk", "Hulegu", "Kublai", "Mongke", "Mongke Temur", "Ogedei", "Temur Khagan"]
+    },
+    {
         "name": "Admiral",
         "unitNames": ["Afonso de Albuquerque", "Alfred von Tirpitz", "Álvaro de Bazán", "Andrea Doria", "Andrew Cunningham", "Calonymus of Alexandria", "Chester W. Nimitz", "Christopher Columbus", "Comte de Grasse", "David Farragut", "Don John of Austria", "Erik the Red", "Ferdinand Magellan", "Fernando Villaamil", "Francis Drake", "Fyodor Ushakov", "George Dewey", "Hanno", "Hayreddin Barbarossa", "Henry the Navigator", "Himilco", "Horatio Nelson", "Isoroku Yamamoto", "Jacques Cartier", "James Cook", "John Doukas", "John Hawkins", "John Paul Jones", "Leif Ericson", "Marcus Atilius Regulus", "Marcus Vipsanius Agrippa", "Matthew Perry", "Michiel de Ruyter", "Murat Reis", "Peter Wessel Tordenskjold", "Phormio", "Pytheas", "Roger of Lauria", "Shi Lang", "Togo Heihachiro", "Turgut Reis", "Vasco da Gama", "Yi Sun-sin", "Zheng He", "Zinovy Rozhestvensky"]
+    },
+    {
+        "name": "Buccaneer",
+        "unitNames": ["Blackbeard", "Anne Bonny", "Henry Every", "Samuel Bellamy", "Mary Critchett", "Nicholas de Concepcion", "Joseph Faro", "Richard Frowd", "William Kidd", "Francis Leslie", "John Rackam", "Emanuel Wynn", "Richard Worley"]
     },
     {
         "name": "Artist",
@@ -22,10 +30,6 @@
     {
         "name": "Scientist",
         "unitNames": ["Al-Khwarizmi", "Al-Razi", "Abu al-Qasim al-Zahrawi", "Alhazen", "Aristotle", "Aryabhata", "Francis Bacon", "Tycho Brahe", "Niels Bohr", "Nicolaus Copernicus", "Marie Curie", "John Dalton", "Charles Darwin", "René Descartes", "Albert Einstein", "Euclid", "Leonard Euler", "Michael Faraday", "Enrico Fermi", "Richard Feynman", "Rosalind Franklin", "Galileo Galilei", "Carl Friedrich Gauss", "Werner Heisenberg", "Alexander von Humboldt", "Hypatia", "Johannes Kepler", "Andrey Kolmogorov", "Antoine Laurent Lavoisier", "Mary Leakey", "Antony van Leeuwenhoek", "Gottfried Leibniz", "Carl Linnaeus", "Mikhail Lomonosov", "James Clerk Maxwell", "Gregor Mendel", "Dmitri Mendeleev", "Merit-Ptah", "Nasir al-Din al-Tusi", "Nabu-rimanni", "John von Neumann", "Isaac Newton", "Louis Pasteur", "Plato", "Ptolemy", "Ernest Rutherford", "Andrey Sakharov", "Claude Shannon", "Shen Kuo", "Socrates", "Alan Turing", "Xi Ling Shi", "Zu Chongzhi"]
-    },
-    {
-        "name": "Khan",
-        "unitNames": ["Batu", "Berke", "Genghis", "Guyuk", "Hulegu", "Kublai", "Mongke", "Mongke Temur", "Ogedei", "Temur Khagan"]
     },
     {
         "name": "Prophet",
