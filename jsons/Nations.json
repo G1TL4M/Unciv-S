@@ -1585,7 +1585,7 @@
 		"uniques": ["All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel."],
 		"cities": ["Onondaga",
 			"Oneida","Cayuga","Seneca","Mohawk", // the big 5
-			"Osininka","Grand River","Akwesasme","Buffalo Creek","Genesse River",
+			"Tuscarawas", "Osininka","Grand River","Akwesasme","Buffalo Creek","Genesse River",
 			"Canandaigua Lake","Lake Simcoe","Salamanca","Gowanda","Cuba","Akron","Kanesatake","Ganienkeh",
 			"Chondote","Canajoharie","Nedrow","Kanonwalohale","Green Bay","Southwold",
 			"Schoharie","Bay of Quinte","Kanawale","Kanatsiokareke","Tyendinaga","Hahta"],
